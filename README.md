@@ -1,85 +1,209 @@
-# Fiche génétique de la tomate 🍅
+<div align="center">
+  <a href="index.html"><img src="assets/banner.png" alt="Fiche génétique de la tomate — bannière" width="100%"></a>
 
-![🇫🇷 Français — cette édition](https://img.shields.io/badge/%F0%9F%87%AB%F0%9F%87%B7_Fran%C3%A7ais-cette_%C3%A9dition-64748b?style=for-the-badge)  [![🇬🇧 English — lire cette fiche en anglais →](https://img.shields.io/badge/%F0%9F%87%AC%F0%9F%87%A7_English-lire_cette_fiche_en_anglais_%E2%86%92-0b6e4f?style=for-the-badge)](README.en.md)
+  <h1>🍅 Fiche génétique de la tomate</h1>
 
-**230 loci documentés — gènes du port, du feuillage, du fruit, de la saveur, de la nutrition et des résistances — avec leur mode de dominance et ce que ça change concrètement en croisement.**
+  <p><b>230 loci documentés</b> — gènes du port, du feuillage, du fruit, de la saveur,<br>de la nutrition et des résistances — avec leur mode de dominance<br>et ce que ça change concrètement en croisement.</p>
 
-[![Loci](https://img.shields.io/badge/loci-230-0b6e4f?style=flat-square)](#sommaire) [![Chapitres](https://img.shields.io/badge/chapitres-17-1d4ed8?style=flat-square)](#sommaire) [![Version interactive](https://img.shields.io/badge/version%20interactive-index.html-6d28d9?style=flat-square)](index.html) [![Ploïdie](https://img.shields.io/badge/plo%C3%AFdie-int%C3%A9gr%C3%A9e-1d4ed8?style=flat-square)](#ploïdie--diploïdie-tétraploïdisation-triploïdes-sans-pépins) [![Licence](https://img.shields.io/badge/licence-MIT-f59e0b?style=flat-square)](LICENSE) ![MAJ](https://img.shields.io/badge/mis%20%C3%A0%20jour-15%2F10%2F2026-64748b?style=flat-square)
+  <p>
+    <a href="README.md"><img src="https://img.shields.io/badge/%F0%9F%87%AB%F0%9F%87%B7_Fran%C3%A7ais-cette_%C3%A9dition-0b6e4f?style=for-the-badge" alt="Français — cette édition"></a>
+    <a href="README.en.md"><img src="https://img.shields.io/badge/%F0%9F%87%AC%F0%9F%87%A7_English-read_the_English_edition_%E2%86%92-64748b?style=for-the-badge" alt="English edition"></a>
+  </p>
 
-> **Deux éditions, une seule génétique.** Le bouton ci-dessus bascule vers [l'édition anglaise](README.en.md) : mêmes loci, mêmes chromosomes, mêmes codes de dominance — la parité se vérifie à chaque retouche (procédure dans [CONTRIBUTING.md](CONTRIBUTING.md)). La couche moléculaire — nature de la mutation, origine de l'allèle, accessions — n'existe que dans cette édition-ci, et `index.html` n'en est que le reflet interactif.
+  <p>
+    <a href="#sommaire"><img src="https://img.shields.io/badge/loci-230-0b6e4f?style=flat-square" alt="loci"></a>
+    <a href="#sommaire"><img src="https://img.shields.io/badge/chapitres-17-1d4ed8?style=flat-square" alt="chapitres"></a>
+    <a href="index.html"><img src="https://img.shields.io/badge/version%20interactive-index.html-6d28d9?style=flat-square" alt="version interactive"></a>
+    <a href="#ploïdie--diploïdie-tétraploïdisation-triploïdes-sans-pépins"><img src="https://img.shields.io/badge/plo%C3%AFdie-int%C3%A9gr%C3%A9e-1d4ed8?style=flat-square" alt="ploïdie"></a>
+    <a href="LICENSE"><img src="https://img.shields.io/badge/licence-MIT-f59e0b?style=flat-square" alt="licence"></a>
+    <img src="https://img.shields.io/badge/mis%20%C3%A0%20jour-15%2F10%2F2026-64748b?style=flat-square" alt="mis à jour">
+  </p>
 
-> **Pour qui ?** Sélectionneurs amateurs avancés, maraîchers, étudiants et chercheurs en amélioration des plantes. Chaque ligne répond à trois questions : *quel gène, sur quel chromosome, dominant ou récessif* — et *donc : est-ce que je le vois dès la F1, ou faut-il que je sème 200 plants*.
+  <p>
+    <a href="#lessentiel-en-12-points"><b>⚡ L'essentiel</b></a> ·
+    <a href="#comment-lire-cette-fiche"><b>📖 Comment lire</b></a> ·
+    <a href="#sommaire"><b>🧭 Sommaire</b></a> ·
+    <a href="index.html"><b>🖥️ Version interactive</b></a> ·
+    <a href="SOURCES.md"><b>📚 Bibliographie</b></a> ·
+    <a href="CONTRIBUTING.md"><b>🤝 Contribuer</b></a>
+  </p>
 
-`230 loci` · `17 chapitres (dont 16 de loci)` · `ploïdie hors chapitres` · littérature vérifiée jusqu'en 2026 · les affirmations non publiées sont explicitement marquées **[extrapolation]**.
+  <table>
+    <tr>
+      <td align="center"><b>230</b><br><sub>loci documentés</sub></td>
+      <td align="center"><b>17</b><br><sub>chapitres</sub></td>
+      <td align="center"><b>252</b><br><sub>références</sub></td>
+      <td align="center"><b>3</b><br><sub>fichiers synchronisés</sub></td>
+    </tr>
+  </table>
+</div>
+
+<table>
+  <tr>
+    <td align="center" width="50%" valign="top">
+      <p><b>🧬 Deux éditions, une seule génétique</b></p>
+      <p>Le drapeau ci-dessus bascule vers <a href="README.en.md">l'édition anglaise</a> : mêmes loci, mêmes chromosomes, mêmes codes de dominance — la parité se vérifie à chaque retouche (procédure dans <a href="CONTRIBUTING.md">CONTRIBUTING.md</a>). La couche moléculaire — nature de la mutation, origine de l'allèle, accessions — n'existe que dans cette édition-ci, et <code>index.html</code> n'en est que le reflet interactif.</p>
+    </td>
+    <td align="center" width="50%" valign="top">
+      <p><b>🎯 Pour qui ?</b></p>
+      <p>Sélectionneurs amateurs avancés, maraîchers, étudiants et chercheurs en amélioration des plantes. Chaque ligne répond à trois questions : <i>quel gène, sur quel chromosome, dominant ou récessif</i> — et <i>donc : est-ce que je le vois dès la F1, ou faut-il que je sème 200 plants</i>.</p>
+    </td>
+  </tr>
+</table>
+
+<p align="center"><sub><code>230 loci</code> · <code>17 chapitres (dont 16 de loci)</code> · <code>ploïdie hors chapitres</code> · littérature vérifiée jusqu'en 2026 · les affirmations non publiées sont explicitement marquées <b>[extrapolation]</b>.</sub></p>
 
 ## L'essentiel en 12 points
 
-1. Le phénotype **sauvage** de la tomate est rond, rouge, à peau jaune-mate, indéterminé, à feuille composée et de taille normale : la quasi-totalité des allèles « mutants » utilisés par les sélectionneurs sont donc **récessifs** (perte de fonction).
-2. **Le meilleur prédicteur de la dominance n'est pas le phénotype mais la nature de la mutation** : gain de fonction (duplication, promoteur, surexpression) ⇒ dominant ou semi-dominant ; perte de fonction (codon stop, délétion, frameshift) ⇒ récessif.
-3. Le **port déterminé** est récessif (`sp/sp`) : contrairement à une idée reçue, c'est l'indéterminé qui domine, parce que `SP` est un antiflorigène et que son allèle fonctionnel suffit.
-4. La forme du fruit se lit sur **deux axes indépendants** (longueur : `SUN`, `OVATE`, `FS8.1`, `PT` ; loges/aplati : `LC`, `FAS`, `ENO`, `globe`) plus un troisième pour la masse (`fw2.2`, `fw3.2`, `fw11.3`).
-5. La couleur = **3 couches cumulables** : caroténoïdes de la chair (`r`, `t`, `B`, `og`) × flavonoïdes de la peau (`Y`/`y`) × chlorophylle résiduelle (`gf`, `u`). Trois gènes en homozygotie suffisent à obtenir un fruit entièrement vert.
-6. Le **rose** n'est pas une couleur de chair : c'est un fruit rouge `R_` vu à travers une peau **dépourvue de flavonols** (`y/y`, *SlMYB12*, chr 1) — donc aussi privé d'une part de sa valeur nutritionnelle.
-7. Le **goût** est un puzzle à 5 pièces (sucres, acides, ~15 volatils clés, acides aminés libres dont le glutamate, amertume) : la sélection sur le seul °Brix est insuffisante, car certains volatils augmentent la douceur *perçue* sans changer le sucre mesuré.
-8. **`TomLoxC` est en surdominance** : l'hétérozygote exprime plus d'arôme que les deux homozygotes. C'est l'argument génétique fort pour évaluer — et parfois vendre — des **F1** plutôt que des lignées pures sur ce caractère.
-9. La **conservation** et l'**arôme** sont aux mains des mêmes régulateurs (`RIN`, `NOR`, `FUL1/2`) : bloquer la maturation (`rin`, `nor`, `Cnr`) détruit aussi le parfum. Le compromis est génétique, pas une question de chance.
-10. Presque tous les allèles d'intérêt gustatif ou nutritionnel ont été **perdus à la domestication** (`TomLoxC` rare, `SlCDPK27` haut-sucre, allèles forts de `DXR`, `GAME9`/`GE1`) : les récupérer suppose une introgression depuis les sauvages ou une édition ciblée (CRISPR).
-11. Chez les **Galápagos** (*cheesmaniae*, *galapagense*) et chez *habrochaites*, les introgressions traversent des **inversions chromosomiques** (jusqu'à 18–21 Mb) : la recombinaison y est bloquée, le linkage drag est structurel — prévoyez des populations fines.
-12. La dominance **n'est pas une constante du locus** : `d/a` change avec le couple de parents et avec le caractère mesuré (`fs8.1` : −0,47 pour la forme, +1,14 pour le poids). Toute valeur de ce dépôt est une *bonne supposition à vérifier sur votre population*, jamais une loi.
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <p align="center"><b>🌱 La plante</b><br><sub>sauvage · nature de la mutation · port</sub></p>
+      <p><b>1.</b> Le phénotype <b>sauvage</b> de la tomate est rond, rouge, à peau jaune-mate, indéterminé, à feuille composée et de taille normale : la quasi-totalité des allèles « mutants » utilisés par les sélectionneurs sont donc <b>récessifs</b> (perte de fonction).</p>
+      <p><b>2.</b> <b>Le meilleur prédicteur de la dominance n'est pas le phénotype mais la nature de la mutation</b> : gain de fonction (duplication, promoteur, surexpression) ⇒ dominant ou semi-dominant ; perte de fonction (codon stop, délétion, frameshift) ⇒ récessif.</p>
+      <p><b>3.</b> Le <b>port déterminé</b> est récessif (<code>sp/sp</code>) : contrairement à une idée reçue, c'est l'indéterminé qui domine, parce que <code>SP</code> est un antiflorigène et que son allèle fonctionnel suffit.</p>
+    </td>
+    <td width="50%" valign="top">
+      <p align="center"><b>🍅 Le fruit</b><br><sub>forme · couleur · le « rose »</sub></p>
+      <p><b>4.</b> La forme du fruit se lit sur <b>deux axes indépendants</b> (longueur : <code>SUN</code>, <code>OVATE</code>, <code>FS8.1</code>, <code>PT</code> ; loges/aplati : <code>LC</code>, <code>FAS</code>, <code>ENO</code>, <code>globe</code>) plus un troisième pour la masse (<code>fw2.2</code>, <code>fw3.2</code>, <code>fw11.3</code>).</p>
+      <p><b>5.</b> La couleur = <b>3 couches cumulables</b> : caroténoïdes de la chair (<code>r</code>, <code>t</code>, <code>B</code>, <code>og</code>) × flavonoïdes de la peau (<code>Y</code>/<code>y</code>) × chlorophylle résiduelle (<code>gf</code>, <code>u</code>). Trois gènes en homozygotie suffisent à obtenir un fruit entièrement vert.</p>
+      <p><b>6.</b> Le <b>rose</b> n'est pas une couleur de chair : c'est un fruit rouge <code>R_</code> vu à travers une peau <b>dépourvue de flavonols</b> (<code>y/y</code>, <i>SlMYB12</i>, chr 1) — donc aussi privé d'une part de sa valeur nutritionnelle.</p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <p align="center"><b>👅 Le goût &amp; la nutrition</b><br><sub>arôme · conservation · domestication</sub></p>
+      <p><b>7.</b> Le <b>goût</b> est un puzzle à 5 pièces (sucres, acides, ~15 volatils clés, acides aminés libres dont le glutamate, amertume) : la sélection sur le seul °Brix est insuffisante, car certains volatils augmentent la douceur <i>perçue</i> sans changer le sucre mesuré.</p>
+      <p><b>8.</b> <code>TomLoxC</code> est en <b>surdominance</b> : l'hétérozygote exprime plus d'arôme que les deux homozygotes. C'est l'argument génétique fort pour évaluer — et parfois vendre — des <b>F1</b> plutôt que des lignées pures sur ce caractère.</p>
+      <p><b>9.</b> La <b>conservation</b> et l'<b>arôme</b> sont aux mains des mêmes régulateurs (<code>RIN</code>, <code>NOR</code>, <code>FUL1/2</code>) : bloquer la maturation (<code>rin</code>, <code>nor</code>, <code>Cnr</code>) détruit aussi le parfum. Le compromis est génétique, pas une question de chance.</p>
+      <p><b>10.</b> Presque tous les allèles d'intérêt gustatif ou nutritionnel ont été <b>perdus à la domestication</b> (<code>TomLoxC</code> rare, <code>SlCDPK27</code> haut-sucre, allèles forts de <code>DXR</code>, <code>GAME9</code>/<code>GE1</code>) : les récupérer suppose une introgression depuis les sauvages ou une édition ciblée (CRISPR).</p>
+    </td>
+    <td width="50%" valign="top">
+      <p align="center"><b>🧬 La méthode</b><br><sub>espèces sauvages · fond génétique · limites</sub></p>
+      <p><b>11.</b> Chez les <b>Galápagos</b> (<i>cheesmaniae</i>, <i>galapagense</i>) et chez <i>habrochaites</i>, les introgressions traversent des <b>inversions chromosomiques</b> (jusqu'à 18–21 Mb) : la recombinaison y est bloquée, le linkage drag est structurel — prévoyez des populations fines.</p>
+      <p><b>12.</b> La dominance <b>n'est pas une constante du locus</b> : <code>d/a</code> change avec le couple de parents et avec le caractère mesuré (<code>fs8.1</code> : −0,47 pour la forme, +1,14 pour le poids). Toute valeur de ce dépôt est une <i>bonne supposition à vérifier sur votre population</i>, jamais une loi.</p>
+    </td>
+  </tr>
+</table>
 
 ## Comment lire cette fiche
 
 Une ligne = un locus. La colonne **Dominance** est l'information qui décide de tout le protocole de croisement :
 
-| | Mode de dominance | Signification | Conséquence pratique |
-|:--|:--|:--|:--|
-| 🟢 | **DOMINANT** | S'exprime dès la F1 : un seul parent donneur suffit. | Un seul parent donneur suffit : le caractère est acquis dès la F1, donc rentable aussi en hybride. |
-| 🟡 | **SEMI-DOMINANT** | Hétérozygote intermédiaire : effet de dosage. | L'hétérozygote est intermédiaire : le marqueur (ou la mesure en F2) devient indispensable pour savoir ce que vous avez vraiment. |
-| 🔵 | **RÉCESSIF** | Deux copies nécessaires : à fixer à l'homozygotie (25 % en F2). | Tri en F2 (25 % par caractère) ou marquage co-dominant sur semis ; à fixer en lignée pure avant de juger le fruit. |
-| 🟣 | **QTL / ADDITIF** | Caractère quantitatif : sélection par marqueurs ou génomique. | Aucun tri monogénique possible : progresser par QTL cumulés, sélection phénotypique répétée sur plusieurs années/locations, ou sélection génomique. |
-| 🟠 | **SURDOMINANCE** | L'hétérozygote dépasse les deux homozygotes (hétérosis). | Ne PAS fixer : l'état optimal est l'hétérozygote. Évaluez vos F1, pas vos lignées. |
-| ⚫ | **ÉPIGÉNÉTIQUE** | Méthylation : hors dominance mendélienne, l'ADN ne prédit pas tout. | Le génotype ADN peut mentir : prévoir un phénotypage direct ou un épi-marqueur (méthylation). |
-| ⚪ | **MIXTE / SELON FOND** | La dominance change avec le fond génétique ou le caractère mesuré. | Repérer la dominance sur VOTRE population : la valeur publiée vaut pour un fond donné, pas pour le vôtre. |
+<table>
+  <tr>
+    <th></th>
+    <th>Mode de dominance</th>
+    <th>Signification</th>
+    <th>Conséquence pratique</th>
+  </tr>
+  <tr>
+    <td align="center">🟢</td>
+    <td><b>DOMINANT</b></td>
+    <td>S'exprime dès la F1 : un seul parent donneur suffit.</td>
+    <td>Un seul parent donneur suffit : le caractère est acquis dès la F1, donc rentable aussi en hybride.</td>
+  </tr>
+  <tr>
+    <td align="center">🟡</td>
+    <td><b>SEMI-DOMINANT</b></td>
+    <td>Hétérozygote intermédiaire : effet de dosage.</td>
+    <td>L'hétérozygote est intermédiaire : le marqueur (ou la mesure en F2) devient indispensable pour savoir ce que vous avez vraiment.</td>
+  </tr>
+  <tr>
+    <td align="center">🔵</td>
+    <td><b>RÉCESSIF</b></td>
+    <td>Deux copies nécessaires : à fixer à l'homozygotie (25 % en F2).</td>
+    <td>Tri en F2 (25 % par caractère) ou marquage co-dominant sur semis ; à fixer en lignée pure avant de juger le fruit.</td>
+  </tr>
+  <tr>
+    <td align="center">🟣</td>
+    <td><b>QTL / ADDITIF</b></td>
+    <td>Caractère quantitatif : sélection par marqueurs ou génomique.</td>
+    <td>Aucun tri monogénique possible : progresser par QTL cumulés, sélection phénotypique répétée sur plusieurs années/locations, ou sélection génomique.</td>
+  </tr>
+  <tr>
+    <td align="center">🟠</td>
+    <td><b>SURDOMINANCE</b></td>
+    <td>L'hétérozygote dépasse les deux homozygotes (hétérosis).</td>
+    <td>Ne PAS fixer : l'état optimal est l'hétérozygote. Évaluez vos F1, pas vos lignées.</td>
+  </tr>
+  <tr>
+    <td align="center">⚫</td>
+    <td><b>ÉPIGÉNÉTIQUE</b></td>
+    <td>Méthylation : hors dominance mendélienne, l'ADN ne prédit pas tout.</td>
+    <td>Le génotype ADN peut mentir : prévoir un phénotypage direct ou un épi-marqueur (méthylation).</td>
+  </tr>
+  <tr>
+    <td align="center">⚪</td>
+    <td><b>MIXTE / SELON FOND</b></td>
+    <td>La dominance change avec le fond génétique ou le caractère mesuré.</td>
+    <td>Repérer la dominance sur VOTRE population : la valeur publiée vaut pour un fond donné, pas pour le vôtre.</td>
+  </tr>
+</table>
 
-**Notation.** `R_` = au moins un allèle *R* (dominant exprimé) · `yy` et `gf/gf` = homozygote récessif · `Sp/sp` = hétérozygote — chez les semi-dominants, c'est là que se joue le *niveau* d'expression (port, résistance, Brix). `n.d.` = locus non cartographié finement dans les sources compilées : **à ne pas inventer**. `Chr.` = chromosome de la carte SL4.0 (ITAG 4.0). `—` en dominance = ligne de germoplasme ou combinaison épistatique, pas un locus mendélien ; un libellé qualifié (`Q (additif)`, `RÉCESSIF → SEMI-DOMINANT`) garde la précision du fichier d'entrée.
+> **🔣 Notation.** `R_` = au moins un allèle *R* (dominant exprimé) · `yy` et `gf/gf` = homozygote récessif · `Sp/sp` = hétérozygote — chez les semi-dominants, c'est là que se joue le *niveau* d'expression (port, résistance, Brix). `n.d.` = locus non cartographié finement dans les sources compilées : **à ne pas inventer**. `Chr.` = chromosome de la carte SL4.0 (ITAG 4.0). `—` en dominance = ligne de germoplasme ou combinaison épistatique, pas un locus mendélien ; un libellé qualifié (`Q (additif)`, `RÉCESSIF → SEMI-DOMINANT`) garde la précision du fichier d'entrée.
 
 Les loci sont rangés dans les **16 premiers chapitres** : plante (port, feuillage, trichomes, pigmentation, fleur), fruit (forme, couleur, maturation), saveur (sucres, acides, volatils), nutrition, résistances biotiques, tolérances abiotiques, sources alléliques et épistasies. Le **chapitre 17** approfondit la biologie florale sans ajouter de lignes au décompte des 230 loci. La **ploïdie** — doublement chromosomique, dosage tétrasomique, triploïdes sans pépins — n'est pas un chapitre : elle occupe une section dédiée, [ci-dessous](#ploïdie--diploïdie-tétraploïdisation-triploïdes-sans-pépins), parce qu'elle change les règles de ségrégation de tous les loci des tableaux sans devenir un locus elle-même. **Ces tableaux sont la source** : le dépôt ne contient ni fichier de données ni script de génération — il se relit et se corrige directement ici. [`index.html`](index.html), à la racine, en est le pendant interactif (aucune dépendance réseau) : recherche plein texte, filtres par mode de dominance, calculateur d'effectif F2 et style d'impression A4 paysage, publiable tel quel sur GitHub Pages. Une correction se reporte donc à la main dans les trois fichiers concernés — `README.md`, `README.en.md` et `index.html`.
 
 ## Sommaire
 
-- [1. Port, architecture & inflorescence](#1-port-architecture--inflorescence) — *32 loci*
-- [2. Feuillage — morphologie foliaire](#2-feuillage--morphologie-foliaire) — *15 loci*
-- [3. Trichomes & pubescence](#3-trichomes--pubescence) — *6 loci*
-- [4. Feuillage — couleur & pigmentation](#4-feuillage--couleur--pigmentation) — *12 loci*
-- [5. Fleur, autogamie & nouaison](#5-fleur-autogamie--nouaison) — *15 loci*
-- [6. Fruit — forme, loges & poids](#6-fruit--forme-loges--poids) — *16 loci*
-- [7. Fruit — couleur (peau × chair)](#7-fruit--couleur-peau--chair) — *12 loci*
-- [8. Fruit — maturation & conservation](#8-fruit--maturation--conservation) — *5 loci*
-- [9. Saveur — sucres & solides solubles](#9-saveur--sucres--solides-solubles) — *13 loci*
-- [10. Saveur — acidité, umami & GABA](#10-saveur--acidité-umami--gaba) — *8 loci*
-- [11. Saveur — volatils & arôme](#11-saveur--volatils--arôme) — *17 loci*
-- [12. Nutrition & innocuité](#12-nutrition--innocuité) — *17 loci*
-- [13. Résistances biotiques](#13-résistances-biotiques) — *27 loci*
-- [14. Tolérances abiotiques & racines](#14-tolérances-abiotiques--racines) — *11 loci*
-- [15. Sources alléliques : votre germoplasme](#15-sources-alléliques--votre-germoplasme) — *8 loci*
-- [16. Combinaisons & épistasies](#16-combinaisons--épistasies) — *16 loci*
-- [17. Fleur - biologie florale, stérilité mâle, couleur des pétales](#17-fleur--biologie-florale-stérilité-mâle-couleur-des-pétales) — *le réseau derrière les chap. 1 et 5, dans ce fichier*
-- [Ploïdie : diploïdie, tétraploïdisation, triploïdes sans pépins](#ploïdie--diploïdie-tétraploïdisation-triploïdes-sans-pépins) — *hors des 230 loci, dans ce fichier*
-- [Prédire la couleur du fruit](#prédire-la-couleur-du-fruit)
-- [Calculer la taille de sa descendance](#calculer-la-taille-de-sa-descendance)
-- [Les 10 règles d'or](#les-10-règles-dor)
-- [Marqueurs et génotypage](#marqueurs-et-génotypage)
-- [Pièges et corrections apportées](#pièges-et-corrections-apportées)
-- [Protocole de programme](#protocole-de-programme)
-- [Reproductibilité du dépôt](#reproductibilité-du-dépôt)
-- [Sources, licence et citation](#sources-licence-et-citation)
-- [SOURCES.md](SOURCES.md) — bibliographie complète · [CONTRIBUTING.md](CONTRIBUTING.md) · [LICENSE](LICENSE)
+<table>
+  <tr>
+    <td width="33%" valign="top">
+<b>🌱 La plante</b><br>
+<a href="#1-port-architecture--inflorescence"><b>1 ·</b> Port, architecture &amp; inflorescence</a> <sub>32 loci</sub><br>
+<a href="#2-feuillage--morphologie-foliaire"><b>2 ·</b> Feuillage — morphologie foliaire</a> <sub>15 loci</sub><br>
+<a href="#3-trichomes--pubescence"><b>3 ·</b> Trichomes &amp; pubescence</a> <sub>6 loci</sub><br>
+<a href="#4-feuillage--couleur--pigmentation"><b>4 ·</b> Feuillage — couleur &amp; pigmentation</a> <sub>12 loci</sub><br>
+<a href="#5-fleur-autogamie--nouaison"><b>5 ·</b> Fleur, autogamie &amp; nouaison</a> <sub>15 loci</sub><br>
+</td>
+    <td width="33%" valign="top">
+<b>🍅 Le fruit</b><br>
+<a href="#6-fruit--forme-loges--poids"><b>6 ·</b> Fruit — forme, loges &amp; poids</a> <sub>16 loci</sub><br>
+<a href="#7-fruit--couleur-peau--chair"><b>7 ·</b> Fruit — couleur (peau × chair)</a> <sub>12 loci</sub><br>
+<a href="#8-fruit--maturation--conservation"><b>8 ·</b> Fruit — maturation &amp; conservation</a> <sub>5 loci</sub><br>
+</td>
+    <td width="33%" valign="top">
+<b>👅 La saveur</b><br>
+<a href="#9-saveur--sucres--solides-solubles"><b>9 ·</b> Saveur — sucres &amp; solides solubles</a> <sub>13 loci</sub><br>
+<a href="#10-saveur--acidité-umami--gaba"><b>10 ·</b> Saveur — acidité, umami &amp; GABA</a> <sub>8 loci</sub><br>
+<a href="#11-saveur--volatils--arôme"><b>11 ·</b> Saveur — volatils &amp; arôme</a> <sub>17 loci</sub><br>
+</td>
+  </tr>
+  <tr>
+    <td width="33%" valign="top">
+<b>🥗 Nutrition &amp; défenses</b><br>
+<a href="#12-nutrition--innocuité"><b>12 ·</b> Nutrition &amp; innocuité</a> <sub>17 loci</sub><br>
+<a href="#13-résistances-biotiques"><b>13 ·</b> Résistances biotiques</a> <sub>27 loci</sub><br>
+<a href="#14-tolérances-abiotiques--racines"><b>14 ·</b> Tolérances abiotiques &amp; racines</a> <sub>11 loci</sub><br>
+</td>
+    <td width="33%" valign="top">
+<b>🧬 Génétique fine</b><br>
+<a href="#15-sources-alléliques--votre-germoplasme"><b>15 ·</b> Sources alléliques : votre germoplasme</a> <sub>8 loci</sub><br>
+<a href="#16-combinaisons--épistasies"><b>16 ·</b> Combinaisons &amp; épistasies</a> <sub>16 loci</sub><br>
+</td>
+    <td width="33%" valign="top">
+<b>🌸 Dossiers</b><br>
+<a href="#17-fleur--biologie-florale-stérilité-mâle-couleur-des-pétales">17. Fleur : biologie florale, stérilité mâle, couleur des pétales</a> <sub>le réseau derrière les chap. 1 et 5</sub><br>
+<a href="#ploïdie--diploïdie-tétraploïdisation-triploïdes-sans-pépins">Ploïdie : diploïdie, tétraploïdisation, triploïdes sans pépins</a> <sub>hors des 230 loci</sub><br>
+</td>
+  </tr>
+  <tr>
+    <td colspan="3" align="center">
+<b>🛠 Outils &amp; annexes</b><br>
+<a href="#prédire-la-couleur-du-fruit">Prédire la couleur du fruit</a> · <a href="#calculer-la-taille-de-sa-descendance">Calculer la taille de sa descendance</a> · <a href="#les-10-règles-dor">Les 10 règles d'or</a> · <a href="#marqueurs-et-génotypage">Marqueurs et génotypage</a> · <a href="#pièges-et-corrections-apportées">Pièges et corrections apportées</a> · <a href="#protocole-de-programme">Protocole de programme</a> · <a href="#reproductibilité-du-dépôt">Reproductibilité du dépôt</a> · <a href="#sources-licence-et-citation">Sources, licence et citation</a><br>
+<a href="SOURCES.md"><b>📚 SOURCES.md</b></a> · <a href="CONTRIBUTING.md"><b>🤝 CONTRIBUTING.md</b></a> · <a href="LICENSE"><b>⚖️ LICENSE</b></a>
+    </td>
+  </tr>
+</table>
 
 ---
 
 ## 1. Port, architecture & inflorescence
 
 *Déterminaison, ramification, taille, organogenèse de la grappe — le moteur SP/SFT.* — **32 loci**
+
+<p align="center"><sub>répartition de la dominance · 🟢 ×1 · 🟡 ×2 · 🔵 ×29</sub></p>
 
 | Symbole | Nom / locus | Chr. | Dominance | Effet, phénotype | Ce que ça change en sélection |
 |:--|:--|:--:|:--|:--|:--|
@@ -156,9 +280,13 @@ Les loci sont rangés dans les **16 premiers chapitres** : plante (port, feuilla
 
 </details>
 
+<p align="right"><sub><a href="#sommaire">⬆ retour au sommaire</a></sub></p>
+
 ## 2. Feuillage — morphologie foliaire
 
 *Regular / potato / carrot leaf : les quatre étages du contrôle (fenêtre, indétermination, frontières, extension).* — **15 loci**
+
+<p align="center"><sub>répartition de la dominance · 🟢 ×3 · 🟡 ×2 · 🔵 ×10</sub></p>
 
 | Symbole | Nom / locus | Chr. | Dominance | Effet, phénotype | Ce que ça change en sélection |
 |:--|:--|:--:|:--|:--|:--|
@@ -201,9 +329,13 @@ Les loci sont rangés dans les **16 premiers chapitres** : plante (port, feuilla
 
 </details>
 
+<p align="right"><sub><a href="#sommaire">⬆ retour au sommaire</a></sub></p>
+
 ## 3. Trichomes & pubescence
 
 *Poils glandulaires = défense, arôme et colle à aleurodes. Module WO + H.* — **6 loci**
+
+<p align="center"><sub>répartition de la dominance · 🔵 ×6</sub></p>
 
 | Symbole | Nom / locus | Chr. | Dominance | Effet, phénotype | Ce que ça change en sélection |
 |:--|:--|:--:|:--|:--|:--|
@@ -228,9 +360,13 @@ Les loci sont rangés dans les **16 premiers chapitres** : plante (port, feuilla
 
 </details>
 
+<p align="right"><sub><a href="#sommaire">⬆ retour au sommaire</a></sub></p>
+
 ## 4. Feuillage — couleur & pigmentation
 
 *High pigment, chlorophylle et anthocyanes végétatives.* — **12 loci**
+
+<p align="center"><sub>répartition de la dominance · 🟢 ×2 · 🔵 ×10</sub></p>
 
 | Symbole | Nom / locus | Chr. | Dominance | Effet, phénotype | Ce que ça change en sélection |
 |:--|:--|:--:|:--|:--|:--|
@@ -267,9 +403,13 @@ Les loci sont rangés dans les **16 premiers chapitres** : plante (port, feuilla
 
 </details>
 
+<p align="right"><sub><a href="#sommaire">⬆ retour au sommaire</a></sub></p>
+
 ## 5. Fleur, autogamie & nouaison
 
 *Le verrou d'autogamie (Style2.1), la stérilité mâle et la couleur des pétales.* — **15 loci**
+
+<p align="center"><sub>répartition de la dominance · 🔵 ×14 · ⚪ ×1</sub></p>
 
 | Symbole | Nom / locus | Chr. | Dominance | Effet, phénotype | Ce que ça change en sélection |
 |:--|:--|:--:|:--|:--|:--|
@@ -312,9 +452,13 @@ Les loci sont rangés dans les **16 premiers chapitres** : plante (port, feuilla
 
 </details>
 
+<p align="right"><sub><a href="#sommaire">⬆ retour au sommaire</a></sub></p>
+
 ## 6. Fruit — forme, loges & poids
 
 *Deux axes indépendants (longueur × loges) plus les trois loci clonés du poids.* — **16 loci**
+
+<p align="center"><sub>répartition de la dominance · 🟢 ×1 · 🟡 ×3 · 🔵 ×5 · 🟣 ×5 · ⚪ ×2</sub></p>
 
 | Symbole | Nom / locus | Chr. | Dominance | Effet, phénotype | Ce que ça change en sélection |
 |:--|:--|:--:|:--|:--|:--|
@@ -359,9 +503,13 @@ Les loci sont rangés dans les **16 premiers chapitres** : plante (port, feuilla
 
 </details>
 
+<p align="right"><sub><a href="#sommaire">⬆ retour au sommaire</a></sub></p>
+
 ## 7. Fruit — couleur (peau × chair)
 
 *Modèle bi-couche : caroténoïdes de la chair, flavonoïdes de la peau, chlorophylle.* — **12 loci**
+
+<p align="center"><sub>répartition de la dominance · 🟢 ×4 · 🔵 ×8</sub></p>
 
 | Symbole | Nom / locus | Chr. | Dominance | Effet, phénotype | Ce que ça change en sélection |
 |:--|:--|:--:|:--|:--|:--|
@@ -400,9 +548,13 @@ Les loci sont rangés dans les **16 premiers chapitres** : plante (port, feuilla
 
 > 🎨 Voir aussi [Prédire la couleur du fruit](#prédire-la-couleur-du-fruit) pour les combinaisons peau × chair, et n'oubliez pas que `B` et `og` sont **alléliques** (même gène `CYC-B`) : on ne les cumule pas.
 
+<p align="right"><sub><a href="#sommaire">⬆ retour au sommaire</a></sub></p>
+
 ## 8. Fruit — maturation & conservation
 
 *rin, nor, alc, Cnr, Nr : le compromis conservation / arôme.* — **5 loci**
+
+<p align="center"><sub>répartition de la dominance · 🟢 ×2 · 🔵 ×3</sub></p>
 
 | Symbole | Nom / locus | Chr. | Dominance | Effet, phénotype | Ce que ça change en sélection |
 |:--|:--|:--:|:--|:--|:--|
@@ -425,9 +577,13 @@ Les loci sont rangés dans les **16 premiers chapitres** : plante (port, feuilla
 
 </details>
 
+<p align="right"><sub><a href="#sommaire">⬆ retour au sommaire</a></sub></p>
+
 ## 9. Saveur — sucres & solides solubles
 
 *Brix : les gisements sauvages et le « frein à sucre » levé en 2024.* — **13 loci**
+
+<p align="center"><sub>répartition de la dominance · 🟢 ×2 · 🟡 ×1 · 🔵 ×6 · 🟣 ×4</sub></p>
 
 | Symbole | Nom / locus | Chr. | Dominance | Effet, phénotype | Ce que ça change en sélection |
 |:--|:--|:--:|:--|:--|:--|
@@ -466,9 +622,13 @@ Les loci sont rangés dans les **16 premiers chapitres** : plante (port, feuilla
 
 </details>
 
+<p align="right"><sub><a href="#sommaire">⬆ retour au sommaire</a></sub></p>
+
 ## 10. Saveur — acidité, umami & GABA
 
 *Malate, citrate, glutamate libre et le cas d'école SlGAD.* — **8 loci**
+
+<p align="center"><sub>répartition de la dominance · 🟢 ×1 · 🟡 ×1 · 🔵 ×2 · 🟣 ×3 · ⚪ ×1</sub></p>
 
 | Symbole | Nom / locus | Chr. | Dominance | Effet, phénotype | Ce que ça change en sélection |
 |:--|:--|:--:|:--|:--|:--|
@@ -497,9 +657,13 @@ Les loci sont rangés dans les **16 premiers chapitres** : plante (port, feuilla
 
 </details>
 
+<p align="right"><sub><a href="#sommaire">⬆ retour au sommaire</a></sub></p>
+
 ## 11. Saveur — volatils & arôme
 
 *Le registre complet des gènes clonés de l'arôme.* — **17 loci**
+
+<p align="center"><sub>répartition de la dominance · 🟢 ×1 · 🔵 ×3 · 🟣 ×10 · 🟠 ×1 · ⚪ ×2</sub></p>
 
 | Symbole | Nom / locus | Chr. | Dominance | Effet, phénotype | Ce que ça change en sélection |
 |:--|:--|:--:|:--|:--|:--|
@@ -546,9 +710,13 @@ Les loci sont rangés dans les **16 premiers chapitres** : plante (port, feuilla
 
 </details>
 
+<p align="right"><sub><a href="#sommaire">⬆ retour au sommaire</a></sub></p>
+
 ## 12. Nutrition & innocuité
 
 *Vitamines C / B9 / E, polyphénols, glycoalcaloïdes (amertume), minéraux.* — **17 loci**
+
+<p align="center"><sub>répartition de la dominance · 🟢 ×3 · 🔵 ×3 · 🟣 ×6 · ⚫ ×2 · ⚪ ×3</sub></p>
 
 | Symbole | Nom / locus | Chr. | Dominance | Effet, phénotype | Ce que ça change en sélection |
 |:--|:--|:--:|:--|:--|:--|
@@ -595,9 +763,13 @@ Les loci sont rangés dans les **16 premiers chapitres** : plante (port, feuilla
 
 </details>
 
+<p align="right"><sub><a href="#sommaire">⬆ retour au sommaire</a></sub></p>
+
 ## 13. Résistances biotiques
 
 *Maladies et ravageurs : gènes majeurs, QTL, dominance et contournements.* — **27 loci**
+
+<p align="center"><sub>répartition de la dominance · 🟢 ×13 · 🟡 ×6 · 🔵 ×3 · 🟣 ×4 · ⚪ ×1</sub></p>
 
 | Symbole | Nom / locus | Chr. | Dominance | Effet, phénotype | Ce que ça change en sélection |
 |:--|:--|:--:|:--|:--|:--|
@@ -664,9 +836,13 @@ Les loci sont rangés dans les **16 premiers chapitres** : plante (port, feuilla
 
 </details>
 
+<p align="right"><sub><a href="#sommaire">⬆ retour au sommaire</a></sub></p>
+
 ## 14. Tolérances abiotiques & racines
 
 *Sel, sécheresse, froid, chaleur — presque tout est additif.* — **11 loci**
+
+<p align="center"><sub>répartition de la dominance · 🟣 ×11</sub></p>
 
 | Symbole | Nom / locus | Chr. | Dominance | Effet, phénotype | Ce que ça change en sélection |
 |:--|:--|:--:|:--|:--|:--|
@@ -701,9 +877,13 @@ Les loci sont rangés dans les **16 premiers chapitres** : plante (port, feuilla
 
 </details>
 
+<p align="right"><sub><a href="#sommaire">⬆ retour au sommaire</a></sub></p>
+
 ## 15. Sources alléliques : votre germoplasme
 
 *Espèce par espèce : ce que vous avez, à quelle probabilité, et comment le vérifier — plus une voie pour fixer.* — **8 loci**
+
+<p align="center"><sub>lignes descriptives — germoplasme / épistasie, hors dominance mendélienne</sub></p>
 
 > 🍅 **À quel niveau de ploïdie travailler ?** Le TGRC maintient des **autotétraploïdes** (2-095 San Marzano 4x, 2-483 Red Cherry 4x, LA2335 *S. pimpinellifolium* 4x fertile) dont le comportement en croisement n'a rien de commun avec les lignes ci-dessus : voir la [section Ploïdie](#3-ressources-génétiques-disponibles--les-stocks-tétraploïdes-du-tgrc), sections 3 et 9.
 
@@ -736,9 +916,13 @@ Les loci sont rangés dans les **16 premiers chapitres** : plante (port, feuilla
 
 > ⚠️ Sans numéro d'accession, on raisonne en **probabilités** : la variabilité *à l'intérieur* d'une espèce dépasse souvent la variabilité *entre* espèces. Les tests de vérification sont dans le [protocole](#protocole-de-programme).
 
+<p align="right"><sub><a href="#sommaire">⬆ retour au sommaire</a></sub></p>
+
 ## 16. Combinaisons & épistasies
 
 *Ce qui se cumule, ce qui s'écrase, ce qui vous tue la plante.* — **16 loci**
+
+<p align="center"><sub>lignes descriptives — germoplasme / épistasie, hors dominance mendélienne</sub></p>
 
 | Symbole | Nom / locus | Chr. | Dominance | Effet, phénotype | Ce que ça change en sélection |
 |:--|:--|:--:|:--|:--|:--|
@@ -784,6 +968,8 @@ Les loci sont rangés dans les **16 premiers chapitres** : plante (port, feuilla
 </details>
 
 > **Règle de combinaison.** Les gènes d'un *même module* ne s'additionnent pas (`Cu`, `Me`, `Pts`, `bip`, `clau`, *35S:Kn1* passent tous par KNOX : les doubler sature le module). Les gènes de *modules différents* se combinent de façon prévisible et additive (`slmp Gob-4d/+`, `e La-2`, `tf + Me/+`). Hiérarchie du patron de base : **`La` > `tf` > KNOX / GOB > `e`**.
+
+<p align="right"><sub><a href="#sommaire">⬆ retour au sommaire</a></sub></p>
 
 ## 17. Fleur : biologie florale, stérilité mâle, couleur des pétales
 
@@ -1051,6 +1237,8 @@ biologie florale), croisés entre eux et avec les 216 lignes alors en place. Les
 liste des entrées, liens et niveaux de preuve dans [SOURCES.md](SOURCES.md), section 13.</sub>
 
 ---
+
+<p align="right"><sub><a href="#sommaire">⬆ retour au sommaire</a></sub></p>
 
 ## Ploïdie : diploïdie, tétraploïdisation, triploïdes sans pépins
 
@@ -1535,6 +1723,8 @@ descriptif et réglementairement encadrés.</sub>
 
 ---
 
+<p align="right"><sub><a href="#sommaire">⬆ retour au sommaire</a></sub></p>
+
 ## Prédire la couleur du fruit
 
 | Couleur finale du fruit | Génome chair | Génome peau | Variétés de référence |
@@ -1551,6 +1741,8 @@ descriptif et réglementairement encadrés.</sub>
 | **Bleu indigo profond** | `Aft_` + `atv/atv` | variable | Indigo Rose, Black Beauty |
 
 En combinant `PSY1` + `SGR1` + `SlMYB12`, on prédit **8 phénotypes** distincts : chaque locus ségrége en 1:2:1 et n'agit qu'à l'homozygotie pour son allèle mutant ([Baek et al. 2025](https://www.kspbtjpb.org/journal/view.html?doi=10.5010%2FJPB.2025.52.019.163)).
+
+<p align="right"><sub><a href="#sommaire">⬆ retour au sommaire</a></sub></p>
 
 ## Calculer la taille de sa descendance
 
@@ -1571,6 +1763,8 @@ N ≥ ln(0,05) / ln(1 − 0,25^k)
 
 En dessous de cet effectif, vous ne *cherchez* pas le génotype : vous le laissez passer. Astuce : 4 récessifs = 766 plants en vrac, mais **deux lignées à 2 récessifs (47 + 47) croisées entre elles** puis une F2 triée à nouveau coûtent dix fois moins cher en place et en temps.
 
+<p align="right"><sub><a href="#sommaire">⬆ retour au sommaire</a></sub></p>
+
 ## Les 10 règles d'or
 
 - **1. Un caractère DOMINANT s'exprime dès la F1** — `SUN` (allongé), `Y` (peau jaune), `R`/`PSY1` (chair rouge), `B` (β-carotène), `Aft` (anthocyanes), `Ip`, `Del`, `Nr`, `Gr`, `Cnr`, `fw11.3`, `Wf-1` (trichomes IV), `Ty-2`, `Ol-1`, `I`, `I-2`, `Ve`, `Pto`, `Mi-1`. **Un seul parent donneur suffit**, et l'hybride F1 est déjà commercialisable pour ce caractère.
@@ -1585,6 +1779,8 @@ En dessous de cet effectif, vous ne *cherchez* pas le génotype : vous le laisse
 - **10. Les défauts sont dans le paquet** — `u` = −10 à −20 % de sucres et de caroténoïdes ; `Cnr` = péricarpe farineux ; `Ip` = fruit plus petit ; `fw3.2` = maturation retardée ; `rin`/`nor` = arôme détruit ; vitamine C ×5 = stérilité pollinique ; GABA multiplex = nanisme et quasi-stérilité. **Cherchez toujours le coût physiologique avant d'écrire « variété ».**
 
 Trois réflexes résument toute la fiche. **(1)** Regardez d'abord la **nature de la mutation** : une perte de fonction (codon stop, délétion, frameshift) sera récessive, un gain de fonction (duplication, promoteur, surexpression) sera dominant ou semi-dominant — cette règle prédit le mode de dominance mieux que n'importe quel tableau. **(2)** Comptez les **récessifs** de votre objectif : c'est ce nombre, et lui seul, qui décide de la surface que vous devez semer. **(3)** Ne cherchez jamais un allèle sauvage **sans son ticket de sortie** : chaque introgression arrive avec son segment voisin (inversions, `fw11.3`, petits fruits), et la seule monnaie qui paie ce nettoyage, ce sont les marqueurs.
+
+<p align="right"><sub><a href="#sommaire">⬆ retour au sommaire</a></sub></p>
 
 ## Marqueurs et génotypage
 
@@ -1614,6 +1810,8 @@ Trois réflexes résument toute la fiche. **(1)** Regardez d'abord la **nature d
 | Trichomes type IV | **Phénotypage à la loupe** | résistance aleurodes (Wf-1) — pas de marqueur grand public |
 
 Tous sont des PCR sur amplicon court (30–400 pb) depuis une disquette ou un fragment de feuille de 2 cm ; pour les InDel, un gel suffit, sans séquenceur.
+
+<p align="right"><sub><a href="#sommaire">⬆ retour au sommaire</a></sub></p>
 
 ## Pièges et corrections apportées
 
@@ -1648,6 +1846,8 @@ Ces affirmations ont été re-vérifiées ; les tableaux ci-dessus portent la va
 
 **Statut des clones récents.** `FS8.1` (2023), `globe` (2021), `ENO` (2020), `PT` (2022), `SlOFP20` (2018), `SlSE2.2` (2025) : la dominance y est estimée sur peu de fonds génétiques. À confirmer sur votre population.
 
+<p align="right"><sub><a href="#sommaire">⬆ retour au sommaire</a></sub></p>
+
 ## Protocole de programme
 
 **Étape 0 — Définir la cible et son mode de dominance**  
@@ -1671,9 +1871,11 @@ Pour les récessifs masqués en hétérozygote (`fas`, `gf`, `y`, `ovate`, `SlCD
 **Étape 6 — Valider en dégustation, pas au réfractomètre seul**  
 Certains volatils augmentent la DOUCEUR PERÇUE sans changer le Brix : le sucre mesuré ≠ le sucre goûté. Panel à l'aveugle, 5–10 fruits par descendance, au même stade de maturité.
 
+<p align="right"><sub><a href="#sommaire">⬆ retour au sommaire</a></sub></p>
+
 ## Reproductibilité du dépôt
 
-Ce dépôt est **volontairement plat** : six fichiers, pas de dossier de données, pas de script. Les tableaux du présent fichier sont **la source de vérité** ; `README.en.md` en est le reflet anglais et `index.html` le pendant interactif. Rien n'est régénéré : une correction s'écrit à la main dans le fichier concerné et se propage dans les deux autres dès qu'elle touche au `Symbole`, au `Chr.` ou à la `Dominance` — les trois colonnes qui engagent une affirmation génétique.
+Ce dépôt est **volontairement plat** : sept fichiers et un dossier d'illustrations, pas de dossier de données, pas de script de génération. Les tableaux du présent fichier sont **la source de vérité** ; `README.en.md` en est le reflet anglais et `index.html` le pendant interactif. Rien n'est régénéré : une correction s'écrit à la main dans le fichier concerné et se propage dans les deux autres dès qu'elle touche au `Symbole`, au `Chr.` ou à la `Dominance` — les trois colonnes qui engagent une affirmation génétique.
 
 ```
 tomato-genetics-cheatsheet/
@@ -1682,6 +1884,8 @@ tomato-genetics-cheatsheet/
 ├── SOURCES.md         ← bibliographie commune aux deux langues (252 entrées, liens, niveau de vérification)
 ├── index.html         ← version interactive autonome : recherche, filtres, calculateur F2, impression A4 paysage
 ├── CONTRIBUTING.md    ← format d'une ligne, règles de parité FR ↔ EN, critères d'acceptation
+├── assets/            ← bannières décoratives des README (aucune donnée génétique)
+│   └── banner.png
 └── LICENSE            ← MIT (texte et données)
 ```
 
@@ -1736,6 +1940,8 @@ Tout doit converger : **230 · 230 · 230**, puis `aucune` et `aucun`. Un chapit
 
 Si la fiche dépasse ce qu'on relit à l'œil (plus de loci, exports CSV/XLSX, traductions tenues par un tiers), reprenez l'ordre inverse : extrayez les tableaux de `README.md` vers un fichier de données (TSV, un champ par colonne), générez le README et le HTML depuis ce fichier, et faites échouer le build dès qu'un chromosome ou une dominance diverge entre les deux langues. Le format s'y prête déjà : chaque ligne est autonome et les trois colonnes génétiques sont les mêmes dans les trois fichiers.
 
+<p align="right"><sub><a href="#sommaire">⬆ retour au sommaire</a></sub></p>
+
 ## Sources, licence et citation
 
 - **Bibliographie** : [SOURCES.md](SOURCES.md) — 252 références par thème avec liens et niveau de vérification, plus les ressources de matériel végétal (TGRC, SGN, TOMATOMA, bibliothèques d'IL).
@@ -1745,4 +1951,14 @@ Si la fiche dépasse ce qu'on relit à l'œil (plus de loci, exports CSV/XLSX, t
 - **Licence** : [MIT](LICENSE) — réutilisez, adaptez, redistribuez, y compris commercialement, en conservant la mention de copyright.
 - **Citation** : pas de `CITATION.cff` dans ce dépôt. Citez *Fiche génétique de la tomate*, Tivaphe/tomato-genetics-cheatsheet, édition du 15/10/2026, avec l'URL ; si vous voulez une référence stable, créez un DOI Zenodo et ajoutez-y le fichier.
 
-<sub>Fiche consolidée le 15/10/2026 à partir de huit dossiers de recherche documentaire. Ce dépôt est un outil de travail, pas une autorité : en sélection, la seule autorité reste votre F2.</sub>
+<div align="center">
+  <p>
+    <a href="README.md">🇫🇷 Français</a> ·
+    <a href="README.en.md">🇬🇧 English</a> ·
+    <a href="index.html">🖥️ Version interactive</a> ·
+    <a href="SOURCES.md">📚 Bibliographie</a> ·
+    <a href="CONTRIBUTING.md">🤝 Contribuer</a> ·
+    <a href="LICENSE">⚖️ MIT</a>
+  </p>
+  <sub>Fiche consolidée le 15/10/2026 à partir de huit dossiers de recherche documentaire. Ce dépôt est un outil de travail, pas une autorité : en sélection, la seule autorité reste votre F2.</sub>
+</div>
