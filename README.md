@@ -1,12 +1,16 @@
 # Fiche génétique de la tomate 🍅
 
-**215 loci documentés — gènes du port, du feuillage, du fruit, de la saveur, de la nutrition et des résistances — avec leur mode de dominance et ce que ça change concrètement en croisement.**
+![🇫🇷 Français — cette édition](https://img.shields.io/badge/%F0%9F%87%AB%F0%9F%87%B7_Fran%C3%A7ais-cette_%C3%A9dition-64748b?style=for-the-badge)  [![🇬🇧 English — lire cette fiche en anglais →](https://img.shields.io/badge/%F0%9F%87%AC%F0%9F%87%A7_English-lire_cette_fiche_en_anglais_%E2%86%92-0b6e4f?style=for-the-badge)](README.en.md)
 
-[![Loci](https://img.shields.io/badge/loci-215-0b6e4f?style=flat-square)](data/genes_tomate.csv) [![Chapitres](https://img.shields.io/badge/chapitres-16-1d4ed8?style=flat-square)](%23sommaire) [![Recherche](https://img.shields.io/badge/version%20interactive-docs%2Findex.html-6d28d9?style=flat-square)](docs/index.html) [![Licence](https://img.shields.io/badge/licence-CC%20BY%204.0-f59e0b?style=flat-square)](LICENSE) [![MAJ](https://img.shields.io/badge/mis%20%C3%A0%20jour-15%2F10%2F2026-64748b?style=flat-square)](CHANGELOG.md)
+**216 loci documentés — gènes du port, du feuillage, du fruit, de la saveur, de la nutrition et des résistances — avec leur mode de dominance et ce que ça change concrètement en croisement.**
+
+[![Loci](https://img.shields.io/badge/loci-216-0b6e4f?style=flat-square)](data/genes_tomate.csv) [![Chapitres](https://img.shields.io/badge/chapitres-16-1d4ed8?style=flat-square)](%23sommaire) [![Recherche](https://img.shields.io/badge/version%20interactive-docs%2Findex.html-6d28d9?style=flat-square)](docs/index.html) [![Licence](https://img.shields.io/badge/licence-CC%20BY%204.0-f59e0b?style=flat-square)](LICENSE) [![MAJ](https://img.shields.io/badge/mis%20%C3%A0%20jour-15%2F10%2F2026-64748b?style=flat-square)](CHANGELOG.md)
+
+> **Deux éditions, une seule génétique.** Le bouton ci-dessus bascule vers [l'édition anglaise](README.en.md) : mêmes loci, mêmes chromosomes, mêmes codes de dominance — le build échoue si les deux divergent. La couche moléculaire, les accessions et les exports filtrables restent dans cette édition-ci et dans `data/`.
 
 > **Pour qui ?** Sélectionneurs amateurs avancés, maraîchers, étudiants et chercheurs en amélioration des plantes. Chaque ligne répond à trois questions : *quel gène, sur quel chromosome, dominant ou récessif* — et *donc : est-ce que je le vois dès la F1, ou faut-il que je sème 200 plants*.
 
-`215 loci` · `16 chapitres` · littérature vérifiée jusqu'en 2026 · les affirmations non publiées sont explicitement marquées **[extrapolation]**.
+`216 loci` · `16 chapitres` · littérature vérifiée jusqu'en 2026 · les affirmations non publiées sont explicitement marquées **[extrapolation]**.
 
 ## L'essentiel en 12 points
 
@@ -37,9 +41,9 @@ Une ligne = un locus. La colonne **Dominance** est l'information qui décide de 
 | ⚫ | **ÉPIGÉNÉTIQUE** | Méthylation : hors dominance mendélienne, l'ADN ne prédit pas tout. | Le génotype ADN peut mentir : prévoir un phénotypage direct ou un épi-marqueur (méthylation). |
 | ⚪ | **MIXTE / SELON FOND** | La dominance change avec le fond génétique ou le caractère mesuré. | Repérer la dominance sur VOTRE population : la valeur publiée vaut pour un fond donné, pas pour le vôtre. |
 
-**Notation.** `R_` = au moins un allèle *R* (dominant exprimé) · `yy` et `gf/gf` = homozygote récessif · `Sp/sp` = hétérozygote — chez les semi-dominants, c'est là que se joue le *niveau* d'expression (port, résistance, Brix). `n.d.` = locus non cartographié finement dans les sources compilées : **à ne pas inventer**. `Chr.` = chromosome de la carte SL4.0 (ITAG 4.0).
+**Notation.** `R_` = au moins un allèle *R* (dominant exprimé) · `yy` et `gf/gf` = homozygote récessif · `Sp/sp` = hétérozygote — chez les semi-dominants, c'est là que se joue le *niveau* d'expression (port, résistance, Brix). `n.d.` = locus non cartographié finement dans les sources compilées : **à ne pas inventer**. `Chr.` = chromosome de la carte SL4.0 (ITAG 4.0). `—` en dominance = ligne de germoplasme ou combinaison épistatique, pas un locus mendélien ; un libellé qualifié (`Q (additif)`, `RÉCESSIF → SEMI-DOMINANT`) garde la précision du fichier d'entrée.
 
-Les 215 loci sont rangés en **16 chapitres** : plante (port, feuillage, trichomes, pigmentation, fleur), fruit (forme, couleur, maturation), saveur (sucres, acides, volatils), nutrition, résistances biotiques, tolérances abiotiques, sources alléliques et épistasies. Les données brutes et filtrables sont dans [`data/genes_tomate.csv`](data/genes_tomate.csv). [`docs/index.html`](docs/index.html) est une page autonome (aucune dépendance réseau) avec recherche plein texte, filtres par mode de dominance, calculateur d'effectif F2 et style d'impression A4 paysage : publiable telle quelle sur GitHub Pages. Une correction dans un TSV se propage aux trois formats.
+Les loci sont rangés en **16 chapitres** : plante (port, feuillage, trichomes, pigmentation, fleur), fruit (forme, couleur, maturation), saveur (sucres, acides, volatils), nutrition, résistances biotiques, tolérances abiotiques, sources alléliques et épistasies. Les données brutes et filtrables sont dans [`data/genes_tomate.csv`](data/genes_tomate.csv). [`docs/index.html`](docs/index.html) est une page autonome (aucune dépendance réseau) avec recherche plein texte, filtres par mode de dominance, calculateur d'effectif F2 et style d'impression A4 paysage : publiable telle quelle sur GitHub Pages. Une correction dans un TSV se propage aux trois formats.
 
 ## Sommaire
 
@@ -53,7 +57,7 @@ Les 215 loci sont rangés en **16 chapitres** : plante (port, feuillage, trichom
 - [8. Fruit — maturation & conservation](#8-fruit--maturation--conservation) — *5 loci*
 - [9. Saveur — sucres & solides solubles](#9-saveur--sucres--solides-solubles) — *13 loci*
 - [10. Saveur — acidité, umami & GABA](#10-saveur--acidité-umami--gaba) — *8 loci*
-- [11. Saveur — volatils & arôme](#11-saveur--volatils--arôme) — *16 loci*
+- [11. Saveur — volatils & arôme](#11-saveur--volatils--arôme) — *17 loci*
 - [12. Nutrition & innocuité](#12-nutrition--innocuité) — *17 loci*
 - [13. Résistances biotiques](#13-résistances-biotiques) — *27 loci*
 - [14. Tolérances abiotiques & racines](#14-tolérances-abiotiques--racines) — *11 loci*
@@ -287,10 +291,10 @@ Les 215 loci sont rangés en **16 chapitres** : plante (port, feuillage, trichom
 | Symbole | Nom / locus | Chr. | Dominance | Effet, phénotype | Ce que ça change en sélection |
 |:--|:--|:--:|:--|:--|:--|
 | `SUN (sun)` | Sun / fruit elongation | 7 (copie dupliquée ; gène d'origine IQD12 sur chr 10) | 🟡 SEMI-DOMINANT | Fruit très allongé, fuselé, en pointe (type Cornue des Andes). Redistribue la masse : plus de divisions longitudinales, moins de transversales, APRÈS fécondation | DOMINANCE DE DOSAGE : F1 intermédiaire (d/a ≈ −0,39, l'allèle rond est partiellement dominant). Présent chez 88 % des tomates longues et 83 % des cœurs de bœuf. Épistasie : SUN ≻ LC pour la longueur. |
-| `OVATE (o)` | Ovate | 2 | ▫️ — | Fruit ovale, en poire ou piriforme (Yellow Pear, Mountain Vineyard) | RÉCESSIF chez S. pimpinellifolium (rond dominant) mais ADDITIF dans l'IL2-5 de S. pennellii : la dominance dépend du fond. ovate seul ne suffit pas toujours (modificateurs). |
+| `OVATE (o)` | Ovate | 2 | 🔵 → 🟡 RÉCESSIF → SEMI-DOMINANT | Fruit ovale, en poire ou piriforme (Yellow Pear, Mountain Vineyard) | RÉCESSIF chez S. pimpinellifolium (rond dominant) mais ADDITIF dans l'IL2-5 de S. pennellii : la dominance dépend du fond. ovate seul ne suffit pas toujours (modificateurs). |
 | `SOV1 / SlOFP20` | Square ovate | 2 | 🔵 RÉCESSIF | Nécessaire avec ovate pour l'obovoïde franc ; délétion régulatrice → sous-expression | Effet ADDITIF avec ovate ; une mutation de SlTRM5 restaure la forme ronde chez le double ovate/sov1. |
 | `FS8.1` | Fruit shape 8.1 | 8 | ⚪ MIXTE / SELON FOND | Fruit carré / rectangulaire / « blocky » de la Roma de conserve, résistant à l'écrasement ; jusqu'à 27,4 % de la variance de l'indice de forme | PERTE DE FONCTION mais DOMINANCE PARTIELLE : d/a = −0,47 pour la forme (rond partiellement dominant), d/a = +1,14 pour le poids (sur-dominant). |
-| `PT (POINTED TIP)` | Pointed tip | n.d. | ▫️ — | Fruit à pointe / téton distal net. L'allèle sauvage PT^H réprime FUL2 et SUPPRIME la pointe | Le caractère « pointe » est donc récessif ; bk (beaked, chr 2) et n (nipple, chr 5) sont des loci classiques indépendants. |
+| `PT (POINTED TIP)` | Pointed tip | n.d. | 🔵 RÉCESSIF (LOF) | Fruit à pointe / téton distal net. L'allèle sauvage PT^H réprime FUL2 et SUPPRIME la pointe | Le caractère « pointe » est donc récessif ; bk (beaked, chr 2) et n (nipple, chr 5) sont des loci classiques indépendants. |
 | `LC (locule number)` | Locule number | 2 | 🟣 QTL / ADDITIF | Passe de 2 loges (sauvage) à 3–4 loges : fruit plus gros et plus aplati | Essentiellement ADDITIF (d/a ≈ 0) mais décrit partiellement récessif selon les fonds. En fond LA1589, lc seul a PEU D'EFFET sans fas. |
 | `FAS (fasciated)` | Fasciated | 11 | 🔵 RÉCESSIF | 6–10+ loges : fruits côtelés, aplatis, géants (Beefsteak, Cœur de bœuf) ; jusqu'à +37 % de poids | QUASI COMPLÈTEMENT RÉCESSIF : d/a = −0,88 pour le nombre de loges. ⚠ FAS n'est PAS SlYABBY2b (hypothèse de 2008 abandonnée). |
 | `ENO (SlENO)` | Excessive number of floral organs | 3 | 🔵 RÉCESSIF | Plus de loges, fruits plus gros ; synergie avec lc et fas | Les fruits modernes à ≥ 8 loges cumulent lc + fas + eno. |
@@ -301,7 +305,7 @@ Les 215 loci sont rangés en **16 chapitres** : plante (port, feuillage, trichom
 | `FAB / CLV1, FIN, SlTPL3, SlKNUCKLES` | Modulateurs CLV–WUS | 4 / 11 / n.d. | 🟣 QTL / ADDITIF | Loges et taille du fruit (fond génétique de la voie CLV3–WUS) | Expliquent une partie du « bruit » autour de fas et lc. |
 | `fw2.2` | Fruit weight 2.2 | 2 | 🟡 SEMI-DOMINANT | Masse du fruit : l'allèle CULTIVÉ (gros) augmente le poids de 30 à 50 % ; ~30 % de la différence sauvage/cultivé | L'ALLÈLE SAUVAGE « petit fruit » est SEMI-DOMINANT → le gros fruit est partiellement récessif. Piège classique du croisement avec une sauvage à fruits minuscules. |
 | `fw3.2 / SlKLUH` | Fruit weight 3.2 | 3 | 🟣 QTL / ADDITIF | Poids du fruit (prolonge la durée de division cellulaire), ~19 % de la variance ; retarde aussi la maturation et augmente la ramification | Action ADDITIVE à additivo-dominante. Pléiotropie à surveiller (maturation). |
-| `fw11.3 / CSR` | Fruit weight 11.3 | 11 | ▫️ — | Taille des CELLULES du mésocarpe ; ~8 % de la variance mais le plus fort effet sur le gradient de domestication | L'un des RARES loci de poids dominants. ⚠ fw11.3 est un locus DISTINCT de fas, situé 45 kb en aval — à ne pas confondre. |
+| `fw11.3 / CSR` | Fruit weight 11.3 | 11 | 🟢 DOMINANT (partiel) | Taille des CELLULES du mésocarpe ; ~8 % de la variance mais le plus fort effet sur le gradient de domestication | L'un des RARES loci de poids dominants. ⚠ fw11.3 est un locus DISTINCT de fas, situé 45 kb en aval — à ne pas confondre. |
 
 <details>
 <summary>🔬 Biochimie, nature de la mutation, origine de l'allèle (16 loci)</summary>
@@ -309,10 +313,10 @@ Les 215 loci sont rangés en **16 chapitres** : plante (port, feuillage, trichom
 | Symbole | Nature de la mutation / fonction moléculaire | Origine de l'allèle | Dominance | Chr. |
 |:--|:--|:--|:--:|:--:|
 | `SUN (sun)` | Duplication de 24,7 kb médiée par le rétrotransposon Rider → IQD12 (Solyc10g079240) surexprimé = gain de fonction ; BZR1.7 (voie BR) active sa transcription | Cultivé (allèle domestiqué) | SEMI-DOMINANT | 7 (copie dupliquée ; gène d'origine IQD12 sur chr 10) |
-| `OVATE (o)` | Codon stop prématuré (SNP G→T) = allèle nul de la famille OFP ; l'OVATE fonctionnel est un RÉGULATEUR NÉGATIF de l'élongation | Cultivé + S. pimpinellifolium | — | 2 |
+| `OVATE (o)` | Codon stop prématuré (SNP G→T) = allèle nul de la famille OFP ; l'OVATE fonctionnel est un RÉGULATEUR NÉGATIF de l'élongation | Cultivé + S. pimpinellifolium | RÉCESSIF → SEMI-DOMINANT | 2 |
 | `SOV1 / SlOFP20` | SlOFP20, module OFP × TRM (TONNEAU1 Recruiting Motif) | Cultivé | RÉCESSIF | 2 |
 | `FS8.1` | SNP A857T → arrêt prématuré = perte de fonction du facteur Trihelix GT-2 non canonique ; le gène fonctionnel active SlKRP2 (inhibiteur du cycle cellulaire) | Cultivé (tomate industrielle) | MIXTE / SELON FOND | 8 |
-| `PT (POINTED TIP)` | SNP His→Arg : 2 domaines C2H2 au lieu de 3 (perte de fonction partielle) | Cultivé (2022) | — | n.d. |
+| `PT (POINTED TIP)` | SNP His→Arg : 2 domaines C2H2 au lieu de 3 (perte de fonction partielle) | Cultivé (2022) | RÉCESSIF (LOF) | n.d. |
 | `LC (locule number)` | SlWUS (Solyc02g083950), orthologue WUSCHEL ; 2 SNP dans une boîte CArG = GAIN de fonction (élargissement du domaine d'expression) | Cultivé + S. pimpinellifolium | QTL / ADDITIF | 2 |
 | `FAS (fasciated)` | SlCLV3 (Solyc11g071380) : inversion de ~294 kb dont un point de cassure à 1 kb en amont = perte de fonction partielle du promoteur | Cultivé | RÉCESSIF | 11 |
 | `ENO (SlENO)` | Facteur AP2/ERF (Solyc03g117230) ; indel de 85 pb dans le promoteur → sous-expression (le gène réprime normalement SlWUS) | Cultivé | RÉCESSIF | 3 |
@@ -323,7 +327,7 @@ Les 215 loci sont rangés en **16 chapitres** : plante (port, feuillage, trichom
 | `FAB / CLV1, FIN, SlTPL3, SlKNUCKLES` | CLV1 (Solyc04g081590) ; FIN = arabinosyltransférase (Solyc11g064850) ; corépresseur TPL3 ; KNUCKLES | Cultivé | QTL / ADDITIF | 4 / 11 / n.d. |
 | `fw2.2` | CNR = Cell Number Regulator, régulateur NÉGATIF de la division cellulaire du péricarpe ; changement d'expression (élément régulateur) | Allèle gros fruit : S. lycopersicum ; petit fruit : S. pimpinellifolium | SEMI-DOMINANT | 2 |
 | `fw3.2 / SlKLUH` | SlKLUH = P450 CYP78A ; SNP dans le PROMOTEUR (expression accrue) ; les deux allèles sont fonctionnels | S. pennellii (IL3-2) | QTL / ADDITIF | 3 |
-| `fw11.3 / CSR` | CSR = Cell Size Regulator (Solyc11g071940) ; délétion de 1,4 kb → troncation de 194 aa = gain de fonction (validé en complémentation transgénique) | S. pennellii (IL11-3) / cultivé | — | 11 |
+| `fw11.3 / CSR` | CSR = Cell Size Regulator (Solyc11g071940) ; délétion de 1,4 kb → troncation de 194 aa = gain de fonction (validé en complémentation transgénique) | S. pennellii (IL11-3) / cultivé | DOMINANT (partiel) | 11 |
 
 </details>
 
@@ -377,7 +381,7 @@ Les 215 loci sont rangés en **16 chapitres** : plante (port, feuillage, trichom
 | `rin (ripening-inhibitor)` | Ripening inhibitor | 5 | 🔵 RÉCESSIF | Blocage de la maturation : fruit vert/pâle, jamais rouge, pas d'éthylène | Utilisé EN HÉTÉROZYGOZITÉ (rin/+) pour la longue conservation. ⚠ rin/nor détruisent aussi l'arôme (ils régulent TomLoxC, ADH2, HPL…). |
 | `nor (non-ripening)` | Non-ripening | 10 | 🔵 RÉCESSIF | Maturation retardée, faible éthylène, longue conservation | Les hétérozygotes nor/+ sont la base industrielle du shelf-life. |
 | `alc (alcobaca)` | Alcobaca | 10 | 🔵 RÉCESSIF | Même phénotype que nor mais PLUS FAIBLE : maturation lente, conservation longue (tomates « de colgar » / Penjar) | ⚠ alc n'est PAS un gène séparé : c'est un allèle de NOR. Idem nor/alc = hétérozygotes largement utilisés. |
-| `Cnr (Colorless non-ripening)` | Colorless non-ripening | 4 | ▫️ — | Fruit incolore, péricarpe farineux, perte d'adhérence cellulaire | DOMINANT (contrairement à rin/nor) et ÉPISTATIQUE sur rin et nor. Incomplètement dominant à récessif pour la pigmentation et les volatils. ⚠ Les marqueurs ADN classiques peuvent échouer : c'est un épi-allèle. |
+| `Cnr (Colorless non-ripening)` | Colorless non-ripening | 4 | 🟢 + ⚫ DOMINANT + ÉPIGÉNÉTIQUE | Fruit incolore, péricarpe farineux, perte d'adhérence cellulaire | DOMINANT (contrairement à rin/nor) et ÉPISTATIQUE sur rin et nor. Incomplètement dominant à récessif pour la pigmentation et les volatils. ⚠ Les marqueurs ADN classiques peuvent échouer : c'est un épi-allèle. |
 | `Nr` | Never ripe | n.d. | 🟢 DOMINANT | Maturation bloquée, sénescence et abscission retardées | Dominant négatif. À manier avec précaution en F1 : s'exprime dès la première génération. |
 
 <details>
@@ -388,7 +392,7 @@ Les 215 loci sont rangés en **16 chapitres** : plante (port, feuillage, trichom
 | `rin (ripening-inhibitor)` | SOLYC05G038930 MADS-RIN ; délétion → protéine de fusion, qui agit aussi en répresseur dominant négatif au niveau moléculaire | Cultivé (mutant) | RÉCESSIF | 5 |
 | `nor (non-ripening)` | NAC-NOR (Solyc10g051480) ; délétion de 2 pb → protéine tronquée NOR186 | Cultivé (mutant) | RÉCESSIF | 10 |
 | `alc (alcobaca)` | Allèle du MÊME gène NAC-NOR : substitution Val→Asp (V317D) | Cultivé | RÉCESSIF | 10 |
-| `Cnr (Colorless non-ripening)` | SPL-CNR : ÉPIMUTATION = hyperméthylation du promoteur, AUCUN changement de séquence | Cultivé (mutant épigénétique) | — | 4 |
+| `Cnr (Colorless non-ripening)` | SPL-CNR : ÉPIMUTATION = hyperméthylation du promoteur, AUCUN changement de séquence | Cultivé (mutant épigénétique) | DOMINANT + ÉPIGÉNÉTIQUE | 4 |
 | `Nr` | SlETR3 (récepteur d'éthylène), mutation du domaine senseur = gain de fonction | Cultivé (mutant dominant) | DOMINANT | n.d. |
 
 </details>
@@ -404,14 +408,14 @@ Les 215 loci sont rangés en **16 chapitres** : plante (port, feuillage, trichom
 | `SlCDPK26` | Paralogue de CDPK27 | n.d. | 🔵 RÉCESSIF | Effet uniquement en double KO avec SlCDPK27 (redondance) | Redondance fonctionnelle ⇒ il faut les DEUX pertes de fonction. |
 | `SlSPS1 (qSSC7.1)` | Sucrose-phosphate synthase | 7 | 🟣 QTL / ADDITIF | Sucres en hausse SANS AUCUN effet sur le poids du fruit | Caractère quantitatif : l'allèle AG a décliné à la domestication, partiellement récupéré dans les programmes qualité. |
 | `STP1 (qSSC2.1)` | Transporteur de monosaccharides | 2 | 🟣 QTL / ADDITIF | QTL de solubles solubles ; le KO fait baisser le Brix | ⚠ Ici le « bon » allèle est DÉJÀ dans le cultivé : pas besoin d'aller chercher le sauvage. |
-| `SlSUS3` | Sucrose synthase | n.d. | ▫️ — | ↑ sucres sans effet sur le poids du fruit | Gain de fonction → effet de dosage, dominant à l'échelle du transgène. |
+| `SlSUS3` | Sucrose synthase | n.d. | 🟢 DOMINANT (transgène) | ↑ sucres sans effet sur le poids du fruit | Gain de fonction → effet de dosage, dominant à l'échelle du transgène. |
 | `SlINVINH1 / SlVPE5` | Inhibiteur d'invertase / protéase | n.d. | 🔵 RÉCESSIF | ↑ solubles solubles, glucose et fructose | La perte de fonction des DEUX gènes est nécessaire pour l'effet maximal. |
 | `SlVIF` | Inhibiteur d'invertase vacuolaire | n.d. | 🟣 QTL / ADDITIF | Régulation négative : modélise la force du « puits » à sucres | Surexpression ↓ hexoses, suppression ↑ hexoses. |
 | `SlVI / Sucr` | Invertase vacuolaire | 3 | 🔵 RÉCESSIF | ↑ saccharose et solubles solubles | Le gène Sucr classique (chr 3). |
 | `SlTST1 / SlTST2` | Transporteurs tonoplastiques | n.d. | 🔵 RÉCESSIF | Double mutant : −40 % glucose, −50 % fructose+saccharose, −40 % de Brix | Sens inverse : ce sont des gènes NÉCESSAIRES au sucre du fruit. |
 | `SlSWEET7a / SlSWEET14` | Transporteurs d'efflux | n.d. | 🔵 RÉCESSIF | Silençage → ↑ sucres du fruit mûr | Perte de fonction souhaitable. |
 | `SlbZIP1, SlNAP2, SlARF10, SlFgr, AGPase, SUT2, TIV1, RIN` | Régulateurs du Brix | divers | 🟣 QTL / ADDITIF | Chacun apporte 1 à 15 % de la variance ; RIN agit via SlVI/SlVIF | Dominance NON ÉTABLIE (régulateurs). L'ensemble des QTL connus couvre > 50 % de l'héritabilité du Brix ; un QTL majeur peut atteindre ~30 %. |
-| `Segment « chm » (S. chmielewskii)` | Hauts solides historiques | n.d. | ▫️ — | +13 % de Brix à l'homozygotie, +12 % à l'hétérozygote, +6 % avec une seule dose. Sans effet négatif cohérent sur rendement, poids ou pH | Le vieux gisement des années 1980–90 reste directement utilisable. ⚠ Ne pas confondre : les hauts solides de Rick (1974) viennent de chmielewskii, PAS de cheesmaniae. |
+| `Segment « chm » (S. chmielewskii)` | Hauts solides historiques | n.d. | 🟢 DOMINANT (action génique dominante) | +13 % de Brix à l'homozygotie, +12 % à l'hétérozygote, +6 % avec une seule dose. Sans effet négatif cohérent sur rendement, poids ou pH | Le vieux gisement des années 1980–90 reste directement utilisable. ⚠ Ne pas confondre : les hauts solides de Rick (1974) viennent de chmielewskii, PAS de cheesmaniae. |
 
 <details>
 <summary>🔬 Biochimie, nature de la mutation, origine de l'allèle (13 loci)</summary>
@@ -423,14 +427,14 @@ Les 215 loci sont rangés en **16 chapitres** : plante (port, feuillage, trichom
 | `SlCDPK26` | Paralogue de la même voie | Sauvages | RÉCESSIF | n.d. |
 | `SlSPS1 (qSSC7.1)` | InDel de 1 pb (AG/A) à −2355 pb du promoteur ; l'allèle AG = plus d'expression | S. pimpinellifolium LA1924 (stable sur 3 ans et 3 environnements) | QTL / ADDITIF | 7 |
 | `STP1 (qSSC2.1)` | InDel de 21 pb dans le PROMOTEUR, sélectionné pendant l'amélioration | Lignées cultivées élites | QTL / ADDITIF | 2 |
-| `SlSUS3` | Surexpression (échappe à la dégradation par les CDPK) | Ingénierie | — | n.d. |
+| `SlSUS3` | Surexpression (échappe à la dégradation par les CDPK) | Ingénierie | DOMINANT (transgène) | n.d. |
 | `SlINVINH1 / SlVPE5` | KO simple ou double (CRISPR) | Ingénierie | RÉCESSIF | n.d. |
 | `SlVIF` | — | Cultivé | QTL / ADDITIF | n.d. |
 | `SlVI / Sucr` | KO | Cultivé | RÉCESSIF | 3 |
 | `SlTST1 / SlTST2` | — | Cultivé | RÉCESSIF | n.d. |
 | `SlSWEET7a / SlSWEET14` | — | Cultivé | RÉCESSIF | n.d. |
 | `SlbZIP1, SlNAP2, SlARF10, SlFgr, AGPase, SUT2, TIV1, RIN` | Facteurs de transcription et enzymes ; édition de régions inhibitrices | Cultivé + sauvages | QTL / ADDITIF | divers |
-| `Segment « chm » (S. chmielewskii)` | Plusieurs QTL (RFLP historique) | S. chmielewskii LA1028 (≈10 % SS contre ≈5 % chez VF36) ; lignées LA1563 (BC5S5) et VF145B-7879 | — | n.d. |
+| `Segment « chm » (S. chmielewskii)` | Plusieurs QTL (RFLP historique) | S. chmielewskii LA1028 (≈10 % SS contre ≈5 % chez VF36) ; lignées LA1563 (BC5S5) et VF145B-7879 | DOMINANT (action génique dominante) | n.d. |
 
 </details>
 
@@ -444,7 +448,7 @@ Les 215 loci sont rangés en **16 chapitres** : plante (port, feuillage, trichom
 | `SlWRKY42` | Répresseur d'ALMT9 | n.d. | ⚪ MIXTE / SELON FOND | ↓ malate par répression transcriptionnelle | Gain de fonction = acide réduit. À surveiller si vous cherchez de l'acidité. |
 | `Loci du citrate (11 loci)` | Acidité titrable & pH | plusieurs | 🟣 QTL / ADDITIF | pH et acidité titrable : caractères très polygéniques, forte variabilité saisonnière | ⚠ LE CITRATE influence davantage la préférence du consommateur que le malate — et il n'a pas de gène majeur exploitable. |
 | `GTF (glycosyltransférase groupe 1)` | Malate & citrate | 2 | 🟣 QTL / ADDITIF | Associé aux DEUX acides simultanément | Dominance non déterminée. |
-| `SlGAD2 / SlGAD3` | GABA : la dominance la mieux documentée | 1 et 11 | ▫️ — | GABA multiplié par 7 à 15 (jusqu'à 125 mg/100 g frais) sans effet sur le rendement | LE GÈNE EST HAPLO-SUFFISANT : l'hétérozygote suffit → allèle directement exploitable en F1, en T0 et même en hémizygotie. Premier aliment CRISPR commercialisé au monde. |
+| `SlGAD2 / SlGAD3` | GABA : la dominance la mieux documentée | 1 et 11 | 🟢 DOMINANT (partielle) | GABA multiplié par 7 à 15 (jusqu'à 125 mg/100 g frais) sans effet sur le rendement | LE GÈNE EST HAPLO-SUFFISANT : l'hétérozygote suffit → allèle directement exploitable en F1, en T0 et même en hémizygotie. Premier aliment CRISPR commercialisé au monde. |
 | `SlGABA-T1` | Catabolisme du GABA | n.d. | 🔵 RÉCESSIF | GABA ×2,95 au stade rouge (73,8 mg/100 g) | Récessif. |
 | `SlGABA-T1/2/3 + SlSSADH` | Multiplex GABA | n.d. | 🔵 RÉCESSIF | GABA ×19 MAIS nanisme sévère, malformations, quasi-stérilité | Pléiotropie forte ⇒ à ÉVITER en sélection classique. |
 | `Pool de glutamate (umami)` | Umami | divers | 🟣 QTL / ADDITIF | Le L-glutamate est l'acide aminé libre dominant du fruit rouge ; aucun locus « umami » cloné à ce jour | HÉRITABILITÉ QUANTITATIVE, non mendélienne. Les 5'-ribonucléotides (IMP/GMP) sont quasi absents chez la tomate : l'umami explose dans les plats cuisinés, par synergie avec les nucléotides des autres ingrédients. |
@@ -458,7 +462,7 @@ Les 215 loci sont rangés en **16 chapitres** : plante (port, feuillage, trichom
 | `SlWRKY42` | Facteur de transcription liant la 8e boîte W du promoteur de SlALMT9 | Cultivé | MIXTE / SELON FOND | n.d. |
 | `Loci du citrate (11 loci)` | InDels et variants structuraux, QTL mineurs (GWAS 2023) | Cultivé + sauvages | QTL / ADDITIF | plusieurs |
 | `GTF (glycosyltransférase groupe 1)` | Méta-GWAS | Cultivé | QTL / ADDITIF | 2 |
-| `SlGAD2 / SlGAD3` | Troncation du domaine auto-inhibiteur C-terminal (CaMBD, liaison calmoduline) | Édition CRISPR (Sicilian Rouge High GABA, Japon 2021) | — | 1 et 11 |
+| `SlGAD2 / SlGAD3` | Troncation du domaine auto-inhibiteur C-terminal (CaMBD, liaison calmoduline) | Édition CRISPR (Sicilian Rouge High GABA, Japon 2021) | DOMINANT (partielle) | 1 et 11 |
 | `SlGABA-T1` | KO CRISPR | Édition | RÉCESSIF | n.d. |
 | `SlGABA-T1/2/3 + SlSSADH` | KO simultanés | Édition | RÉCESSIF | n.d. |
 | `Pool de glutamate (umami)` | Peptidases, γ-glutamyl-transpeptidase, GDH et GABA-T (les deux dernières augmentent fortement à la maturation) | Cultivé | QTL / ADDITIF | divers |
@@ -467,46 +471,48 @@ Les 215 loci sont rangés en **16 chapitres** : plante (port, feuillage, trichom
 
 ## 11. Saveur — volatils & arôme
 
-*Le registre complet des gènes clonés de l'arôme.* — **16 loci** · données brutes : [`data/genes_tomate.csv`](data/genes_tomate.csv)
+*Le registre complet des gènes clonés de l'arôme.* — **17 loci** · données brutes : [`data/genes_tomate.csv`](data/genes_tomate.csv)
 
 | Symbole | Nom / locus | Chr. | Dominance | Effet, phénotype | Ce que ça change en sélection |
 |:--|:--|:--:|:--|:--|:--|
 | `TomLoxC` | 13-lipoxygénase : longueur en bouche | 1 | 🟠 SURDOMINANCE | Arôme « tomate » (notes vertes et florales d'antan), longueur en bouche de 2 à 5 min : C5/C6 — (Z)-3-hexénal, hexanal, hexanol — + apocaroténoïdes | SURDOMINANCE / HÉTÉROSIS : les HÉTÉROZYGTES (rare + commun) expriment PLUS que les deux homozygotes → argument fort pour évaluer les F1 sur l'arôme, et pour ne PAS fixer l'allèle à l'homozygotie. Actif dès la F1. Allèle contre-sélectionné à la domestication, en résurgence aujourd'hui. |
 | `DXR (promoteur)` | Précurseur des apocaroténoïdes | n.d. | 🟣 QTL / ADDITIF | β-ionone, géranylacétone, 6-méthyl-5-heptén-2-one : notes florales et fruitées | Sélection NÉGATIVE pendant la domestication. Effet d'expression, donc additif/quantitatif. |
 | `SlHPL` | Arôme C6 | n.d. | 🟢 DOMINANT | Hexénal, hexanol : « odeur de tomate coupée » | L'allèle fonctionnel est NÉCESSAIRE (dominant pour l'arôme C6). |
-| `SlADH2` | Ratio aldéhyde / alcool | 6 | ▫️ — | Notes « fruit mûr » plus intenses en surexpression ; l'antisens altère le ratio aldéhyde/alcool | Effet de dosage. Attention : dépend du statut en RIN. |
+| `SlADH2` | Ratio aldéhyde / alcool | 6 | 🟣 QTL / ADDITIF (dosage) | Notes « fruit mûr » plus intenses en surexpression ; l'antisens altère le ratio aldéhyde/alcool | Effet de dosage. Attention : dépend du statut en RIN. |
 | `SlCXE1` | Balance des esters | 1 | 🟣 QTL / ADDITIF | Libère les alcools à partir des esters : notes tropicales (mangue, ananas, bonbon) | Avec AAT1, fixe l'équilibre esters/acides : la signature de Sungold. |
 | `AAT1` | Alcool acyltransférase | 2 | 🟣 QTL / ADDITIF | Synthèse des ESTERS fruités (fermentation de l'arôme) | QTL additif — la paire AAT1/CXE1 est le « volume » des notes tropicales. |
-| `SlCCD1A / SlCCD1B` | Apocaroténoïdes | n.d. | ▫️ — | Arôme amélioré (β-ionone…) au prix des pigments | ⚠ COMPROMIS : dégrader plus de caroténoïdes = moins de couleur, plus d'arôme. |
-| `AADC1A / AADC1B / AADC2` | QTL « malodorous » | 8 | ▫️ — | Phénylacétaldéhyde, 2-phényléthanol, 1-nitro-2-phényléthane | Allèle à forte activité, effet marqué non strictement additif. ⚠ Effet AMBIVALENT : perçu « malodorant » dans certains fonds → à valider en panel sensoriel avant d'introgresser. |
-| `FLORAL4` | Arôme floral | 4 | ▫️ — | 2-phényléthanol (rose/thé), phénylacétaldéhyde, 1-nitro-2-phényléthane | L'allèle FONCTIONNEL est nécessaire : l'édition (mutations délétères) effondre les PHEV. Une NIL contrastante est réellement DIFFÉRENCIÉE à la dégustation. |
+| `SlCCD1A / SlCCD1B` | Apocaroténoïdes | n.d. | 🔵 RÉCESSIF (bénéfique) | Arôme amélioré (β-ionone…) au prix des pigments | ⚠ COMPROMIS : dégrader plus de caroténoïdes = moins de couleur, plus d'arôme. |
+| `AADC1A / AADC1B / AADC2` | QTL « malodorous » | 8 | 🟣 QTL / ADDITIF (fort) | Phénylacétaldéhyde, 2-phényléthanol, 1-nitro-2-phényléthane | Allèle à forte activité, effet marqué non strictement additif. ⚠ Effet AMBIVALENT : perçu « malodorant » dans certains fonds → à valider en panel sensoriel avant d'introgresser. |
+| `SlPAR1 / SlPAR2` | Phénylacétaldéhyde réductase | n.d. | 🟣 QTL / ADDITIF (dosage) | Dernière étape de la voie : convertit le phénylacétaldéhyde en 2-phényléthanol (note miel / rose, aussi majeure du parfum de la rose) | La biochimie est solidement établie, la génétique du fruit beaucoup moins : des lignées tomates à expression `LePAR` réduite **n'ont pas** perdu de 2-phényléthanol (redondance, voie déjà limitée par l'amont). À traiter en **effet de dosage**, pas en locus à fixer ; toute prédiction de croisement ici reste une [extrapolation]. |
+| `FLORAL4` | Arôme floral | 4 | 🔵 RÉCESSIF (LOF pénalisante) | 2-phényléthanol (rose/thé), phénylacétaldéhyde, 1-nitro-2-phényléthane | L'allèle FONCTIONNEL est nécessaire : l'édition (mutations délétères) effondre les PHEV. Une NIL contrastante est réellement DIFFÉRENCIÉE à la dégustation. |
 | `SlSAMT` | Salicylate de méthyle | n.d. | ⚪ MIXTE / SELON FOND | Note mentholée | Fonction enzymatique validée. |
 | `SlEGS1` | Eugénol | n.d. | 🟣 QTL / ADDITIF | Note clou de girofle | QTL, dominance non déterminée. |
 | `GT1 / UGT` | Volatils glycosylés | n.d. | 🟣 QTL / ADDITIF | Réservoirs d'arôme (les précurseurs glycosylés se libèrent à la dégustation et à la transformation) | Effets quantitatifs ; explique pourquoi un jus cuit sent plus fort qu'un fruit cru. |
-| `LIP1 / LIP2` | Lipases | 12 | ▫️ — | (Z)-4-décénal et plusieurs C5–C10 corrélés au PLAISIR du consommateur | UN SEUL SEGMENT CHROMOSOMIQUE augmente de nombreux volatils positifs → meilleure introgression « rendement aromatique/prix » du lot. |
-| `SlYTH2` | Lecteur m6A : le multiplicateur d'arôme | n.d. | ▫️ — | +1,5× de volatils TOTAUX, sans altérer la couleur ni la fermeté ; 71 % des dégustateurs préfèrent le fruit édité | LE GÈNE FONCTIONNEL EST UN RÉPRESSEUR ⇒ la perte de fonction est RÉCESSIVE et BÉNÉFIQUE. À fixer à l'homozygotie (ou en hémizygotie T0). |
+| `LIP1 / LIP2` | Lipases | 12 | 🟣 QTL / ADDITIF (additif) | (Z)-4-décénal et plusieurs C5–C10 corrélés au PLAISIR du consommateur | UN SEUL SEGMENT CHROMOSOMIQUE augmente de nombreux volatils positifs → meilleure introgression « rendement aromatique/prix » du lot. |
+| `SlYTH2` | Lecteur m6A : le multiplicateur d'arôme | n.d. | 🔵 RÉCESSIF (bénéfique) | +1,5× de volatils TOTAUX, sans altérer la couleur ni la fermeté ; 71 % des dégustateurs préfèrent le fruit édité | LE GÈNE FONCTIONNEL EST UN RÉPRESSEUR ⇒ la perte de fonction est RÉCESSIVE et BÉNÉFIQUE. À fixer à l'homozygotie (ou en hémizygotie T0). |
 | `NSGT1` | Arôme « fumé » (gaïacol) | 9 | ⚪ MIXTE / SELON FOND | La forme FONCTIONNELLE empêche la libération de gaïacol (fumé), de salicylate de méthyle et d'eugénol → arôme « propre » | ⚠ CAS INVERSE : les haplotypes NON fonctionnels sont les plus fréquents chez les heirlooms et le cultivé moderne. Sélectionner NSGT1 FONCTIONNEL = assainir l'arôme moderne. |
 | `RIN / NOR / FUL1-2` | Chefs d'orchestre de l'arôme | 5 / 10 / n.d. | 🟣 QTL / ADDITIF | Lient directement les promoteurs de TomLoxC, ADH2, HPL, CCD… | Effets PLÉIOTROPES : les mutants rin/nor bloquent la maturation ET détruisent l'arôme. Ne jamais sacrifier l'arôme pour la conservation sans le savoir. |
 
 <details>
-<summary>🔬 Biochimie, nature de la mutation, origine de l'allèle (16 loci)</summary>
+<summary>🔬 Biochimie, nature de la mutation, origine de l'allèle (17 loci)</summary>
 
 | Symbole | Nature de la mutation / fonction moléculaire | Origine de l'allèle | Dominance | Chr. |
 |:--|:--|:--|:--:|:--:|
 | `TomLoxC` | Allèle rare du PROMOTEUR (variant structural d'~4 kb) + duplication du locus ; Solyc01g006540 | S. pimpinellifolium : présent chez 91 % des tomates groseille, contre 2 % des heirlooms à gros fruit | SURDOMINANCE | 1 |
 | `DXR (promoteur)` | Variant sauvage du promoteur → expression accrue du gène en aval | S. pimpinellifolium (58 % des accessions), 5 % chez cerasiforme, 2 % chez les heirlooms | QTL / ADDITIF | n.d. |
 | `SlHPL` | 13-hydroperoxyde lyase ; cible de la régulation traductionnelle par SlYTH2 | Cultivé | DOMINANT | n.d. |
-| `SlADH2` | Solyc06g059740, alcool déshydrogénase ; régulé par RIN | Cultivé + sauvages | — | 6 |
+| `SlADH2` | Solyc06g059740, alcool déshydrogénase ; régulé par RIN | Cultivé + sauvages | QTL / ADDITIF (dosage) | 6 |
 | `SlCXE1` | Carboxyestérase, identifiée par QTL | Cultivé + sauvages | QTL / ADDITIF | 1 |
 | `AAT1` | Alcohol acyltransferase | Cultivé | QTL / ADDITIF | 2 |
-| `SlCCD1A / SlCCD1B` | Caroténoïde cleavage dioxygenases ; SlCCD1B est traduit plus vite quand SlYTH2 est KO | Cultivé | — | n.d. |
-| `AADC1A / AADC1B / AADC2` | Décarboxylases d'acides aminés aromatiques | S. pennellii LA0716 via la lignée IL8-2 (fond M82) | — | 8 |
-| `FLORAL4` | Solyc04g063350 ; QTL finement cartographié (10 gènes) | Cultivé + sauvages | — | 4 |
+| `SlCCD1A / SlCCD1B` | Caroténoïde cleavage dioxygenases ; SlCCD1B est traduit plus vite quand SlYTH2 est KO | Cultivé | RÉCESSIF (bénéfique) | n.d. |
+| `AADC1A / AADC1B / AADC2` | Décarboxylases d'acides aminés aromatiques | S. pennellii LA0716 via la lignée IL8-2 (fond M82) | QTL / ADDITIF (fort) | 8 |
+| `SlPAR1 / SlPAR2` | LePAR1 / LePAR2, réductases à cofacteur NADPH (famille short-chain dehydrogenase/reductase) ; expression maximale dans les boutons floraux, en baisse pendant la maturation ; conversion validée in vivo par surexpression chez le pétunia | Tieman et al. 2007 (Phytochemistry 68:1-11) | QTL / ADDITIF (dosage) | n.d. |
+| `FLORAL4` | Solyc04g063350 ; QTL finement cartographié (10 gènes) | Cultivé + sauvages | RÉCESSIF (LOF pénalisante) | 4 |
 | `SlSAMT` | Salicylate O-méthyltransférase | Cultivé | MIXTE / SELON FOND | n.d. |
 | `SlEGS1` | Eugénol synthase | Cultivé | QTL / ADDITIF | n.d. |
 | `GT1 / UGT` | Glycosyltransférases | Cultivé | QTL / ADDITIF | n.d. |
-| `LIP1 / LIP2` | Lipases ; allèle SpLIP1 | S. pennellii LA0716, via la lignée IL12-3 | — | 12 |
-| `SlYTH2` | Lecteur de m6A qui RÉPRIME la traduction de SlHPL et SlCCD1B | Édition | — | n.d. |
+| `LIP1 / LIP2` | Lipases ; allèle SpLIP1 | S. pennellii LA0716, via la lignée IL12-3 | QTL / ADDITIF (additif) | 12 |
+| `SlYTH2` | Lecteur de m6A qui RÉPRIME la traduction de SlHPL et SlCCD1B | Édition | RÉCESSIF (bénéfique) | n.d. |
 | `NSGT1` | NON-SMOKY GLYCOSYLTRANSFERASE1 : convertit les précurseurs en triglycosides non clivables ; 5 haplotypes décrits (les IV et V sont non fonctionnels, avec délétions emportant aussi E8) | Trait « fumé » décrit chez S. pimpinellifolium et S. l. cerasiforme | MIXTE / SELON FOND | 9 |
 | `RIN / NOR / FUL1-2` | Facteurs MADS (RIN, FUL) et NAC (NOR) | Cultivé | QTL / ADDITIF | 5 / 10 / n.d. |
 
@@ -518,16 +524,16 @@ Les 215 loci sont rangés en **16 chapitres** : plante (port, feuillage, trichom
 
 | Symbole | Nom / locus | Chr. | Dominance | Effet, phénotype | Ce que ça change en sélection |
 |:--|:--|:--:|:--|:--|:--|
-| `SlGGP1 (uORF)` | Vitamine C | 6 | ▫️ — | Ascorbate jusqu'à ×5 | Régulation POST-TRANSCRIPTIONNELLE : effet important même avec un seul allèle modifié. ⚠ Compromis : les lignées ×5 présentent stérilité pollinique et fruits sans pépins. |
+| `SlGGP1 (uORF)` | Vitamine C | 6 | 🟢 DOMINANT (pratique) | Ascorbate jusqu'à ×5 | Régulation POST-TRANSCRIPTIONNELLE : effet important même avec un seul allèle modifié. ⚠ Compromis : les lignées ×5 présentent stérilité pollinique et fruits sans pépins. |
 | `TFA9 / SlbHLH59` | Vitamine C naturelle | 9 | 🟣 QTL / ADDITIF | Le SNP le plus associé explique 15,9 % de la variance en ascorbate | ⚠ LE SEUL levier naturel marqué pour la vitamine C : marqueur direct disponible. |
 | `SlGME1 / SlGME2` | É pimérase GDP-mannose | n.d. | 🟣 QTL / ADDITIF | Ascorbate ↑ + tolérance au froid, au sel et au paraquat | Redondance fonctionnelle ⇒ effets additifs, pas de dominance nette. Cible secondaire. |
 | `SlNFYA10` | Répresseur de l'ascorbate | n.d. | ⚪ MIXTE / SELON FOND | Le knockdown fait monter l'AsA (> ×2 en feuille, ×1,3 en fruit) | Régulateur NÉGATIF : gain de fonction néfaste, perte de fonction souhaitable. |
-| `GCHI + ADCS` | Folates (vitamine B9) | n.d. | ▫️ — | Folates ×25 (840 µg/100 g) : le fruit ingénieré couvre à lui seul l'apport journalier recommandé d'une femme enceinte | EFFET COOPÉRATIF : il faut les DEUX, l'un seul ne suffit pas. |
+| `GCHI + ADCS` | Folates (vitamine B9) | n.d. | 🟢 DOMINANT (tout ou rien) | Folates ×25 (840 µg/100 g) : le fruit ingénieré couvre à lui seul l'apport journalier recommandé d'une femme enceinte | EFFET COOPÉRATIF : il faut les DEUX, l'un seul ne suffit pas. |
 | `GGH` | Rétention des folates | n.d. | 🔵 RÉCESSIF | Variété PKM-1 naturellement riche en folates | Seul levier NATUREL identifié. Retard de maturation associé. ⚠ La diversité des folates est très faible (391 accessions, peu de SNPs) et la teneur chute à la maturation. |
 | `VTE3(1) / mQTL9-2-6` | Vitamine E (tocophérols) | 9 | ⚫ ÉPIGÉNÉTIQUE | ~50 % de la variation de vitamine E entre les deux parents | ⚠ ICI LA DOMINANCE MENDÉLIENNE NE S'APPLIQUE PAS : hérédité épigénétique. Un marqueur ADN classique peut échouer → prévoir des épi-marqueurs. |
 | `VTE1 / VTE2 / VTE4 / VTE5 / HPPD` | Vitamine E, voie complète | 6, 7, 8, 9 | 🟣 QTL / ADDITIF | Héritabilité faible du caractère ; γ- vs α-tocophérol selon VTE4 ; surexpression HPT/TC/γ-TMT jusqu'à ×10 de tocochromanols (jusqu'à la transformation du plastome) | Caractère quantitatif additif. L'azote/potassium du sol module autant que le génotype. |
-| `SlMYB12 (= Y/y)` | Flavonols (rutine) | 1 | ▫️ — | Le fruit ROSE (y/y) est doublement appauvri : peau transparente + flavonols effondrés. Surexpression : rutine ×11 à ×19 | Le lien direct COULEUR ↔ NUTRITION. Si vous cherchez la santé : évitez les roses. |
-| `HQT` | Acide chlorogénique | n.d. | ▫️ — | Surexpression : +85 % de CGA ; silençage : −98 % | Effet quasi purement dosique, très reproductible. |
+| `SlMYB12 (= Y/y)` | Flavonols (rutine) | 1 | 🟢 / 🔵 DOMINANT / RÉCESSIF | Le fruit ROSE (y/y) est doublement appauvri : peau transparente + flavonols effondrés. Surexpression : rutine ×11 à ×19 | Le lien direct COULEUR ↔ NUTRITION. Si vous cherchez la santé : évitez les roses. |
+| `HQT` | Acide chlorogénique | n.d. | 🟣 QTL / ADDITIF (dosage) | Surexpression : +85 % de CGA ; silençage : −98 % | Effet quasi purement dosique, très reproductible. |
 | `SlHY5` | Nutrition ↔ défense | n.d. | ⚪ MIXTE / SELON FOND | Régulateur positif des flavonols ET des glycoalcaloïdes | ILLUSTRE LE COMPROMIS nutrition ↔ défense : monter l'un monte l'autre (dont l'amertume). |
 | `GORKY` | Amertume du fruit mûr | n.d. | 🔵 RÉCESSIF | La DÉLÉTION de ce transporteur laisse l'α-tomatine dans la vacuole du fruit mûr : fruit AMER et toxique | CARACTÈRE MONOGÉNIQUE RÉCESSIF explicitement documenté : il faut gorky/gorky pour que le fruit reste amer. GORKY fonctionnel (dominant) = fruit non amer. À vérifier avant tout croisement avec du sauvage. |
 | `GAME5 / GAME31 / GAME36 / GAME40` | Détoxification des SGA | 8 (GAME5) | 🔵 RÉCESSIF | Dernière étape α-tomatine → esculéoside A (non amer, non toxique) ; hydroxylation / acétylation / glycosylation | Le silençage de GAME5 fait remonter l'α-tomatine. |
@@ -541,16 +547,16 @@ Les 215 loci sont rangés en **16 chapitres** : plante (port, feuillage, trichom
 
 | Symbole | Nature de la mutation / fonction moléculaire | Origine de l'allèle | Dominance | Chr. |
 |:--|:--|:--|:--:|:--:|
-| `SlGGP1 (uORF)` | uORF en 5′ qui freine la traduction de GDP-L-galactose phosphorylase (Solyc06g073320) ; le casser (CRISPR) ou surexprimer lève le frein | Cultivé + mutant EMS « haut ascorbate » cartographié dans l'uORF | — | 6 |
+| `SlGGP1 (uORF)` | uORF en 5′ qui freine la traduction de GDP-L-galactose phosphorylase (Solyc06g073320) ; le casser (CRISPR) ou surexprimer lève le frein | Cultivé + mutant EMS « haut ascorbate » cartographié dans l'uORF | DOMINANT (pratique) | 6 |
 | `TFA9 / SlbHLH59` | InDel de 8 pb dans le promoteur (motif Py-rich de la 5'UTR) d'un facteur bHLH | Cultivé (sélectionné à la domestication) | QTL / ADDITIF | 9 |
 | `SlGME1 / SlGME2` | Surexpression ; le silençage d'un seul gène est COMPENSÉ par l'autre | Cultivé | QTL / ADDITIF | n.d. |
 | `SlNFYA10` | Facteur CCAAT qui réprime SlGME1/SlGGP1 | Cultivé | MIXTE / SELON FOND | n.d. |
-| `GCHI + ADCS` | Deux branches limitantes (ptéridine et PABA) ; GCHI seul ne donne que ×2–4 | Ingénierie | — | n.d. |
+| `GCHI + ADCS` | Deux branches limitantes (ptéridine et PABA) ; GCHI seul ne donne que ×2–4 | Ingénierie | DOMINANT (tout ou rien) | n.d. |
 | `GGH` | Activité γ-glutamyl hydrolase réduite → meilleure rétention des folates polyglutamylés | Cultivé (PKM-1) | RÉCESSIF | n.d. |
 | `VTE3(1) / mQTL9-2-6` | Le polymorphisme causal n'est PAS dans la séquence codante mais dans la MÉTHYLATION DU PROMOTEUR (épiallèles naturels) | IL de S. pennellii | ÉPIGÉNÉTIQUE | 9 |
 | `VTE1 / VTE2 / VTE4 / VTE5 / HPPD` | QTL confirmés + 16 loci candidats | Cultivé + sauvages | QTL / ADDITIF | 6, 7, 8, 9 |
-| `SlMYB12 (= Y/y)` | R2R3-MYB activateur de PAL/CHS/FLS ; corrélation expression ↔ flavonols R² ≈ 0,92 | Cultivé | — | 1 |
-| `HQT` | Hydroxycinnamoyl-CoA quinate transférase | Cultivé | — | n.d. |
+| `SlMYB12 (= Y/y)` | R2R3-MYB activateur de PAL/CHS/FLS ; corrélation expression ↔ flavonols R² ≈ 0,92 | Cultivé | DOMINANT / RÉCESSIF | 1 |
+| `HQT` | Hydroxycinnamoyl-CoA quinate transférase | Cultivé | QTL / ADDITIF (dosage) | n.d. |
 | `SlHY5` | Lie les boîtes G des promoteurs des deux voies ; la perte de fonction fait chuter les deux et rend sensible aux champignons | Cultivé | MIXTE / SELON FOND | n.d. |
 | `GORKY` | Transporteur NPF du tonoplaste | Landraces péruviennes « high tomatine », sauvages | RÉCESSIF | n.d. |
 | `GAME5 / GAME31 / GAME36 / GAME40` | Solyc08g006410 (UDP-glycosyltransférase) ; allèles nuls (codon stop) décrits | Cultivé + sauvages | RÉCESSIF | 8 (GAME5) |
@@ -589,11 +595,11 @@ Les 215 loci sont rangés en **16 chapitres** : plante (port, feuillage, trichom
 | `Tm-1` | ToMV / ToMV-like, composante ToBRFV | 2 | 🟡 SEMI-DOMINANT | Inhibition de la réplicase virale ; contribue à la résistance au ToBRFV en combinaison | SEMI-DOMINANT (effet dose). Actuel : Tm-1 (chr 2) + un locus RÉCESSIF de tolérance sur le chr 11 = résistance au ToBRFV ; le tm-1 récessif + chr 11 = tolérance. |
 | `ToBRFV-R (chr 11)` | Fruit rugueux brun | 11 | 🔵 RÉCESSIF | Tolérance (faible accumulation virale, symptômes réduits) | RÉSISTANCE = au moins 2 gènes (Tm-1 dominant + locus chr 11) ; TOLÉRANCE = gène récessif unique. F1 sensible si le donneur est homozygote récessif croisé avec un cultivar → trier en F2. Tm-2² est contourné par le virus. |
 | `Wf-1` | Mouches blanches, pucerons, thrips, acariens, Tuta | 2 | 🟡 SEMI-DOMINANT | Barrière physique + chimique : active les trichomes type IV et jusqu'à 76 acylsucres ; explique ~54 % de la survie des adultes d'aleurodes et ~81 % de la densité de trichomes IV | PARTIELLEMENT DOMINANT à additif fort. Wf-2 (chr 9) en complément. Le phénotype se lit à la loupe (face inférieure, feuilles collantes). |
-| `ShTPS / zFPS + ShZIS (locus Sst)` | Répulsif olfactif des ravageurs | 8 | ▫️ — | Zingibérène et 7-épi-zingibérène (sesquiterpène des trichomes VI) : répulsion et toxicité sur Bemisia, Tetranychus, Tuta absoluta, Diabrotica + activité antimicrobienne | Introgressions réussies (lignées à haut ZGB). Les gènes de la voie sont utilisables comme MARQUEURS moléculaires. |
+| `ShTPS / zFPS + ShZIS (locus Sst)` | Répulsif olfactif des ravageurs | 8 | 🟣 QTL / ADDITIF (codominant) | Zingibérène et 7-épi-zingibérène (sesquiterpène des trichomes VI) : répulsion et toxicité sur Bemisia, Tetranychus, Tuta absoluta, Diabrotica + activité antimicrobienne | Introgressions réussies (lignées à haut ZGB). Les gènes de la voie sont utilisables comme MARQUEURS moléculaires. |
 | `MKS1 × MKS2` | Insecticide naturel (2-tridécanone) | 8 | ⚪ MIXTE / SELON FOND | 2-tridécanone et méthylcétones des trichomes VI : toxicité larvaire (Manduca, Tuta, mineuses, doryphore) | ÉPITASIE COMPLEXE : un seul des deux allèles ne donne rien. À pyramider obligatoirement. |
 | `QTL psylle` | Résistance au psylle des solanées + Liberibacter | 1, 3, 5, 6, 8 | 🟣 QTL / ADDITIF | Mortalité adulte et baisse de fécondité de Bactericera cockerelli, donc moins de zèbre | Polygénique : sélection génomique ou phénotypique en conditions d'infestation. |
 | `Rcm 2.0 / Rcm 5.1` | Chancre bactérien | 2 et 5 | 🟣 QTL / ADDITIF | Résistance quantitative à Clavibacter michiganensis (agirait sur la morphologie vasculaire) | Aucun gène majeur disponible : la prévention (semences saines, hygiène) reste primordiale. |
-| `Sw-5 / Mi-1 / Ty-1, Ty-3, Ty-4 / ty-5` | À NE PAS CHERCHER chez vous | — | ▫️ — | TSWV (Sw-5), nématodes + pucerons (Mi-1), TYLCV (Ty-1/3/4, ty-5) | ⚠ Ces gènes ne sont PAS dans votre germoplasme (pimpinellifolium, cheesmaniae, habrochaites, galapagense) : il faut les acquérir par accession TGRC ou les acheter en variété. |
+| `Sw-5 / Mi-1 / Ty-1, Ty-3, Ty-4 / ty-5` | À NE PAS CHERCHER chez vous | — | 🟢 / 🔵 DOMINANT / RÉCESSIF | TSWV (Sw-5), nématodes + pucerons (Mi-1), TYLCV (Ty-1/3/4, ty-5) | ⚠ Ces gènes ne sont PAS dans votre germoplasme (pimpinellifolium, cheesmaniae, habrochaites, galapagense) : il faut les acquérir par accession TGRC ou les acheter en variété. |
 
 <details>
 <summary>🔬 Biochimie, nature de la mutation, origine de l'allèle (27 loci)</summary>
@@ -622,11 +628,11 @@ Les 215 loci sont rangés en **16 chapitres** : plante (port, feuillage, trichom
 | `Tm-1` | Protéine p80 inhibitrice (mécanisme antiviral inhabituel, pas un NLR ; région sous sélection positive chez S. habrochaites) | S. habrochaites PI 126445 (Pelham 1966) ; allèles de S. pennellii également efficaces | SEMI-DOMINANT | 2 |
 | `ToBRFV-R (chr 11)` | Locus à ~46,84 Mb du chr 11 (intervalle de 22 kb) ; candidats Solyc11g062150 (TIR-NBS-LRR) et Solyc11g062180 (RLP) | S. pimpinellifolium USVL332 (PI 390717) ; locus aussi décrit chez S. pennellii | RÉCESSIF | 11 |
 | `Wf-1` | QTL majeur de bout de chromosome 2, co-localisé avec densité de trichomes IV et métabolites (famille ASAT, locus AT2) | S. galapagense (LA1401 etc.) ; acylsucres aussi chez S. habrochaites et S. pimpinellifolium | SEMI-DOMINANT | 2 |
-| `ShTPS / zFPS + ShZIS (locus Sst)` | Cluster biosynthétique zFPS + ShZIS (chr 8, LA1777) ; ShZO = ShCYP71D184 (P450, chr 1) oxyde le composé en dérivés plus toxiques | S. habrochaites var. hirsutum PI 127826, LA1777, PI134418 | — | 8 |
+| `ShTPS / zFPS + ShZIS (locus Sst)` | Cluster biosynthétique zFPS + ShZIS (chr 8, LA1777) ; ShZO = ShCYP71D184 (P450, chr 1) oxyde le composé en dérivés plus toxiques | S. habrochaites var. hirsutum PI 127826, LA1777, PI134418 | QTL / ADDITIF (codominant) | 8 |
 | `MKS1 × MKS2` | Gènes de la voie ShMKS1/ShMKS2 ; l'effet exige les deux allèles sauvages | S. habrochaites var. glabratum PI 134417 | MIXTE / SELON FOND | 8 |
 | `QTL psylle` | Pas de gène cloné | S. habrochaites LA1777 | QTL / ADDITIF | 1, 3, 5, 6, 8 |
 | `Rcm 2.0 / Rcm 5.1` | QTL (Rcm2.0 chr 2, Rcm5.1 chr 5) | S. habrochaites LA407 ; QTL aussi chez S. pimpinellifolium GI 1554 (chr 1, 2, 7, 8, 12) | QTL / ADDITIF | 2 et 5 |
-| `Sw-5 / Mi-1 / Ty-1, Ty-3, Ty-4 / ty-5` | Gènes majeurs dominants, sauf ty-5 récessif | S. peruvianum (Sw-5, Mi-1, ty-5) et S. chilense (Ty-1/3/4) | — | — |
+| `Sw-5 / Mi-1 / Ty-1, Ty-3, Ty-4 / ty-5` | Gènes majeurs dominants, sauf ty-5 récessif | S. peruvianum (Sw-5, Mi-1, ty-5) et S. chilense (Ty-1/3/4) | DOMINANT / RÉCESSIF | — |
 
 </details>
 
@@ -636,7 +642,7 @@ Les 215 loci sont rangés en **16 chapitres** : plante (port, feuillage, trichom
 
 | Symbole | Nom / locus | Chr. | Dominance | Effet, phénotype | Ce que ça change en sélection |
 |:--|:--|:--:|:--|:--|:--|
-| `HKT1;1 / HKT1;2` | Homéostasie Na+/K+ (sel) | 7 | ▫️ — | Protège fleurs et fruits du stress salin et thermique ; le QTL majeur explique > 40 % de la variance [Na+]/[K+]. ScHKT1;2 exclut efficacement le Na+ du xylème vers les tiges ; ScHKT1;1 est hyperactif dans les feuilles et les racines | Effet ADDITIF, co-introgression des deux loci recommandée. Stratégies d'inclusion (cheesmaniae) et d'exclusion (galapagense) COMPLÉMENTAIRES et cumulables. |
+| `HKT1;1 / HKT1;2` | Homéostasie Na+/K+ (sel) | 7 | 🟣 QTL / ADDITIF (additif) | Protège fleurs et fruits du stress salin et thermique ; le QTL majeur explique > 40 % de la variance [Na+]/[K+]. ScHKT1;2 exclut efficacement le Na+ du xylème vers les tiges ; ScHKT1;1 est hyperactif dans les feuilles et les racines | Effet ADDITIF, co-introgression des deux loci recommandée. Stratégies d'inclusion (cheesmaniae) et d'exclusion (galapagense) COMPLÉMENTAIRES et cumulables. |
 | `HKT2;1` | Récupération du Na+ du xylème | n.d. | 🟣 QTL / ADDITIF | Redistribue le Na+ via le phloème | Complément des HKT1 ; quantitatif. |
 | `lnc1.1 (candidat NHX3)` | Concentration foliaire en Na+ | 1 | 🟣 QTL / ADDITIF | Compartimente le Na+ dans la vacuole foliaire (stratégie « incluseuse ») | Gènes SOS1/SOS2/SOS3/NHX1 cartographiés comme candidats de la voie SOS : utiles en marquage. |
 | `SpiI3PS` | Tolérance au sel (myo-inositol) | n.d. | 🟣 QTL / ADDITIF | Copies additionnelles de l'inositol-3-phosphate synthase → meilleure osmoprotection | Le génome LA0480 est ENRICHI en gènes de réponse aux stress (biotiques et abiotiques). |
@@ -653,7 +659,7 @@ Les 215 loci sont rangés en **16 chapitres** : plante (port, feuillage, trichom
 
 | Symbole | Nature de la mutation / fonction moléculaire | Origine de l'allèle | Dominance | Chr. |
 |:--|:--|:--|:--:|:--:|
-| `HKT1;1 / HKT1;2` | Transporteurs Na+ de classe I ; le cultivé a PERDU l'expression de HKT1;1 et fixé un HKT1;2 différent | S. cheesmaniae (inclusion) + S. galapagense (exclusion, IL SG18_197 LA1141 × OH8245) | — | 7 |
+| `HKT1;1 / HKT1;2` | Transporteurs Na+ de classe I ; le cultivé a PERDU l'expression de HKT1;1 et fixé un HKT1;2 différent | S. cheesmaniae (inclusion) + S. galapagense (exclusion, IL SG18_197 LA1141 × OH8245) | QTL / ADDITIF (additif) | 7 |
 | `HKT2;1` | Transporteur K+-Na+ | S. cheesmaniae | QTL / ADDITIF | n.d. |
 | `lnc1.1 (candidat NHX3)` | QTL, candidat NHX3 | S. cheesmaniae | QTL / ADDITIF | 1 |
 | `SpiI3PS` | Variation en nombre de copies | S. pimpinellifolium LA0480 | QTL / ADDITIF | n.d. |
@@ -781,7 +787,7 @@ N ≥ ln(0,05) / ln(1 − 0,25^k)
 | **5** | 0,25^5 = 0,098 % | **3067** | 4714 | « cerise naine déterminée rose sans calice » |
 | **6** | 0,25^6 = 0,024 % | **12270** | 18861 | programme long terme : à diviser en deux lignées |
 
-En dessous de cet effectif, vous ne *cherchez* pas le génotype : vous le laissez passer. Astuce : 4 récessifs = 763 plants en vrac, mais **deux lignées à 2 récessifs (47 + 47) croisées entre elles** puis une F2 triée à nouveau coûtent dix fois moins cher en place et en temps.
+En dessous de cet effectif, vous ne *cherchez* pas le génotype : vous le laissez passer. Astuce : 4 récessifs = 766 plants en vrac, mais **deux lignées à 2 récessifs (47 + 47) croisées entre elles** puis une F2 triée à nouveau coûtent dix fois moins cher en place et en temps.
 
 ## Les 10 règles d'or
 
@@ -866,7 +872,7 @@ Ces affirmations ont été re-vérifiées ; les tableaux ci-dessus portent la va
 Écrivez le génotype visé en symboles (ex. `d/d sp/sp Y/y gf/gf Style2.1/Style2.1`). Comptez les récessifs : c'est le nombre **k** qui fixe la taille de votre descendance, pas l'ambition du projet.
 
 **Étape 1 — Dimensionner la F2**  
-Appliquez la formule N ≥ ln(0,05)/ln(1 − 0,25^k). 2 récessifs = **47 plants**, 3 = **191**, 4 = **763**. En dessous, vous ne « cherchez » pas le génotype, vous le laissez passer.
+Appliquez la formule N ≥ ln(0,05)/ln(1 − 0,25^k). 2 récessifs = **47 plants**, 3 = **191**, 4 = **766**. En dessous, vous ne « cherchez » pas le génotype, vous le laissez passer.
 
 **Étape 2 — Choisir le sens du croisement**  
 Avec *S. habrochaites*, *S. pennellii* ou *S. chilense*, utilisez-les en **parent MÂLE** : en sens inverse, l'incompatibilité unilatérale fait rejeter le pollen du cultivé. Avec *S. pimpinellifolium*, *cheesmaniae*, *galapagense* : les deux sens marchent.
@@ -890,23 +896,30 @@ Ce README, le site et les exports sont **générés** à partir de 4 fichiers ta
 ```
 tomate-genetique/
 ├── README.md                  ← cette fiche (générée — ne pas éditer à la main)
-├── SOURCES.md                 ← bibliographie complète, 187 références avec liens
+├── README.en.md               ← édition anglaise, générée depuis data_en/ (même génétique)
+├── SOURCES.md                 ← bibliographie complète, références avec liens et niveau de vérification
 ├── CITATION.cff               ← comment citer ce dépôt (DOI Zenodo à y mettre)
 ├── CONTRIBUTING.md            ← format attendu d'un ajout ou d'une correction
 ├── LICENSE                    ← CC BY 4.0 (données et texte)
-├── data/
-│   ├── 01_plante.tsv          ← source de vérité : port, feuille, trichomes, pigmentation
+├── data/                      ← SOURCE DE VÉRITÉ (8 champs par ligne)
+│   ├── 01_plante.tsv          ← port, feuille, trichomes, pigmentation
 │   ├── 02_fruit.tsv           ← fleur, forme, couleur, maturation
 │   ├── 03_saveur.tsv          ← sucres, acides/umami, volatils, nutrition
 │   ├── 04_resistances.tsv     ← biotique, abiotique, germoplasme, épistasies
 │   ├── README.md              ← dictionnaire des colonnes du format
-│   ├── genes_tomate.csv       ← les 215 loci à plat (export)
+│   ├── genes_tomate.csv       ← tous les loci à plat (export)
 │   └── genes_tomate.xlsx      ← classeur filtrable (1 feuille par chapitre)
+├── data_en/                   ← édition anglaise (6 champs : mêmes loci, mêmes chr, mêmes dominance)
+│   ├── 01_plante.tsv … 04_resistances.tsv
+│   └── genes_tomate_en.csv    ← export anglais à plat
 ├── scripts/
-│   └── build_fiche.py         ← régénère README.md, docs/index.html et les exports
+│   └── build_fiche.py         ← régénère README.md, README.en.md, docs/index.html et les exports
 └── docs/
     └── index.html             ← site statique (GitHub Pages) : recherche + filtres + impression
 ```
+
+`README.md` et `docs/index.html` sont la référence ; `README.en.md` n'en est que la traduction, et le build
+vérifie à chaque fois qu'il n'y a aucun écart de génétique entre les deux.
 
 ```bash
 python3 scripts/build_fiche.py     # régénère README.md, docs/index.html, data/genes_tomate.{csv,xlsx}
