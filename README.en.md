@@ -63,8 +63,8 @@ The loci are arranged in the **first 16 chapters**: plant (habit, foliage, trich
 - [14. Abiotic tolerances & roots](#14-abiotic-tolerances--roots) — *11 loci*
 - [15. Allele sources: your germplasm](#15-allele-sources-your-germplasm) — *8 loci*
 - [16. Combinations & epistasis](#16-combinations--epistasis) — *16 loci*
-- **[17. Flower: floral biology, male sterility, petal colour](#17-flower-floral-biology-male-sterility-petal-colour)** — *the network behind chapters 1 and 5, in this file*
-- **[Ploidy: diploidy, tetraploidisation, seedless triploids](#ploidy-diploidy-tetraploidisation-seedless-triploids)** — *outside the 230 loci, in this file*
+- [17. Flower: floral biology, male sterility, petal colour](#17-flower-floral-biology-male-sterility-petal-colour) — *the network behind chapters 1 and 5, in this file*
+- [Ploidy: diploidy, tetraploidisation, seedless triploids](#ploidy-diploidy-tetraploidisation-seedless-triploids) — *outside the 230 loci, in this file*
 - [Predicting fruit colour](#predicting-fruit-colour)
 - [Sizing your progeny](#sizing-your-progeny)
 - [The 10 golden rules](#the-10-golden-rules)
