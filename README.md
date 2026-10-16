@@ -4,13 +4,13 @@
 
 **230 loci documentés — gènes du port, du feuillage, du fruit, de la saveur, de la nutrition et des résistances — avec leur mode de dominance et ce que ça change concrètement en croisement.**
 
-[![Loci](https://img.shields.io/badge/loci-230-0b6e4f?style=flat-square)](#sommaire) [![Chapitres](https://img.shields.io/badge/chapitres-16-1d4ed8?style=flat-square)](#sommaire) [![Version interactive](https://img.shields.io/badge/version%20interactive-index.html-6d28d9?style=flat-square)](index.html) [![Annexe ploïdie](https://img.shields.io/badge/annexe%20plo%C3%AFdie-int%C3%A9gr%C3%A9e-1d4ed8?style=flat-square)](#annexe-1--ploïdie--diploïdie-tétraploïdisation-triploïdes-sans-pépins) [![Licence](https://img.shields.io/badge/licence-MIT-f59e0b?style=flat-square)](LICENSE) ![MAJ](https://img.shields.io/badge/mis%20%C3%A0%20jour-15%2F10%2F2026-64748b?style=flat-square)
+[![Loci](https://img.shields.io/badge/loci-230-0b6e4f?style=flat-square)](#sommaire) [![Chapitres](https://img.shields.io/badge/chapitres-17-1d4ed8?style=flat-square)](#sommaire) [![Version interactive](https://img.shields.io/badge/version%20interactive-index.html-6d28d9?style=flat-square)](index.html) [![Ploïdie](https://img.shields.io/badge/plo%C3%AFdie-int%C3%A9gr%C3%A9e-1d4ed8?style=flat-square)](#ploïdie--diploïdie-tétraploïdisation-triploïdes-sans-pépins) [![Licence](https://img.shields.io/badge/licence-MIT-f59e0b?style=flat-square)](LICENSE) ![MAJ](https://img.shields.io/badge/mis%20%C3%A0%20jour-15%2F10%2F2026-64748b?style=flat-square)
 
 > **Deux éditions, une seule génétique.** Le bouton ci-dessus bascule vers [l'édition anglaise](README.en.md) : mêmes loci, mêmes chromosomes, mêmes codes de dominance — la parité se vérifie à chaque retouche (procédure dans [CONTRIBUTING.md](CONTRIBUTING.md)). La couche moléculaire — nature de la mutation, origine de l'allèle, accessions — n'existe que dans cette édition-ci, et `index.html` n'en est que le reflet interactif.
 
 > **Pour qui ?** Sélectionneurs amateurs avancés, maraîchers, étudiants et chercheurs en amélioration des plantes. Chaque ligne répond à trois questions : *quel gène, sur quel chromosome, dominant ou récessif* — et *donc : est-ce que je le vois dès la F1, ou faut-il que je sème 200 plants*.
 
-`230 loci` · `16 chapitres` · `2 annexes dans ce fichier` · littérature vérifiée jusqu'en 2026 · les affirmations non publiées sont explicitement marquées **[extrapolation]**.
+`230 loci` · `17 chapitres (dont 16 de loci)` · `ploïdie hors chapitres` · littérature vérifiée jusqu'en 2026 · les affirmations non publiées sont explicitement marquées **[extrapolation]**.
 
 ## L'essentiel en 12 points
 
@@ -43,7 +43,7 @@ Une ligne = un locus. La colonne **Dominance** est l'information qui décide de 
 
 **Notation.** `R_` = au moins un allèle *R* (dominant exprimé) · `yy` et `gf/gf` = homozygote récessif · `Sp/sp` = hétérozygote — chez les semi-dominants, c'est là que se joue le *niveau* d'expression (port, résistance, Brix). `n.d.` = locus non cartographié finement dans les sources compilées : **à ne pas inventer**. `Chr.` = chromosome de la carte SL4.0 (ITAG 4.0). `—` en dominance = ligne de germoplasme ou combinaison épistatique, pas un locus mendélien ; un libellé qualifié (`Q (additif)`, `RÉCESSIF → SEMI-DOMINANT`) garde la précision du fichier d'entrée.
 
-Les loci sont rangés en **16 chapitres** : plante (port, feuillage, trichomes, pigmentation, fleur), fruit (forme, couleur, maturation), saveur (sucres, acides, volatils), nutrition, résistances biotiques, tolérances abiotiques, sources alléliques et épistasies. La **ploïdie** — doublement chromosomique, dosage tétrasomique, triploïdes sans pépins — n'est pas un chapitre : elle occupe une annexe dédiée, [ci-dessous](#annexe-1--ploïdie--diploïdie-tétraploïdisation-triploïdes-sans-pépins), parce qu'elle change les règles de ségrégation de tous les loci ci-dessous sans devenir un locus elle-même. **Ces tableaux sont la source** : le dépôt ne contient ni fichier de données ni script de génération — il se relit et se corrige directement ici. [`index.html`](index.html), à la racine, en est le pendant interactif (aucune dépendance réseau) : recherche plein texte, filtres par mode de dominance, calculateur d'effectif F2 et style d'impression A4 paysage, publiable tel quel sur GitHub Pages. Une correction se reporte donc à la main dans les trois fichiers concernés — `README.md`, `README.en.md` et `index.html`.
+Les loci sont rangés dans les **16 premiers chapitres** : plante (port, feuillage, trichomes, pigmentation, fleur), fruit (forme, couleur, maturation), saveur (sucres, acides, volatils), nutrition, résistances biotiques, tolérances abiotiques, sources alléliques et épistasies. Le **chapitre 17** approfondit la biologie florale sans ajouter de lignes au décompte des 230 loci. La **ploïdie** — doublement chromosomique, dosage tétrasomique, triploïdes sans pépins — n'est pas un chapitre : elle occupe une section dédiée, [ci-dessous](#ploïdie--diploïdie-tétraploïdisation-triploïdes-sans-pépins), parce qu'elle change les règles de ségrégation de tous les loci des tableaux sans devenir un locus elle-même. **Ces tableaux sont la source** : le dépôt ne contient ni fichier de données ni script de génération — il se relit et se corrige directement ici. [`index.html`](index.html), à la racine, en est le pendant interactif (aucune dépendance réseau) : recherche plein texte, filtres par mode de dominance, calculateur d'effectif F2 et style d'impression A4 paysage, publiable tel quel sur GitHub Pages. Une correction se reporte donc à la main dans les trois fichiers concernés — `README.md`, `README.en.md` et `index.html`.
 
 ## Sommaire
 
@@ -63,8 +63,8 @@ Les loci sont rangés en **16 chapitres** : plante (port, feuillage, trichomes, 
 - [14. Tolérances abiotiques & racines](#14-tolérances-abiotiques--racines) — *11 loci*
 - [15. Sources alléliques : votre germoplasme](#15-sources-alléliques--votre-germoplasme) — *8 loci*
 - [16. Combinaisons & épistasies](#16-combinaisons--épistasies) — *16 loci*
-- **Annexe 1 · [Ploïdie : diploïdie, tétraploïdisation, triploïdes sans pépins](#annexe-1--ploïdie--diploïdie-tétraploïdisation-triploïdes-sans-pépins)** — *hors des 230 loci, dans ce fichier*
-- **Annexe 2 · [Fleur : biologie florale, stérilité mâle, couleur des pétales](#annexe-2--fleur--biologie-florale-stérilité-mâle-couleur-des-pétales)** — *le réseau derrière les chap. 1 et 5, dans ce fichier*
+- **[17. Fleur : biologie florale, stérilité mâle, couleur des pétales](#17-fleur--biologie-florale-stérilité-mâle-couleur-des-pétales)** — *le réseau derrière les chap. 1 et 5, dans ce fichier*
+- **[Ploïdie : diploïdie, tétraploïdisation, triploïdes sans pépins](#ploïdie--diploïdie-tétraploïdisation-triploïdes-sans-pépins)** — *hors des 230 loci, dans ce fichier*
 - [Prédire la couleur du fruit](#prédire-la-couleur-du-fruit)
 - [Calculer la taille de sa descendance](#calculer-la-taille-de-sa-descendance)
 - [Les 10 règles d'or](#les-10-règles-dor)
@@ -279,7 +279,7 @@ Les loci sont rangés en **16 chapitres** : plante (port, feuillage, trichomes, 
 | `SlLst` | Long styles | 12 | ⚪ MIXTE / SELON FOND | Allongement du style et exsertion du stigmate SOUS CHALEUR (> 27 °C) : perte d'autogamie à la canicule | ⚠ Explique les fruits « mal fécondés » et l'allogamie accrue en été : la pureté variétale dépend aussi du climat. |
 | `pat / pat-2` | Parthenocarpic | 3 / 4 | 🔵 RÉCESSIF | Nouaison sans pollinisation → fruits sans pépins (souvent plus petits, moins de loges) | Récessif : à fixer. SlIAA9 (e) et les mutants de gibbérellines donnent des effets comparables. La base moléculaire est documentée depuis : *pat* rattaché au HD-Zip III **SlHB15A** (allèle P95S ; Picarella *et al.* 2024, *Front. Plant Sci.*), *pat-2* à **SlHD31** (délétion de 1 034 pb dans le promoteur). |
 | `ys` | Yellow stigma | n.d. | 🔵 RÉCESSIF | Stigmate jaune vif au lieu de vert-blanc, pétales inchangés | ⚠ Le nom piège : `ys` (stigmate) n'a **rien à voir avec `y` (peau, *SlMYB12*, chr 1)** — mais les deux passent par la même voie des flavonoïdes, ce qui explique la confusion. Marqueur de floraison bon marché, aucun effet sur le fruit. |
-| `pmcd1` | Premeiotic Cytokinesis Defective 1 | n.d. | 🔵 RÉCESSIF | Endomitose pré-méïotique : la cellule mère duplique son ADN sans se diviser → **méiocytes tétraploïdes**, puis pollen diploïde (2n) | La voie **non transgénique** vers le pollen 2n, dont le dossier dit aussi le prix : **aucun descendant polyploïde n'a été obtenu** par cette voie, à cause du blocage triploïde. À tester en pépinière, pas à planifier sur une saison. Détail : [annexe 1 · §4.6](#46-autres-méthodes-dobtention-documentées-non-recommandées-hors-laboratoire). |
+| `pmcd1` | Premeiotic Cytokinesis Defective 1 | n.d. | 🔵 RÉCESSIF | Endomitose pré-méïotique : la cellule mère duplique son ADN sans se diviser → **méiocytes tétraploïdes**, puis pollen diploïde (2n) | La voie **non transgénique** vers le pollen 2n, dont le dossier dit aussi le prix : **aucun descendant polyploïde n'a été obtenu** par cette voie, à cause du blocage triploïde. À tester en pépinière, pas à planifier sur une saison. Détail : [Ploïdie · §4.6](#46-autres-méthodes-dobtention-documentées-non-recommandées-hors-laboratoire). |
 | `PYP1` | Pale Yellow Petal 1 | 1 | 🔵 RÉCESSIF | Pétales jaune pâle presque blancs, anthères décolorées ; plante et fruit normaux | Marqueur visuel **sur la fleur** : repérer une hybridation, dater une floraison ou valider un croisement avant la nouaison, sans toucher au goût ni au fruit. À ne pas confondre avec les mutations de couleur du fruit (`r`, `t`, `og`). |
 | `TPI (SlGLO2)` | Tomato GLOBOSA2 — twisted anther | 8 | 🔵 RÉCESSIF | Étamines tordues qui restent ouvertes sur le style, stigmates exposés, stérilité mâle complète | ⚠ **`sl-2` (ici, chr 8) n'est PAS `sl`/stamenless (TAP3, chr 4)** : deux gènes, deux chromosomes, deux usages — la confusion est écrite dans la littérature amateur. Les lignes TPI sont les plus simples à polliniser à la main (ovaire déjà exposé), et servent de testeur d'allogamie. |
 | `sl` | Stamenless — TAP3 (classe B) | 4 | 🔵 RÉCESSIF | Pétales convertis en sépales, étamines en carpelles : aucune étamine fonctionnelle, fleur femelle utilisable | ⚠ **`sl` (TAP3, chr 4) n'est PAS `sl-2`** : `sl-2` est un allèle de TPI (chr 8), et les deux sont écrits côte à côte dans la littérature sur la stérilité mâle. Le phéno diffère (pétales verdissants + carpelles surnuméraires, contre anthères tordues ouvertes) et les deux gènes ne se fixent pas de la même façon. L'ID ITAG tranche : Solyc04g081000 = chr 4. |
@@ -705,7 +705,7 @@ Les loci sont rangés en **16 chapitres** : plante (port, feuillage, trichomes, 
 
 *Espèce par espèce : ce que vous avez, à quelle probabilité, et comment le vérifier — plus une voie pour fixer.* — **8 loci**
 
-> 🍅 **À quel niveau de ploïdie travailler ?** Le TGRC maintient des **autotétraploïdes** (2-095 San Marzano 4x, 2-483 Red Cherry 4x, LA2335 *S. pimpinellifolium* 4x fertile) dont le comportement en croisement n'a rien de commun avec les lignes ci-dessus : voir l'[annexe 1](#3-ressources-génétiques-disponibles--les-stocks-tétraploïdes-du-tgrc), sections 3 et 9.
+> 🍅 **À quel niveau de ploïdie travailler ?** Le TGRC maintient des **autotétraploïdes** (2-095 San Marzano 4x, 2-483 Red Cherry 4x, LA2335 *S. pimpinellifolium* 4x fertile) dont le comportement en croisement n'a rien de commun avec les lignes ci-dessus : voir la [section Ploïdie](#3-ressources-génétiques-disponibles--les-stocks-tétraploïdes-du-tgrc), sections 3 et 9.
 
 | Symbole | Nom / locus | Chr. | Dominance | Effet, phénotype | Ce que ça change en sélection |
 |:--|:--|:--:|:--|:--|:--|
@@ -716,7 +716,7 @@ Les loci sont rangés en **16 chapitres** : plante (port, feuillage, trichomes, 
 | `S. pennellii LA0716` | Le donateur des QTL | — | ▫️ — | LIN5 (Brix9-2-5), IL8-2 (AADC, « malodorous »), IL12-3 (LIP1/LIP2), fw3.2, fw11.3, Del, allèles Tm-1 de type pennellii, I-3 | La référence mondiale pour la génétique QUANTITATIVE de la tomate. Tous les segments sont déjà isolés en lignées : à demander, pas à créer. |
 | `S. chmielewskii LA1028` | Le vieux gisement de Brix | — | ▫️ — | ≈10 % de solubles solubles (contre ≈5 % chez le cultivar VF36), +13 % à l'homozygote et +12 % à l'hétérozygote | ⚠ Fruits VERTS et pH élevé : l'introgression traîne des défauts à casser par rétrocroisements. |
 | `S. chilense / lycopersicoides / peruvianum` | Pas chez vous, mais utiles | — | ▫️ — | Ty-1/3/4 + Aft (chilense), Abg + Del + LA2951 (lycopersicoides), Mi-1 + Sw-5 + ty-5 (peruvianum) | Barrières d'hybridabilité plus fortes : rétrocroisements longs, ovules immatures in vitro souvent nécessaires. |
-| `DH` | Gynogenèse & haplo-diploïdisation — **une voie, pas un locus** | — | ▫️ — | Haploïde induit (culture d'anthères, gynogenèse, mutants type `pmcd1`/`CENH3`) puis doublement chromosomique → **homozygotie totale en une génération** | Ce que ça change : un récessif fixé en F1 au lieu de F6 — donc un `Style2.1/Style2.1` ou un `j-2/j-2` utilisables la saison même. ⚠ Aucune de ces voies ne marche sans protocole propre au fond génétique, et le doublement passe par la colchicine : voir [annexe 1 · §10](#10-discussion--stratégie-de-sélection-et-génétique-de-la-réponse-à-la-tétraploïdie). |
+| `DH` | Gynogenèse & haplo-diploïdisation — **une voie, pas un locus** | — | ▫️ — | Haploïde induit (culture d'anthères, gynogenèse, mutants type `pmcd1`/`CENH3`) puis doublement chromosomique → **homozygotie totale en une génération** | Ce que ça change : un récessif fixé en F1 au lieu de F6 — donc un `Style2.1/Style2.1` ou un `j-2/j-2` utilisables la saison même. ⚠ Aucune de ces voies ne marche sans protocole propre au fond génétique, et le doublement passe par la colchicine : voir [Ploïdie · §10](#10-discussion--stratégie-de-sélection-et-génétique-de-la-réponse-à-la-tétraploïdie). |
 
 <details>
 <summary>🔬 Biochimie, nature de la mutation, origine de l'allèle (8 loci)</summary>
@@ -785,19 +785,286 @@ Les loci sont rangés en **16 chapitres** : plante (port, feuillage, trichomes, 
 
 > **Règle de combinaison.** Les gènes d'un *même module* ne s'additionnent pas (`Cu`, `Me`, `Pts`, `bip`, `clau`, *35S:Kn1* passent tous par KNOX : les doubler sature le module). Les gènes de *modules différents* se combinent de façon prévisible et additive (`slmp Gob-4d/+`, `e La-2`, `tf + Me/+`). Hiérarchie du patron de base : **`La` > `tf` > KNOX / GOB > `e`**.
 
-## Annexe 1 · Ploïdie : diploïdie, tétraploïdisation, triploïdes sans pépins
+## 17. Fleur : biologie florale, stérilité mâle, couleur des pétales
+
+*Le réseau derrière les chapitres 1 et 5 : transition florale, modèle ABCDE, méristème floral, stérilité mâle et marqueurs visuels.* — **hors des 230 loci, dans ce fichier**
+
+Les chapitres ci-dessus décrivent le *résultat* : une grappe de tant de fleurs, un style inséré, un fruit noué sans
+pollinisation. Ce chapitre décrit le *réseau* qui produit ce résultat — transition florale, identité des organes
+(modèle ABCDE étendu aux Solanacées), boucle WUS–CLV3, développement du tapetum et pigmentations de la fleur. Il sert
+à trois choses : **comprendre pourquoi deux symboles voisins ne se ressemblent pas**, **choisir un outil d'hybridation**
+(émasculation ou pas), et **repérer une fleur marquée avant la nouaison**.
+
+Contrairement à la section Ploïdie, ce chapitre **a modifié les tableaux** : treize loci y ont été ajoutés et deux
+lignes requalifiées. Le détail est en section 1 — c'est la section à lire si vous ne voulez que le résultat.
+
+- Nomenclature, codes de dominance et conventions de chromosome : voir [Comment lire cette fiche](#comment-lire-cette-fiche).
+- Références : [SOURCES.md → section 13](SOURCES.md#13--fleur--biologie-florale-stérilité-mâle-couleur-des-pétales), « Fleur ». Les affirmations non publiées portent `💬` ou `[extrapolation]`.
+- Un chromosome n'est donné que si une source ouverte le permet : voir la méthode en section 9.
+
+---
+
+### 1 · Ce qui est entré dans la fiche
+
+**Treize lignes ajoutées** aux chapitres 1 et 5 (les tableaux en comptent **230** depuis l'ajout, au chap. 15, d'une ligne « haplo-diploïdisation » qui vient de la section Ploïdie, pas de ces dossiers). Tout ce qui suit a été croisé avec les
+tableaux existants : aucun des loci ajoutés ne doublonnait une ligne déjà présente.
+
+| Symbole | Chap. | Apport pour vous | Retenu parce que |
+|:--|:--|:--|:--|
+| `tmf` | 1 | Grappe à 1–2 fleurs, floraison très précoce | Phénotype monogénique exploitable en précocité ; distinct de `sft` |
+| `ej2` | 1 | Deuxième pièce de l'épistasie de `j-2` sur la ramification | La fiche notait déjà l'épistasie sans le second gène |
+| `FUL2 / MBP20` | 1 | Levier de dosage (édition de promoteur) du nombre de fleurs | Lignée d'édition publiée, phénotype chiffré (+3 feuilles) |
+| `sl` | 5 | Stérilité mâle par conversion pétales→sépales | ID ITAG Solyc04g081000 auto-vérifiable (chr 4) |
+| `TPI (SlGLO2)` | 5 | Anthères tordues, stigmates exposés : pollinisation à la main facilitée | Quatre noms d'allèles (ms30, ms33, 7B-1, sl-2) à rattacher à un seul gène |
+| `Ms-15 (= tm6)` | 5 | Stérilité mâle + stigmate exserté, base du système GHMS | ID Solyc02g084630, mécanisme (délétion d'1 pb) décrit |
+| `Ms-10` | 5 | Lignée femelle sans émasculation, tri en pépinière | Cascade du tapetum conservée, marqueur d'anthocyanes lié |
+| `ps-2` | 5 | Anthères non déhiscentes **mais pollen viable** | ID Solyc04g015530 (chr 4) ; le seul du lot qui garde du pollen utilisable |
+| `tdf1` | 5 | Stérilité mâle **et** nouaison parthénocarpique | ID Solyc03g059200 (chr 3), maillon de cascade |
+| `pat-k (tagl6)` | 5 | Parthénocarpie facultative sans nanisme | Mutation définie (rétrotransposon de 4 866 pb, intron 1 de *SlAGL6*) |
+| `PYP1` | 5 | Marqueur visuel jaune pâle sur la fleur seule | Voie biochimique explicite (acyltransférase, xanthophylles) |
+| `ys` | 5 | Stigmate jaune : datation de floraison, repérage d'hybridation | Gènes cités (*SlC3H1*/*SlC3H2*) et métabolite marqué (chalcone de naringénine) |
+| `pmcd1` | 5 | Voie **non transgénique** vers le pollen 2n | Endomitose pré-méïotique documentée (De Storme *et al.* 2013, *JXB* 64:2345, lien OUP) |
+| `mc` | 1 | Chr. n.d. → **5** | Le rapport donne l'ID Solyc05g056620, dont le préfixe encode le chromosome |
+| `pat / pat-2` | 5 | « non cloné » → bases moléculaires actuelles (*SlHB15A*, *SlHD31*) | Une publication 2024 avec lien PMC, un mécanisme chiffré (délétion de 1 034 pb) |
+
+**Pourquoi si peu, alors que les rapports listent plus de 130 gènes ?** Parce que la fiche est un document de
+sélection : elle ne retient que ce qui change une décision de croisement. Les régulateurs amont sans allèle
+variétal décrit (SPL13, CSN5B, SlPRR1, SUT4, SlTOE1, SlERF52, IDA/IDL6…) sont listés en section 8, pas en ligne.
+
+---
+
+### 2 · Modèle ABCDE, version Solanacées
+
+La tomate compte **131 gènes MADS-box**, dont **15 « cœur »** pour la fleur. La différence majeure avec
+*Arabidopsis* : la **classe B compte quatre gènes** (duplication propre aux Solanacées), ce qui explique la
+redondance de tant de phénotypes et les faux « échecs » CRISPR.
+
+| Classe | Gènes tomate | Orthologues *Arabidopsis* | Fonction | Quand ça casse |
+|:--|:--|:--|:--|:--|
+| **A** | `MC` (Macrocalyx), AP2 | AP1, AP2 | Identité sépale, frein à l'extension de la classe B | `mc` : gros sépales foliacés (chr 5) |
+| **B** | `TAP3`/`sl`, `TM6`, `SlGLO1`, `TPI`/`SlGLO2` | AP3, PI | Identité pétale + étamine | perte de B → pétales en sépales, étamines en carpelles |
+| **C** | `TAG1`, `TAGL1` | AG | Identité étamine + carpelle, **déterminaison** du méristème | perte de C → fleurs refont des fleurs : la voie du « double flower » |
+| **D** | TAGL6, MADS du placenta | AGL8/SEPPOLATA | Ovules, parthénocarpie | `pat-k` = *SlAGL6* (chr 1) |
+| **E** | SEP-like (dont `SlMADS1`/`ej2`) | SEP1-4 | Scaffolding des tétramères MADS | additif avec les classes A–D |
+
+**À retenir pour la pratique.** Les complexes MADS sont des **tétramères** : le phénotype dépend du *dosage* des
+partenaires, pas de la seule présence/absence d'un gène. D'où, dans cette fiche, trois lignes en « sensible au
+dosage » (`sft`, `s`, `MC`) et l'intérêt d'une édition de promoteur plutôt que d'un knock-out (`FUL2`/`MBP20`).
+
+---
+
+### 3 · Combien de fleurs par grappe : le réseau
+
+Schéma « zigzag » du dossier : `VM → TM → IM → SIM → FM → fleur`. **Un retard de maturation du méristème floral =
+plus de ramifications et plus de fleurs ; une accélération = fleur solitaire.** Toute la génétique de la grappe est
+la lecture de ce curseur.
+
+| Sens du curseur | Gènes | Effet sur la grappe |
+|:--|:--|:--|
+| **Retarde la maturation → plus de fleurs** | `J`, `SFT` (via répression de `FA` dans l'IM), `STM3` (active `FUL1`), `TM3`, `BIF`, `S` | grappes longues, composées, ramifiées |
+| **Accélère → moins de fleurs** | `FA`, `AN`, `TMF`, `BL`, `UF`, `EJ2`, `J2` (réprime `STM3`), `SlTOE1`, `BOP1/2/3`, `DOF9` | 1–2 fleurs, floraison précoce |
+| **Redondance à casser d'abord** | `MC`, `FUL2`, `MBP20` (module AP1/FUL) | rien en simple mutant, beaucoup en double |
+
+- **Module antagoniste STM3 / J2 / EJ2 / SlTOE1** : `STM3` promeut le branchage et active `FUL1` ; `J2` (chr 12) le
+  réprime ; `EJ2` (*SlMADS1*, chr 3) agit **en additif** avec `J2` ; `SlTOE1` réprime `STM3`/`TM3` en synergie avec
+  `EJ2`. C'est la zone la plus « réglable » du génome floral : les allèles faibles y sont préférés aux knock-outs.
+- **Florigène / antiflorigène** : `SFT` (chr 3 d'après le dossier) contre `SP` (chr 6), avec `SP5G` (chr 5) en
+  répresseur photopériodique. L'essai cité (Lippman *et al.* 2017, *Nat. Genet.* 49:927) : **`sft/+` hétérozygote
+  sur fond `sp` = +60 % de rendement**, en dose-dépendance — c'est la base des hybrides industriels, et le seul
+  cas de la fiche où un *hétérozygote* est l'objectif.
+- **Photopériode** : la tomate moderne est *day-neutral* par **délétion de 52 pb dans le 3′UTR de `SP5G`** (sweep de
+  domestication, Zhang *et al.* 2018). `SP5G` en CRISPR = floraison jour-neutre et récolte plus précoce.
+
+---
+
+### 4 · Méristème floral : la boucle WUS–CLV3
+
+| Locus | Ce que dit le dossier | Ce que ça change au jardin |
+|:--|:--|:--|
+| `lc` (LOCULE NUMBER, = *SlWUS*, Solyc02g083950, chr 2) | **deux SNP à 1 080 pb en aval**, dans une boîte CArG → **gain de fonction** : expression de WUS élargie | méristème floral plus large : + étamines, + pétales, 2 → 3–4 loges, fruit légèrement aplati |
+| `fas` (FASCIATED, = *SlCLV3*, Solyc11g071380, chr 11) | **inversion de 294 kb dont un point de cassure à ~1 kb en amont** = perte de fonction **partielle** du promoteur de CLV3 | fasciation marquée : 6 à >20 loges, fruit côtelé type Brandywine |
+| les deux ensemble | effet **synergique épistatique** sur le nombre de loges (p < 0,001) | le double `lc/lc fas/fas` donne la fleur double et le fruit « messy » des lignées anciennes |
+
+**Trois lectures utiles.** (i) Ce sont des **pertes de régulation**, pas des pertes de fonction : la boucle reste
+active, son **domaine d’expression** change — d'où des hétérozygotes déjà visibles et une gamme de phénotypes au lieu
+d'un tout-ou-rien. (ii) Le dossier rattachait `fas` à *SlCLV3* **+** *SlYABBY2b* (Solyc11g071810) : la fiche a
+**déjà tranché** (section « Pièges et corrections »), l'hypothèse YABBY2b de 2008 est abandonnée — le rapport est en
+retard sur la fiche, et c'est le seul cas des deux dossiers où la correction vient du dépôt. (iii) Le « bruit »
+autour de ces deux loci a son adresse : la ligne `FAB / CLV1, FIN, SlTPL3, SlKNUCKLES` du chap. 6. Marqueur de tri
+proposé par le dossier amateur `💬` : **fruit à plus de 6 loges**.
+
+---
+
+### 5 · Stérilité mâle : catalogue et usage en hybridation
+
+La cascade du tapetum, conservée d'*Arabidopsis* : **MS10 → MS32 → TDF1 → AMS → MS1**. Toucher un maillon haut
+(Ms-10, TDF1) supprime le pollen ; toucher les gènes B de classe (`TM6`, `TPI`, `TAP3`) **déforme l'anthère** et
+expose le stigmate — ce n'est pas la même chose au champ.
+
+| Outil | Gène / ID | Phénotype | Usage réel |
+|:--|:--|:--|:--|
+| `ps-2` | *SlTDPG*, Solyc04g015530 (chr 4) | anthère **non déhiscente**, pollen viable | hybridation **sans émasculation**, pollen récupérable ; maintien de la lignée possible |
+| `Ms-10` | bHLH, Solyc02g079810 (chr 2) | aucun pollen, ovaire normal | femelle de F1 ; tri pépinière par le marqueur d'anthocyanes lié (`aa` : plantule verte = stérile, pourpre = fertile) `⚠` |
+| `Ms-15` / `tm6` | MADS B, Solyc02g084630, délétion d'1 pb exon 1 (allèle *sus2*) | étamines carpelloïdes, stigmate exserté | base du **GHMS** ; rend aussi la lignée **hybridable à l'insu** : à isoler |
+| `TPI` | *SlGLO2*, Solyc08g067230 (chr 8) | anthères tordues ouvertes sur le style | pollinisation manuelle très simple, testeur d'allogamie |
+| `sl` | *TAP3*, Solyc04g081000 (chr 4) | pas d'étamines, pétales→sépales | même usage, fleur plus ouverte encore |
+| `tdf1` | R2R3-MYB (*AtMYB35*), Solyc03g059200 (chr 3) | stérilité + parthénocarpie partielle | serre chaude : noue sans pollen |
+| `pmcd1` | cytokinèse pré-méïotique | dyades (grains binucléés) au lieu de tétrades | **pollen 2n non transgénique**, voir [Ploïdie · §4.6](#46-autres-méthodes-dobtention-documentées-non-recommandées-hors-laboratoire) |
+
+> **Système GHMS** (le seul « kit » complet que ces rapports apportent) : double knock-out CRISPR **`tm6` + `dfr`**
+> → les plantules à **hypocotyle vert sont stériles**, celles à hypocotyle **violet sont fertiles** ; tri en
+> pépinière, sans PCR ni attente de la floraison. Source citée avec lien : Agronomy 13:1785 (2023).
+> `⚠` Système brevetable et dépendant du fond : à vérifier avant tout usage en semences destinées à la vente.
+
+**Deux nuances que le dossier ne tranche pas.** (i) `ms-24`, `ms-35` et `ms-36` sont listés comme **allèles de
+`Ms-10`** (= *SlDYT1*) par les deux dossiers : mentionnée, mais sans ID par allèle, donc en note de ligne et non en
+ligne. (ii) `Ms10^35` régulerait **246 gènes** de la méiose, de la paroi pollinique et du métabolisme lipidique :
+ordre de grandeur de pléiotropie, pas une liste de cibles.
+
+---
+
+### 6 · Couleur de la fleur et marqueurs visuels
+
+Deux voies, deux usages. **Caroténoïdes** (jaune des pétales) et **anthocyanes** (pourpre des tiges, anthères, hypocotyles).
+
+| Locus | Voie | Marqueur | Limite d'usage |
+|:--|:--|:--|:--|
+| `PYP1` | estérification des xanthophylles (néoxanthine, violaxanthine) par une acyltransférase | pétales **jaune pâle**, anthères décolorées | aucun effet sur le fruit ni sur la saveur |
+| `ys` | perte des *SlC3H1*/*SlC3H2* (F3'H) → chalcone de naringénine, 6 peroxydases inhibées | stigmate **jaune vif** | ⚠ ne pas lire `y` : `y` = *SlMYB12* (chr 1), peau jaune du fruit |
+| `CCD4` | clivage des caroténoïdes | fleurs **blanchâtres** (polymorphisme) | signal discret, difficile sur photo |
+| β-carotène hydroxylase | conversion jaune→blanc | pétales pâlissants | non cloné dans le dossier |
+| complexe MBW (`SlAN2`/`SlMYB75`, `SlANT1`, `SlMYB114`, `SlMYB28`, `SlAN1`/`SlTT8`, `SlJAF13`, `SlAN11`, répresseurs `SlMYB-ATV`, `SlMYBL2`) | anthocyanes | tiges, sépales, anthères et **hypocotyles pourpres** | c'est ce complexe que le GHMS et le marqueur `aa` mettent à profit |
+
+**Pourquoi ça compte pour vous** : une marqueur *sur la fleur* se lit 3 à 5 semaines avant la nouaison. Un semis à
+hypocotyle coloré se trie à la main ; un stigmate jaune dit le jour exact d'une floraison ; un pétale pâle signale
+une fleur dont l'anthère n'a pas fonctionné. Aucun de ces trois ne touche au goût — contrairement aux gènes de
+couleur du fruit (`r`, `t`, `og`) avec lesquels on les confond.
+
+---
+
+### 7 · QTL de traits floraux et environnement
+
+À utiliser pour lire une carte, pas pour promettre un phénotype.
+
+| Trait mesuré | Localisation donnée par le dossier |
+|:--|:--|
+| `SEPN` nombre de sépales | chr 2 et 11 — en réalité les loci `lc` et `fas` |
+| `PETN` nombre de pétales | chr 2 et 11 |
+| `STAN` nombre d'étamines | influencé par `fas` |
+| `STYW` épaisseur du style | corrélée au nombre de carpelles |
+| `OVAA` aire de l'ovaire | influencée par `fas` |
+| nombre de fleurs par grappe | chr 2, 3, 5, 7, 11 |
+| longueur des pétales | chr 9 |
+| `dtf5` / `ln5` (temps de floraison, longueur d'entre-nœud) | chr 5, pléiotropie impliquant *PHYB2* |
+| `qLF2.1` (temps de floraison) | chr 2, gène causal *SlJMJ14* (déméthylase d'histone) |
+
+**Température.** Deux signaux opposés, tous deux cités sans mesure reproductible : le **froid** accentue la
+fasciation sur fond `lc`/`fas` `💬`, et **`an` homozygote** ne ferait plus qu'une fleur terminale sous forte
+chaleur. `MIB2` (orthologue SPATULA) ne contrôle le branchage que **sous chaleur**. Autrement dit : la ramification
+d'une grappe est en partie une variable climatique — comparez vos lignées sur la même fenêtre de semis, sinon vous
+mesurez la météo.
+
+---
+
+### 8 · Pistes non retenues, et pourquoi
+
+| Piste du dossier | Motif du refus |
+|:--|:--|
+| `ssp` (« SUPPRESSOR OF SP / FD », chr 12, bZIP ; « supprime `sp`, restaure l'indéterminé ») | **aucune référence** dans la ligne du dossier ; effet trop commode pour être accepté sans source primaire |
+| `SPGB` (partenaire 14-3-3 de SFT dans le complexe FAC) | colonne référence vide (« — ») |
+| `DefH9-iaaM` (parthénocarpie transgénique) | **construct transgénique**, pas un locus : hors périmètre de la fiche, qui décrit des allèles existant dans le germoplasme |
+| `SPL13`, `CSN5B`, `SlPRR1`, `SUT4`, `SlTOE1`, `FTL2`, `SlJMJ14`, `BOP1/2/3`, `MIB2`, `DOF9`, `LIN`, `IDA`/`IDL6`, `SlERF52`, `SlCMB1`, `SlMADS48`, `TAGL11`/`TAGL12`, `SlARF5/7/8` | régulateurs amont **sans allèle variétal ni phénotype chiffré** actionnable : cités dans les sections 3 et 7, pas en ligne de tableau |
+| `ms-24`, `ms-35` | présentés comme allèles de `Ms-10` par une source unique : intégrés comme **note** de la ligne `Ms-10`, pas comme lignes |
+| QTL de floraison « chr 1, 2, 3, 4, 5, 6, 10, 11, 12 » | liste de chromosomes sans effet ni intervalle : inutilisable en sélection |
+
+#### Requalifications proposées **et vérifiées via ITAG**
+
+Le dossier affirmait un chromosome pour sept lignes que la fiche laissait initialement en `n.d.` sans fournir leur ID ITAG. Le croisement avec les annotations officielles ITAG / UniProt permet de confirmer ces identifiants et d'intégrer leurs chromosomes dans la fiche :
+
+| Ligne | Fiche initiale | Dossier | Preuve ITAG vérifiée | Application |
+|:--|:--|:--|:--|:--|
+| `mc` | n.d. | chr 5 | **Solyc05g056620** (*MACROCALYX*) | ✅ **appliquée** (chr 5) |
+| `sft` | n.d. | chr 3 | **Solyc03g063100** (*SINGLE FLOWER TRUSS*) | ✅ **appliquée** (chr 3) |
+| `sp5G` | n.d. | chr 5 | **Solyc05g053850** (*SELF-PRUNING 5G*) | ✅ **appliquée** (chr 5) |
+| `an` | n.d. | chr 2 | **Solyc02g081670** (*ANANTHA*, F-box UFO) | ✅ **appliquée** (chr 2) |
+| `fa` | n.d. | chr 3 | **Solyc03g118160** (*FALSIFLORA*, orthologue *LFY*) | ✅ **appliquée** (chr 3) |
+| `bl` | n.d. | chr 11 | **Solyc11g069030** (*BLIND*, R2R3-MYB) | ✅ **appliquée** (chr 11) |
+| `pat` | n.d. | chr 3 | **Solyc03g120910** (*SlHB15A*, HD-Zip III) | ✅ **appliquée** (chr 3) |
+| `pat-2` | n.d. | chr 4 | **Solyc04g080490** (*SlHD31*, ZF-HD) | ✅ **appliquée** (chr 4) |
+
+#### Désaccords internes aux deux dossiers, laissés ouverts
+
+Ils sont signalés ici plutôt qu'arbitrés, parce qu'aucun des deux ne donne de preuve ouvrable :
+
+1. **`Style2.1`** : la fiche cite *Solyc02g087860* (polypeptide à motif HLH, délétions promotrices StyleD1/StyleD2) ;
+   les dossiers rattachent le même chromosome 2 à **TAG1/TAGL1** (Solyc02g071730). Même chromosome, deux gènes
+   candidats — la ligne de la fiche n'est pas modifiée.
+2. **`SlCUF1` et `TM6`** reçoivent dans le même tableau le **même ID** (Solyc02g084630) : l'un des deux est faux,
+   et aucune des deux lignes ne donne de source pour le trancher.
+   Seule l'attribution `tm6` = Ms-15 est reprise (elle porte un mécanisme chiffré : délétion d'1 pb, exon 1).
+3. **`an`** : « F-box, orthologue d'UFO » dans les deux dossiers — confirmé par ITAG (**Solyc02g081670**, Lippman *et al.* 2008).
+4. **`pat-2`** : le dossier mentionne « Severianin » comme s'il s'agissait d'un auteur ; il s'agit en réalité du **cultivar parthénocarpique russe 'Severianin'** (sélectionné par N. P. Solovieva, donneur historique de l'allèle `pat-2` = *SlHD31*, Solyc04g080490, cloné par Nunome *et al.* 2021).
+5. **`pmcd1`** : un des deux dossiers résume le mutant par « fusion nucléaire pré-méïotique → méiocytes
+   tétraploïdes », l'autre par « dyades au lieu de tétrades ». Les deux décrivent la même cellule ratée ; la fiche
+   garde la formulation du premier, seule accompagnée d'une référence avec lien.
+
+---
+
+### 9 · Méthode, critères, limites
+
+- **Critère d'ajout.** Un gène entre en ligne si (i) un phénotype **mesurable au jardin** est énoncé, (ii) une
+  **base moléculaire** est donnée (famille, type de mutation, ID), et (iii) le tout vient d'une source citée.
+  Trois conditions sur 130 gènes recensés : 13 retenues.
+- **Contrôle automatique du chromosome.** Quand un ID ITAG `SolycNNgGGGGGG` est fourni, `NN` **doit** égaler la
+  colonne `Chr.` : c'est la seule vérification possible sans accès au web (seule l'API GitHub est joignable ici).
+  Les huit ID ITAG introduits par cette passe ont passé ce contrôle, et l'audit du dépôt ne relève **aucun** conflit `SolycNN` ↔ `Chr.` sur
+  les 230 lignes.
+- **Rien n'a été « re-cliqué ».** Les liens repris des dossiers (MDPI, Nature, PLOS, PMC, HAL) sont recopiés tels
+  quels dans [SOURCES.md](SOURCES.md) avec le marqueur `✓` : `✓` signifie « DOI/URL présent dans le dossier de
+  compilation », **pas** « consulté ». Aucun `🔎` n'a été ajouté ici.
+- **Ce que ce chapitre ne change pas.** Aucun code de dominance existant n'a été modifié, aucun locus retiré. Les
+  deux seules touches aux lignes en place sont `mc` (chromosome) et `pat / pat-2` (base moléculaire).
+- **Traduction.** Ce chapitre est repris en anglais dans [`README.en.md`](README.en.md) (chapitre 17), et les treize
+  lignes ajoutées y ont leur reflet depuis l'origine. La bibliographie [SOURCES.md](SOURCES.md) reste, elle, en
+  français — y compris les titres cités.
+- **Pratique amateur ≠ fait génétique.** Les passages marqués `💬` (fleurs doubles des lignées anciennes, projet
+  « promiscuous » de J. Lofthouse, retours multiflora, fasciation stable de « Voyager ») décrivent des tentatives
+  et des tours de main : ils ne soutiennent aucune ligne de dominance.
+
+#### Ce que le dossier amateur dit des fleurs ouvertes
+
+Résumé en une phrase de chaque piste, sans validation : **J. Lofthouse** a sélectionné, sur *S. habrochaites* ×
+*S. lycopersicum*, des fleurs plus grandes à anthères non soudées et stigmate exserté pour faire entrer les
+bourdons — avec un taux d'allogamie annoncé de 0–5 % en début de saison à ~20 % en milieu de saison `💬`. Les
+retours de forum sur les lignées *multiflora* (Ildi, Rose Quartz, Blondköpfchen, Karma Purple) décrivent une
+première grappe de 200–400 fleurs mais une nouaison de 20–40 %, et une production totale pas toujours supérieure à
+un hybride indéterminé `💬`. Deux tours de main circulent pour la nouaison sous chaleur : **ne pas secouer la
+grappe, laisser faire les bourdons**, et **sélectionner les plus grosses fleurs au printemps**, le froid
+accentuant la fasciation `💬`.
+
+---
+
+> **Suite :** [Ploïdie : diploïdie, tétraploïdisation, triploïdes sans pépins](#ploïdie--diploïdie-tétraploïdisation-triploïdes-sans-pépins) · [SOURCES.md](SOURCES.md#13--fleur--biologie-florale-stérilité-mâle-couleur-des-pétales) — section 13 de la bibliographie · [CONTRIBUTING.md](CONTRIBUTING.md) · [LICENSE](LICENSE) — MIT
+
+<sub>Chapitre consolidé le 16/10/2026 à partir de deux dossiers de recherche bibliographique (gènes de la fleur,
+biologie florale), croisés entre eux et avec les 216 lignes alors en place. Les références n'ont pas été ré-ouvertes :
+liste des entrées, liens et niveaux de preuve dans [SOURCES.md](SOURCES.md), section 13.</sub>
+
+---
+
+## Ploïdie : diploïdie, tétraploïdisation, triploïdes sans pépins
 
 *Ce qui change quand on double le nombre de jeux de chromosomes : dosage, ségrégation, fertilité — et la voie « sans pépins ».* — **hors des 230 loci, dans ce fichier**
 
-Les 16 chapitres ci-dessus décrivent des **loci** en diploïdie (2n = 24). Cette annexe décrit ce qui change quand on
+Les chapitres 1 à 16 ci-dessus décrivent des **loci** en diploïdie (2n = 24). Cette section décrit ce qui change quand on
 **double le nombre de jeux de chromosomes** : le gène reste le même, mais son **dosage**, sa ségrégation et la
 fertilité du plant ne suivent plus les mêmes règles. Elle répond à trois questions que les tableaux ne peuvent pas
 traiter : *pourquoi un tétraploïde de tomate ne fait-il pas un gros fruit*, *comment le doublement affecte-t-il la
 dominance d'un récessif*, et *la voie « tomate sans pépins » est-elle réaliste*.
 
-- Les tableaux des chapitres 1 à 16 **ne sont pas modifiés** par cette annexe : aucun locus n'y est ajouté, déplacé ou requalifié.
+- Les tableaux des chapitres 1 à 16 **ne sont pas modifiés** par cette section : aucun locus n'y est ajouté, déplacé ou requalifié.
 - Nomenclature, codes de dominance et conventions de chromosome : voir [Comment lire cette fiche](#comment-lire-cette-fiche).
-- Références : les 40 entrées qui étayent cette annexe sont dans [SOURCES.md → section 12](SOURCES.md#12--ploïdie-tétraploïdisation-et-sans-pépins),
+- Références : les 40 entrées qui étayent cette section sont dans [SOURCES.md → section 12](SOURCES.md#12--ploïdie-tétraploïdisation-et-sans-pépins),
 avec leur niveau de vérification (`✓` compilation, `💬` retour de communauté).
 
 > ⚠️ **Sécurité d'abord — à lire avant toute manipulation.** Les protocoles décrits ici relèvent de la
@@ -810,7 +1077,7 @@ avec leur niveau de vérification (`✓` compilation, `💬` retour de communaut
 > l'encourage pas. Les chiffres de concentration sont cités pour **permettre une lecture critique** des études,
 > pas comme mode d'emploi.
 
-### Sommaire de l'annexe 1
+### Sommaire de la section Ploïdie
 
 - [1. Rappels de fondamentaux](#1-rappels-de-fondamentaux)
 - [2. Histoire scientifique (1916 – 1950) : les pionniers](#2-histoire-scientifique-1916--1950--les-pionniers)
@@ -1233,7 +1500,7 @@ Variété diploïde souhaitée
 
 #### Où sont les sources
 
-Les **40 entrées** qui étayent cette annexe sont regroupées dans
+Les **40 entrées** qui étayent cette section sont regroupées dans
 [SOURCES.md → section 12 · Ploïdie, tétraploïdisation et sans pépins](SOURCES.md#12--ploïdie-tétraploïdisation-et-sans-pépins) :
 historique 1916-1989, protocoles d'induction, triploïdes et parthénocarpie, blocage triploïde, deux brevets 2024,
 génétique de la réponse au doublement, ressources TGRC/TGC et retours de communautés. Elles portent le marqueur
@@ -1248,9 +1515,9 @@ génétique de la réponse au doublement, ressources TGRC/TGC et retours de comm
 | **La littérature ancienne n'a pas été rejouée** | Lindstrom 1931 et Nilsson 1950 donnent des pourcentages de fertilité sur des fonds qui n'existent plus en tant que tels. Leurs **ordres de grandeur** restent cités partout ; leurs valeurs absolues ne sont pas transposables à votre population. |
 | **Aucun QTL publié en tomate autotétraploïde** | La section 10.4 est un **constat de vide**, pas une méthode validée sur cette espèce : la boîte à outils tétrasomique est importée de la pomme de terre, de la rose et de la luzerne. |
 | **Retours de forums = pratique, pas preuve** | TaterMater, Tomatoville, Dave's Garden et les fils de communautés marqués `💬` dans SOURCES.md attestent de ce qui est **tenté** et de ce qui **rate** ; ils n'établissent aucun fait génétique, et aucun d'eux n'a été validé par cytométrie. |
-| **Langue** | Cette annexe est intégrée aux deux éditions : la présente annexe 1 de [`README.md`](README.md), et *Annex 1* de [`README.en.md`](README.en.md). La bibliographie reste, elle, rédigée en français dans [SOURCES.md](SOURCES.md) — les titres cités sont ceux des publications. |
+| **Langue** | Cette section est intégrée aux deux éditions : la section Ploïdie de [`README.md`](README.md) et celle de [`README.en.md`](README.en.md). La bibliographie reste, elle, rédigée en français dans [SOURCES.md](SOURCES.md) — les titres cités sont ceux des publications. |
 
-#### Ce que cette annexe change (et ne change pas) à la fiche
+#### Ce que cette section change (et ne change pas) à la fiche
 
 - **Elle ne change aucun code de dominance des 230 loci.** En diploïdie, `R`/`D`/`S` restent exacts.
 - Elle **ajoute une règle de dosage** : dans un autotétraploïde, un récessif doit être quadruplex (`aaaa`) pour
@@ -1260,278 +1527,11 @@ génétique de la réponse au doublement, ressources TGRC/TGC et retours de comm
 - Elle **ne promet rien** sur l'« effet gigas » : chez la tomate cultivée, les données convergent vers des fruits
   plus petits et ~10× moins de graines (Nilsson 1950, confirmé en 2022 sur *S. peruvianum*).
 
-> **Suite :** [Annexe 2 · Fleur : biologie florale, stérilité mâle, couleur des pétales](#annexe-2--fleur--biologie-florale-stérilité-mâle-couleur-des-pétales) · [SOURCES.md](SOURCES.md#12--ploïdie-tétraploïdisation-et-sans-pépins) — section 12 de la bibliographie · [CONTRIBUTING.md](CONTRIBUTING.md) · [LICENSE](LICENSE) — MIT
+> **Références :** [SOURCES.md](SOURCES.md#12--ploïdie-tétraploïdisation-et-sans-pépins) — section 12 de la bibliographie · [CONTRIBUTING.md](CONTRIBUTING.md) · [LICENSE](LICENSE) — MIT
 
-<sub>Annexe consolidée le 16/10/2026 à partir de publications, brevets, catalogues de banques de gènes et fils de
+<sub>Section consolidée le 16/10/2026 à partir de publications, brevets, catalogues de banques de gènes et fils de
 communautés. Comme la fiche : un outil de travail, pas une autorité. Les protocoles chimiques sont documentés à titre
 descriptif et réglementairement encadrés.</sub>
-
----
-
-## Annexe 2 · Fleur : biologie florale, stérilité mâle, couleur des pétales
-
-*Le réseau derrière les chapitres 1 et 5 : transition florale, modèle ABCDE, méristème floral, stérilité mâle et marqueurs visuels.* — **hors des 230 loci, dans ce fichier**
-
-Les chapitres ci-dessus décrivent le *résultat* : une grappe de tant de fleurs, un style inséré, un fruit noué sans
-pollinisation. Cette annexe décrit le *réseau* qui produit ce résultat — transition florale, identité des organes
-(modèle ABCDE étendu aux Solanacées), boucle WUS–CLV3, développement du tapetum et pigmentations de la fleur. Elle sert
-à trois choses : **comprendre pourquoi deux symboles voisins ne se ressemblent pas**, **choisir un outil d'hybridation**
-(émasculation ou pas), et **repérer une fleur marquée avant la nouaison**.
-
-Contrairement à l'annexe 1 (ploïdie), cette annexe **a modifié les tableaux** : treize loci y ont été ajoutés et deux
-lignes requalifiées. Le détail est en section 1 — c'est la section à lire si vous ne voulez que le résultat.
-
-- Nomenclature, codes de dominance et conventions de chromosome : voir [Comment lire cette fiche](#comment-lire-cette-fiche).
-- Références : [SOURCES.md → section 13](SOURCES.md#13--fleur--biologie-florale-stérilité-mâle-couleur-des-pétales), « Fleur ». Les affirmations non publiées portent `💬` ou `[extrapolation]`.
-- Un chromosome n'est donné que si une source ouverte le permet : voir la méthode en section 9.
-
----
-
-### 1 · Ce qui est entré dans la fiche
-
-**Treize lignes ajoutées** aux chapitres 1 et 5 (les tableaux en comptent **230** depuis l'ajout, au chap. 15, d'une ligne « haplo-diploïdisation » qui vient de l'annexe 1, pas de ces dossiers). Tout ce qui suit a été croisé avec les
-tableaux existants : aucun des loci ajoutés ne doublonnait une ligne déjà présente.
-
-| Symbole | Chap. | Apport pour vous | Retenu parce que |
-|:--|:--|:--|:--|
-| `tmf` | 1 | Grappe à 1–2 fleurs, floraison très précoce | Phénotype monogénique exploitable en précocité ; distinct de `sft` |
-| `ej2` | 1 | Deuxième pièce de l'épistasie de `j-2` sur la ramification | La fiche notait déjà l'épistasie sans le second gène |
-| `FUL2 / MBP20` | 1 | Levier de dosage (édition de promoteur) du nombre de fleurs | Lignée d'édition publiée, phénotype chiffré (+3 feuilles) |
-| `sl` | 5 | Stérilité mâle par conversion pétales→sépales | ID ITAG Solyc04g081000 auto-vérifiable (chr 4) |
-| `TPI (SlGLO2)` | 5 | Anthères tordues, stigmates exposés : pollinisation à la main facilitée | Quatre noms d'allèles (ms30, ms33, 7B-1, sl-2) à rattacher à un seul gène |
-| `Ms-15 (= tm6)` | 5 | Stérilité mâle + stigmate exserté, base du système GHMS | ID Solyc02g084630, mécanisme (délétion d'1 pb) décrit |
-| `Ms-10` | 5 | Lignée femelle sans émasculation, tri en pépinière | Cascade du tapetum conservée, marqueur d'anthocyanes lié |
-| `ps-2` | 5 | Anthères non déhiscentes **mais pollen viable** | ID Solyc04g015530 (chr 4) ; le seul du lot qui garde du pollen utilisable |
-| `tdf1` | 5 | Stérilité mâle **et** nouaison parthénocarpique | ID Solyc03g059200 (chr 3), maillon de cascade |
-| `pat-k (tagl6)` | 5 | Parthénocarpie facultative sans nanisme | Mutation définie (rétrotransposon de 4 866 pb, intron 1 de *SlAGL6*) |
-| `PYP1` | 5 | Marqueur visuel jaune pâle sur la fleur seule | Voie biochimique explicite (acyltransférase, xanthophylles) |
-| `ys` | 5 | Stigmate jaune : datation de floraison, repérage d'hybridation | Gènes cités (*SlC3H1*/*SlC3H2*) et métabolite marqué (chalcone de naringénine) |
-| `pmcd1` | 5 | Voie **non transgénique** vers le pollen 2n | Endomitose pré-méïotique documentée (De Storme *et al.* 2013, *JXB* 64:2345, lien OUP) |
-| `mc` | 1 | Chr. n.d. → **5** | Le rapport donne l'ID Solyc05g056620, dont le préfixe encode le chromosome |
-| `pat / pat-2` | 5 | « non cloné » → bases moléculaires actuelles (*SlHB15A*, *SlHD31*) | Une publication 2024 avec lien PMC, un mécanisme chiffré (délétion de 1 034 pb) |
-
-**Pourquoi si peu, alors que les rapports listent plus de 130 gènes ?** Parce que la fiche est un document de
-sélection : elle ne retient que ce qui change une décision de croisement. Les régulateurs amont sans allèle
-variétal décrit (SPL13, CSN5B, SlPRR1, SUT4, SlTOE1, SlERF52, IDA/IDL6…) sont listés en section 8, pas en ligne.
-
----
-
-### 2 · Modèle ABCDE, version Solanacées
-
-La tomate compte **131 gènes MADS-box**, dont **15 « cœur »** pour la fleur. La différence majeure avec
-*Arabidopsis* : la **classe B compte quatre gènes** (duplication propre aux Solanacées), ce qui explique la
-redondance de tant de phénotypes et les faux « échecs » CRISPR.
-
-| Classe | Gènes tomate | Orthologues *Arabidopsis* | Fonction | Quand ça casse |
-|:--|:--|:--|:--|:--|
-| **A** | `MC` (Macrocalyx), AP2 | AP1, AP2 | Identité sépale, frein à l'extension de la classe B | `mc` : gros sépales foliacés (chr 5) |
-| **B** | `TAP3`/`sl`, `TM6`, `SlGLO1`, `TPI`/`SlGLO2` | AP3, PI | Identité pétale + étamine | perte de B → pétales en sépales, étamines en carpelles |
-| **C** | `TAG1`, `TAGL1` | AG | Identité étamine + carpelle, **déterminaison** du méristème | perte de C → fleurs refont des fleurs : la voie du « double flower » |
-| **D** | TAGL6, MADS du placenta | AGL8/SEPPOLATA | Ovules, parthénocarpie | `pat-k` = *SlAGL6* (chr 1) |
-| **E** | SEP-like (dont `SlMADS1`/`ej2`) | SEP1-4 | Scaffolding des tétramères MADS | additif avec les classes A–D |
-
-**À retenir pour la pratique.** Les complexes MADS sont des **tétramères** : le phénotype dépend du *dosage* des
-partenaires, pas de la seule présence/absence d'un gène. D'où, dans cette fiche, trois lignes en « sensible au
-dosage » (`sft`, `s`, `MC`) et l'intérêt d'une édition de promoteur plutôt que d'un knock-out (`FUL2`/`MBP20`).
-
----
-
-### 3 · Combien de fleurs par grappe : le réseau
-
-Schéma « zigzag » du dossier : `VM → TM → IM → SIM → FM → fleur`. **Un retard de maturation du méristème floral =
-plus de ramifications et plus de fleurs ; une accélération = fleur solitaire.** Toute la génétique de la grappe est
-la lecture de ce curseur.
-
-| Sens du curseur | Gènes | Effet sur la grappe |
-|:--|:--|:--|
-| **Retarde la maturation → plus de fleurs** | `J`, `SFT` (via répression de `FA` dans l'IM), `STM3` (active `FUL1`), `TM3`, `BIF`, `S` | grappes longues, composées, ramifiées |
-| **Accélère → moins de fleurs** | `FA`, `AN`, `TMF`, `BL`, `UF`, `EJ2`, `J2` (réprime `STM3`), `SlTOE1`, `BOP1/2/3`, `DOF9` | 1–2 fleurs, floraison précoce |
-| **Redondance à casser d'abord** | `MC`, `FUL2`, `MBP20` (module AP1/FUL) | rien en simple mutant, beaucoup en double |
-
-- **Module antagoniste STM3 / J2 / EJ2 / SlTOE1** : `STM3` promeut le branchage et active `FUL1` ; `J2` (chr 12) le
-  réprime ; `EJ2` (*SlMADS1*, chr 3) agit **en additif** avec `J2` ; `SlTOE1` réprime `STM3`/`TM3` en synergie avec
-  `EJ2`. C'est la zone la plus « réglable » du génome floral : les allèles faibles y sont préférés aux knock-outs.
-- **Florigène / antiflorigène** : `SFT` (chr 3 d'après le dossier) contre `SP` (chr 6), avec `SP5G` (chr 5) en
-  répresseur photopériodique. L'essai cité (Lippman *et al.* 2017, *Nat. Genet.* 49:927) : **`sft/+` hétérozygote
-  sur fond `sp` = +60 % de rendement**, en dose-dépendance — c'est la base des hybrides industriels, et le seul
-  cas de la fiche où un *hétérozygote* est l'objectif.
-- **Photopériode** : la tomate moderne est *day-neutral* par **délétion de 52 pb dans le 3′UTR de `SP5G`** (sweep de
-  domestication, Zhang *et al.* 2018). `SP5G` en CRISPR = floraison jour-neutre et récolte plus précoce.
-
----
-
-### 4 · Méristème floral : la boucle WUS–CLV3
-
-| Locus | Ce que dit le dossier | Ce que ça change au jardin |
-|:--|:--|:--|
-| `lc` (LOCULE NUMBER, = *SlWUS*, Solyc02g083950, chr 2) | **deux SNP à 1 080 pb en aval**, dans une boîte CArG → **gain de fonction** : expression de WUS élargie | méristème floral plus large : + étamines, + pétales, 2 → 3–4 loges, fruit légèrement aplati |
-| `fas` (FASCIATED, = *SlCLV3*, Solyc11g071380, chr 11) | **inversion de 294 kb dont un point de cassure à ~1 kb en amont** = perte de fonction **partielle** du promoteur de CLV3 | fasciation marquée : 6 à >20 loges, fruit côtelé type Brandywine |
-| les deux ensemble | effet **synergique épistatique** sur le nombre de loges (p < 0,001) | le double `lc/lc fas/fas` donne la fleur double et le fruit « messy » des lignées anciennes |
-
-**Trois lectures utiles.** (i) Ce sont des **pertes de régulation**, pas des pertes de fonction : la boucle reste
-active, son **domaine d’expression** change — d'où des hétérozygotes déjà visibles et une gamme de phénotypes au lieu
-d'un tout-ou-rien. (ii) Le dossier rattachait `fas` à *SlCLV3* **+** *SlYABBY2b* (Solyc11g071810) : la fiche a
-**déjà tranché** (section « Pièges et corrections »), l'hypothèse YABBY2b de 2008 est abandonnée — le rapport est en
-retard sur la fiche, et c'est le seul cas des deux dossiers où la correction vient du dépôt. (iii) Le « bruit »
-autour de ces deux loci a son adresse : la ligne `FAB / CLV1, FIN, SlTPL3, SlKNUCKLES` du chap. 6. Marqueur de tri
-proposé par le dossier amateur `💬` : **fruit à plus de 6 loges**.
-
----
-
-### 5 · Stérilité mâle : catalogue et usage en hybridation
-
-La cascade du tapetum, conservée d'*Arabidopsis* : **MS10 → MS32 → TDF1 → AMS → MS1**. Toucher un maillon haut
-(Ms-10, TDF1) supprime le pollen ; toucher les gènes B de classe (`TM6`, `TPI`, `TAP3`) **déforme l'anthère** et
-expose le stigmate — ce n'est pas la même chose au champ.
-
-| Outil | Gène / ID | Phénotype | Usage réel |
-|:--|:--|:--|:--|
-| `ps-2` | *SlTDPG*, Solyc04g015530 (chr 4) | anthère **non déhiscente**, pollen viable | hybridation **sans émasculation**, pollen récupérable ; maintien de la lignée possible |
-| `Ms-10` | bHLH, Solyc02g079810 (chr 2) | aucun pollen, ovaire normal | femelle de F1 ; tri pépinière par le marqueur d'anthocyanes lié (`aa` : plantule verte = stérile, pourpre = fertile) `⚠` |
-| `Ms-15` / `tm6` | MADS B, Solyc02g084630, délétion d'1 pb exon 1 (allèle *sus2*) | étamines carpelloïdes, stigmate exserté | base du **GHMS** ; rend aussi la lignée **hybridable à l'insu** : à isoler |
-| `TPI` | *SlGLO2*, Solyc08g067230 (chr 8) | anthères tordues ouvertes sur le style | pollinisation manuelle très simple, testeur d'allogamie |
-| `sl` | *TAP3*, Solyc04g081000 (chr 4) | pas d'étamines, pétales→sépales | même usage, fleur plus ouverte encore |
-| `tdf1` | R2R3-MYB (*AtMYB35*), Solyc03g059200 (chr 3) | stérilité + parthénocarpie partielle | serre chaude : noue sans pollen |
-| `pmcd1` | cytokinèse pré-méïotique | dyades (grains binucléés) au lieu de tétrades | **pollen 2n non transgénique**, voir [annexe 1 · §4.6](#46-autres-méthodes-dobtention-documentées-non-recommandées-hors-laboratoire) |
-
-> **Système GHMS** (le seul « kit » complet que ces rapports apportent) : double knock-out CRISPR **`tm6` + `dfr`**
-> → les plantules à **hypocotyle vert sont stériles**, celles à hypocotyle **violet sont fertiles** ; tri en
-> pépinière, sans PCR ni attente de la floraison. Source citée avec lien : Agronomy 13:1785 (2023).
-> `⚠` Système brevetable et dépendant du fond : à vérifier avant tout usage en semences destinées à la vente.
-
-**Deux nuances que le dossier ne tranche pas.** (i) `ms-24`, `ms-35` et `ms-36` sont listés comme **allèles de
-`Ms-10`** (= *SlDYT1*) par les deux dossiers : mentionnée, mais sans ID par allèle, donc en note de ligne et non en
-ligne. (ii) `Ms10^35` régulerait **246 gènes** de la méiose, de la paroi pollinique et du métabolisme lipidique :
-ordre de grandeur de pléiotropie, pas une liste de cibles.
-
----
-
-### 6 · Couleur de la fleur et marqueurs visuels
-
-Deux voies, deux usages. **Caroténoïdes** (jaune des pétales) et **anthocyanes** (pourpre des tiges, anthères, hypocotyles).
-
-| Locus | Voie | Marqueur | Limite d'usage |
-|:--|:--|:--|:--|
-| `PYP1` | estérification des xanthophylles (néoxanthine, violaxanthine) par une acyltransférase | pétales **jaune pâle**, anthères décolorées | aucun effet sur le fruit ni sur la saveur |
-| `ys` | perte des *SlC3H1*/*SlC3H2* (F3'H) → chalcone de naringénine, 6 peroxydases inhibées | stigmate **jaune vif** | ⚠ ne pas lire `y` : `y` = *SlMYB12* (chr 1), peau jaune du fruit |
-| `CCD4` | clivage des caroténoïdes | fleurs **blanchâtres** (polymorphisme) | signal discret, difficile sur photo |
-| β-carotène hydroxylase | conversion jaune→blanc | pétales pâlissants | non cloné dans le dossier |
-| complexe MBW (`SlAN2`/`SlMYB75`, `SlANT1`, `SlMYB114`, `SlMYB28`, `SlAN1`/`SlTT8`, `SlJAF13`, `SlAN11`, répresseurs `SlMYB-ATV`, `SlMYBL2`) | anthocyanes | tiges, sépales, anthères et **hypocotyles pourpres** | c'est ce complexe que le GHMS et le marqueur `aa` mettent à profit |
-
-**Pourquoi ça compte pour vous** : une marqueur *sur la fleur* se lit 3 à 5 semaines avant la nouaison. Un semis à
-hypocotyle coloré se trie à la main ; un stigmate jaune dit le jour exact d'une floraison ; un pétale pâle signale
-une fleur dont l'anthère n'a pas fonctionné. Aucun de ces trois ne touche au goût — contrairement aux gènes de
-couleur du fruit (`r`, `t`, `og`) avec lesquels on les confond.
-
----
-
-### 7 · QTL de traits floraux et environnement
-
-À utiliser pour lire une carte, pas pour promettre un phénotype.
-
-| Trait mesuré | Localisation donnée par le dossier |
-|:--|:--|
-| `SEPN` nombre de sépales | chr 2 et 11 — en réalité les loci `lc` et `fas` |
-| `PETN` nombre de pétales | chr 2 et 11 |
-| `STAN` nombre d'étamines | influencé par `fas` |
-| `STYW` épaisseur du style | corrélée au nombre de carpelles |
-| `OVAA` aire de l'ovaire | influencée par `fas` |
-| nombre de fleurs par grappe | chr 2, 3, 5, 7, 11 |
-| longueur des pétales | chr 9 |
-| `dtf5` / `ln5` (temps de floraison, longueur d'entre-nœud) | chr 5, pléiotropie impliquant *PHYB2* |
-| `qLF2.1` (temps de floraison) | chr 2, gène causal *SlJMJ14* (déméthylase d'histone) |
-
-**Température.** Deux signaux opposés, tous deux cités sans mesure reproductible : le **froid** accentue la
-fasciation sur fond `lc`/`fas` `💬`, et **`an` homozygote** ne ferait plus qu'une fleur terminale sous forte
-chaleur. `MIB2` (orthologue SPATULA) ne contrôle le branchage que **sous chaleur**. Autrement dit : la ramification
-d'une grappe est en partie une variable climatique — comparez vos lignées sur la même fenêtre de semis, sinon vous
-mesurez la météo.
-
----
-
-### 8 · Pistes non retenues, et pourquoi
-
-| Piste du dossier | Motif du refus |
-|:--|:--|
-| `ssp` (« SUPPRESSOR OF SP / FD », chr 12, bZIP ; « supprime `sp`, restaure l'indéterminé ») | **aucune référence** dans la ligne du dossier ; effet trop commode pour être accepté sans source primaire |
-| `SPGB` (partenaire 14-3-3 de SFT dans le complexe FAC) | colonne référence vide (« — ») |
-| `DefH9-iaaM` (parthénocarpie transgénique) | **construct transgénique**, pas un locus : hors périmètre de la fiche, qui décrit des allèles existant dans le germoplasme |
-| `SPL13`, `CSN5B`, `SlPRR1`, `SUT4`, `SlTOE1`, `FTL2`, `SlJMJ14`, `BOP1/2/3`, `MIB2`, `DOF9`, `LIN`, `IDA`/`IDL6`, `SlERF52`, `SlCMB1`, `SlMADS48`, `TAGL11`/`TAGL12`, `SlARF5/7/8` | régulateurs amont **sans allèle variétal ni phénotype chiffré** actionnable : cités dans les sections 3 et 7, pas en ligne de tableau |
-| `ms-24`, `ms-35` | présentés comme allèles de `Ms-10` par une source unique : intégrés comme **note** de la ligne `Ms-10`, pas comme lignes |
-| QTL de floraison « chr 1, 2, 3, 4, 5, 6, 10, 11, 12 » | liste de chromosomes sans effet ni intervalle : inutilisable en sélection |
-
-#### Requalifications proposées **et vérifiées via ITAG**
-
-Le dossier affirmait un chromosome pour sept lignes que la fiche laissait initialement en `n.d.` sans fournir leur ID ITAG. Le croisement avec les annotations officielles ITAG / UniProt permet de confirmer ces identifiants et d'intégrer leurs chromosomes dans la fiche :
-
-| Ligne | Fiche initiale | Dossier | Preuve ITAG vérifiée | Application |
-|:--|:--|:--|:--|:--|
-| `mc` | n.d. | chr 5 | **Solyc05g056620** (*MACROCALYX*) | ✅ **appliquée** (chr 5) |
-| `sft` | n.d. | chr 3 | **Solyc03g063100** (*SINGLE FLOWER TRUSS*) | ✅ **appliquée** (chr 3) |
-| `sp5G` | n.d. | chr 5 | **Solyc05g053850** (*SELF-PRUNING 5G*) | ✅ **appliquée** (chr 5) |
-| `an` | n.d. | chr 2 | **Solyc02g081670** (*ANANTHA*, F-box UFO) | ✅ **appliquée** (chr 2) |
-| `fa` | n.d. | chr 3 | **Solyc03g118160** (*FALSIFLORA*, orthologue *LFY*) | ✅ **appliquée** (chr 3) |
-| `bl` | n.d. | chr 11 | **Solyc11g069030** (*BLIND*, R2R3-MYB) | ✅ **appliquée** (chr 11) |
-| `pat` | n.d. | chr 3 | **Solyc03g120910** (*SlHB15A*, HD-Zip III) | ✅ **appliquée** (chr 3) |
-| `pat-2` | n.d. | chr 4 | **Solyc04g080490** (*SlHD31*, ZF-HD) | ✅ **appliquée** (chr 4) |
-
-#### Désaccords internes aux deux dossiers, laissés ouverts
-
-Ils sont signalés ici plutôt qu'arbitrés, parce qu'aucun des deux ne donne de preuve ouvrable :
-
-1. **`Style2.1`** : la fiche cite *Solyc02g087860* (polypeptide à motif HLH, délétions promotrices StyleD1/StyleD2) ;
-   les dossiers rattachent le même chromosome 2 à **TAG1/TAGL1** (Solyc02g071730). Même chromosome, deux gènes
-   candidats — la ligne de la fiche n'est pas modifiée.
-2. **`SlCUF1` et `TM6`** reçoivent dans le même tableau le **même ID** (Solyc02g084630) : l'un des deux est faux,
-   et aucune des deux lignes ne donne de source pour le trancher.
-   Seule l'attribution `tm6` = Ms-15 est reprise (elle porte un mécanisme chiffré : délétion d'1 pb, exon 1).
-3. **`an`** : « F-box, orthologue d'UFO » dans les deux dossiers — confirmé par ITAG (**Solyc02g081670**, Lippman *et al.* 2008).
-4. **`pat-2`** : le dossier mentionne « Severianin » comme s'il s'agissait d'un auteur ; il s'agit en réalité du **cultivar parthénocarpique russe 'Severianin'** (sélectionné par N. P. Solovieva, donneur historique de l'allèle `pat-2` = *SlHD31*, Solyc04g080490, cloné par Nunome *et al.* 2021).
-5. **`pmcd1`** : un des deux dossiers résume le mutant par « fusion nucléaire pré-méïotique → méiocytes
-   tétraploïdes », l'autre par « dyades au lieu de tétrades ». Les deux décrivent la même cellule ratée ; la fiche
-   garde la formulation du premier, seule accompagnée d'une référence avec lien.
-
----
-
-### 9 · Méthode, critères, limites
-
-- **Critère d'ajout.** Un gène entre en ligne si (i) un phénotype **mesurable au jardin** est énoncé, (ii) une
-  **base moléculaire** est donnée (famille, type de mutation, ID), et (iii) le tout vient d'une source citée.
-  Trois conditions sur 130 gènes recensés : 13 retenues.
-- **Contrôle automatique du chromosome.** Quand un ID ITAG `SolycNNgGGGGGG` est fourni, `NN` **doit** égaler la
-  colonne `Chr.` : c'est la seule vérification possible sans accès au web (seule l'API GitHub est joignable ici).
-  Les huit ID ITAG introduits par cette passe ont passé ce contrôle, et l'audit du dépôt ne relève **aucun** conflit `SolycNN` ↔ `Chr.` sur
-  les 230 lignes.
-- **Rien n'a été « re-cliqué ».** Les liens repris des dossiers (MDPI, Nature, PLOS, PMC, HAL) sont recopiés tels
-  quels dans [SOURCES.md](SOURCES.md) avec le marqueur `✓` : `✓` signifie « DOI/URL présent dans le dossier de
-  compilation », **pas** « consulté ». Aucun `🔎` n'a été ajouté ici.
-- **Ce que l'annexe ne change pas.** Aucun code de dominance existant n'a été modifié, aucun locus retiré. Les
-  deux seules touches aux lignes en place sont `mc` (chromosome) et `pat / pat-2` (base moléculaire).
-- **Traduction.** Cette annexe est reprise en anglais dans [`README.en.md`](README.en.md) (annexe 2), et les treize
-  lignes ajoutées y ont leur reflet depuis l'origine. La bibliographie [SOURCES.md](SOURCES.md) reste, elle, en
-  français — y compris les titres cités.
-- **Pratique amateur ≠ fait génétique.** Les passages marqués `💬` (fleurs doubles des lignées anciennes, projet
-  « promiscuous » de J. Lofthouse, retours multiflora, fasciation stable de « Voyager ») décrivent des tentatives
-  et des tours de main : ils ne soutiennent aucune ligne de dominance.
-
-#### Ce que le dossier amateur dit des fleurs ouvertes
-
-Résumé en une phrase de chaque piste, sans validation : **J. Lofthouse** a sélectionné, sur *S. habrochaites* ×
-*S. lycopersicum*, des fleurs plus grandes à anthères non soudées et stigmate exserté pour faire entrer les
-bourdons — avec un taux d'allogamie annoncé de 0–5 % en début de saison à ~20 % en milieu de saison `💬`. Les
-retours de forum sur les lignées *multiflora* (Ildi, Rose Quartz, Blondköpfchen, Karma Purple) décrivent une
-première grappe de 200–400 fleurs mais une nouaison de 20–40 %, et une production totale pas toujours supérieure à
-un hybride indéterminé `💬`. Deux tours de main circulent pour la nouaison sous chaleur : **ne pas secouer la
-grappe, laisser faire les bourdons**, et **sélectionner les plus grosses fleurs au printemps**, le froid
-accentuant la fasciation `💬`.
-
----
-
-> **Amont :** [Annexe 1 · Ploïdie : diploïdie, tétraploïdisation, triploïdes sans pépins](#annexe-1--ploïdie--diploïdie-tétraploïdisation-triploïdes-sans-pépins) · [SOURCES.md](SOURCES.md#13--fleur--biologie-florale-stérilité-mâle-couleur-des-pétales) — section 13 de la bibliographie · [CONTRIBUTING.md](CONTRIBUTING.md) · [LICENSE](LICENSE) — MIT
-
-<sub>Annexe consolidée le 16/10/2026 à partir de deux dossiers de recherche bibliographique (gènes de la fleur,
-biologie florale), croisés entre eux et avec les 216 lignes alors en place. Les références n'ont pas été ré-ouvertes :
-liste des entrées, liens et niveaux de preuve dans [SOURCES.md](SOURCES.md), section 13.</sub>
 
 ---
 
@@ -1677,7 +1677,7 @@ Ce dépôt est **volontairement plat** : six fichiers, pas de dossier de donnée
 
 ```
 tomato-genetics-cheatsheet/
-├── README.md          ← cette fiche : LA référence (230 loci, 16 chapitres, bloc moléculaire dépliable + annexes 1 et 2)
+├── README.md          ← cette fiche : LA référence (230 loci, 17 chapitres dont 16 de loci, bloc moléculaire dépliable + section Ploïdie)
 ├── README.en.md       ← édition anglaise : mêmes loci, mêmes chr., mêmes dominance, sans la couche moléculaire
 ├── SOURCES.md         ← bibliographie commune aux deux langues (252 entrées, liens, niveau de vérification)
 ├── index.html         ← version interactive autonome : recherche, filtres, calculateur F2, impression A4 paysage
@@ -1692,7 +1692,7 @@ tomato-genetics-cheatsheet/
 | `README.md` | tableau principal (6 colonnes) **et** bloc `<details>` : nature de la mutation, origine de l'allèle, dominance, chr. | c'est ici que l'affirmation est écrite en entier |
 | `README.en.md` | tableau principal seul (6 colonnes) | la traduction ne touche que le texte ; `Symbole`, `Chr.` et `Dominance` se recopient à l'identique |
 | `index.html` | une ligne `<tr data-dom="…" data-t="…">` par locus, 8 colonnes | mêmes chromosomes et mêmes codes que le FR ; `data-t` porte le texte indexé, en minuscules |
-| annexes 1 et 2 (dans le FR) | le réseau floral et la ploïdie : `Symbole`, `Chr.` et `Dominance` y sont cités, jamais redéfinis | se traduisent dans le même mouvement que les tableaux : une annexe modifiée en FR sans l'être en EN passe les trois contrôles, c'est le seul point que la main doit tenir |
+| chapitre 17 et section Ploïdie (dans le FR) | le réseau floral et la ploïdie : `Symbole`, `Chr.` et `Dominance` y sont cités, jamais redéfinis | se traduisent dans le même mouvement que les tableaux : une de ces sections modifiée en FR sans l'être en EN passe les trois contrôles, c'est le seul point que la main doit tenir |
 
 Un locus = **une ligne par fichier**, jamais une ligne par variété. Une ligne descriptive (QTL non cloné, germoplasme, épistasie) garde une dominance `—` : elle n'est pas mendélienne.
 
@@ -1739,9 +1739,8 @@ Si la fiche dépasse ce qu'on relit à l'œil (plus de loci, exports CSV/XLSX, t
 ## Sources, licence et citation
 
 - **Bibliographie** : [SOURCES.md](SOURCES.md) — 252 références par thème avec liens et niveau de vérification, plus les ressources de matériel végétal (TGRC, SGN, TOMATOMA, bibliothèques d'IL).
-- **Annexe 1 · ploïdie** : [intégrée ci-dessus](#annexe-1--ploïdie--diploïdie-tétraploïdisation-triploïdes-sans-pépins) — tétraploïdisation, dosage tétrasomique des loci et voie « sans pépins ».
-- **Annexe 2 · fleur** : [intégrée ci-dessus](#annexe-2--fleur--biologie-florale-stérilité-mâle-couleur-des-pétales) — modèle ABCDE, réseau de la grappe, stérilité mâle et couleur des pétales, plus la liste des pistes **non retenues** des dossiers.
-  Les deux annexes sont désormais dans **les deux éditions**, à la même place ; seule la bibliographie [SOURCES.md](SOURCES.md) reste en français.
+- **Chapitre 17 · fleur** : [intégré ci-dessus](#17-fleur--biologie-florale-stérilité-mâle-couleur-des-pétales) — modèle ABCDE, réseau de la grappe, stérilité mâle et couleur des pétales, plus la liste des pistes **non retenues** des dossiers.
+- **Ploïdie** : [section intégrée ci-dessus](#ploïdie--diploïdie-tétraploïdisation-triploïdes-sans-pépins) — tétraploïdisation, dosage tétrasomique des loci et voie « sans pépins ». Ces deux sections figurent dans **les deux éditions** ; seule la bibliographie [SOURCES.md](SOURCES.md) reste en français.
 - **Traçabilité** : la colonne *Origine de l'allèle* de chaque chapitre (bloc dépliable) indique l'espèce, l'accession ou le mutant d'origine ; les références complètes sont dans [SOURCES.md](SOURCES.md) ; ce qui n'est pas publié est marqué **[extrapolation]**.
 - **Licence** : [MIT](LICENSE) — réutilisez, adaptez, redistribuez, y compris commercialement, en conservant la mention de copyright.
 - **Citation** : pas de `CITATION.cff` dans ce dépôt. Citez *Fiche génétique de la tomate*, Tivaphe/tomato-genetics-cheatsheet, édition du 15/10/2026, avec l'URL ; si vous voulez une référence stable, créez un DOI Zenodo et ajoutez-y le fichier.
