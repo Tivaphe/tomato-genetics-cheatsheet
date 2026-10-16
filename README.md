@@ -4,13 +4,13 @@
 
 **216 loci documentés — gènes du port, du feuillage, du fruit, de la saveur, de la nutrition et des résistances — avec leur mode de dominance et ce que ça change concrètement en croisement.**
 
-[![Loci](https://img.shields.io/badge/loci-216-0b6e4f?style=flat-square)](#sommaire) [![Chapitres](https://img.shields.io/badge/chapitres-16-1d4ed8?style=flat-square)](#sommaire) [![Version interactive](https://img.shields.io/badge/version%20interactive-index.html-6d28d9?style=flat-square)](index.html) [![Licence](https://img.shields.io/badge/licence-MIT-f59e0b?style=flat-square)](LICENSE) ![MAJ](https://img.shields.io/badge/mis%20%C3%A0%20jour-15%2F10%2F2026-64748b?style=flat-square)
+[![Loci](https://img.shields.io/badge/loci-216-0b6e4f?style=flat-square)](#sommaire) [![Chapitres](https://img.shields.io/badge/chapitres-16-1d4ed8?style=flat-square)](#sommaire) [![Version interactive](https://img.shields.io/badge/version%20interactive-index.html-6d28d9?style=flat-square)](index.html) [![Annexe ploïdie](https://img.shields.io/badge/annexe%20plo%C3%AFdie-TETRAPLOIDIE.md-1d4ed8?style=flat-square)](TETRAPLOIDIE.md) [![Licence](https://img.shields.io/badge/licence-MIT-f59e0b?style=flat-square)](LICENSE) ![MAJ](https://img.shields.io/badge/mis%20%C3%A0%20jour-15%2F10%2F2026-64748b?style=flat-square)
 
 > **Deux éditions, une seule génétique.** Le bouton ci-dessus bascule vers [l'édition anglaise](README.en.md) : mêmes loci, mêmes chromosomes, mêmes codes de dominance — la parité se vérifie à chaque retouche (procédure dans [CONTRIBUTING.md](CONTRIBUTING.md)). La couche moléculaire — nature de la mutation, origine de l'allèle, accessions — n'existe que dans cette édition-ci, et `index.html` n'en est que le reflet interactif.
 
 > **Pour qui ?** Sélectionneurs amateurs avancés, maraîchers, étudiants et chercheurs en amélioration des plantes. Chaque ligne répond à trois questions : *quel gène, sur quel chromosome, dominant ou récessif* — et *donc : est-ce que je le vois dès la F1, ou faut-il que je sème 200 plants*.
 
-`216 loci` · `16 chapitres` · littérature vérifiée jusqu'en 2026 · les affirmations non publiées sont explicitement marquées **[extrapolation]**.
+`216 loci` · `16 chapitres` · `1 annexe ploïdie` · littérature vérifiée jusqu'en 2026 · les affirmations non publiées sont explicitement marquées **[extrapolation]**.
 
 ## L'essentiel en 12 points
 
@@ -43,7 +43,7 @@ Une ligne = un locus. La colonne **Dominance** est l'information qui décide de 
 
 **Notation.** `R_` = au moins un allèle *R* (dominant exprimé) · `yy` et `gf/gf` = homozygote récessif · `Sp/sp` = hétérozygote — chez les semi-dominants, c'est là que se joue le *niveau* d'expression (port, résistance, Brix). `n.d.` = locus non cartographié finement dans les sources compilées : **à ne pas inventer**. `Chr.` = chromosome de la carte SL4.0 (ITAG 4.0). `—` en dominance = ligne de germoplasme ou combinaison épistatique, pas un locus mendélien ; un libellé qualifié (`Q (additif)`, `RÉCESSIF → SEMI-DOMINANT`) garde la précision du fichier d'entrée.
 
-Les loci sont rangés en **16 chapitres** : plante (port, feuillage, trichomes, pigmentation, fleur), fruit (forme, couleur, maturation), saveur (sucres, acides, volatils), nutrition, résistances biotiques, tolérances abiotiques, sources alléliques et épistasies. **Ces tableaux sont la source** : le dépôt ne contient ni fichier de données ni script de génération — il se relit et se corrige directement ici. [`index.html`](index.html), à la racine, en est le pendant interactif (aucune dépendance réseau) : recherche plein texte, filtres par mode de dominance, calculateur d'effectif F2 et style d'impression A4 paysage, publiable tel quel sur GitHub Pages. Une correction se reporte donc à la main dans les trois fichiers concernés — `README.md`, `README.en.md` et `index.html`.
+Les loci sont rangés en **16 chapitres** : plante (port, feuillage, trichomes, pigmentation, fleur), fruit (forme, couleur, maturation), saveur (sucres, acides, volatils), nutrition, résistances biotiques, tolérances abiotiques, sources alléliques et épistasies. La **ploïdie** — doublement chromosomique, dosage tétrasomique, triploïdes sans pépins — n'est pas un chapitre : elle occupe une annexe dédiée, [TETRAPLOIDIE.md](TETRAPLOIDIE.md), parce qu'elle change les règles de ségrégation de tous les loci ci-dessous sans devenir un locus elle-même. **Ces tableaux sont la source** : le dépôt ne contient ni fichier de données ni script de génération — il se relit et se corrige directement ici. [`index.html`](index.html), à la racine, en est le pendant interactif (aucune dépendance réseau) : recherche plein texte, filtres par mode de dominance, calculateur d'effectif F2 et style d'impression A4 paysage, publiable tel quel sur GitHub Pages. Une correction se reporte donc à la main dans les trois fichiers concernés — `README.md`, `README.en.md` et `index.html`.
 
 ## Sommaire
 
@@ -63,6 +63,7 @@ Les loci sont rangés en **16 chapitres** : plante (port, feuillage, trichomes, 
 - [14. Tolérances abiotiques & racines](#14-tolérances-abiotiques--racines) — *11 loci*
 - [15. Sources alléliques : votre germoplasme](#15-sources-alléliques--votre-germoplasme) — *7 loci*
 - [16. Combinaisons & épistasies](#16-combinaisons--épistasies) — *16 loci*
+- **Annexe · [Ploïdie : diploïdie, tétraploïdisation, triploïdes sans pépins](TETRAPLOIDIE.md)** — *hors des 216 loci*
 - [Prédire la couleur du fruit](#prédire-la-couleur-du-fruit)
 - [Calculer la taille de sa descendance](#calculer-la-taille-de-sa-descendance)
 - [Les 10 règles d'or](#les-10-règles-dor)
@@ -677,6 +678,8 @@ Les loci sont rangés en **16 chapitres** : plante (port, feuillage, trichomes, 
 
 *Espèce par espèce : ce que vous avez, à quelle probabilité, et comment le vérifier.* — **7 loci**
 
+> 🍅 **À quel niveau de ploïdie travailler ?** Le TGRC maintient des **autotétraploïdes** (2-095 San Marzano 4x, 2-483 Red Cherry 4x, LA2335 *S. pimpinellifolium* 4x fertile) dont le comportement en croisement n'a rien de commun avec les lignes ci-dessus : voir l'annexe [TETRAPLOIDIE.md](TETRAPLOIDIE.md), sections 3 et 9.
+
 | Symbole | Nom / locus | Chr. | Dominance | Effet, phénotype | Ce que ça change en sélection |
 |:--|:--|:--:|:--|:--|:--|
 | `S. pimpinellifolium` | La meilleure de vos 4 espèces | — | ▫️ — | Sucre + arôme + vitamine C + résistances (Ph-1/2/3, Cf, I/I-2, Pto, Xv3, FLS3). Croisement DIRECT sans barrière, autogame → lignées faciles à fixer | Vérifier SANS NUMÉRO D'ACCESSION = raisonner en probabilités : la variabilité intra-espèce dépasse souvent la variabilité inter-espèces. |
@@ -891,13 +894,14 @@ Certains volatils augmentent la DOUCEUR PERÇUE sans changer le Brix : le sucre 
 
 ## Reproductibilité du dépôt
 
-Ce dépôt est **volontairement plat** : six fichiers, pas de dossier de données, pas de script. Les tableaux du présent fichier sont **la source de vérité** ; `README.en.md` en est le reflet anglais et `index.html` le pendant interactif. Rien n'est régénéré : une correction s'écrit à la main dans le fichier concerné et se propage dans les deux autres dès qu'elle touche au `Symbole`, au `Chr.` ou à la `Dominance` — les trois colonnes qui engagent une affirmation génétique.
+Ce dépôt est **volontairement plat** : sept fichiers, pas de dossier de données, pas de script. Les tableaux du présent fichier sont **la source de vérité** ; `README.en.md` en est le reflet anglais et `index.html` le pendant interactif. Rien n'est régénéré : une correction s'écrit à la main dans le fichier concerné et se propage dans les deux autres dès qu'elle touche au `Symbole`, au `Chr.` ou à la `Dominance` — les trois colonnes qui engagent une affirmation génétique.
 
 ```
 tomato-genetics-cheatsheet/
 ├── README.md          ← cette fiche : LA référence (216 loci, 16 chapitres + bloc moléculaire dépliable)
 ├── README.en.md       ← édition anglaise : mêmes loci, mêmes chr., mêmes dominance, sans la couche moléculaire
-├── SOURCES.md         ← bibliographie commune aux deux langues (188 entrées, liens, niveau de vérification)
+├── SOURCES.md         ← bibliographie commune aux deux langues (228 entrées, liens, niveau de vérification)
+├── TETRAPLOIDIE.md    ← annexe ploïdie (40 sources, niveau de preuve et limites affichés) — rédigée en français
 ├── index.html         ← version interactive autonome : recherche, filtres, calculateur F2, impression A4 paysage
 ├── CONTRIBUTING.md    ← format d'une ligne, règles de parité FR ↔ EN, critères d'acceptation
 └── LICENSE            ← MIT (texte et données)
@@ -916,6 +920,7 @@ Un locus = **une ligne par fichier**, jamais une ligne par variété. Une ligne 
 ### Contrôler la cohérence en trois commandes
 
 Rien à installer : `grep`, `awk` et `python3` du système suffisent, lancés à la racine du dépôt.
+Le contrôle n° 3 passe en revue **tous** les fichiers markdown, annexe de la ploïdie comprise.
 
 ```bash
 # 1. le compte annoncé par chapitre doit sommer à 216 dans les deux langues
@@ -929,8 +934,8 @@ grep -o '<tr data-dom=' index.html | wc -l  # → 216 lignes de loci (une ligne 
 
 # 3. plus aucune référence à un fichier ou à une ancre inexistante
 python3 - <<'PY'
-import re, os
-for fn in ("README.md", "README.en.md"):
+import re, os, glob
+for fn in sorted(glob.glob("*.md")):          # tous les markdown, annexe comprise
     s = open(fn, encoding="utf-8").read()
     heads = {re.sub(r'[^\w \-]', '', h.lower().replace('&amp;', '&')).replace(' ', '-')
              for h in re.findall(r'^#{2,4}\s+(.*)$', s, re.M)}
@@ -954,7 +959,8 @@ Si la fiche dépasse ce qu'on relit à l'œil (plus de loci, exports CSV/XLSX, t
 
 ## Sources, licence et citation
 
-- **Bibliographie** : [SOURCES.md](SOURCES.md) — références par thème avec liens, plus les ressources de matériel végétal (TGRC, SGN, TOMATOMA, bibliothèques d'IL).
+- **Bibliographie** : [SOURCES.md](SOURCES.md) — 228 références par thème avec liens et niveau de vérification, plus les ressources de matériel végétal (TGRC, SGN, TOMATOMA, bibliothèques d'IL).
+- **Annexe** : [TETRAPLOIDIE.md](TETRAPLOIDIE.md) — tétraploïdisation, dosage tétrasomique des loci et voie « sans pépins » ; sans équivalent anglais, comme la bibliographie.
 - **Traçabilité** : la colonne *Origine de l'allèle* de chaque chapitre (bloc dépliable) indique l'espèce, l'accession ou le mutant d'origine ; les références complètes sont dans [SOURCES.md](SOURCES.md) ; ce qui n'est pas publié est marqué **[extrapolation]**.
 - **Licence** : [MIT](LICENSE) — réutilisez, adaptez, redistribuez, y compris commercialement, en conservant la mention de copyright.
 - **Citation** : pas de `CITATION.cff` dans ce dépôt. Citez *Fiche génétique de la tomate*, Tivaphe/tomato-genetics-cheatsheet, édition du 15/10/2026, avec l'URL ; si vous voulez une référence stable, créez un DOI Zenodo et ajoutez-y le fichier.

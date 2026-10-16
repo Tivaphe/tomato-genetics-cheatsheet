@@ -4,13 +4,13 @@
 
 **216 loci documented — plant architecture, foliage, fruit, flavour, nutrition and resistance genes, each with its mode of dominance and what it changes in a cross.**
 
-[![loci](https://img.shields.io/badge/loci-216-0b6e4f?style=flat-square)](#table-of-contents) [![chapters](https://img.shields.io/badge/chapters-16-1d4ed8?style=flat-square)](#table-of-contents) [![interactive version](https://img.shields.io/badge/interactive%20version-index.html-6d28d9?style=flat-square)](index.html) [![licence](https://img.shields.io/badge/licence-MIT-f59e0b?style=flat-square)](LICENSE) ![updated](https://img.shields.io/badge/updated-15%2F10%202026-64748b?style=flat-square)
+[![loci](https://img.shields.io/badge/loci-216-0b6e4f?style=flat-square)](#table-of-contents) [![chapters](https://img.shields.io/badge/chapters-16-1d4ed8?style=flat-square)](#table-of-contents) [![interactive version](https://img.shields.io/badge/interactive%20version-index.html-6d28d9?style=flat-square)](index.html) [![ploidy annex](https://img.shields.io/badge/ploidy%20annex-TETRAPLOIDIE.md-1d4ed8?style=flat-square)](TETRAPLOIDIE.md) [![licence](https://img.shields.io/badge/licence-MIT-f59e0b?style=flat-square)](LICENSE) ![updated](https://img.shields.io/badge/updated-15%2F10%202026-64748b?style=flat-square)
 
 > **Two editions, one genetics.** The button above opens the [French edition](README.md) — the reference one: same loci, same chromosomes, same dominance codes (parity is checked by hand on every edit, see [CONTRIBUTING.md](CONTRIBUTING.md)). The molecular layer — mutation nature, allele origin, accessions — lives only in the French edition.
 
 > **Who is this for?** Advanced amateur breeders, market gardeners, students and plant-breeding researchers. Every row answers three questions: *which gene, on which chromosome, dominant or recessive* — and therefore: *do I see it in the F1, or do I have to sow 200 plants*.
 
-`216 loci` · `16 chapters` · literature checked through 2026 · claims that are not published are explicitly marked **[extrapolation]**.
+`216 loci` · `16 chapters` · `1 ploidy annex` · literature checked through 2026 · claims that are not published are explicitly marked **[extrapolation]**.
 
 ## The essentials in 12 points
 
@@ -43,7 +43,7 @@ One row = one locus. The **Dominance** column is the piece of information that d
 
 **Notation.** `R_` = at least one *R* allele (dominant expressed) · `yy` and `gf/gf` = recessive homozygote · `Sp/sp` = heterozygote — with semi-dominants, that is where the *level* of expression (habit, resistance, Brix) is decided. `n.d.` = the locus is not finely mapped in the sources compiled here: **do not invent it**. `Chr.` = chromosome of the SL4.0 (ITAG 4.0) map. `—` in the Dominance column marks a germplasm row or an epistatic combination, not a Mendelian locus; a qualified label (`Q (additive)`, `RECESSIVE → SEMI-DOMINANT`) carries over the precision written in the input file.
 
-The loci are arranged in **16 chapters**: plant (habit, foliage, trichomes, pigmentation, flower), fruit (shape, colour, ripening), flavour (sugars, acids, volatiles), nutrition, biotic resistance, abiotic tolerance, allelic sources and epistasis. This edition keeps the breeder-facing columns; the molecular layer (mutation nature, allele origin, accessions) lives in the French edition [`README.md`](README.md) only. There is no data file and no build script here: the tables are the source. [`index.html`](index.html), at the repository root, is the self-contained searchable page (no network dependency) with full-text search, dominance filters, an F2 population calculator and A4 landscape print style. A fix must be carried by hand into all three files — `README.md`, `README.en.md`, `index.html`.
+The loci are arranged in **16 chapters**: plant (habit, foliage, trichomes, pigmentation, flower), fruit (shape, colour, ripening), flavour (sugars, acids, volatiles), nutrition, biotic resistance, abiotic tolerance, allelic sources and epistasis. **Ploidy** — chromosome doubling, tetrasomic dosage, seedless triploids — is not a chapter but a dedicated annex, [TETRAPLOIDIE.md](TETRAPLOIDIE.md): it changes the segregation rules of every locus below without being a locus itself. The annex is written in French, like the bibliography. This edition keeps the breeder-facing columns; the molecular layer (mutation nature, allele origin, accessions) lives in the French edition [`README.md`](README.md) only. There is no data file and no build script here: the tables are the source. [`index.html`](index.html), at the repository root, is the self-contained searchable page (no network dependency) with full-text search, dominance filters, an F2 population calculator and A4 landscape print style. A fix must be carried by hand into all three files — `README.md`, `README.en.md`, `index.html`.
 
 ## Table of contents
 
@@ -63,6 +63,7 @@ The loci are arranged in **16 chapters**: plant (habit, foliage, trichomes, pigm
 - [14. Abiotic tolerances & roots](#14-abiotic-tolerances--roots) — *11 loci*
 - [15. Allele sources: your germplasm](#15-allele-sources-your-germplasm) — *7 loci*
 - [16. Combinations & epistasis](#16-combinations--epistasis) — *16 loci*
+- **Annex · [Ploidy: diploidy, tetraploidisation, seedless triploids](TETRAPLOIDIE.md)** — *outside the 216 loci (French only)*
 - [Predicting fruit colour](#predicting-fruit-colour)
 - [Sizing your progeny](#sizing-your-progeny)
 - [The 10 golden rules](#the-10-golden-rules)
@@ -372,6 +373,8 @@ The loci are arranged in **16 chapters**: plant (habit, foliage, trichomes, pigm
 
 *Species by species: what you likely have, at what probability, and how to check it* — **7 loci**
 
+> 🍅 **Working at which ploidy level?** The TGRC keeps **autotetraploids** (2-095 San Marzano 4x, 2-483 Red Cherry 4x, LA2335 fertile *S. pimpinellifolium* 4x) whose crossing behaviour follows none of the rules above — see the annex [TETRAPLOIDIE.md](TETRAPLOIDIE.md) (French), sections 3 and 9.
+
 | Symbol | Name / locus | Chr. | Dominance | Effect, phenotype | What it changes in selection |
 |:--|:--|:--:|:--|:--|:--|
 | `S. pimpinellifolium` | The best of your four species | — | ▫️ — | Sugar, aroma, vitamin C plus resistances (Ph-1/2/3, Cf, I/I-2, Pto, Xv3, FLS3). Crosses with the crop with no barrier; selfing → easy-to-fix lines | Rare TomLoxC allele in 91% of accessions; SlCDPK27 high-sugar allele prevalent; SlSPS1 AG (LA1924); DXR promoter variant in 58%; lycopene up to 390 µg/g (LA2093) · Accessions LA0480, LA1589, LA1924, LA2093, TO-937, USVL332 (PI 390717), L3708, PI 126915, PI 128216 · Without an accession number you reason in PROBABILITIES: within-species variation often exceeds between-species variation. Same biological species as the crop: it crosses spontaneously. |
@@ -547,13 +550,14 @@ Some volatiles raise PERCEIVED sweetness without changing the Brix: measured sug
 
 ## Reproducibility
 
-This repository is **deliberately flat**: six files, no data folder, no build script. The tables in this README are the source of truth; [`README.md`](README.md) is the reference edition (it adds the molecular layer) and [`index.html`](index.html) the interactive mirror. Nothing is regenerated: a fix is typed by hand in each file it concerns.
+This repository is **deliberately flat**: seven files, no data folder, no build script. The tables in this README are the source of truth; [`README.md`](README.md) is the reference edition (it adds the molecular layer) and [`index.html`](index.html) the interactive mirror. Nothing is regenerated: a fix is typed by hand in each file it concerns.
 
 ```
 tomato-genetics-cheatsheet/
 ├── README.md          ← the reference edition: 216 loci, 16 chapters + collapsible molecular layer
 ├── README.en.md       ← this file: same loci, same chromosomes, same dominance codes, breeder columns only
-├── SOURCES.md         ← shared bibliography (188 entries, links, verification level) — written in French
+├── SOURCES.md         ← shared bibliography (228 entries, links, verification level) — written in French
+├── TETRAPLOIDIE.md    ← ploidy annex (40 sources) — French only, like the bibliography
 ├── index.html         ← self-contained searchable page: filters, F2 calculator, A4 landscape print
 ├── CONTRIBUTING.md    ← line format, FR ↔ EN parity rules, acceptance criteria
 └── LICENSE            ← MIT (text and data)
@@ -573,8 +577,8 @@ grep -o '<tr data-dom=' index.html | wc -l  # → 216 lignes de loci (une ligne 
 
 # 3. no link may point at a missing file or a non-existent heading
 python3 - <<'PY'
-import re, os
-for fn in ("README.md", "README.en.md"):
+import re, os, glob
+for fn in sorted(glob.glob("*.md")):          # tous les markdown, annexe comprise
     s = open(fn, encoding="utf-8").read()
     heads = {re.sub(r'[^\w \-]', '', h.lower().replace('&amp;', '&')).replace(' ', '-')
              for h in re.findall(r'^#{2,4}\s+(.*)$', s, re.M)}
@@ -590,7 +594,8 @@ Publishing the interactive page: `index.html` sits at the root, so choose **Sett
 
 ## Sources, licence and citation
 
-- **Bibliography**: [SOURCES.md](SOURCES.md) — references by theme with links, plus the germplasm resources (TGRC, SGN, TOMATOMA, IL libraries). Written in French, but every reference is citable as is.
+- **Bibliography**: [SOURCES.md](SOURCES.md) — 228 references by theme with links and verification level, plus the germplasm resources (TGRC, SGN, TOMATOMA, IL libraries). Written in French, but every reference is citable as is.
+- **Annex**: [TETRAPLOIDIE.md](TETRAPLOIDIE.md) — tetraploidisation, tetrasomic dosage of the loci and the seedless route; French only, no English twin by design.
 - **Traceability**: the *allele origin* of each locus (accession, mutant, species) is in the French README only; anything unpublished here is marked **[extrapolation]**.
 - **Licence**: [MIT](LICENSE) — reuse, adapt, redistribute, commercially too, keeping the copyright notice.
 - **Citation**: no `CITATION.cff` in this repository. Cite *Tomato genetics sheet*, Tivaphe/tomato-genetics-cheatsheet, edition of 2026-10-15, with the URL; mint a Zenodo DOI if you need a stable reference.

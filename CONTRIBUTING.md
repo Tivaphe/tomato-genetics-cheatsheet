@@ -4,11 +4,11 @@ Les contributions sont bienvenues : ajouts de loci, corrections de dominance, pr
 références. Ce dépôt est une synthèse documentaire destinée à être **utilisable en sélection comme en recherche**, donc
 la rigueur de la source prime sur l'abondance.
 
-*This repository is bilingual. To contribute to the English edition, read the* [*« Trois fichiers, une seule génétique »
+*This repository is bilingual (the ploidy annex, like the bibliography, is French only). To contribute to the English edition, read the* [*« Trois fichiers, une seule génétique »
 section*](#trois-fichiers-une-seule-génétique) *below — the rule is simple: the genetics is written once, in the French
 tables; the English file only re-words the phenotype and the selection note.*
 
-## Le dépôt en six fichiers
+## Le dépôt en sept fichiers
 
 Il n'y a **ni dossier `data/`, ni script de génération** : les tableaux markdown sont la source, on les édite
 directement. Voir [README.md → Reproductibilité du dépôt](README.md#reproductibilité-du-dépôt) pour le détail.
@@ -19,6 +19,7 @@ directement. Voir [README.md → Reproductibilité du dépôt](README.md#reprodu
 | [`README.en.md`](README.en.md) | édition anglaise : mêmes loci, mêmes chromosomes, mêmes dominance, sans le bloc dépliable | ✅ une ligne par langue |
 | [`index.html`](index.html) | version interactive (recherche, filtres, calculateur F2) : 216 lignes `<tr>`, 8 colonnes | ✅ si un locus est ajouté ou si `chr`/`dom` change |
 | [`SOURCES.md`](SOURCES.md) | bibliographie commune aux deux langues, avec niveau de vérification | ✅ toute nouvelle référence |
+| [`TETRAPLOIDIE.md`](TETRAPLOIDIE.md) | **annexe ploïdie** : hors des 216 loci, rédigée en français, sans reflet anglais | ✅ si vous y citez une source (dans SOURCES.md, section 12) |
 | `LICENSE` | MIT — texte et données | — |
 | `CONTRIBUTING.md` | ce fichier | — |
 
@@ -98,8 +99,8 @@ for f in README.md README.en.md; do printf '%s : ' "$f"
 # 2. 216 lignes dans le site
 grep -o '<tr data-dom=' index.html | wc -l
 # 3. aucun lien mort
-python3 -c "import re,os
-for fn in ('README.md','README.en.md'):
+python3 -c "import re,os,glob
+for fn in sorted(glob.glob('*.md')):
     s=open(fn,encoding='utf-8').read()
     heads={re.sub(r'[^\w \-]','',h.lower().replace('&amp;','&')).replace(' ','-') for h in re.findall(r'^#{2,4}\s+(.*)$',s,re.M)}
     print(fn,'-> ancres cassées :',sorted({l for l in re.findall(r'\]\(#([^)]+)\)',s) if l not in heads}) or 'aucune')
