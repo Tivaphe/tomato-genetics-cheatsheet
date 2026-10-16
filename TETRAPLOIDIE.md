@@ -63,7 +63,7 @@ avec leur niveau de vérification (`✓` compilation, `💬` retour de communaut
 C'est la période la plus riche en données directes sur les tétraploïdes de tomate « de terrain ». Ces travaux sont aujourd'hui rarement cités alors qu'ils restent la référence expérimentale la plus complète.
 
 ### 2.1 Winkler (1916) — tétraploïdes spontanés
-Première description de tétraploïdes de tomate issus de **doublings spontanés** (chimères péclinales, tissus adventifs). Base de toute la lignée des travaux suivants.
+Première description de tétraploïdes de tomate issus de **doublings spontanés** (chimères périclinales, tissus adventifs). Base de toute la lignée des travaux suivants.
 
 ### 2.2 Jorgensen (1928) — méthode de la décapitation
 Par **décapitation** de jeunes plantes diploïdes (stade 3-5 feuilles), un callus se forme sur la coupe ; les rejets adventifs qui en sortent contiennent une proportion de tétraploïdes. C'est la méthode pré-colchicine la plus utilisée par la suite (Lindstrom 1931, Rick 1945, Nilsson 1950).
@@ -312,7 +312,7 @@ De nombreux fils (Overgrow 2022, THCFarmer, RollItUp) documentent l'induction am
 6. **Chimérisme** : la majorité des plantes « traitées » sont des mixoploïdes inutilisables en sélection sans déchimérisation.
 
 **Où la tétraploïdie reste prometteuse** :
-- **Porte-greffes allotéraploïdes interspécifiques** (brevet 2024) : récupérer la fertilité d'hybrides sauvages × cultivés, avec résistances aux stress.
+- **Porte-greffes allotétraploïdes interspécifiques** (brevet 2024) : récupérer la fertilité d'hybrides sauvages × cultivés, avec résistances aux stress.
 - **Pont génétique** : passer des gènes sauvages en doublant le niveau de ploïde des hybrides interspécifiques stériles.
 - **Triploïdes parthénocarpiques** (voie Habashy 2004) si un industriel veut du sans pépins « à la pastèque ».
 - **Conception de génomes polyploïdes** via gamètes non réduits (CRISPR MiMe/tam) — la voie la plus « 2020s ».

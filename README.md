@@ -47,11 +47,11 @@ Les loci sont rangés en **16 chapitres** : plante (port, feuillage, trichomes, 
 
 ## Sommaire
 
-- [1. Port, architecture & inflorescence](#1-port-architecture--inflorescence) — *29 loci*
+- [1. Port, architecture & inflorescence](#1-port-architecture--inflorescence) — *32 loci*
 - [2. Feuillage — morphologie foliaire](#2-feuillage--morphologie-foliaire) — *15 loci*
 - [3. Trichomes & pubescence](#3-trichomes--pubescence) — *6 loci*
 - [4. Feuillage — couleur & pigmentation](#4-feuillage--couleur--pigmentation) — *12 loci*
-- [5. Fleur, autogamie & nouaison](#5-fleur-autogamie--nouaison) — *5 loci*
+- [5. Fleur, autogamie & nouaison](#5-fleur-autogamie--nouaison) — *15 loci*
 - [6. Fruit — forme, loges & poids](#6-fruit--forme-loges--poids) — *16 loci*
 - [7. Fruit — couleur (peau × chair)](#7-fruit--couleur-peau--chair) — *12 loci*
 - [8. Fruit — maturation & conservation](#8-fruit--maturation--conservation) — *5 loci*
@@ -61,7 +61,7 @@ Les loci sont rangés en **16 chapitres** : plante (port, feuillage, trichomes, 
 - [12. Nutrition & innocuité](#12-nutrition--innocuité) — *17 loci*
 - [13. Résistances biotiques](#13-résistances-biotiques) — *27 loci*
 - [14. Tolérances abiotiques & racines](#14-tolérances-abiotiques--racines) — *11 loci*
-- [15. Sources alléliques : votre germoplasme](#15-sources-alléliques--votre-germoplasme) — *7 loci*
+- [15. Sources alléliques : votre germoplasme](#15-sources-alléliques--votre-germoplasme) — *8 loci*
 - [16. Combinaisons & épistasies](#16-combinaisons--épistasies) — *16 loci*
 - **Annexe · [Ploïdie : diploïdie, tétraploïdisation, triploïdes sans pépins](TETRAPLOIDIE.md)** — *hors des 230 loci*
 - **Annexe · [Fleur : biologie florale, stérilité mâle, couleur des pétales](FLEURS.md)** — *le réseau derrière les chap. 1 et 5*
@@ -84,36 +84,36 @@ Les loci sont rangés en **16 chapitres** : plante (port, feuillage, trichomes, 
 | Symbole | Nom / locus | Chr. | Dominance | Effet, phénotype | Ce que ça change en sélection |
 |:--|:--|:--:|:--|:--|:--|
 | `sp` | Self-pruning (SP) | 6 | 🔵 RÉCESSIF | Port déterminé : la tige se termine par 1–2 inflorescences, croissance arrêtée, maturation groupée | F1 SP/sp = indéterminé ; 25 % de déterminés en F2. Pour un plant « vivant » continu (type bonsaï), garder SP. |
-| `sft` | Single flower truss | n.d. | 🟡 SEMI-DOMINANT | Inflorescences à 1–3 fleurs, feuilles dans l'inflorescence, arrêt précoce | Récessif mais SENSIBLE AU DOSAGE : sft/+ = port semi-déterminé (très utilisé en sélection). Ne pas le traiter en 3:1 simple. |
-| `sp5G` | Self-pruning 5G | n.d. | 🔵 RÉCESSIF | Perte de sensibilité au jour long → floraison précoce, port plus compact | Combine précocité et croissance continue. |
-| `uf` | Uniflora | n.d. | 🔵 RÉCESSIF | Sympodes allongés, floraison tardive, tige unique | Mutant de référence (sympodes allongés, floraison tardive) : rarement utilisé en variétal, précieux pour décrypter un port anormal. |
+| `sft` | Single flower truss | 3 | 🟡 SEMI-DOMINANT | Inflorescences à 1–3 fleurs, feuilles dans l'inflorescence, arrêt précoce | Récessif mais SENSIBLE AU DOSAGE : sft/+ = port semi-déterminé (très utilisé en sélection). Ne pas le traiter en 3:1 simple. |
+| `sp5G` | Self-pruning 5G | 5 | 🔵 RÉCESSIF | Perte de sensibilité au jour long → floraison précoce, port plus compact | Combine précocité et croissance continue. |
+| `uf` | Uniflora | 9 | 🔵 RÉCESSIF | Sympodes allongés, floraison tardive, tige unique | Mutant de référence (sympodes allongés, floraison tardive) : rarement utilisé en variétal, précieux pour décrypter un port anormal. |
 | `s` | Compound inflorescence | 2 | 🔵 RÉCESSIF | Grappes très ramifiées, jusqu'à ~200 fleurs (grappes « multiflores ») | j est épistatique sur s : j supprime la ramification de l'inflorescence. |
-| `an` | Anantha | n.d. | 🔵 RÉCESSIF | Inflorescences indéfiniment ramifiées, fleurs peu différenciées | Fleurs peu différenciées, stérilité partielle : outil de laboratoire, pas un caractère à introduire en variétal. |
-| `fa` | Falsiflora | n.d. | 🔵 RÉCESSIF | Inflorescences feuillues, conversion des fleurs en tiges | Inflorescences feuillues : diminue la récolte ; sert surtout à diagnostiquer une grappe « Leafy ». |
+| `an` | Anantha | 2 | 🔵 RÉCESSIF | Inflorescences indéfiniment ramifiées, fleurs peu différenciées | Fleurs peu différenciées, stérilité partielle : outil de laboratoire, pas un caractère à introduire en variétal. |
+| `fa` | Falsiflora | 3 | 🔵 RÉCESSIF | Inflorescences feuillues, conversion des fleurs en tiges | Inflorescences feuillues : diminue la récolte ; sert surtout à diagnostiquer une grappe « Leafy ». |
 | `j` | Jointless | 11 | 🔵 RÉCESSIF | Absence de zone d'abscission du pédoncule ; épistatique sur s ; réversion végétative de l'inflorescence | Casse la ramification des grappes mais provoque un excès de feuillage → préférer j-2. |
 | `j-2` | Jointless-2 | 12 | 🔵 RÉCESSIF | Pédoncule court, droit, sans coude : le fruit se cueille net, sans calice ni blessure | Quasi ubiquitaire en tomate de transformation. Épistasie négative avec ej2 (chr 3), levée par suppresseurs. |
 | `mc` | Macrocalyx | 5 | 🔵 RÉCESSIF | Grand calice, inflorescence modifiée | Calice hypertrophié, gène MADS-box identifié par l'ID ITAG Solyc05g056620 : utile en génétique florale, sans intérêt commercial direct. |
 | `to` | Torosa | n.d. | 🔵 RÉCESSIF | Fleurs et ovaires « en tire-bouchon » | Fleurs en tire-bouchon, nouaison aléatoire : à éliminer en sélection, pas à introduire. |
-| `bif` | Bifurcate flower truss | n.d. | 🔵 RÉCESSIF | Grappes ramifiées (comme s), renforcées par le froid | Grappes ramifiées aggravées par le froid : attention dans les programmes plein champ en climat frais (méprise fréquente avec `s`). |
+| `bif` | Bifurcate flower truss | 12 | 🔵 RÉCESSIF | Grappes ramifiées (comme s), renforcées par le froid | Grappes ramifiées aggravées par le froid : attention dans les programmes plein champ en climat frais (méprise fréquente avec `s`). |
 | `FUL2 / MBP20` | Fruitfull-like (euFULI) | 3 / 2 | 🔵 RÉCESSIF | +3 feuilles avant la première fleur, inflorescence branchue, maturation retardée du méristème floral | Pas un gène à introduire tel quel : c'est le **levier de dosage** le plus propre pour pousser le nombre de fleurs sans effet pléiotrope franc (édition de promoteur plutôt que knock-out). Le phénotype n'apparaît que quand les copies redondantes tombent ensemble — d'où de faux « échecs » CRISPR en simple mutant. |
 | `ej2` | Enhancer of Jointless2 (SlMADS1) | 3 | 🔵 RÉCESSIF | Ramification de l'inflorescence accrue, surtout en combinaison avec `j-2`/`j2` ; hétérozygote presque invisible | Deuxième pièce de l'épistasie déjà notée sur `j-2` : pour une grappe multiflore SANS casser la zone d'abscission, cherchez `j-2` + `ej2` en hétérozygotes — le double homozygote supprime l'abscission et ruine la récolte mécanique. |
 | `tmf` | Terminating Flower | 9 | 🔵 RÉCESSIF | Grappe à 1–2 fleurs (au lieu de 6–8), floraison très précoce, entre-nœuds courts | Précocité maximale, rendement par grappe divisé par cinq : à réserver aux programmes d'extrême précocité ou au hétérozygote. ⚠ Le « une seule fleur » de `tmf` se confond avec `sft` — `tmf` AVANCE la floraison, `sft` la RETARDE. |
-| `Nr` | Never ripe | n.d. | 🟢 DOMINANT | Sénescence et abscission retardées (feuilles, fleurs, fruits) ; fruit qui ne mûrit pas | SEMI-DOMINANT À DOMINANT NÉGATIF : la protéine mutante empoisonne le complexe. Voir aussi section Maturation. |
-| `ls` | Lateral suppressor | n.d. | 🔵 RÉCESSIF | Absence de bourgeons axillaires → plante non ramifiée ; parfois moins de folioles | Absence totale de gourmands = conduite simplifiée, MAIS rendement en berne sur les premiers bouquets ; jamais retenu en variétal. |
-| `bl` | Blind | n.d. | 🔵 RÉCESSIF | Ramification très réduite, bourgeons axillaires absents/réduits | Le même module MYB dissèque aussi la feuille. |
-| `slbrc1 / slbrc2` | Blind-like / BRC-like | n.d. | 🔵 RÉCESSIF | Contrôle de la dormance des bourgeons axillaires (interagit avec WO) | Dormance des bourgeons : cible de recherche sur le buissonnage, pas de variété portant ces mutants documentée. |
+| `Nr` | Never ripe | 9 | 🟢 DOMINANT | Sénescence et abscission retardées (feuilles, fleurs, fruits) ; fruit qui ne mûrit pas | SEMI-DOMINANT À DOMINANT NÉGATIF : la protéine mutante empoisonne le complexe. Voir aussi section Maturation. |
+| `ls` | Lateral suppressor | 7 | 🔵 RÉCESSIF | Absence de bourgeons axillaires → plante non ramifiée ; parfois moins de folioles | Absence totale de gourmands = conduite simplifiée, MAIS rendement en berne sur les premiers bouquets ; jamais retenu en variétal. |
+| `bl` | Blind | 11 | 🔵 RÉCESSIF | Ramification très réduite, bourgeons axillaires absents/réduits | Le même module MYB dissèque aussi la feuille. |
+| `slbrc1 / slbrc2` | Blind-like / BRC-like | 3 / 6 | 🔵 RÉCESSIF | Contrôle de la dormance des bourgeons axillaires (interagit avec WO) | Dormance des bourgeons : cible de recherche sur le buissonnage, pas de variété portant ces mutants documentée. |
 | `d (dx, d-im)` | Dwarf | 2 | 🔵 RÉCESSIF | Nain compact : entre-nœuds courts, tige épaisse, feuilles rugueuses vert sombre | Base des variétés naines. F1 toujours haute ; d/d ressort chez 25 % des F2. Micro-Tom = d + sp (+ mnt). |
 | `br` | Brachytic | 1 | 🔵 RÉCESSIF | Entre-nœuds ultra-courts, tige robuste, ramifications latérales fortes, fruits regroupés | Idéal pour de gros fruits sur plant compact : N'ALTÈRE PAS le calibre. |
 | `mnt` | Miniature | n.d. | 🔵 RÉCESSIF | Micro-nain extrême (15–20 cm), insensible aux gibbérellines | Se combine avec d et sp. |
 | `dpy` | Dumpy | n.d. | 🔵 RÉCESSIF | Nain, ramification réduite, feuilles altérées ; rattrapé par application de brassinolide | Nain BR rattrapé par la brassinolide : outil de diagnostic de la voie des brassinostéroïdes (distingue `d`/`cu-3`). |
 | `cu-3` | Curl-3 | 4 | 🔵 RÉCESSIF | Nain extrême, feuilles recourbées vert sombre, insensible au BR | ⚠ À NE PAS CONFONDRE avec Cu (curl, dominant) ni cu/cu-2 (curled). |
-| `dgt` | Diageotropica | n.d. | 🔵 RÉCESSIF | Croissance diageotrope (horizontale), feuilles hyponastiques, racines altérées | Croissance diageotrope + racines anormales : intéressant en génétique racinaire, pénalisant en culture. |
-| `pro` | Procera | n.d. | 🔵 RÉCESSIF | Plante plus grande, internœuds allongés, feuilles fines et moins lobées ; réponse GA constitutive | Plante haute à tige fragile, feuilles moins lobées : contre-épreuve de la voie GA (les nains `gib` sont l'opposé). |
-| `gib-1` | Gibberellin deficient-1 | n.d. | 🔵 RÉCESSIF | Nain, germination dépendante des GA, feuilles plus petites vert sombre | Les nains GA sont souvent plus compacts que les nains BR. |
+| `dgt` | Diageotropica | 1 | 🔵 RÉCESSIF | Croissance diageotrope (horizontale), feuilles hyponastiques, racines altérées | Croissance diageotrope + racines anormales : intéressant en génétique racinaire, pénalisant en culture. |
+| `pro` | Procera | 11 | 🔵 RÉCESSIF | Plante plus grande, internœuds allongés, feuilles fines et moins lobées ; réponse GA constitutive | Plante haute à tige fragile, feuilles moins lobées : contre-épreuve de la voie GA (les nains `gib` sont l'opposé). |
+| `gib-1` | Gibberellin deficient-1 | 6 | 🔵 RÉCESSIF | Nain, germination dépendante des GA, feuilles plus petites vert sombre | Les nains GA sont souvent plus compacts que les nains BR. |
 | `gib-2` | Gibberellin deficient-2 | n.d. | 🔵 RÉCESSIF | Nain sévère | Nain sévère réversible par GA : test de diagnostic — un nain `gib` verdit et s'allonge à l'application de GA, un nain `d` non. |
-| `gib-3` | Gibberellin deficient-3 | n.d. | 🔵 RÉCESSIF | Nain sévère | Nain sévère (KS) : idem `gib-2`, sert à distinguer déficience GA et insensibilité aux GA (`cu-3`). |
-| `epi` | Epinastic | n.d. | 🔵 RÉCESSIF | Feuilles fortement épinastiques (recourbées vers le bas), tiges épaissies | ⚠ À NE PAS CONFONDRE avec un stress hydrique, un herbicide ou une virémie : épinastie ici est génétique et récessive, présente dès le jeune plant. |
-| `not / fl / sit` | Notabilis / Flacca / Sitiens | n.d. | 🔵 RÉCESSIF | Feuilles enroulées, flétrissement (déficience en ABA) | Sensibles au stress hydrique. |
+| `gib-3` | Gibberellin deficient-3 | 7 | 🔵 RÉCESSIF | Nain sévère | Nain sévère (KS) : idem `gib-2`, sert à distinguer déficience GA et insensibilité aux GA (`cu-3`). |
+| `epi` | Epinastic | 4 | 🔵 RÉCESSIF | Feuilles fortement épinastiques (recourbées vers le bas), tiges épaissies | ⚠ À NE PAS CONFONDRE avec un stress hydrique, un herbicide ou une virémie : épinastie ici est génétique et récessive, présente dès le jeune plant. |
+| `not / fl / sit` | Notabilis / Flacca / Sitiens | 7 / 7 / 1 | 🔵 RÉCESSIF | Feuilles enroulées, flétrissement (déficience en ABA) | Sensibles au stress hydrique. |
 | `erl` | Erectoid leaf | 10 | 🟡 SEMI-DOMINANT | Feuilles érigées : angle d'insertion réduit, port dressé | Semi-dominant : l'hétérozygote suffit pour un effet net. |
 
 <details>
@@ -122,36 +122,36 @@ Les loci sont rangés en **16 chapitres** : plante (port, feuillage, trichomes, 
 | Symbole | Nature de la mutation / fonction moléculaire | Origine de l'allèle | Dominance | Chr. |
 |:--|:--|:--|:--:|:--:|
 | `sp` | SP = PEBP antiflorigène (orthologue TFL1/CEN), Solyc06g074350 ; mutation P76L ; allèles faibles (sp-weak) → compacités intermédiaires | Cultivé (mutant classique) | RÉCESSIF | 6 |
-| `sft` | SFT = florigène FT (interrupteur SP antiflorigène / SFT florigène) | Cultivé | SEMI-DOMINANT | n.d. |
-| `sp5G` | Paralogue FT-like SP5G / FTL1 | Cultivé, S. l. cerasiforme | RÉCESSIF | n.d. |
-| `uf` | UF, gène PEBP sœur de SFT | Cultivé | RÉCESSIF | n.d. |
+| `sft` | SFT = florigène FT (Solyc03g063100 ; interrupteur SP antiflorigène / SFT florigène) | Cultivé | SEMI-DOMINANT | 3 |
+| `sp5G` | Paralogue FT-like SP5G (Solyc05g053850) / FTL1 (Solyc11g008650) | Cultivé, S. l. cerasiforme | RÉCESSIF | 5 |
+| `uf` | UF = facteur de transcription bHLH (Solyc09g005070 ; Dielen et al. 2004, Meir et al. 2021) | Cultivé | RÉCESSIF | 9 |
 | `s` | WOX homéoboîte (Solyc02g077390) | Cultivé (mutant) | RÉCESSIF | 2 |
-| `an` | Protéine F-box | Cultivé (mutant) | RÉCESSIF | n.d. |
-| `fa` | FA, orthologue de LEAFY | Cultivé (mutant) | RÉCESSIF | n.d. |
+| `an` | Protéine F-box (Solyc02g081670, orthologue UFO) | Cultivé (mutant) | RÉCESSIF | 2 |
+| `fa` | FA, orthologue de LEAFY (Solyc03g118160) | Cultivé (mutant) | RÉCESSIF | 3 |
 | `j` | MADS-box J | Cultivé | RÉCESSIF | 11 |
 | `j-2` | SlMBP21 (Solyc12g038510) ; codon stop prématuré (LA0166) ; allèle transposon j2^TE en industriel | S. cheesmaniae LA0166 | RÉCESSIF | 12 |
 | `mc` | MADS-box (Solyc05g056620) | Cultivé (mutant) | RÉCESSIF | 5 |
 | `to` | Clonage non confirmé | Cultivé (mutant) | RÉCESSIF | n.d. |
-| `bif` | MAPK défectueuse | Cultivé (mutant) | RÉCESSIF | n.d. |
+| `bif` | MAPK défectueuse (SlMAPK1, Solyc12g019460 ; Silva Ferreira et al. 2018) | Cultivé (mutant) | RÉCESSIF | 12 |
 | `FUL2 / MBP20` | MADS euFULI redondants ; FUL2+MBP20 répriment CKX5/6/8 (catabolisme des cytokinines) ; le quadruple KO CRISPR ful1 ful2 mbp10 mbp20 lève la redondance | Cultivé (lignées d'édition, laboratoire) | RÉCESSIF | 3 / 2 |
 | `ej2` | MADS-box SEP4 (SlMADS1) ; réducteur de maturation du méristème floral, agit en additif avec j-2 (chr 12) | Cultivé + introgressions (Soyk et al. 2017) | RÉCESSIF | 3 |
 | `tmf` | Famille ALOG ; tmf lève la répression sur AN et FA, le méristème floral se termine après 1–2 fleurs | Cultivé (mutant) | RÉCESSIF | 9 |
-| `Nr` | SlETR3 = récepteur d'éthylène (ETR3/SR) | Cultivé (mutant) | DOMINANT | n.d. |
-| `ls` | GRAS (orthologue LAS) | Cultivé (mutant) | RÉCESSIF | n.d. |
-| `bl` | R2R3-MYB (homologue BL) | Cultivé (mutant) | RÉCESSIF | n.d. |
-| `slbrc1 / slbrc2` | TCP TB1/CYC | Cultivé (mutant) | RÉCESSIF | n.d. |
+| `Nr` | SlETR3 = récepteur d'éthylène (Solyc09g075440, ETR3/NR) | Cultivé (mutant) | DOMINANT | 9 |
+| `ls` | GRAS (Solyc07g066250, orthologue LAS) | Cultivé (mutant) | RÉCESSIF | 7 |
+| `bl` | R2R3-MYB (Solyc11g069030, homologue BL / orthologue RAX) | Cultivé (mutant) | RÉCESSIF | 11 |
+| `slbrc1 / slbrc2` | TCP TB1/CYC (SlBRC1a = Solyc03g119770, chr 3 ; SlBRC1b = Solyc06g069240, chr 6) | Cultivé (mutant) | RÉCESSIF | 3 / 6 |
 | `d (dx, d-im)` | D = CYP85A1, C-6 oxydase de la voie des brassinostéroïdes | Cultivé (mutant) | RÉCESSIF | 2 |
 | `br` | Locus cartographié, marqueurs MAS disponibles (non cloné) | Cultivé (mutant, tomate fraîche Floride) | RÉCESSIF | 1 |
 | `mnt` | Non cloné | Cultivé (Micro-Tom) | RÉCESSIF | n.d. |
 | `dpy` | Biosynthèse des brassinostéroïdes (BR) | Cultivé (mutant) | RÉCESSIF | n.d. |
 | `cu-3` | SlBRI1 / CURL-3, récepteur des BR (LRR-RLK), Solyc04g051510 | Cultivé (mutant) | RÉCESSIF | 4 |
-| `dgt` | Cyclophiline (signalisation auxine) | Cultivé (mutant) | RÉCESSIF | n.d. |
-| `pro` | PRO / LeGAI = protéine DELLA (domaine VHVID→VHEID) | Cultivé (mutant) | RÉCESSIF | n.d. |
-| `gib-1` | CPS (copalyl-diphosphate synthase) | Cultivé (mutant) | RÉCESSIF | n.d. |
+| `dgt` | Cyclophiline A (LeCYP1, Solyc01g111170 ; signalisation auxine) | Cultivé (mutant) | RÉCESSIF | 1 |
+| `pro` | PRO / LeGAI = protéine DELLA (Solyc11g011260 ; domaine VHVID→VHEID) | Cultivé (mutant) | RÉCESSIF | 11 |
+| `gib-1` | CPS (copalyl-diphosphate synthase, Solyc06g084240) | Cultivé (mutant) | RÉCESSIF | 6 |
 | `gib-2` | Étape ent-7α-hydroxykaurenoic → GA12 | Cultivé (mutant) | RÉCESSIF | n.d. |
-| `gib-3` | KS (ent-kaurène synthase) | Cultivé (mutant) | RÉCESSIF | n.d. |
-| `epi` | Surproduction d'éthylène | Cultivé (mutant) | RÉCESSIF | n.d. |
-| `not / fl / sit` | Biosynthèse de l'ABA (NCED et autres) | Cultivé (mutants) | RÉCESSIF | n.d. |
+| `gib-3` | KS (ent-kaurène synthase, Solyc07g066670) | Cultivé (mutant) | RÉCESSIF | 7 |
+| `epi` | Surproduction d'éthylène | Cultivé (mutant) | RÉCESSIF | 4 |
+| `not / fl / sit` | Biosynthèse de l'ABA : not = SlNCED1 (Solyc07g056570), fl = MoCo sulfurase (Solyc07g066480), sit = AAO (Solyc01g009230) | Cultivé (mutants) | RÉCESSIF | 7 / 7 / 1 |
 | `erl` | Perte de fonction d'un gène SlTAC1-like (chr 10) | Cultivé (mutant) | SEMI-DOMINANT | 10 |
 
 </details>
@@ -163,17 +163,17 @@ Les loci sont rangés en **16 chapitres** : plante (port, feuillage, trichomes, 
 | Symbole | Nom / locus | Chr. | Dominance | Effet, phénotype | Ce que ça change en sélection |
 |:--|:--|:--:|:--|:--|:--|
 | `c (c-2, clt, bli2)` | Cutleaf / Potato leaf | 6 | 🔵 RÉCESSIF | Feuille simple : limbe continu non divisé, bords lisses, vert plus foncé | C_ = « regular leaf » (dominant). F1 d'un croisement Potato leaf × regular = regular ; ressort chez 25 % des F2. |
-| `e` | Entire | n.d. | 🔵 RÉCESSIF | Folioles à marges entières, feuille moins découpée + croissance laminaire ectopique | Malgré son nom, RÉCESSIF (perte de fonction). SlIAA9 = même gène que la parthénocarpie. |
-| `La (La-2)` | Lanceolate | n.d. | 🟡 SEMI-DOMINANT | Feuilles simples, petites, lancéolées, maturité précoce | SEMI-DOMINANT MAJEUR. La/+ = feuille simple ; La/La = LÉTAL embryonnaire. Épistasique sur toutes les autres mutations de forme foliaire. |
+| `e` | Entire | 4 | 🔵 RÉCESSIF | Folioles à marges entières, feuille moins découpée + croissance laminaire ectopique | Malgré son nom, RÉCESSIF (perte de fonction). SlIAA9 = même gène que la parthénocarpie. |
+| `La (La-2)` | Lanceolate | 7 | 🟡 SEMI-DOMINANT | Feuilles simples, petites, lancéolées, maturité précoce | SEMI-DOMINANT MAJEUR. La/+ = feuille simple ; La/La = LÉTAL embryonnaire. Épistasique sur toutes les autres mutations de forme foliaire. |
 | `gob (Gob-4d)` | Goblet | 7 | 🔵 RÉCESSIF | Moins de folioles secondaires, marges lisses ; l'allèle Gob-4d (semi-dominant) donne au contraire des lobes très profonds | C'est le « ciseau » qui découpe les frontières entre folioles, à l'intérieur de la fenêtre ouverte par LA/TCP4. |
 | `tf` | Trifoliate | 5 | 🔵 RÉCESSIF | 3 folioles seulement, moins de bourgeons axillaires | Épistasique sur clau, bip et Me/+ : l'effet trifolié est conservé, seule la découpure de chaque foliole varie. |
 | `lyr` | Lyrate | 5 | 🔵 RÉCESSIF | Réduction de la croissance laminaire et de l'initiation des folioles, anomalies florales | Feuilles simplifiées + anomalies florales : effet pléiotrope fort, sans usage en sélection maraîchère. |
-| `wi, wi3, wi4, wi6 (+wl)` | Wiry (« feuilles lacet ») | n.d. | 🔵 RÉCESSIF | Feuilles filiformes sans limbe (shoestring), perte de dorsiventralité, floraison précoce | — |
-| `Me` | Mouse ear | n.d. | 🟢 DOMINANT | Feuilles très découpées, plus de folioles et de denticulations, méristèmes hyperactifs, inflorescences anormales | Étroitement lié, voire identique, à Cu (jamais séparés par recombinaison). |
-| `Cu` | Curl | n.d. | 🟢 DOMINANT | Feuillage en pompon, tiges « bâton », quasi-absence de gourmands, fruits plus verts (chloroplastes ++) | ⚠ Ne pas confondre avec cu-3 (récepteur BR) ni avec le virus « leaf curl » (TYLCV, gènes Ty). |
-| `Pts` | Peteroselinum | n.d. | 🟡 SEMI-DOMINANT | Hyper-complexité foliaire (type persil), folioles primaires et secondaires surnuméraires | Décrit tantôt dominant, tantôt semi-dominant selon la source. |
+| `wi, wi3, wi4, wi6 (+wl)` | Wiry (« feuilles lacet ») | 1, 4, 7 | 🔵 RÉCESSIF | Feuilles filiformes sans limbe (shoestring), perte de dorsiventralité, floraison précoce | — |
+| `Me` | Mouse ear | 2 | 🟢 DOMINANT | Feuilles très découpées, plus de folioles et de denticulations, méristèmes hyperactifs, inflorescences anormales | Étroitement lié, voire identique, à Cu (jamais séparés par recombinaison). |
+| `Cu` | Curl | 2 | 🟢 DOMINANT | Feuillage en pompon, tiges « bâton », quasi-absence de gourmands, fruits plus verts (chloroplastes ++) | ⚠ Ne pas confondre avec cu-3 (récepteur BR) ni avec le virus « leaf curl » (TYLCV, gènes Ty). |
+| `Pts` | Petroselinum | 6 | 🟡 SEMI-DOMINANT | Hyper-complexité foliaire (type persil), folioles primaires et secondaires surnuméraires | Décrit tantôt dominant, tantôt semi-dominant selon la source. |
 | `bip` | Bipinnata | 2 | 🔵 RÉCESSIF | Feuilles bipinnées très subdivisées, folioles étroites (« feuille de carotte ») | Regular leaf ≻ carrot leaf ≻ potato leaf dans les croisements amateur (F2 ≈ 56/19/19/6). |
-| `clau` | Clausa | n.d. | 🔵 RÉCESSIF | Feuilles extrêmement composées (jusqu'à ~11× le sauvage), morphogenèse continue, méristèmes ectopiques | Complexité foliaire extrême avec méristèmes ectopiques : stérilité et floraltérations → à éviter en croisement de retour. |
+| `clau` | Clausa | 4 | 🔵 RÉCESSIF | Feuilles extrêmement composées (jusqu'à ~11× le sauvage), morphogenèse continue, méristèmes ectopiques | Complexité foliaire extrême avec méristèmes ectopiques : stérilité et floraltérations → à éviter en croisement de retour. |
 | `rg` | Rugose | n.d. | 🟢 DOMINANT | Feuillage gaufré/crispé, vert foncé (feuillage « nain ») | Combiné à Cu : donnerait un « pompon gaufré » (extrapolation non publiée). |
 | `cu / cu-2` | Curled | n.d. | 🔵 RÉCESSIF | Feuilles recourbées/ondulées (série curl) | Recourbure du limbe sans nanisme : à distinguer de `cu-3` (nain, insensible au BR) et du curl du TYLCV. |
 | `clf-2` | Curly leaf-2 | n.d. | 🔵 RÉCESSIF | Feuilles recourbées, floraison altérée | Recourbure + floraison altérée (Polycomb) : outil épigénétique, pas un caractère de sélection. |
@@ -183,18 +183,18 @@ Les loci sont rangés en **16 chapitres** : plante (port, feuillage, trichomes, 
 
 | Symbole | Nature de la mutation / fonction moléculaire | Origine de l'allèle | Dominance | Chr. |
 |:--|:--|:--|:--:|:--:|
-| `c (c-2, clt, bli2)` | C = BLI2, facteur R2R3-MYB (classe BL) ; allèles c, clt (coalita), bli2 | Cultivé (heirloom, ~5 % des anciennes variétés) | RÉCESSIF | 6 |
-| `e` | E = SlIAA9, protéine Aux/IAA (inhibiteur de la signalisation auxine) ; délétion d'1 base | Cultivé (mutant) | RÉCESSIF | n.d. |
-| `La (La-2)` | LA / TCP4, mutation du site de liaison de miR319 = gain de fonction | Cultivé (mutant) | SEMI-DOMINANT | n.d. |
+| `c (c-2, clt, bli2)` | C = BLI2, facteur R2R3-MYB (Solyc06g074910, classe BL) ; allèles c, clt (coalita), bli2 | Cultivé (heirloom, ~5 % des anciennes variétés) | RÉCESSIF | 6 |
+| `e` | E = SlIAA9 (Solyc04g076850), protéine Aux/IAA (inhibiteur de la signalisation auxine) ; délétion d'1 base | Cultivé (mutant) | RÉCESSIF | 4 |
+| `La (La-2)` | LA / SlTCP2 (Solyc07g062680, orthologue TCP4), mutation du site de liaison de miR319 = gain de fonction | Cultivé (mutant) | SEMI-DOMINANT | 7 |
 | `gob (Gob-4d)` | GOB = NAC/CUC2 (orthologue CUC2), Solyc07g062840, site ciblé par miR164 | Cultivé (mutant) | RÉCESSIF | 7 |
-| `tf` | TF, facteur R2R3-MYB | Cultivé (mutant) | RÉCESSIF | 5 |
+| `tf` | TF, facteur R2R3-MYB (Solyc05g007870, orthologue LOF1/LOF2) | Cultivé (mutant) | RÉCESSIF | 5 |
 | `lyr` | LYR, orthologue de JAGGED (Solyc05g009380) | Cultivé (mutant) | RÉCESSIF | 5 |
-| `wi, wi3, wi4, wi6 (+wl)` | Voie des ta-siARN : RDR6, SGS3, AGO7, DCL4 (dérégulation d'ARF3/ARF4) | Cultivé (4 groupes de complémentation) | RÉCESSIF | n.d. |
-| `Me` | Expression anormale de TKN2/LeT6 (KNOX-I) ; ARN de fusion PFP–TKN2 | Cultivé (mutant dominant) | DOMINANT | n.d. |
-| `Cu` | Surexpression de TKN2 (KNOX-I), gain de fonction | Cultivé (mutant dominant, PI 330725 « Stick ») | DOMINANT | n.d. |
-| `Pts` | Délétion d'1 pb dans le promoteur de PTS/TKD1, protéine KNOX atypique sans homéodomaine | S. galapagense (feuilles profondes) / cultivé | SEMI-DOMINANT | n.d. |
+| `wi, wi3, wi4, wi6 (+wl)` | Voie des ta-siARN : AGO7 (wi, Solyc01g010970), RDR6 (wi3, Solyc04g014870), SGS3 (wi4, Solyc04g025300), DCL4 (wi6, Solyc07g005030) (dérégulation d'ARF3/ARF4) | Cultivé (4 groupes de complémentation) | RÉCESSIF | 1, 4, 7 |
+| `Me` | Expression anormale de TKN2/LeT6 (Solyc02g081120, KNOX-I) ; ARN de fusion PFP–TKN2 | Cultivé (mutant dominant) | DOMINANT | 2 |
+| `Cu` | Surexpression de TKN2/LeT6 (Solyc02g081120, KNOX-I), gain de fonction | Cultivé (mutant dominant, PI 330725 « Stick ») | DOMINANT | 2 |
+| `Pts` | Délétion d'1 pb dans le promoteur de PTS/TKD1 (Solyc06g072480), protéine KNOX atypique sans homéodomaine | S. galapagense (feuilles profondes) / cultivé | SEMI-DOMINANT | 6 |
 | `bip` | BIP = protéine BEL-like homeodomain (Solyc02g089940) → surexpression de Tkn1/TKN2 | Cultivé (mutant) | RÉCESSIF | 2 |
-| `clau` | CLAU, facteur MYB ; atténue la signalisation cytokinine, réprime GOB/LeT6 | Cultivé (mutant) | RÉCESSIF | n.d. |
+| `clau` | CLAU, facteur MYB (Solyc04g008480) ; atténue la signalisation cytokinine, réprime GOB/LeT6 | Cultivé (mutant) | RÉCESSIF | 4 |
 | `rg` | Non cloné | Cultivé (mutant dominant) | DOMINANT | n.d. |
 | `cu / cu-2` | Non cloné | Cultivé (mutants) | RÉCESSIF | n.d. |
 | `clf-2` | PcG (type CLF) | Cultivé (mutant) | RÉCESSIF | n.d. |
@@ -207,11 +207,11 @@ Les loci sont rangés en **16 chapitres** : plante (port, feuillage, trichomes, 
 
 | Symbole | Nom / locus | Chr. | Dominance | Effet, phénotype | Ce que ça change en sélection |
 |:--|:--|:--:|:--|:--|:--|
-| `wo` | Woolly | n.d. | 🔵 RÉCESSIF | Poils denses sur tiges et feuilles (trichomes type I), ramifications affectées | Le couple WO + H (HD-ZIP IV × C2H2) est le module central du développement des poils. |
-| `h` | Hair | n.d. | 🔵 RÉCESSIF | Trichomes clairsemés / anormaux | Poils anormaux : réduit la colle à insectes ; sensible aux aleurodes — à surveiller si vous croisez avec un trichome-dense. |
-| `hl` | Hairless | n.d. | 🔵 RÉCESSIF | Trichomes déformés, tiges « chauves » | Tiges « chauves » : même conséquence défensive que `h` ; feuille luisante, sensible à la sunscald. |
-| `hl-2` | Hairless-2 | n.d. | 🔵 RÉCESSIF | Déformation sévère de tous les types de trichomes | Déformation de tous les types de trichomes (NAP1, cytosquelette) : port chétif, non exploitable en variétal. |
-| `sh` | Sparse hair | n.d. | 🔵 RÉCESSIF | Poils rares | Poils rares : même lecture que `h`/`hl` — la pubescence n'est pas qu'esthétique, c'est la première barrière anti-ravageurs. |
+| `wo` | Woolly | 2 | 🔵 RÉCESSIF | Poils denses sur tiges et feuilles (trichomes type I), ramifications affectées | Le couple WO + H (HD-ZIP IV × C2H2) est le module central du développement des poils. |
+| `h` | Hair | 10 | 🔵 RÉCESSIF | Trichomes clairsemés / anormaux | Poils anormaux : réduit la colle à insectes ; sensible aux aleurodes — à surveiller si vous croisez avec un trichome-dense. |
+| `hl` | Hairless | 11 | 🔵 RÉCESSIF | Trichomes déformés, tiges « chauves » | Tiges « chauves » : même conséquence défensive que `h` ; feuille luisante, sensible à la sunscald. |
+| `hl-2` | Hairless-2 | 2 | 🔵 RÉCESSIF | Déformation sévère de tous les types de trichomes | Déformation de tous les types de trichomes (NAP1, cytosquelette) : port chétif, non exploitable en variétal. |
+| `sh` | Sparse hair | 10 | 🔵 RÉCESSIF | Poils rares | Poils rares : même lecture que `h`/`hl` — la pubescence n'est pas qu'esthétique, c'est la première barrière anti-ravageurs. |
 | `glandless` | Glandless | 9 | 🔵 RÉCESSIF | Trichomes glandulaires de type VI sans glande : perte des terpènes | À l'inverse, les trichomes type I/IV produisent les acylsucres de défense. |
 
 <details>
@@ -219,11 +219,11 @@ Les loci sont rangés en **16 chapitres** : plante (port, feuillage, trichomes, 
 
 | Symbole | Nature de la mutation / fonction moléculaire | Origine de l'allèle | Dominance | Chr. |
 |:--|:--|:--|:--:|:--:|
-| `wo` | Wo, facteur HD-ZIP IV (maître régulateur des trichomes I, III, V, VI, VII) | Cultivé (mutant) | RÉCESSIF | n.d. |
-| `h` | H, zinc finger C2H2 (partenaire de WO) | Cultivé (mutant) | RÉCESSIF | n.d. |
-| `hl` | Complexe WAVE / actine | Cultivé (mutant) | RÉCESSIF | n.d. |
-| `hl-2` | Hl-2 = NAP1 (sous-unité SCAR/WAVE) | Cultivé (mutant) | RÉCESSIF | n.d. |
-| `sh` | Zinc finger C2H2 (partenaire de WO) | Cultivé (mutant) | RÉCESSIF | n.d. |
+| `wo` | Wo, facteur HD-ZIP IV (Solyc02g080260 ; maître régulateur des trichomes I, III, V, VI, VII) | Cultivé (mutant) | RÉCESSIF | 2 |
+| `h` | H, zinc finger C2H2 (Solyc10g078970, partenaire de WO) | Cultivé (mutant) | RÉCESSIF | 10 |
+| `hl` | SRA1 (Solyc11g013280), complexe WAVE / actine | Cultivé (mutant) | RÉCESSIF | 11 |
+| `hl-2` | Hl-2 = NAP1 (Solyc02g068720, sous-unité SCAR/WAVE) | Cultivé (mutant) | RÉCESSIF | 2 |
+| `sh` | Zinc finger C2H2 (Solyc10g078990, paralogue en tandem de H) | Cultivé (mutant) | RÉCESSIF | 10 |
 | `glandless` | SlHDZ38 (HD-ZIP IV, sous-famille I) | Cultivé (mutant) | RÉCESSIF | 9 |
 
 </details>
@@ -234,14 +234,14 @@ Les loci sont rangés en **16 chapitres** : plante (port, feuillage, trichomes, 
 
 | Symbole | Nom / locus | Chr. | Dominance | Effet, phénotype | Ce que ça change en sélection |
 |:--|:--|:--:|:--|:--|:--|
-| `au` | Aurea | n.d. | 🔵 RÉCESSIF | Jeunes plants jaune-vert (déficit de chromophore du phytochrome) | Aurea jaune-vert : à ne pas confondre avec une carence en azote ; le déficit porte sur le chromophore du phytochrome. |
+| `au` | Aurea | 1 | 🔵 RÉCESSIF | Jeunes plants jaune-vert (déficit de chromophore du phytochrome) | Aurea jaune-vert : à ne pas confondre avec une carence en azote ; le déficit porte sur le chromophore du phytochrome. |
 | `v` | Virescent | n.d. | 🔵 RÉCESSIF | Jeunes feuilles blanchâtres → verdissement progressif | Virescent : verdissement différé, piège classique au semis sous lumière faible (diagnostic de lampe, pas de fertilisation). |
 | `yv` | Yellow virescent | n.d. | 🔵 RÉCESSIF | Comme v, plus marqué | Yellow virescent : identique à `v` mais plus marqué, s'aggrave à basse température — ne fertilisez pas, génotypez. |
 | `xan` | Xantha | n.d. | 🔵 RÉCESSIF | Feuilles jaunes (chlorophylle réduite) | Xantha : chlorophylle réduite du début à la fin (contrairement à `v` qui verdit) ; plante fragile, sans intérêt commercial. |
-| `ch` | Chloronerva | n.d. | 🔵 RÉCESSIF | Chlorose interveinale (aspect carence en fer) | Chloronerva : chlorose interveinale qui MIME une carence en fer, mais le fer du sol est suffisant — c'est le transport qui est cassé. |
-| `gh` | Ghost | n.d. | 🔵 RÉCESSIF | Feuillage pâle, plastes altérés | Ghost : plastes altérés, feuillage pâle ; à distinguer d'une viroses (mosaïque) par l'absence de déformation du limbe. |
-| `hp-1 (hp-1W)` | High pigment-1 | n.d. | 🔵 RÉCESSIF | Feuillage vert très sombre (chlorophylle ++, feuilles plus épaisses), réponse lumineuse exagérée, vitamine C et anthocyanes ↑ | ⚠ Les « high pigment » hp-1 / hp-2 sont RÉCESSIFS — Ip, lui, est dominant. |
-| `hp-2 (hp-2J, hp-2DG = dg)` | High pigment-2 / Dark green | n.d. | 🔵 RÉCESSIF | Fruit immature vert foncé, lycopène ×1,5–2, β-carotène ×3 | Vert sombre ++ mais port compact, feuilles épaisses, croissance ralentie (DET1) : le « beau feuillage » a un coût végétatif. |
+| `ch` | Chloronerva | 1 | 🔵 RÉCESSIF | Chlorose interveinale (aspect carence en fer) | Chloronerva : chlorose interveinale qui MIME une carence en fer, mais le fer du sol est suffisant — c'est le transport qui est cassé. |
+| `gh` | Ghost | 11 | 🔵 RÉCESSIF | Feuillage pâle, plastes altérés | Ghost : plastes altérés, feuillage pâle ; à distinguer d'une viroses (mosaïque) par l'absence de déformation du limbe. |
+| `hp-1 (hp-1W)` | High pigment-1 | 2 | 🔵 RÉCESSIF | Feuillage vert très sombre (chlorophylle ++, feuilles plus épaisses), réponse lumineuse exagérée, vitamine C et anthocyanes ↑ | ⚠ Les « high pigment » hp-1 / hp-2 sont RÉCESSIFS — Ip, lui, est dominant. |
+| `hp-2 (hp-2J, hp-2DG = dg)` | High pigment-2 / Dark green | 1 | 🔵 RÉCESSIF | Fruit immature vert foncé, lycopène ×1,5–2, β-carotène ×3 | Vert sombre ++ mais port compact, feuilles épaisses, croissance ralentie (DET1) : le « beau feuillage » a un coût végétatif. |
 | `Ip` | Intense pigmentation | n.d. | 🟢 DOMINANT | Pigmentation intense, réponse lumineuse exagérée ; fruit immature vert foncé, +34–38 % de solides solubles, +62 % de caroténoïdes | L'un des RARES « high pigment » DOMINANTS, et sans les défauts des hp. Fruit souvent plus petit (pléiotropie). |
 | `atv` | Atroviolacea | 7 | 🔵 RÉCESSIF | Anthocyanes accrues (teintes violacées), surtout végétatives | Seul : effet modéré. Combiné à Aft ou Abg : synergie → peau violette intense (Indigo Rose, Sun Black). |
 | `Aft` | Anthocyanin fruit | 10 | 🟢 DOMINANT | Épicarpe violet tacheté (dépendant de la lumière), tiges et feuilles violacées | Monogénique dominant : s'exprime dès la F1 (mais intensité lumineuse requise). |
@@ -252,14 +252,14 @@ Les loci sont rangés en **16 chapitres** : plante (port, feuillage, trichomes, 
 
 | Symbole | Nature de la mutation / fonction moléculaire | Origine de l'allèle | Dominance | Chr. |
 |:--|:--|:--|:--:|:--:|
-| `au` | Biosynthèse du phytochromobiline | Cultivé (mutant) | RÉCESSIF | n.d. |
+| `au` | Biosynthèse du phytochromobiline (hème oxygénase, Solyc01g008930) | Cultivé (mutant) | RÉCESSIF | 1 |
 | `v` | Non cloné | Cultivé (mutant) | RÉCESSIF | n.d. |
 | `yv` | Non cloné | Cultivé (mutant) | RÉCESSIF | n.d. |
 | `xan` | Non cloné | Cultivé (mutant) | RÉCESSIF | n.d. |
-| `ch` | Absorption / transport du fer | Cultivé (mutant) | RÉCESSIF | n.d. |
-| `gh` | Non cloné | Cultivé (mutant) | RÉCESSIF | n.d. |
-| `hp-1 (hp-1W)` | HP-1 = SlDDB1 (perte de fonction) | Cultivé (mutant spontané, 1917) | RÉCESSIF | n.d. |
-| `hp-2 (hp-2J, hp-2DG = dg)` | HP-2 = SlDET1 (perte de fonction) | Cultivé (mutant) | RÉCESSIF | n.d. |
+| `ch` | Sous-unité ChlI de la Mg-chélatase (Solyc01g100490) / synthèse de nicotianamine | Cultivé (mutant) | RÉCESSIF | 1 |
+| `gh` | PTOX = oxydase terminale plastidiale (Solyc11g011990), cofacteur de la phytoène désaturase (Josse et al. 2000 ; Barr et al. 2004) | Cultivé (mutant) | RÉCESSIF | 11 |
+| `hp-1 (hp-1W)` | HP-1 = SlDDB1 (Solyc02g021650, perte de fonction) | Cultivé (mutant spontané, 1917) | RÉCESSIF | 2 |
+| `hp-2 (hp-2J, hp-2DG = dg)` | HP-2 = SlDET1 (Solyc01g056340, perte de fonction) | Cultivé (mutant) | RÉCESSIF | 1 |
 | `Ip` | Non cloné (amplification du signal phytochrome) | Cultivé (mutant) | DOMINANT | n.d. |
 | `atv` | SlMYB-ATV, R3-MYB répresseur (Solyc07g052490) ; insertion de 4 pb | S. cheesmaniae / S. galapagense | RÉCESSIF | 7 |
 | `Aft` | AN2-like / SlAN2, R2R3-MYB fonctionnel | S. chilense (introgressé) ; nouveaux allèles chez S. galapagense LA1141 | DOMINANT | 10 |
@@ -274,13 +274,13 @@ Les loci sont rangés en **16 chapitres** : plante (port, feuillage, trichomes, 
 | Symbole | Nom / locus | Chr. | Dominance | Effet, phénotype | Ce que ça change en sélection |
 |:--|:--|:--:|:--|:--|:--|
 | `Style2.1 (se2.1)` | Exserted / inserted style | 2 | 🔵 RÉCESSIF | Pistil INSÉRÉ dans le cône d'anthères → autogamie stricte. L'allèle sauvage (style exserté de ~3 mm) favorise l'allogamie et les hybridations | VERROU D'AUTOGAMIE : indispensable pour fixer une variété pure. Attention : un style exserté (sauvage, ou induit par le froid/canicule) ouvre la porte aux pollens voisins → isoler les fleurs. |
-| `SE3.1` | Stigma insertion 3.1 | n.d. | 🔵 RÉCESSIF | Deuxième étape du décalage du stigmate : de « flush » à « inséré » ; module avec Style2.1 | Style2.1 gère l'étape 1, SE3.1 l'étape 2 : les deux cumulés = autogamie parfaite. |
+| `SE3.1` | Stigma insertion 3.1 | 3 | 🔵 RÉCESSIF | Deuxième étape du décalage du stigmate : de « flush » à « inséré » ; module avec Style2.1 | Style2.1 gère l'étape 1, SE3.1 l'étape 2 : les deux cumulés = autogamie parfaite. |
 | `SlSE2.2` | Stigma exsertion 2.2 | 2 | 🔵 RÉCESSIF | Degré d'exsertion du stigmate : le KO allonge anthères et style (stérilité positionnelle, sans émasculer) | Outil pour la production d'hybrides : stérilité positionnelle = pas d'émasculation manuelle. module IAA/ETH/JA/ABA. |
 | `SlLst` | Long styles | 12 | ⚪ MIXTE / SELON FOND | Allongement du style et exsertion du stigmate SOUS CHALEUR (> 27 °C) : perte d'autogamie à la canicule | ⚠ Explique les fruits « mal fécondés » et l'allogamie accrue en été : la pureté variétale dépend aussi du climat. |
-| `pat / pat-2` | Parthenocarpic | n.d. | 🔵 RÉCESSIF | Nouaison sans pollinisation → fruits sans pépins (souvent plus petits, moins de loges) | Récessif : à fixer. SlIAA9 (e) et les mutants de gibbérellines donnent des effets comparables. La base moléculaire est documentée depuis : *pat* rattaché au HD-Zip III **SlHB15A** (allèle P95S ; Picarella *et al.* 2024, *Front. Plant Sci.*), *pat-2* à **SlHD31** (délétion de 1 034 pb dans le promoteur). |
+| `pat / pat-2` | Parthenocarpic | 3 / 4 | 🔵 RÉCESSIF | Nouaison sans pollinisation → fruits sans pépins (souvent plus petits, moins de loges) | Récessif : à fixer. SlIAA9 (e) et les mutants de gibbérellines donnent des effets comparables. La base moléculaire est documentée depuis : *pat* rattaché au HD-Zip III **SlHB15A** (allèle P95S ; Picarella *et al.* 2024, *Front. Plant Sci.*), *pat-2* à **SlHD31** (délétion de 1 034 pb dans le promoteur). |
 | `ys` | Yellow stigma | n.d. | 🔵 RÉCESSIF | Stigmate jaune vif au lieu de vert-blanc, pétales inchangés | ⚠ Le nom piège : `ys` (stigmate) n'a **rien à voir avec `y` (peau, *SlMYB12*, chr 1)** — mais les deux passent par la même voie des flavonoïdes, ce qui explique la confusion. Marqueur de floraison bon marché, aucun effet sur le fruit. |
 | `pmcd1` | Premeiotic Cytokinesis Defective 1 | n.d. | 🔵 RÉCESSIF | Endomitose pré-méïotique : la cellule mère duplique son ADN sans se diviser → **méiocytes tétraploïdes**, puis pollen diploïde (2n) | La voie **non transgénique** vers le pollen 2n, dont le dossier dit aussi le prix : **aucun descendant polyploïde n'a été obtenu** par cette voie, à cause du blocage triploïde. À tester en pépinière, pas à planifier sur une saison. Détail : [TETRAPLOIDIE.md §4.6](TETRAPLOIDIE.md#46-autres-méthodes-dobtention-documentées-non-recommandées-hors-laboratoire). |
-| `PYP1` | Pale Yellow Petal 1 | n.d. | 🔵 RÉCESSIF | Pétales jaune pâle presque blancs, anthères décolorées ; plante et fruit normaux | Marqueur visuel **sur la fleur** : repérer une hybridation, dater une floraison ou valider un croisement avant la nouaison, sans toucher au goût ni au fruit. À ne pas confondre avec les mutations de couleur du fruit (`r`, `t`, `og`). |
+| `PYP1` | Pale Yellow Petal 1 | 1 | 🔵 RÉCESSIF | Pétales jaune pâle presque blancs, anthères décolorées ; plante et fruit normaux | Marqueur visuel **sur la fleur** : repérer une hybridation, dater une floraison ou valider un croisement avant la nouaison, sans toucher au goût ni au fruit. À ne pas confondre avec les mutations de couleur du fruit (`r`, `t`, `og`). |
 | `TPI (SlGLO2)` | Tomato GLOBOSA2 — twisted anther | 8 | 🔵 RÉCESSIF | Étamines tordues qui restent ouvertes sur le style, stigmates exposés, stérilité mâle complète | ⚠ **`sl-2` (ici, chr 8) n'est PAS `sl`/stamenless (TAP3, chr 4)** : deux gènes, deux chromosomes, deux usages — la confusion est écrite dans la littérature amateur. Les lignes TPI sont les plus simples à polliniser à la main (ovaire déjà exposé), et servent de testeur d'allogamie. |
 | `sl` | Stamenless — TAP3 (classe B) | 4 | 🔵 RÉCESSIF | Pétales convertis en sépales, étamines en carpelles : aucune étamine fonctionnelle, fleur femelle utilisable | ⚠ **`sl` (TAP3, chr 4) n'est PAS `sl-2`** : `sl-2` est un allèle de TPI (chr 8), et les deux sont écrits côte à côte dans la littérature sur la stérilité mâle. Le phéno diffère (pétales verdissants + carpelles surnuméraires, contre anthères tordues ouvertes) et les deux gènes ne se fixent pas de la même façon. L'ID ITAG tranche : Solyc04g081000 = chr 4. |
 | `Ms-15 (= tm6)` | Carpelloid anther (MADS B-classe) | 2 | 🔵 RÉCESSIF | Étamines en carpelles, anthères déformées, stigmate exserté hors du cône ; stérilité mâle | Double usage : stérilité mâle **et** fleur ouverte aux bourdons. C'est la base du système **GHMS** (double KO CRISPR tm6 + dfr : hypocotyle vert = stérile, violet = fertile, tri en pépinière). ⚠ L'exsertion rend aussi votre lignée à fixer hybridable : isolez-la. |
@@ -295,20 +295,20 @@ Les loci sont rangés en **16 chapitres** : plante (port, feuillage, trichomes, 
 | Symbole | Nature de la mutation / fonction moléculaire | Origine de l'allèle | Dominance | Chr. |
 |:--|:--|:--|:--:|:--:|
 | `Style2.1 (se2.1)` | Style2.1 (Solyc02g087860), polypeptide à motif HLH contrôlant l'expansion cellulaire du style ; chez le cultivé = délétions StyleD1 (450 pb) + StyleD2 (750 pb) dans le promoteur | Ancêtre sauvage → fixé à la domestication | RÉCESSIF | 2 |
-| `SE3.1` | Locus du chr 3, facteurs de transcription (SlbHLH005, AGL6, AGL15/SlMBP11 dans l'intervalle) | Cultivé moderne | RÉCESSIF | n.d. |
+| `SE3.1` | Locus du chr 3, facteurs de transcription (SlbHLH005, AGL6, AGL15/SlMBP11 dans l'intervalle) | Cultivé moderne | RÉCESSIF | 3 |
 | `SlSE2.2` | SlSE2.2 (Solyc02g087270), protéine F-box ; délétion de 11 pb dans l'exon 1 | Cultivé (accession J59, 2025) | RÉCESSIF | 2 |
 | `SlLst` | Récepteur d'éthylène de type EIN4 (Solyc12g027610) | Cultivé | MIXTE / SELON FOND | 12 |
-| `pat / pat-2` | Locus classique, voie GA/auxine ; *pat* = **SlHB15A** (HD-Zip III, allèle P95S ; Picarella *et al.* 2024), *pat-2* = **SlHD31** (délétion promotrice de 1 034 pb) | Cultivé (mutant) | RÉCESSIF | n.d. |
+| `pat / pat-2` | Locus classique, voie GA/auxine ; *pat* = **SlHB15A** (Solyc03g120910, HD-Zip III, allèle P95S ; Clepet et al. 2021, Picarella *et al.* 2024), *pat-2* = **SlHD31** (Solyc04g080490, délétion promotrice de 1 034 pb) | Cultivé (mutant) | RÉCESSIF | 3 / 4 |
 | `ys` | Perte de fonction des p-coumarate 3-hydroxylases *SlC3H1* / *SlC3H2* (F3'H) : accumulation de chalcone de naringénine jaune dans le stigmate, 6 peroxydases inhibées | Cultivé (mutant) | RÉCESSIF | n.d. |
 | `pmcd1` | Défaut de cytokinèse pré-méïotique (fusion nucléaire) : dyades à noyaux 2n au lieu de tétrades — De Storme N. et al. (2013), *J. Exp. Bot.* 64:2345 | Cultivé (mutant d'induction) | RÉCESSIF | n.d. |
-| `PYP1` | Acyltransférase qui estérifie les xanthophylles (néoxanthine, violaxanthine) des pétales et des anthères ; le fruit n'est pas affecté | Cultivé (mutant) | RÉCESSIF | n.d. |
+| `PYP1` | Acyltransférase (Solyc01g098110, PES1) qui estérifie les xanthophylles (néoxanthine, violaxanthine) des pétales et des anthères ; le fruit n'est pas affecté | Cultivé (mutant) | RÉCESSIF | 1 |
 | `TPI (SlGLO2)` | MADS B-classe GLO/GAIN de solanacées (Solyc08g067230) ; son paralogue *SlGLO1* (Solyc06g059970) donne un phénotype voisin en RNAi (pétales verts) | Cultivé (ms30, ms33, 7B-1, sl-2 = 4 allèles du même gène) | RÉCESSIF | 8 |
 | `sl` | TAP3, orthologue AP3/DEF (MADS classe B, Solyc04g081000) : perte de fonction = pétales→sépales et étamines→carpelles | Cultivé (mutant) | RÉCESSIF | 4 |
 | `Ms-15 (= tm6)` | Délétion d'1 pb dans l'exon 1 de *TM6* (Solyc02g084630, allèle *sus2*) ; TM6 contrôle directement TPI, TAG1 et J — 14 autres MADS down en RNA-seq | Cultivé (sus2, ms-15) | RÉCESSIF | 2 |
 | `Ms-10` | bHLH de la cascade du tapetum (Solyc02g079810) ; méiose et paroi pollinique perturbées ; régule ~246 gènes | Cultivé (allèles ms10, ms24, ms35, ms36) | RÉCESSIF | 2 |
 | `ps-2` | Polygalacturonase *SlTDPG* défectueuse (Solyc04g015530) : la middle lamella de l'anthère ne se lyse pas | Cultivé (mutant) | RÉCESSIF | 4 |
-| `tdf1` | Facteur PHD, maillon MS10 → MS32 → **TDF1** → AMS → MS1 de la cascade du tapetum (Solyc03g059200, cascade conservée d'*Arabidopsis*) | Cultivé (mutants / CRISPR) | RÉCESSIF | 3 |
-| `pat-k (tagl6)` | Insertion d'un rétrotransposon de 4 866 pb dans l'intron 1 de *SlAGL6* (MADS AGL6) → perte de fonction | Cultivé (allèle naturel identifié en amélioration) | RÉCESSIF | 1 |
+| `tdf1` | Facteur R2R3-MYB (orthologue AtMYB35), maillon MS10 → MS32 → **TDF1** → AMS → MS1 de la cascade du tapetum (Solyc03g059200, cascade conservée d'*Arabidopsis*) | Cultivé (mutants / CRISPR) | RÉCESSIF | 3 |
+| `pat-k (tagl6)` | Insertion d'un rétrotransposon de 4 866 pb dans l'intron 1 de *SlAGL6* (Solyc01g093960, MADS AGL6) → perte de fonction | Cultivé (allèle naturel identifié en amélioration) | RÉCESSIF | 1 |
 
 </details>
 
@@ -320,7 +320,7 @@ Les loci sont rangés en **16 chapitres** : plante (port, feuillage, trichomes, 
 |:--|:--|:--:|:--|:--|:--|
 | `SUN (sun)` | Sun / fruit elongation | 7 (copie dupliquée ; gène d'origine IQD12 sur chr 10) | 🟡 SEMI-DOMINANT | Fruit très allongé, fuselé, en pointe (type Cornue des Andes). Redistribue la masse : plus de divisions longitudinales, moins de transversales, APRÈS fécondation | DOMINANCE DE DOSAGE : F1 intermédiaire (d/a ≈ −0,39, l'allèle rond est partiellement dominant). Présent chez 88 % des tomates longues et 83 % des cœurs de bœuf. Épistasie : SUN ≻ LC pour la longueur. |
 | `OVATE (o)` | Ovate | 2 | 🔵 → 🟡 RÉCESSIF → SEMI-DOMINANT | Fruit ovale, en poire ou piriforme (Yellow Pear, Mountain Vineyard) | RÉCESSIF chez S. pimpinellifolium (rond dominant) mais ADDITIF dans l'IL2-5 de S. pennellii : la dominance dépend du fond. ovate seul ne suffit pas toujours (modificateurs). |
-| `SOV1 / SlOFP20` | Square ovate | 2 | 🔵 RÉCESSIF | Nécessaire avec ovate pour l'obovoïde franc ; délétion régulatrice → sous-expression | Effet ADDITIF avec ovate ; une mutation de SlTRM5 restaure la forme ronde chez le double ovate/sov1. |
+| `SOV1 / SlOFP20` | Suppressor of ovate 1 (SlOFP20) | 10 | 🔵 RÉCESSIF | Nécessaire avec ovate pour l'obovoïde franc ; délétion régulatrice → sous-expression | Effet ADDITIF avec ovate ; une mutation de SlTRM5 restaure la forme ronde chez le double ovate/sov1. |
 | `FS8.1` | Fruit shape 8.1 | 8 | ⚪ MIXTE / SELON FOND | Fruit carré / rectangulaire / « blocky » de la Roma de conserve, résistant à l'écrasement ; jusqu'à 27,4 % de la variance de l'indice de forme | PERTE DE FONCTION mais DOMINANCE PARTIELLE : d/a = −0,47 pour la forme (rond partiellement dominant), d/a = +1,14 pour le poids (sur-dominant). |
 | `PT (POINTED TIP)` | Pointed tip | n.d. | 🔵 RÉCESSIF (LOF) | Fruit à pointe / téton distal net. L'allèle sauvage PT^H réprime FUL2 et SUPPRIME la pointe | Le caractère « pointe » est donc récessif ; bk (beaked, chr 2) et n (nipple, chr 5) sont des loci classiques indépendants. |
 | `LC (locule number)` | Locule number | 2 | 🟣 QTL / ADDITIF | Passe de 2 loges (sauvage) à 3–4 loges : fruit plus gros et plus aplati | Essentiellement ADDITIF (d/a ≈ 0) mais décrit partiellement récessif selon les fonds. En fond LA1589, lc seul a PEU D'EFFET sans fas. |
@@ -342,7 +342,7 @@ Les loci sont rangés en **16 chapitres** : plante (port, feuillage, trichomes, 
 |:--|:--|:--|:--:|:--:|
 | `SUN (sun)` | Duplication de 24,7 kb médiée par le rétrotransposon Rider → IQD12 (Solyc10g079240) surexprimé = gain de fonction ; BZR1.7 (voie BR) active sa transcription | Cultivé (allèle domestiqué) | SEMI-DOMINANT | 7 (copie dupliquée ; gène d'origine IQD12 sur chr 10) |
 | `OVATE (o)` | Codon stop prématuré (SNP G→T) = allèle nul de la famille OFP ; l'OVATE fonctionnel est un RÉGULATEUR NÉGATIF de l'élongation | Cultivé + S. pimpinellifolium | RÉCESSIF → SEMI-DOMINANT | 2 |
-| `SOV1 / SlOFP20` | SlOFP20, module OFP × TRM (TONNEAU1 Recruiting Motif) | Cultivé | RÉCESSIF | 2 |
+| `SOV1 / SlOFP20` | SlOFP20 (Solyc10g076180), module OFP × TRM (TONNEAU1 Recruiting Motif) ; délétion de 31 kb en amont (Wu et al. 2018) | Cultivé | RÉCESSIF | 10 |
 | `FS8.1` | SNP A857T → arrêt prématuré = perte de fonction du facteur Trihelix GT-2 non canonique ; le gène fonctionnel active SlKRP2 (inhibiteur du cycle cellulaire) | Cultivé (tomate industrielle) | MIXTE / SELON FOND | 8 |
 | `PT (POINTED TIP)` | SNP His→Arg : 2 domaines C2H2 au lieu de 3 (perte de fonction partielle) | Cultivé (2022) | RÉCESSIF (LOF) | n.d. |
 | `LC (locule number)` | SlWUS (Solyc02g083950), orthologue WUSCHEL ; 2 SNP dans une boîte CArG = GAIN de fonction (élargissement du domaine d'expression) | Cultivé + S. pimpinellifolium | QTL / ADDITIF | 2 |
@@ -370,12 +370,12 @@ Les loci sont rangés en **16 chapitres** : plante (port, feuillage, trichomes, 
 | `t (tangerine / CRTISO)` | Tangerine | 10 | 🔵 RÉCESSIF | ORANGE lumineux par accumulation de PROLYCOPÈNE (cis-lycopène), biodisponible à cru ; ⚠ pas de β-carotène | ÉPISTATIQUE sur l'allèle r^2997 de PSY1 (les cis-caroténoïdes restaurent partiellement la transcription de PSY1) ; mais d'autres allèles de r (r^3756) sont épistatiques sur t. |
 | `B (CYC-B, Beta)` | High-beta | 6 | 🟢 DOMINANT | ORANGE dense : le lycopène est converti en β-CAROTÈNE (> 80 % des caroténoïdes) = PROVITAMINE A | Gène dominant classique. VOS S. cheesmaniae et galapagense le portent TOUS → votre F1 avec une rouge sera ORANGE. |
 | `og / og-c (old gold crimson)` | Old gold | 6 | 🔵 RÉCESSIF | ROUGE CRAMOISI intense (lycopène suraccumulé, 0 β-carotène), fleurs orange chamois | ⚠ B et og sont ALLÉLIQUES : on ne peut pas cumuler l'allèle nul et l'allèle surexprimé au même locus. |
-| `Del (LCY-e)` | Delta | n.d. | 🟢 DOMINANT | ORANGE par accumulation de δ-carotène au détriment du lycopène | Dominant : s'exprime dès la F1. |
-| `hp-3 (ZEP)` | High pigment-3 | n.d. | 🔵 RÉCESSIF | Rouge intense, plastes plus nombreux, lycopène ↑ | Rouge intense via déficience en ABA : ⚠ feuilles qui flétrissent et graines dormantes, comme chez `not`/`fl`/`sit`. |
+| `Del (LCY-e)` | Delta | 12 | 🟢 DOMINANT | ORANGE par accumulation de δ-carotène au détriment du lycopène | Dominant : s'exprime dès la F1. |
+| `hp-3 (ZEP)` | High pigment-3 | 2 | 🔵 RÉCESSIF | Rouge intense, plastes plus nombreux, lycopène ↑ | Rouge intense via déficience en ABA : ⚠ feuilles qui flétrissent et graines dormantes, comme chez `not`/`fl`/`sit`. |
 | `u (uniform ripening)` | Uniform ripening | 10 | 🔵 RÉCESSIF | Fruit immature VERT CLAIR UNIFORME (suppression de l'épaule verte) — allèle fixé dans presque toutes les variétés modernes | ⚠ COÛT NUTRITIONNEL : −10 à −20 % de sucres et de caroténoïdes. Le « joli » fruit uniforme est génétiquement moins savoureux. |
-| `ug (uniform gray-green)` | Uniform gray-green | n.d. | 🔵 RÉCESSIF | Absence d'épaule verte : phénocopie de u, par un autre gène | Utile pour distinguer deux origines d'un même look. |
+| `ug (uniform gray-green)` | Uniform gray-green | 1 | 🔵 RÉCESSIF | Absence d'épaule verte : phénocopie de u, par un autre gène | Utile pour distinguer deux origines d'un même look. |
 | `gf (green flesh)` | Green-flesh | 8 | 🔵 RÉCESSIF | RÉTENTION de la chlorophylle à maturité → chair brun-verte (Noire de Crimée, Green Zebra) | Récessif (homozygotie requise). gf + r/r = chair VERT franc ; gf + Y = brun/noir, gf + y = pourpre-brun (Cherokee Purple). |
-| `gs (green stripe)` | Green stripe | n.d. | 🔵 RÉCESSIF | Rayures vertes sur fruit immature (visibles à maturité si gf) | Récessif ; les rayures ne restent visibles à maturité QUE si `gf/gf` est présent — sinon elles disparaissent au rougissement. |
+| `gs (green stripe)` | Green stripe | 7 | 🔵 RÉCESSIF | Rayures vertes sur fruit immature (visibles à maturité si gf) | Récessif ; les rayures ne restent visibles à maturité QUE si `gf/gf` est présent — sinon elles disparaissent au rougissement. |
 | `Gr / Nr-2` | Green-ripe | 1 | 🟢 DOMINANT | Le fruit NE MÛRIT PAS : reste vert avec un cœur rouge/orangé | Dominant : bloque la dégradation de la chlorophylle et la maturation. Gr et Nr-2 sont alléliques. |
 
 <details>
@@ -388,13 +388,13 @@ Les loci sont rangés en **16 chapitres** : plante (port, feuillage, trichomes, 
 | `t (tangerine / CRTISO)` | CRTISO = caroténoïde isomérase (perte de fonction) | Cultivé (mutant) | RÉCESSIF | 10 |
 | `B (CYC-B, Beta)` | CYC-B = lycopène β-cyclase plastidiale, SUREXPRIMÉE par variation du promoteur (haplotypes sauvages) = gain de fonction | S. cheesmaniae, S. galapagense, S. habrochaites LA0316, S. pennellii | DOMINANT | 6 |
 | `og / og-c (old gold crimson)` | Allèles NULS (frameshift / codon stop) du MÊME gène CYC-B | Cultivé (mutant) | RÉCESSIF | 6 |
-| `Del (LCY-e)` | Lycopène ε-cyclase (CrtL-e) à expression/activité accrue | S. pennellii / S. l. var. cerasiforme | DOMINANT | n.d. |
-| `hp-3 (ZEP)` | Zeaxanthine époxydase (nul → déficience en ABA) | Cultivé (mutant) | RÉCESSIF | n.d. |
+| `Del (LCY-e)` | Lycopène ε-cyclase (CrtL-e, Solyc12g008980) à expression/activité accrue | S. pennellii / S. l. var. cerasiforme | DOMINANT | 12 |
+| `hp-3 (ZEP)` | Zéaxanthine époxydase (Solyc02g090890 ; nul → déficience en ABA) | Cultivé (mutant) | RÉCESSIF | 2 |
 | `u (uniform ripening)` | SlGLK2 = GOLDEN2-LIKE (Solyc10g008160) ; mutation non-sens par insertion d'1 pb | S. cheesmaniae LA0428 / S. galapagense LA1141 / sélection interne | RÉCESSIF | 10 |
-| `ug (uniform gray-green)` | TKN4 (KNOX de classe I), perte de fonction | Cultivé (mutant) | RÉCESSIF | n.d. |
+| `ug (uniform gray-green)` | TKN4 (Solyc01g100510, KNOX de classe I), perte de fonction | Cultivé (mutant) | RÉCESSIF | 1 |
 | `gf (green flesh)` | SGR1 = STAY-GREEN (Solyc08g080090) ; substitution Arg143→Ser + ≥5 allèles nuls indépendants | Cultivé (mutant) | RÉCESSIF | 8 |
-| `gs (green stripe)` | Non cloné | Cultivé (Green Zebra…) | RÉCESSIF | n.d. |
-| `Gr / Nr-2` | GR, homologue de RTE1 (gain de fonction) ; délétion de 334 pb en 5′ → expression ectopique | Cultivé (mutant dominant) | DOMINANT | 1 |
+| `gs (green stripe)` | Épiallèle de TAGL1 (Solyc07g055920, hyperméthylation du promoteur ; Liu et al. 2020) | Cultivé (Green Zebra…) | RÉCESSIF | 7 |
+| `Gr / Nr-2` | GR (Solyc01g104340), homologue de RTE1 (gain de fonction) ; délétion de 334 pb en 5′ → expression ectopique | Cultivé (mutant dominant) | DOMINANT | 1 |
 
 </details>
 
@@ -409,19 +409,19 @@ Les loci sont rangés en **16 chapitres** : plante (port, feuillage, trichomes, 
 | `rin (ripening-inhibitor)` | Ripening inhibitor | 5 | 🔵 RÉCESSIF | Blocage de la maturation : fruit vert/pâle, jamais rouge, pas d'éthylène | Utilisé EN HÉTÉROZYGOZITÉ (rin/+) pour la longue conservation. ⚠ rin/nor détruisent aussi l'arôme (ils régulent TomLoxC, ADH2, HPL…). |
 | `nor (non-ripening)` | Non-ripening | 10 | 🔵 RÉCESSIF | Maturation retardée, faible éthylène, longue conservation | Les hétérozygotes nor/+ sont la base industrielle du shelf-life. |
 | `alc (alcobaca)` | Alcobaca | 10 | 🔵 RÉCESSIF | Même phénotype que nor mais PLUS FAIBLE : maturation lente, conservation longue (tomates « de colgar » / Penjar) | ⚠ alc n'est PAS un gène séparé : c'est un allèle de NOR. Idem nor/alc = hétérozygotes largement utilisés. |
-| `Cnr (Colorless non-ripening)` | Colorless non-ripening | 4 | 🟢 + ⚫ DOMINANT + ÉPIGÉNÉTIQUE | Fruit incolore, péricarpe farineux, perte d'adhérence cellulaire | DOMINANT (contrairement à rin/nor) et ÉPISTATIQUE sur rin et nor. Incomplètement dominant à récessif pour la pigmentation et les volatils. ⚠ Les marqueurs ADN classiques peuvent échouer : c'est un épi-allèle. |
-| `Nr` | Never ripe | n.d. | 🟢 DOMINANT | Maturation bloquée, sénescence et abscission retardées | Dominant négatif. À manier avec précaution en F1 : s'exprime dès la première génération. |
+| `Cnr (Colorless non-ripening)` | Colorless non-ripening | 2 | 🟢 + ⚫ DOMINANT + ÉPIGÉNÉTIQUE | Fruit incolore, péricarpe farineux, perte d'adhérence cellulaire | DOMINANT (contrairement à rin/nor) et ÉPISTATIQUE sur rin et nor. Incomplètement dominant à récessif pour la pigmentation et les volatils. ⚠ Les marqueurs ADN classiques peuvent échouer : c'est un épi-allèle. |
+| `Nr` | Never ripe | 9 | 🟢 DOMINANT | Maturation bloquée, sénescence et abscission retardées | Dominant négatif. À manier avec précaution en F1 : s'exprime dès la première génération. |
 
 <details>
 <summary>🔬 Biochimie, nature de la mutation, origine de l'allèle (5 loci)</summary>
 
 | Symbole | Nature de la mutation / fonction moléculaire | Origine de l'allèle | Dominance | Chr. |
 |:--|:--|:--|:--:|:--:|
-| `rin (ripening-inhibitor)` | SOLYC05G038930 MADS-RIN ; délétion → protéine de fusion, qui agit aussi en répresseur dominant négatif au niveau moléculaire | Cultivé (mutant) | RÉCESSIF | 5 |
-| `nor (non-ripening)` | NAC-NOR (Solyc10g051480) ; délétion de 2 pb → protéine tronquée NOR186 | Cultivé (mutant) | RÉCESSIF | 10 |
+| `rin (ripening-inhibitor)` | Solyc05g012020 MADS-RIN (fusion RIN–MC avec Solyc05g056620) ; délétion → protéine de fusion, qui agit aussi en répresseur dominant négatif au niveau moléculaire | Cultivé (mutant) | RÉCESSIF | 5 |
+| `nor (non-ripening)` | NAC-NOR (Solyc10g006880) ; délétion de 2 pb → protéine tronquée NOR186 | Cultivé (mutant) | RÉCESSIF | 10 |
 | `alc (alcobaca)` | Allèle du MÊME gène NAC-NOR : substitution Val→Asp (V317D) | Cultivé | RÉCESSIF | 10 |
-| `Cnr (Colorless non-ripening)` | SPL-CNR : ÉPIMUTATION = hyperméthylation du promoteur, AUCUN changement de séquence | Cultivé (mutant épigénétique) | DOMINANT + ÉPIGÉNÉTIQUE | 4 |
-| `Nr` | SlETR3 (récepteur d'éthylène), mutation du domaine senseur = gain de fonction | Cultivé (mutant dominant) | DOMINANT | n.d. |
+| `Cnr (Colorless non-ripening)` | SPL-CNR (Solyc02g077920) : ÉPIMUTATION = hyperméthylation du promoteur, AUCUN changement de séquence | Cultivé (mutant épigénétique) | DOMINANT + ÉPIGÉNÉTIQUE | 2 |
+| `Nr` | SlETR3 (Solyc09g075440, récepteur d'éthylène), mutation du domaine senseur = gain de fonction | Cultivé (mutant dominant) | DOMINANT | 9 |
 
 </details>
 
@@ -433,15 +433,15 @@ Les loci sont rangés en **16 chapitres** : plante (port, feuillage, trichomes, 
 |:--|:--|:--:|:--|:--|:--|
 | `LIN5 (Brix9-2-5)` | Lin5 / invertase apoplasmique | 9 | 🟡 SEMI-DOMINANT | Double quasi le ratio fructose/glucose : attaque sucrée immédiate. +11 à +25 % de solides solubles SANS perte de rendement | PARTIELLEMENT DOMINANT : « the partially dominant nature of the S. pennellii allele » ; une seule copie de l'Asn366Asp suffit → utilisable dès la F1. Silençage : −30 % glucose, −17 à −26 % fructose. |
 | `SlCDPK27 (SSC11.1)` | Frein à sucre | 11 | 🔵 RÉCESSIF | KO : +16 % de solubles ; double KO avec SlCDPK26 : +30 % de glucose+fructose, SANS pénalité de poids ni de rendement (graines plus petites) | PERTE DE FONCTION = RÉCESSIF, à fixer à l'homozygotie. ⚠ L'allèle a été PERDU à la domestication car lié au locus de poids fw11.3 (co-sélection gros fruit = peu sucré). Voie la plus rapide = CRISPR. |
-| `SlCDPK26` | Paralogue de CDPK27 | n.d. | 🔵 RÉCESSIF | Effet uniquement en double KO avec SlCDPK27 (redondance) | Redondance fonctionnelle ⇒ il faut les DEUX pertes de fonction. |
+| `SlCDPK26` | Paralogue de CDPK27 | 1 | 🔵 RÉCESSIF | Effet uniquement en double KO avec SlCDPK27 (redondance) | Redondance fonctionnelle ⇒ il faut les DEUX pertes de fonction. |
 | `SlSPS1 (qSSC7.1)` | Sucrose-phosphate synthase | 7 | 🟣 QTL / ADDITIF | Sucres en hausse SANS AUCUN effet sur le poids du fruit | Caractère quantitatif : l'allèle AG a décliné à la domestication, partiellement récupéré dans les programmes qualité. |
 | `STP1 (qSSC2.1)` | Transporteur de monosaccharides | 2 | 🟣 QTL / ADDITIF | QTL de solubles solubles ; le KO fait baisser le Brix | ⚠ Ici le « bon » allèle est DÉJÀ dans le cultivé : pas besoin d'aller chercher le sauvage. |
-| `SlSUS3` | Sucrose synthase | n.d. | 🟢 DOMINANT (transgène) | ↑ sucres sans effet sur le poids du fruit | Gain de fonction → effet de dosage, dominant à l'échelle du transgène. |
-| `SlINVINH1 / SlVPE5` | Inhibiteur d'invertase / protéase | n.d. | 🔵 RÉCESSIF | ↑ solubles solubles, glucose et fructose | La perte de fonction des DEUX gènes est nécessaire pour l'effet maximal. |
-| `SlVIF` | Inhibiteur d'invertase vacuolaire | n.d. | 🟣 QTL / ADDITIF | Régulation négative : modélise la force du « puits » à sucres | Surexpression ↓ hexoses, suppression ↑ hexoses. |
+| `SlSUS3` | Sucrose synthase | 7 | 🟢 DOMINANT (transgène) | ↑ sucres sans effet sur le poids du fruit | Gain de fonction → effet de dosage, dominant à l'échelle du transgène. |
+| `SlINVINH1 / SlVPE5` | Inhibiteur d'invertase / protéase | 12 | 🔵 RÉCESSIF | ↑ solubles solubles, glucose et fructose | La perte de fonction des DEUX gènes est nécessaire pour l'effet maximal. |
+| `SlVIF` | Inhibiteur d'invertase vacuolaire | 12 | 🟣 QTL / ADDITIF | Régulation négative : modélise la force du « puits » à sucres | Surexpression ↓ hexoses, suppression ↑ hexoses. |
 | `SlVI / Sucr` | Invertase vacuolaire | 3 | 🔵 RÉCESSIF | ↑ saccharose et solubles solubles | Le gène Sucr classique (chr 3). |
-| `SlTST1 / SlTST2` | Transporteurs tonoplastiques | n.d. | 🔵 RÉCESSIF | Double mutant : −40 % glucose, −50 % fructose+saccharose, −40 % de Brix | Sens inverse : ce sont des gènes NÉCESSAIRES au sucre du fruit. |
-| `SlSWEET7a / SlSWEET14` | Transporteurs d'efflux | n.d. | 🔵 RÉCESSIF | Silençage → ↑ sucres du fruit mûr | Perte de fonction souhaitable. |
+| `SlTST1 / SlTST2` | Transporteurs tonoplastiques | 4 / 3 | 🔵 RÉCESSIF | Double mutant : −40 % glucose, −50 % fructose+saccharose, −40 % de Brix | Sens inverse : ce sont des gènes NÉCESSAIRES au sucre du fruit. |
+| `SlSWEET7a / SlSWEET14` | Transporteurs d'efflux | 8 / 3 | 🔵 RÉCESSIF | Silençage → ↑ sucres du fruit mûr | Perte de fonction souhaitable. |
 | `SlbZIP1, SlNAP2, SlARF10, SlFgr, AGPase, SUT2, TIV1, RIN` | Régulateurs du Brix | divers | 🟣 QTL / ADDITIF | Chacun apporte 1 à 15 % de la variance ; RIN agit via SlVI/SlVIF | Dominance NON ÉTABLIE (régulateurs). L'ensemble des QTL connus couvre > 50 % de l'héritabilité du Brix ; un QTL majeur peut atteindre ~30 %. |
 | `Segment « chm » (S. chmielewskii)` | Hauts solides historiques | n.d. | 🟢 DOMINANT (action génique dominante) | +13 % de Brix à l'homozygotie, +12 % à l'hétérozygote, +6 % avec une seule dose. Sans effet négatif cohérent sur rendement, poids ou pH | Le vieux gisement des années 1980–90 reste directement utilisable. ⚠ Ne pas confondre : les hauts solides de Rick (1974) viennent de chmielewskii, PAS de cheesmaniae. |
 
@@ -452,15 +452,15 @@ Les loci sont rangés en **16 chapitres** : plante (port, feuillage, trichomes, 
 |:--|:--|:--|:--:|:--:|
 | `LIN5 (Brix9-2-5)` | Invertase de paroi (Solyc09g010080) ; QTN = SNP Asn366Asp près du site catalytique (activité enzymatique accrue, PAS de différence de transcription) | S. pennellii LA0716 → lignée IL9-2-5 (fond M82) | SEMI-DOMINANT | 9 |
 | `SlCDPK27 (SSC11.1)` | Insertion de 12 pb dans le PROMOTEUR de l'allèle « haut sucre » → sous-expression (perte de fonction). Les kinases freinent la sucrose synthase SlSUS3 (phosphorylation → dégradation) | Prévalent chez S. pimpinellifolium et S. l. cerasiforme ; quasi absent des variétés modernes à gros fruit (97 % portent l'allèle bas-sucre) | RÉCESSIF | 11 |
-| `SlCDPK26` | Paralogue de la même voie | Sauvages | RÉCESSIF | n.d. |
+| `SlCDPK26` | Paralogue de la même voie (Solyc01g006840) | Sauvages | RÉCESSIF | 1 |
 | `SlSPS1 (qSSC7.1)` | InDel de 1 pb (AG/A) à −2355 pb du promoteur ; l'allèle AG = plus d'expression | S. pimpinellifolium LA1924 (stable sur 3 ans et 3 environnements) | QTL / ADDITIF | 7 |
 | `STP1 (qSSC2.1)` | InDel de 21 pb dans le PROMOTEUR, sélectionné pendant l'amélioration | Lignées cultivées élites | QTL / ADDITIF | 2 |
-| `SlSUS3` | Surexpression (échappe à la dégradation par les CDPK) | Ingénierie | DOMINANT (transgène) | n.d. |
-| `SlINVINH1 / SlVPE5` | KO simple ou double (CRISPR) | Ingénierie | RÉCESSIF | n.d. |
-| `SlVIF` | — | Cultivé | QTL / ADDITIF | n.d. |
-| `SlVI / Sucr` | KO | Cultivé | RÉCESSIF | 3 |
-| `SlTST1 / SlTST2` | — | Cultivé | RÉCESSIF | n.d. |
-| `SlSWEET7a / SlSWEET14` | — | Cultivé | RÉCESSIF | n.d. |
+| `SlSUS3` | Saccharose synthase (Solyc07g042550) ; surexpression (échappe à la dégradation par les CDPK) | Ingénierie | DOMINANT (transgène) | 7 |
+| `SlINVINH1 / SlVPE5` | KO simple ou double (CRISPR ; SlINVINH1 = Solyc12g099200) | Ingénierie | RÉCESSIF | 12 |
+| `SlVIF` | Inhibiteur d'invertase vacuolaire (Solyc12g099190) | Cultivé | QTL / ADDITIF | 12 |
+| `SlVI / Sucr` | KO (invertase vacuolaire TIV1, Solyc03g083910) | Cultivé | RÉCESSIF | 3 |
+| `SlTST1 / SlTST2` | Tonoplast sugar transporters (Solyc04g082700 / Solyc03g032040) | Cultivé | RÉCESSIF | 4 / 3 |
+| `SlSWEET7a / SlSWEET14` | Transporteurs SWEET (Solyc08g082770 / Solyc03g097870) | Cultivé | RÉCESSIF | 8 / 3 |
 | `SlbZIP1, SlNAP2, SlARF10, SlFgr, AGPase, SUT2, TIV1, RIN` | Facteurs de transcription et enzymes ; édition de régions inhibitrices | Cultivé + sauvages | QTL / ADDITIF | divers |
 | `Segment « chm » (S. chmielewskii)` | Plusieurs QTL (RFLP historique) | S. chmielewskii LA1028 (≈10 % SS contre ≈5 % chez VF36) ; lignées LA1563 (BC5S5) et VF145B-7879 | DOMINANT (action génique dominante) | n.d. |
 
@@ -473,12 +473,12 @@ Les loci sont rangés en **16 chapitres** : plante (port, feuillage, trichomes, 
 | Symbole | Nom / locus | Chr. | Dominance | Effet, phénotype | Ce que ça change en sélection |
 |:--|:--|:--:|:--|:--|:--|
 | `SlALMT9 (TFM6)` | Transporteur vacuolaire de malate | 6 | 🟡 SEMI-DOMINANT | Acidité malique vive et fraîche (pomme verte), équilibre le sucre. Malate + citrate = > 90 % des acides organiques | Mutation régulatrice : une seule copie semble suffire (modèle Ma1 du pommier). Marqueur très simple à génotyper (InDel 3 pb). |
-| `SlWRKY42` | Répresseur d'ALMT9 | n.d. | ⚪ MIXTE / SELON FOND | ↓ malate par répression transcriptionnelle | Gain de fonction = acide réduit. À surveiller si vous cherchez de l'acidité. |
+| `SlWRKY42` | Répresseur d'ALMT9 | 10 | ⚪ MIXTE / SELON FOND | ↓ malate par répression transcriptionnelle | Gain de fonction = acide réduit. À surveiller si vous cherchez de l'acidité. |
 | `Loci du citrate (11 loci)` | Acidité titrable & pH | plusieurs | 🟣 QTL / ADDITIF | pH et acidité titrable : caractères très polygéniques, forte variabilité saisonnière | ⚠ LE CITRATE influence davantage la préférence du consommateur que le malate — et il n'a pas de gène majeur exploitable. |
 | `GTF (glycosyltransférase groupe 1)` | Malate & citrate | 2 | 🟣 QTL / ADDITIF | Associé aux DEUX acides simultanément | Dominance non déterminée. |
 | `SlGAD2 / SlGAD3` | GABA : la dominance la mieux documentée | 1 et 11 | 🟢 DOMINANT (partielle) | GABA multiplié par 7 à 15 (jusqu'à 125 mg/100 g frais) sans effet sur le rendement | LE GÈNE EST HAPLO-SUFFISANT : l'hétérozygote suffit → allèle directement exploitable en F1, en T0 et même en hémizygotie. Premier aliment CRISPR commercialisé au monde. |
-| `SlGABA-T1` | Catabolisme du GABA | n.d. | 🔵 RÉCESSIF | GABA ×2,95 au stade rouge (73,8 mg/100 g) | Récessif. |
-| `SlGABA-T1/2/3 + SlSSADH` | Multiplex GABA | n.d. | 🔵 RÉCESSIF | GABA ×19 MAIS nanisme sévère, malformations, quasi-stérilité | Pléiotropie forte ⇒ à ÉVITER en sélection classique. |
+| `SlGABA-T1` | Catabolisme du GABA | 7 | 🔵 RÉCESSIF | GABA ×2,95 au stade rouge (73,8 mg/100 g) | Récessif. |
+| `SlGABA-T1/2/3 + SlSSADH` | Multiplex GABA | 7, 12 / 9 | 🔵 RÉCESSIF | GABA ×19 MAIS nanisme sévère, malformations, quasi-stérilité | Pléiotropie forte ⇒ à ÉVITER en sélection classique. |
 | `Pool de glutamate (umami)` | Umami | divers | 🟣 QTL / ADDITIF | Le L-glutamate est l'acide aminé libre dominant du fruit rouge ; aucun locus « umami » cloné à ce jour | HÉRITABILITÉ QUANTITATIVE, non mendélienne. Les 5'-ribonucléotides (IMP/GMP) sont quasi absents chez la tomate : l'umami explose dans les plats cuisinés, par synergie avec les nucléotides des autres ingrédients. |
 
 <details>
@@ -487,12 +487,12 @@ Les loci sont rangés en **16 chapitres** : plante (port, feuillage, trichomes, 
 | Symbole | Nature de la mutation / fonction moléculaire | Origine de l'allèle | Dominance | Chr. |
 |:--|:--|:--|:--:|:--:|
 | `SlALMT9 (TFM6)` | Solyc06g072910 ; InDel de 3 pb dans une BOÎTE W du promoteur (allèle « haut malate », sélectionné à la domestication) ; KO CRISPR → malate réduit | Cultivé (variation naturelle) | SEMI-DOMINANT | 6 |
-| `SlWRKY42` | Facteur de transcription liant la 8e boîte W du promoteur de SlALMT9 | Cultivé | MIXTE / SELON FOND | n.d. |
+| `SlWRKY42` | Facteur de transcription (Solyc10g009550) liant la 8e boîte W du promoteur de SlALMT9 | Cultivé | MIXTE / SELON FOND | 10 |
 | `Loci du citrate (11 loci)` | InDels et variants structuraux, QTL mineurs (GWAS 2023) | Cultivé + sauvages | QTL / ADDITIF | plusieurs |
 | `GTF (glycosyltransférase groupe 1)` | Méta-GWAS | Cultivé | QTL / ADDITIF | 2 |
 | `SlGAD2 / SlGAD3` | Troncation du domaine auto-inhibiteur C-terminal (CaMBD, liaison calmoduline) | Édition CRISPR (Sicilian Rouge High GABA, Japon 2021) | DOMINANT (partielle) | 1 et 11 |
-| `SlGABA-T1` | KO CRISPR | Édition | RÉCESSIF | n.d. |
-| `SlGABA-T1/2/3 + SlSSADH` | KO simultanés | Édition | RÉCESSIF | n.d. |
+| `SlGABA-T1` | KO CRISPR (GABA transaminase 1, Solyc07g043310) | Édition | RÉCESSIF | 7 |
+| `SlGABA-T1/2/3 + SlSSADH` | KO simultanés (SlGABA-T1/2/3 = Solyc07g043310, Solyc12g006470, Solyc12g006450 ; SlSSADH = Solyc09g090700) | Édition | RÉCESSIF | 7, 12 / 9 |
 | `Pool de glutamate (umami)` | Peptidases, γ-glutamyl-transpeptidase, GDH et GABA-T (les deux dernières augmentent fortement à la maturation) | Cultivé | QTL / ADDITIF | divers |
 
 </details>
@@ -504,22 +504,22 @@ Les loci sont rangés en **16 chapitres** : plante (port, feuillage, trichomes, 
 | Symbole | Nom / locus | Chr. | Dominance | Effet, phénotype | Ce que ça change en sélection |
 |:--|:--|:--:|:--|:--|:--|
 | `TomLoxC` | 13-lipoxygénase : longueur en bouche | 1 | 🟠 SURDOMINANCE | Arôme « tomate » (notes vertes et florales d'antan), longueur en bouche de 2 à 5 min : C5/C6 — (Z)-3-hexénal, hexanal, hexanol — + apocaroténoïdes | SURDOMINANCE / HÉTÉROSIS : les HÉTÉROZYGTES (rare + commun) expriment PLUS que les deux homozygotes → argument fort pour évaluer les F1 sur l'arôme, et pour ne PAS fixer l'allèle à l'homozygotie. Actif dès la F1. Allèle contre-sélectionné à la domestication, en résurgence aujourd'hui. |
-| `DXR (promoteur)` | Précurseur des apocaroténoïdes | n.d. | 🟣 QTL / ADDITIF | β-ionone, géranylacétone, 6-méthyl-5-heptén-2-one : notes florales et fruitées | Sélection NÉGATIVE pendant la domestication. Effet d'expression, donc additif/quantitatif. |
-| `SlHPL` | Arôme C6 | n.d. | 🟢 DOMINANT | Hexénal, hexanol : « odeur de tomate coupée » | L'allèle fonctionnel est NÉCESSAIRE (dominant pour l'arôme C6). |
+| `DXR (promoteur)` | Précurseur des apocaroténoïdes | 3 | 🟣 QTL / ADDITIF | β-ionone, géranylacétone, 6-méthyl-5-heptén-2-one : notes florales et fruitées | Sélection NÉGATIVE pendant la domestication. Effet d'expression, donc additif/quantitatif. |
+| `SlHPL` | Arôme C6 | 7 | 🟢 DOMINANT | Hexénal, hexanol : « odeur de tomate coupée » | L'allèle fonctionnel est NÉCESSAIRE (dominant pour l'arôme C6). |
 | `SlADH2` | Ratio aldéhyde / alcool | 6 | 🟣 QTL / ADDITIF (dosage) | Notes « fruit mûr » plus intenses en surexpression ; l'antisens altère le ratio aldéhyde/alcool | Effet de dosage. Attention : dépend du statut en RIN. |
 | `SlCXE1` | Balance des esters | 1 | 🟣 QTL / ADDITIF | Libère les alcools à partir des esters : notes tropicales (mangue, ananas, bonbon) | Avec AAT1, fixe l'équilibre esters/acides : la signature de Sungold. |
-| `AAT1` | Alcool acyltransférase | 2 | 🟣 QTL / ADDITIF | Synthèse des ESTERS fruités (fermentation de l'arôme) | QTL additif — la paire AAT1/CXE1 est le « volume » des notes tropicales. |
-| `SlCCD1A / SlCCD1B` | Apocaroténoïdes | n.d. | 🔵 RÉCESSIF (bénéfique) | Arôme amélioré (β-ionone…) au prix des pigments | ⚠ COMPROMIS : dégrader plus de caroténoïdes = moins de couleur, plus d'arôme. |
+| `AAT1` | Alcool acyltransférase | 8 | 🟣 QTL / ADDITIF | Synthèse des ESTERS fruités (fermentation de l'arôme) | QTL additif — la paire AAT1/CXE1 est le « volume » des notes tropicales. |
+| `SlCCD1A / SlCCD1B` | Apocaroténoïdes | 1 | 🔵 RÉCESSIF (bénéfique) | Arôme amélioré (β-ionone…) au prix des pigments | ⚠ COMPROMIS : dégrader plus de caroténoïdes = moins de couleur, plus d'arôme. |
 | `AADC1A / AADC1B / AADC2` | QTL « malodorous » | 8 | 🟣 QTL / ADDITIF (fort) | Phénylacétaldéhyde, 2-phényléthanol, 1-nitro-2-phényléthane | Allèle à forte activité, effet marqué non strictement additif. ⚠ Effet AMBIVALENT : perçu « malodorant » dans certains fonds → à valider en panel sensoriel avant d'introgresser. |
-| `SlPAR1 / SlPAR2` | Phénylacétaldéhyde réductase | n.d. | 🟣 QTL / ADDITIF (dosage) | Dernière étape de la voie : convertit le phénylacétaldéhyde en 2-phényléthanol (note miel / rose, aussi majeure du parfum de la rose) | La biochimie est solidement établie, la génétique du fruit beaucoup moins : des lignées tomates à expression `LePAR` réduite **n'ont pas** perdu de 2-phényléthanol (redondance, voie déjà limitée par l'amont). À traiter en **effet de dosage**, pas en locus à fixer ; toute prédiction de croisement ici reste une [extrapolation]. |
+| `SlPAR1 / SlPAR2` | Phénylacétaldéhyde réductase | 1 | 🟣 QTL / ADDITIF (dosage) | Dernière étape de la voie : convertit le phénylacétaldéhyde en 2-phényléthanol (note miel / rose, aussi majeure du parfum de la rose) | La biochimie est solidement établie, la génétique du fruit beaucoup moins : des lignées tomates à expression `LePAR` réduite **n'ont pas** perdu de 2-phényléthanol (redondance, voie déjà limitée par l'amont). À traiter en **effet de dosage**, pas en locus à fixer ; toute prédiction de croisement ici reste une [extrapolation]. |
 | `FLORAL4` | Arôme floral | 4 | 🔵 RÉCESSIF (LOF pénalisante) | 2-phényléthanol (rose/thé), phénylacétaldéhyde, 1-nitro-2-phényléthane | L'allèle FONCTIONNEL est nécessaire : l'édition (mutations délétères) effondre les PHEV. Une NIL contrastante est réellement DIFFÉRENCIÉE à la dégustation. |
-| `SlSAMT` | Salicylate de méthyle | n.d. | ⚪ MIXTE / SELON FOND | Note mentholée | Fonction enzymatique validée. |
+| `SlSAMT` | Salicylate de méthyle | 9 | ⚪ MIXTE / SELON FOND | Note mentholée | Fonction enzymatique validée. |
 | `SlEGS1` | Eugénol | n.d. | 🟣 QTL / ADDITIF | Note clou de girofle | QTL, dominance non déterminée. |
 | `GT1 / UGT` | Volatils glycosylés | n.d. | 🟣 QTL / ADDITIF | Réservoirs d'arôme (les précurseurs glycosylés se libèrent à la dégustation et à la transformation) | Effets quantitatifs ; explique pourquoi un jus cuit sent plus fort qu'un fruit cru. |
 | `LIP1 / LIP2` | Lipases | 12 | 🟣 QTL / ADDITIF (additif) | (Z)-4-décénal et plusieurs C5–C10 corrélés au PLAISIR du consommateur | UN SEUL SEGMENT CHROMOSOMIQUE augmente de nombreux volatils positifs → meilleure introgression « rendement aromatique/prix » du lot. |
-| `SlYTH2` | Lecteur m6A : le multiplicateur d'arôme | n.d. | 🔵 RÉCESSIF (bénéfique) | +1,5× de volatils TOTAUX, sans altérer la couleur ni la fermeté ; 71 % des dégustateurs préfèrent le fruit édité | LE GÈNE FONCTIONNEL EST UN RÉPRESSEUR ⇒ la perte de fonction est RÉCESSIVE et BÉNÉFIQUE. À fixer à l'homozygotie (ou en hémizygotie T0). |
+| `SlYTH2` | Lecteur m6A : le multiplicateur d'arôme | 1 | 🔵 RÉCESSIF (bénéfique) | +1,5× de volatils TOTAUX, sans altérer la couleur ni la fermeté ; 71 % des dégustateurs préfèrent le fruit édité | LE GÈNE FONCTIONNEL EST UN RÉPRESSEUR ⇒ la perte de fonction est RÉCESSIVE et BÉNÉFIQUE. À fixer à l'homozygotie (ou en hémizygotie T0). |
 | `NSGT1` | Arôme « fumé » (gaïacol) | 9 | ⚪ MIXTE / SELON FOND | La forme FONCTIONNELLE empêche la libération de gaïacol (fumé), de salicylate de méthyle et d'eugénol → arôme « propre » | ⚠ CAS INVERSE : les haplotypes NON fonctionnels sont les plus fréquents chez les heirlooms et le cultivé moderne. Sélectionner NSGT1 FONCTIONNEL = assainir l'arôme moderne. |
-| `RIN / NOR / FUL1-2` | Chefs d'orchestre de l'arôme | 5 / 10 / n.d. | 🟣 QTL / ADDITIF | Lient directement les promoteurs de TomLoxC, ADH2, HPL, CCD… | Effets PLÉIOTROPES : les mutants rin/nor bloquent la maturation ET détruisent l'arôme. Ne jamais sacrifier l'arôme pour la conservation sans le savoir. |
+| `RIN / NOR / FUL1-2` | Chefs d'orchestre de l'arôme | 5 / 10 / 6, 3 | 🟣 QTL / ADDITIF | Lient directement les promoteurs de TomLoxC, ADH2, HPL, CCD… | Effets PLÉIOTROPES : les mutants rin/nor bloquent la maturation ET détruisent l'arôme. Ne jamais sacrifier l'arôme pour la conservation sans le savoir. |
 
 <details>
 <summary>🔬 Biochimie, nature de la mutation, origine de l'allèle (17 loci)</summary>
@@ -527,22 +527,22 @@ Les loci sont rangés en **16 chapitres** : plante (port, feuillage, trichomes, 
 | Symbole | Nature de la mutation / fonction moléculaire | Origine de l'allèle | Dominance | Chr. |
 |:--|:--|:--|:--:|:--:|
 | `TomLoxC` | Allèle rare du PROMOTEUR (variant structural d'~4 kb) + duplication du locus ; Solyc01g006540 | S. pimpinellifolium : présent chez 91 % des tomates groseille, contre 2 % des heirlooms à gros fruit | SURDOMINANCE | 1 |
-| `DXR (promoteur)` | Variant sauvage du promoteur → expression accrue du gène en aval | S. pimpinellifolium (58 % des accessions), 5 % chez cerasiforme, 2 % chez les heirlooms | QTL / ADDITIF | n.d. |
-| `SlHPL` | 13-hydroperoxyde lyase ; cible de la régulation traductionnelle par SlYTH2 | Cultivé | DOMINANT | n.d. |
+| `DXR (promoteur)` | Variant sauvage du promoteur de DXR (Solyc03g114340) → expression accrue du gène en aval | S. pimpinellifolium (58 % des accessions), 5 % chez cerasiforme, 2 % chez les heirlooms | QTL / ADDITIF | 3 |
+| `SlHPL` | 13-hydroperoxyde lyase (Solyc07g049690) ; cible de la régulation traductionnelle par SlYTH2 | Cultivé | DOMINANT | 7 |
 | `SlADH2` | Solyc06g059740, alcool déshydrogénase ; régulé par RIN | Cultivé + sauvages | QTL / ADDITIF (dosage) | 6 |
-| `SlCXE1` | Carboxyestérase, identifiée par QTL | Cultivé + sauvages | QTL / ADDITIF | 1 |
-| `AAT1` | Alcohol acyltransferase | Cultivé | QTL / ADDITIF | 2 |
-| `SlCCD1A / SlCCD1B` | Caroténoïde cleavage dioxygenases ; SlCCD1B est traduit plus vite quand SlYTH2 est KO | Cultivé | RÉCESSIF (bénéfique) | n.d. |
+| `SlCXE1` | Carboxyestérase (Solyc01g108585), identifiée par QTL | Cultivé + sauvages | QTL / ADDITIF | 1 |
+| `AAT1` | Alcohol acyltransferase 1 (SlAAT1, Solyc08g005770 ; Goulet et al. 2015) | Cultivé | QTL / ADDITIF | 8 |
+| `SlCCD1A / SlCCD1B` | Caroténoïde cleavage dioxygenases en tandem (Solyc01g087250 / Solyc01g087260) ; SlCCD1B est traduit plus vite quand SlYTH2 est KO | Cultivé | RÉCESSIF (bénéfique) | 1 |
 | `AADC1A / AADC1B / AADC2` | Décarboxylases d'acides aminés aromatiques | S. pennellii LA0716 via la lignée IL8-2 (fond M82) | QTL / ADDITIF (fort) | 8 |
-| `SlPAR1 / SlPAR2` | LePAR1 / LePAR2, réductases à cofacteur NADPH (famille short-chain dehydrogenase/reductase) ; expression maximale dans les boutons floraux, en baisse pendant la maturation ; conversion validée in vivo par surexpression chez le pétunia | Tieman et al. 2007 (Phytochemistry 68:1-11) | QTL / ADDITIF (dosage) | n.d. |
+| `SlPAR1 / SlPAR2` | LePAR1 / LePAR2 (Solyc01g008550 / Solyc01g008530), réductases à cofacteur NADPH (famille short-chain dehydrogenase/reductase) ; expression maximale dans les boutons floraux, en baisse pendant la maturation ; conversion validée in vivo par surexpression chez le pétunia | Tieman et al. 2007 (Phytochemistry 68:1-11) | QTL / ADDITIF (dosage) | 1 |
 | `FLORAL4` | Solyc04g063350 ; QTL finement cartographié (10 gènes) | Cultivé + sauvages | RÉCESSIF (LOF pénalisante) | 4 |
-| `SlSAMT` | Salicylate O-méthyltransférase | Cultivé | MIXTE / SELON FOND | n.d. |
+| `SlSAMT` | Salicylate O-méthyltransférase (Solyc09g091550) | Cultivé | MIXTE / SELON FOND | 9 |
 | `SlEGS1` | Eugénol synthase | Cultivé | QTL / ADDITIF | n.d. |
 | `GT1 / UGT` | Glycosyltransférases | Cultivé | QTL / ADDITIF | n.d. |
 | `LIP1 / LIP2` | Lipases ; allèle SpLIP1 | S. pennellii LA0716, via la lignée IL12-3 | QTL / ADDITIF (additif) | 12 |
-| `SlYTH2` | Lecteur de m6A qui RÉPRIME la traduction de SlHPL et SlCCD1B | Édition | RÉCESSIF (bénéfique) | n.d. |
-| `NSGT1` | NON-SMOKY GLYCOSYLTRANSFERASE1 : convertit les précurseurs en triglycosides non clivables ; 5 haplotypes décrits (les IV et V sont non fonctionnels, avec délétions emportant aussi E8) | Trait « fumé » décrit chez S. pimpinellifolium et S. l. cerasiforme | MIXTE / SELON FOND | 9 |
-| `RIN / NOR / FUL1-2` | Facteurs MADS (RIN, FUL) et NAC (NOR) | Cultivé | QTL / ADDITIF | 5 / 10 / n.d. |
+| `SlYTH2` | Lecteur de m6A (Solyc01g103540) qui RÉPRIME la traduction de SlHPL et SlCCD1B | Édition | RÉCESSIF (bénéfique) | 1 |
+| `NSGT1` | NON-SMOKY GLYCOSYLTRANSFERASE1 (Solyc09g089585) : convertit les précurseurs en triglycosides non clivables ; 5 haplotypes décrits (les IV et V sont non fonctionnels, avec délétions emportant aussi E8) | Trait « fumé » décrit chez S. pimpinellifolium et S. l. cerasiforme | MIXTE / SELON FOND | 9 |
+| `RIN / NOR / FUL1-2` | Facteurs MADS (RIN = Solyc05g012020, FUL1 = Solyc06g069430, FUL2 = Solyc03g114830) et NAC (NOR = Solyc10g006880) | Cultivé | QTL / ADDITIF | 5 / 10 / 6, 3 |
 
 </details>
 
@@ -554,19 +554,19 @@ Les loci sont rangés en **16 chapitres** : plante (port, feuillage, trichomes, 
 |:--|:--|:--:|:--|:--|:--|
 | `SlGGP1 (uORF)` | Vitamine C | 6 | 🟢 DOMINANT (pratique) | Ascorbate jusqu'à ×5 | Régulation POST-TRANSCRIPTIONNELLE : effet important même avec un seul allèle modifié. ⚠ Compromis : les lignées ×5 présentent stérilité pollinique et fruits sans pépins. |
 | `TFA9 / SlbHLH59` | Vitamine C naturelle | 9 | 🟣 QTL / ADDITIF | Le SNP le plus associé explique 15,9 % de la variance en ascorbate | ⚠ LE SEUL levier naturel marqué pour la vitamine C : marqueur direct disponible. |
-| `SlGME1 / SlGME2` | É pimérase GDP-mannose | n.d. | 🟣 QTL / ADDITIF | Ascorbate ↑ + tolérance au froid, au sel et au paraquat | Redondance fonctionnelle ⇒ effets additifs, pas de dominance nette. Cible secondaire. |
+| `SlGME1 / SlGME2` | Épimérase GDP-mannose | 1 / 9 | 🟣 QTL / ADDITIF | Ascorbate ↑ + tolérance au froid, au sel et au paraquat | Redondance fonctionnelle ⇒ effets additifs, pas de dominance nette. Cible secondaire. |
 | `SlNFYA10` | Répresseur de l'ascorbate | n.d. | ⚪ MIXTE / SELON FOND | Le knockdown fait monter l'AsA (> ×2 en feuille, ×1,3 en fruit) | Régulateur NÉGATIF : gain de fonction néfaste, perte de fonction souhaitable. |
-| `GCHI + ADCS` | Folates (vitamine B9) | n.d. | 🟢 DOMINANT (tout ou rien) | Folates ×25 (840 µg/100 g) : le fruit ingénieré couvre à lui seul l'apport journalier recommandé d'une femme enceinte | EFFET COOPÉRATIF : il faut les DEUX, l'un seul ne suffit pas. |
-| `GGH` | Rétention des folates | n.d. | 🔵 RÉCESSIF | Variété PKM-1 naturellement riche en folates | Seul levier NATUREL identifié. Retard de maturation associé. ⚠ La diversité des folates est très faible (391 accessions, peu de SNPs) et la teneur chute à la maturation. |
+| `GCHI + ADCS` | Folates (vitamine B9) | 6 / 4 | 🟢 DOMINANT (tout ou rien) | Folates ×25 (840 µg/100 g) : le fruit ingénieré couvre à lui seul l'apport journalier recommandé d'une femme enceinte | EFFET COOPÉRATIF : il faut les DEUX, l'un seul ne suffit pas. |
+| `GGH` | Rétention des folates | 7 | 🔵 RÉCESSIF | Variété PKM-1 naturellement riche en folates | Seul levier NATUREL identifié. Retard de maturation associé. ⚠ La diversité des folates est très faible (391 accessions, peu de SNPs) et la teneur chute à la maturation. |
 | `VTE3(1) / mQTL9-2-6` | Vitamine E (tocophérols) | 9 | ⚫ ÉPIGÉNÉTIQUE | ~50 % de la variation de vitamine E entre les deux parents | ⚠ ICI LA DOMINANCE MENDÉLIENNE NE S'APPLIQUE PAS : hérédité épigénétique. Un marqueur ADN classique peut échouer → prévoir des épi-marqueurs. |
 | `VTE1 / VTE2 / VTE4 / VTE5 / HPPD` | Vitamine E, voie complète | 6, 7, 8, 9 | 🟣 QTL / ADDITIF | Héritabilité faible du caractère ; γ- vs α-tocophérol selon VTE4 ; surexpression HPT/TC/γ-TMT jusqu'à ×10 de tocochromanols (jusqu'à la transformation du plastome) | Caractère quantitatif additif. L'azote/potassium du sol module autant que le génotype. |
 | `SlMYB12 (= Y/y)` | Flavonols (rutine) | 1 | 🟢 / 🔵 DOMINANT / RÉCESSIF | Le fruit ROSE (y/y) est doublement appauvri : peau transparente + flavonols effondrés. Surexpression : rutine ×11 à ×19 | Le lien direct COULEUR ↔ NUTRITION. Si vous cherchez la santé : évitez les roses. |
-| `HQT` | Acide chlorogénique | n.d. | 🟣 QTL / ADDITIF (dosage) | Surexpression : +85 % de CGA ; silençage : −98 % | Effet quasi purement dosique, très reproductible. |
-| `SlHY5` | Nutrition ↔ défense | n.d. | ⚪ MIXTE / SELON FOND | Régulateur positif des flavonols ET des glycoalcaloïdes | ILLUSTRE LE COMPROMIS nutrition ↔ défense : monter l'un monte l'autre (dont l'amertume). |
-| `GORKY` | Amertume du fruit mûr | n.d. | 🔵 RÉCESSIF | La DÉLÉTION de ce transporteur laisse l'α-tomatine dans la vacuole du fruit mûr : fruit AMER et toxique | CARACTÈRE MONOGÉNIQUE RÉCESSIF explicitement documenté : il faut gorky/gorky pour que le fruit reste amer. GORKY fonctionnel (dominant) = fruit non amer. À vérifier avant tout croisement avec du sauvage. |
+| `HQT` | Acide chlorogénique | 7 | 🟣 QTL / ADDITIF (dosage) | Surexpression : +85 % de CGA ; silençage : −98 % | Effet quasi purement dosique, très reproductible. |
+| `SlHY5` | Nutrition ↔ défense | 8 | ⚪ MIXTE / SELON FOND | Régulateur positif des flavonols ET des glycoalcaloïdes | ILLUSTRE LE COMPROMIS nutrition ↔ défense : monter l'un monte l'autre (dont l'amertume). |
+| `GORKY` | Amertume du fruit mûr | 3 | 🔵 RÉCESSIF | La DÉLÉTION de ce transporteur laisse l'α-tomatine dans la vacuole du fruit mûr : fruit AMER et toxique | CARACTÈRE MONOGÉNIQUE RÉCESSIF explicitement documenté : il faut gorky/gorky pour que le fruit reste amer. GORKY fonctionnel (dominant) = fruit non amer. À vérifier avant tout croisement avec du sauvage. |
 | `GAME5 / GAME31 / GAME36 / GAME40` | Détoxification des SGA | 8 (GAME5) | 🔵 RÉCESSIF | Dernière étape α-tomatine → esculéoside A (non amer, non toxique) ; hydroxylation / acétylation / glycosylation | Le silençage de GAME5 fait remonter l'α-tomatine. |
-| `GAME9 / GE1` | Sélection anti-amertume | 7 | ⚪ MIXTE / SELON FOND | Les allèles « faibles » (modernes) réduisent les glycoalcaloïdes ; l'allèle sauvage « fort » de GAME9 active GAME7/GAME17 | ⚠ GE1 faible et GAME9 faible = principales causes de la baisse volontaire des SGA. La perturbation de GE1 donne des fruits à surface ridée (accumulation de γ-tomatine). |
-| `DML2` | Épigénétique de la détox | n.d. | ⚫ ÉPIGÉNÉTIQUE | Assure la détoxification du fruit à la maturation ; le variant DML2^13D a basculé à la domestication | Hérédité épigénétique/pléiotrope : pas de dominance mendélienne simple. |
+| `GAME9 / GE1` | Sélection anti-amertume | 1 / 7 | ⚪ MIXTE / SELON FOND | Les allèles « faibles » (modernes) réduisent les glycoalcaloïdes ; l'allèle sauvage « fort » de GAME9 active GAME7/GAME17 | ⚠ GE1 faible et GAME9 faible = principales causes de la baisse volontaire des SGA. La perturbation de GE1 donne des fruits à surface ridée (accumulation de γ-tomatine). |
+| `DML2` | Épigénétique de la détox | 10 | ⚫ ÉPIGÉNÉTIQUE | Assure la détoxification du fruit à la maturation ; le variant DML2^13D a basculé à la domestication | Hérédité épigénétique/pléiotrope : pas de dominance mendélienne simple. |
 | `SlHMA3 / SlNRAMP6 / SlPCR2` | Cadmium (innocuité) | n.d. | 🟣 QTL / ADDITIF | Séquestrent le Cd dans la vacuole → réduction du Cd des organes comestibles | Caractère quantitatif ; introgression d'allèles « séquestrants » = piste de sécurité alimentaire. |
 | `TOMLHA1 / FRO1 / NRAMP2 / FER / MYB72` | Fer & zinc du fruit | divers | 🟣 QTL / ADDITIF | AUCUN gène majeur de Fe/Zn du fruit n'est cloné à ce jour ; QTL via porte-greffes et populations RIL | Polygénique, additif, héritabilité faible ⇒ la biofortification AGRONOMIQUE (fumure foliaire) reste plus efficace et plus rapide que la génétique. |
 
@@ -577,19 +577,19 @@ Les loci sont rangés en **16 chapitres** : plante (port, feuillage, trichomes, 
 |:--|:--|:--|:--:|:--:|
 | `SlGGP1 (uORF)` | uORF en 5′ qui freine la traduction de GDP-L-galactose phosphorylase (Solyc06g073320) ; le casser (CRISPR) ou surexprimer lève le frein | Cultivé + mutant EMS « haut ascorbate » cartographié dans l'uORF | DOMINANT (pratique) | 6 |
 | `TFA9 / SlbHLH59` | InDel de 8 pb dans le promoteur (motif Py-rich de la 5'UTR) d'un facteur bHLH | Cultivé (sélectionné à la domestication) | QTL / ADDITIF | 9 |
-| `SlGME1 / SlGME2` | Surexpression ; le silençage d'un seul gène est COMPENSÉ par l'autre | Cultivé | QTL / ADDITIF | n.d. |
+| `SlGME1 / SlGME2` | Deux paralogues (Solyc01g097340 / Solyc09g082990) ; surexpression ; le silençage d'un seul gène est COMPENSÉ par l'autre | Cultivé | QTL / ADDITIF | 1 / 9 |
 | `SlNFYA10` | Facteur CCAAT qui réprime SlGME1/SlGGP1 | Cultivé | MIXTE / SELON FOND | n.d. |
-| `GCHI + ADCS` | Deux branches limitantes (ptéridine et PABA) ; GCHI seul ne donne que ×2–4 | Ingénierie | DOMINANT (tout ou rien) | n.d. |
-| `GGH` | Activité γ-glutamyl hydrolase réduite → meilleure rétention des folates polyglutamylés | Cultivé (PKM-1) | RÉCESSIF | n.d. |
-| `VTE3(1) / mQTL9-2-6` | Le polymorphisme causal n'est PAS dans la séquence codante mais dans la MÉTHYLATION DU PROMOTEUR (épiallèles naturels) | IL de S. pennellii | ÉPIGÉNÉTIQUE | 9 |
+| `GCHI + ADCS` | Deux branches limitantes : GCHI (Solyc06g083230, ptéridine) et ADCS (Solyc04g049360, PABA) ; GCHI seul ne donne que ×2–4 | Ingénierie | DOMINANT (tout ou rien) | 6 / 4 |
+| `GGH` | Activité γ-glutamyl hydrolase réduite (cluster Solyc07g062270 / Solyc07g062280) → meilleure rétention des folates polyglutamylés | Cultivé (PKM-1) | RÉCESSIF | 7 |
+| `VTE3(1) / mQTL9-2-6` | Le polymorphisme causal de VTE3(1) (Solyc09g065730) n'est PAS dans la séquence codante mais dans la MÉTHYLATION DU PROMOTEUR (épiallèles naturels) | IL de S. pennellii | ÉPIGÉNÉTIQUE | 9 |
 | `VTE1 / VTE2 / VTE4 / VTE5 / HPPD` | QTL confirmés + 16 loci candidats | Cultivé + sauvages | QTL / ADDITIF | 6, 7, 8, 9 |
 | `SlMYB12 (= Y/y)` | R2R3-MYB activateur de PAL/CHS/FLS ; corrélation expression ↔ flavonols R² ≈ 0,92 | Cultivé | DOMINANT / RÉCESSIF | 1 |
-| `HQT` | Hydroxycinnamoyl-CoA quinate transférase | Cultivé | QTL / ADDITIF (dosage) | n.d. |
-| `SlHY5` | Lie les boîtes G des promoteurs des deux voies ; la perte de fonction fait chuter les deux et rend sensible aux champignons | Cultivé | MIXTE / SELON FOND | n.d. |
-| `GORKY` | Transporteur NPF du tonoplaste | Landraces péruviennes « high tomatine », sauvages | RÉCESSIF | n.d. |
+| `HQT` | Hydroxycinnamoyl-CoA quinate transférase (Solyc07g005760) | Cultivé | QTL / ADDITIF (dosage) | 7 |
+| `SlHY5` | Facteur bZIP (Solyc08g061130) liant les boîtes G des promoteurs des deux voies ; la perte de fonction fait chuter les deux et rend sensible aux champignons | Cultivé | MIXTE / SELON FOND | 8 |
+| `GORKY` | Transporteur NPF du tonoplaste (Solyc03g120570 ; Kazachkova et al. 2021) | Landraces péruviennes « high tomatine », sauvages | RÉCESSIF | 3 |
 | `GAME5 / GAME31 / GAME36 / GAME40` | Solyc08g006410 (UDP-glycosyltransférase) ; allèles nuls (codon stop) décrits | Cultivé + sauvages | RÉCESSIF | 8 (GAME5) |
-| `GAME9 / GE1` | GAME9 = AP2/ERF à faible capacité de liaison à l'ADN ; GE1 = enhancer distal qui recrute le complexe MYC2–GAME9 et forme des boucles chromatine sur le cluster GAME (chr 7) | Fixés à la domestication | MIXTE / SELON FOND | 7 |
-| `DML2` | Déméthylase d'ADN (DEMETER-LIKE 2), avec RIN, NOR, FUL1 et MYC2 sur le réseau GAME | Cultivé | ÉPIGÉNÉTIQUE | n.d. |
+| `GAME9 / GE1` | GAME9 (JRE4, Solyc01g090340, chr 1) = AP2/ERF à faible capacité de liaison à l'ADN ; GE1 (chr 7) = enhancer distal qui recrute le complexe MYC2–GAME9 et forme des boucles chromatine sur le cluster GAME (chr 7) | Fixés à la domestication | MIXTE / SELON FOND | 1 / 7 |
+| `DML2` | Déméthylase d'ADN (SlDML2, Solyc10g083630, DEMETER-LIKE 2), avec RIN, NOR, FUL1 et MYC2 sur le réseau GAME | Cultivé | ÉPIGÉNÉTIQUE | 10 |
 | `SlHMA3 / SlNRAMP6 / SlPCR2` | ATPase P1B du tonoplaste + NRAMP + PCR2 | Cultivé + sauvages | QTL / ADDITIF | n.d. |
 | `TOMLHA1 / FRO1 / NRAMP2 / FER / MYB72` | Familles NRAMP / ZIP / YSL / NAS / ferritines | Cultivé + sauvages | QTL / ADDITIF | divers |
 
@@ -606,7 +606,7 @@ Les loci sont rangés en **16 chapitres** : plante (port, feuillage, trichomes, 
 | `Ve (Ve1)` | Verticilliose race 1 | 9 | 🟢 DOMINANT | Résistance à Verticillium dahliae et V. albo-atrum race 1 | Présent dans la majorité des cultivars. ⚠ Race 2 de Verticillium le contourne. |
 | `Pto / Prf` | Moucheture bactérienne | 5 | 🟢 DOMINANT | Résistance à Pseudomonas syringae pv. tomato race 0 | Efficace des décennies contre la race 0, CONTOURNÉ par la race 1. La seule résistance Pto sans Prf ne donne rien. |
 | `qRpp (LA1589)` | Résistance quantitative à Pst race 1 | 5, 6, 8 | 🟣 QTL / ADDITIF | Résistance SANS réponse hypersensible, là où Pto est contourné | Le complément quantitatif indispensable aux gènes majeurs usés. |
-| `FLS3` | Perception de la flagelline | n.d. | 🟢 DOMINANT | PRR de surface : reconnaît la flgII-28 de Pseudomonas et amplifie l'immunité basale | Beaucoup de cultivars modernes ont PERDU FLS3 : le réintroduire est un levier d'immunité large. |
+| `FLS3` | Perception de la flagelline | 4 | 🟢 DOMINANT | PRR de surface : reconnaît la flgII-28 de Pseudomonas et amplifie l'immunité basale | Beaucoup de cultivars modernes ont PERDU FLS3 : le réintroduire est un levier d'immunité large. |
 | `Cf-2.1 / Cf-2.2` | Cladosporiose (Avr2) | 1 | 🟢 DOMINANT | Résistance à Passalora (Cladosporium) fulvum races portant Avr2 | Le locus Cf-2 est le plus variable des populations naturelles : à génotyper finement. |
 | `Cf-4` | Cladosporiose (Avr4) | 1 | 🟢 DOMINANT | Résistance | Dispersion du gène dans les populations sauvages documentée (Thomas 2000). |
 | `Cf-5, Cf-8, Cf-9, Cf-13` | Cladosporiose | 1 | 🟢 DOMINANT | Résistance à plusieurs races (Avr5, Avr9…) | Cf-9/Cf-4 = locus Milky Way. Pyramidages classiques en serre. |
@@ -624,7 +624,7 @@ Les loci sont rangés en **16 chapitres** : plante (port, feuillage, trichomes, 
 | `ToBRFV-R (chr 11)` | Fruit rugueux brun | 11 | 🔵 RÉCESSIF | Tolérance (faible accumulation virale, symptômes réduits) | RÉSISTANCE = au moins 2 gènes (Tm-1 dominant + locus chr 11) ; TOLÉRANCE = gène récessif unique. F1 sensible si le donneur est homozygote récessif croisé avec un cultivar → trier en F2. Tm-2² est contourné par le virus. |
 | `Wf-1` | Mouches blanches, pucerons, thrips, acariens, Tuta | 2 | 🟡 SEMI-DOMINANT | Barrière physique + chimique : active les trichomes type IV et jusqu'à 76 acylsucres ; explique ~54 % de la survie des adultes d'aleurodes et ~81 % de la densité de trichomes IV | PARTIELLEMENT DOMINANT à additif fort. Wf-2 (chr 9) en complément. Le phénotype se lit à la loupe (face inférieure, feuilles collantes). |
 | `ShTPS / zFPS + ShZIS (locus Sst)` | Répulsif olfactif des ravageurs | 8 | 🟣 QTL / ADDITIF (codominant) | Zingibérène et 7-épi-zingibérène (sesquiterpène des trichomes VI) : répulsion et toxicité sur Bemisia, Tetranychus, Tuta absoluta, Diabrotica + activité antimicrobienne | Introgressions réussies (lignées à haut ZGB). Les gènes de la voie sont utilisables comme MARQUEURS moléculaires. |
-| `MKS1 × MKS2` | Insecticide naturel (2-tridécanone) | 8 | ⚪ MIXTE / SELON FOND | 2-tridécanone et méthylcétones des trichomes VI : toxicité larvaire (Manduca, Tuta, mineuses, doryphore) | ÉPITASIE COMPLEXE : un seul des deux allèles ne donne rien. À pyramider obligatoirement. |
+| `MKS1 × MKS2` | Insecticide naturel (2-tridécanone) | 1 / 4 | ⚪ MIXTE / SELON FOND | 2-tridécanone et méthylcétones des trichomes VI : toxicité larvaire (Manduca, Tuta, mineuses, doryphore) | ÉPITASIE COMPLEXE : un seul des deux allèles ne donne rien. À pyramider obligatoirement. |
 | `QTL psylle` | Résistance au psylle des solanées + Liberibacter | 1, 3, 5, 6, 8 | 🟣 QTL / ADDITIF | Mortalité adulte et baisse de fécondité de Bactericera cockerelli, donc moins de zèbre | Polygénique : sélection génomique ou phénotypique en conditions d'infestation. |
 | `Rcm 2.0 / Rcm 5.1` | Chancre bactérien | 2 et 5 | 🟣 QTL / ADDITIF | Résistance quantitative à Clavibacter michiganensis (agirait sur la morphologie vasculaire) | Aucun gène majeur disponible : la prévention (semences saines, hygiène) reste primordiale. |
 | `Sw-5 / Mi-1 / Ty-1, Ty-3, Ty-4 / ty-5` | À NE PAS CHERCHER chez vous | — | 🟢 / 🔵 DOMINANT / RÉCESSIF | TSWV (Sw-5), nématodes + pucerons (Mi-1), TYLCV (Ty-1/3/4, ty-5) | ⚠ Ces gènes ne sont PAS dans votre germoplasme (pimpinellifolium, cheesmaniae, habrochaites, galapagense) : il faut les acquérir par accession TGRC ou les acheter en variété. |
@@ -636,28 +636,28 @@ Les loci sont rangés en **16 chapitres** : plante (port, feuillage, trichomes, 
 |:--|:--|:--|:--:|:--:|
 | `I` | LRR-RLP (Solyc11g011180), reconnaît l'effecteur Avr1/Six4 | S. pimpinellifolium (PI 79532 « Missouri 160 ») | DOMINANT | 11 |
 | `I-2` | CC-NB-LRR (Solyc11g071430), reconnaît Avr2/Six3 (+ SIX5) | Hybride naturel S. pimpinellifolium × S. lycopersicum (PI 126915) | DOMINANT | 11 |
-| `Ve (Ve1)` | RLP à LRR extracellulaires reconnaissant l'effecteur Ave1 | « Peru Wild » (S. pimpinellifolium), années 1930 | DOMINANT | 9 |
-| `Pto / Prf` | Kinase sérine/thréonine Pto + NLR Prf (cluster) | S. pimpinellifolium | DOMINANT | 5 |
+| `Ve (Ve1)` | RLP à LRR extracellulaires (Solyc09g005090) reconnaissant l'effecteur Ave1 | « Peru Wild » (S. pimpinellifolium), années 1930 | DOMINANT | 9 |
+| `Pto / Prf` | Kinase sérine/thréonine Pto (Solyc05g013290) + NLR Prf (Solyc05g013280) en cluster | S. pimpinellifolium | DOMINANT | 5 |
 | `qRpp (LA1589)` | 3 QTL + 5 gènes candidats | S. pimpinellifolium LA1589 | QTL / ADDITIF | 5, 6, 8 |
-| `FLS3` | LRR-RLK | S. pimpinellifolium (Hind et al. 2016) | DOMINANT | n.d. |
+| `FLS3` | LRR-RLK (Solyc04g009640) | S. pimpinellifolium (Hind et al. 2016) | DOMINANT | 4 |
 | `Cf-2.1 / Cf-2.2` | Deux LRR-RLP en tandem, tous deux fonctionnels ; locus très polymorphe (≥26 homologues « Hcr2p ») | S. pimpinellifolium | DOMINANT | 1 |
 | `Cf-4` | LRR-RLP, locus « Milky Way » | Attribué historiquement à L. hirsutum = S. habrochaites (attribution débattue) | DOMINANT | 1 |
 | `Cf-5, Cf-8, Cf-9, Cf-13` | LRR-RLP | S. pimpinellifolium (Cf-9, Cf-5, Cf-8 PI 124161, Cf-13 PI 211839) | DOMINANT | 1 |
 | `Cf-ECP1/2/4/5` | LRR-RLP ; Cf-ECP1/4 colocalisent avec Cf-9/Cf-4 au locus Milky Way | S. pimpinellifolium | DOMINANT | 1 et 6 |
 | `Ph-1` | Rick 1955 / Gallegly & Marvel ; gène majeur cloné non publié | S. pimpinellifolium (West Virginia 19 et 731) | DOMINANT | 7 |
 | `Ph-2` | LRR-RLP | S. pimpinellifolium | SEMI-DOMINANT | 10 |
-| `Ph-3` | CC-NB-LRR (cluster) ; marqueur co-dominant Ph-3-GLR/S | S. pimpinellifolium (accession L3708 / LA1269) | SEMI-DOMINANT | 9 |
+| `Ph-3` | CC-NB-LRR (Solyc09g092310) ; marqueur co-dominant Ph-3-GLR/S | S. pimpinellifolium (accession L3708 / LA1269) | SEMI-DOMINANT | 9 |
 | `Xv3 / Rx-4` | NB-LRR reconnaissant AvrXv3 | S. pimpinellifolium (PI 128216, lignée H7981) | SEMI-DOMINANT | 11 |
 | `rx-1, rx-2 (chr 1) / rx-3 (chr 5)` | Gènes récessifs (perte de fonction / reconnaissance alternative) | Lignée H7998, origine historique S. habrochaites (PI 126445) | RÉCESSIF | 1 et 5 |
 | `Ol-1, Ol-3, Ol-5` | Gènes R (Ol-5 = HR lente) | S. habrochaites : G1.1560 (Ol-1), G1.1290 (Ol-3), PI 247087 (Ol-5, var. glabratum) | DOMINANT | 6 |
 | `On-9-l_che` | QTL entre 46,5 et 50,5 cM du chr 9, pic à 48 cM, cartographié par QTL-seq | S. cheesmaniae | SEMI-DOMINANT | 9 |
-| `ol-2 (Slmlo1)` | Perte de fonction d'un gène MLO (susceptibilité) : le pathogène a besoin de l'hôte | S. l. var. cerasiforme LA1230 | RÉCESSIF | 4 |
-| `Ty-2 (TYNBS1)` | NLR ; l'effecteur viral est la protéine Rep/C1 | S. habrochaites f. glabratum B6013, via la lignée H24 | DOMINANT | 11 |
-| `Tm-1` | Protéine p80 inhibitrice (mécanisme antiviral inhabituel, pas un NLR ; région sous sélection positive chez S. habrochaites) | S. habrochaites PI 126445 (Pelham 1966) ; allèles de S. pennellii également efficaces | SEMI-DOMINANT | 2 |
+| `ol-2 (Slmlo1)` | Perte de fonction du gène SlMLO1 (Solyc04g049090, susceptibilité) : le pathogène a besoin de l'hôte | S. l. var. cerasiforme LA1230 | RÉCESSIF | 4 |
+| `Ty-2 (TYNBS1)` | NLR (Solyc11g069660) ; l'effecteur viral est la protéine Rep/C1 | S. habrochaites f. glabratum B6013, via la lignée H24 | DOMINANT | 11 |
+| `Tm-1` | Protéine p80 inhibitrice (Solyc02g062560 ; mécanisme antiviral inhabituel, pas un NLR ; région sous sélection positive chez S. habrochaites) | S. habrochaites PI 126445 (Pelham 1966) ; allèles de S. pennellii également efficaces | SEMI-DOMINANT | 2 |
 | `ToBRFV-R (chr 11)` | Locus à ~46,84 Mb du chr 11 (intervalle de 22 kb) ; candidats Solyc11g062150 (TIR-NBS-LRR) et Solyc11g062180 (RLP) | S. pimpinellifolium USVL332 (PI 390717) ; locus aussi décrit chez S. pennellii | RÉCESSIF | 11 |
 | `Wf-1` | QTL majeur de bout de chromosome 2, co-localisé avec densité de trichomes IV et métabolites (famille ASAT, locus AT2) | S. galapagense (LA1401 etc.) ; acylsucres aussi chez S. habrochaites et S. pimpinellifolium | SEMI-DOMINANT | 2 |
 | `ShTPS / zFPS + ShZIS (locus Sst)` | Cluster biosynthétique zFPS + ShZIS (chr 8, LA1777) ; ShZO = ShCYP71D184 (P450, chr 1) oxyde le composé en dérivés plus toxiques | S. habrochaites var. hirsutum PI 127826, LA1777, PI134418 | QTL / ADDITIF (codominant) | 8 |
-| `MKS1 × MKS2` | Gènes de la voie ShMKS1/ShMKS2 ; l'effet exige les deux allèles sauvages | S. habrochaites var. glabratum PI 134417 | MIXTE / SELON FOND | 8 |
+| `MKS1 × MKS2` | Gènes de la voie ShMKS1 (orthologue Solyc01g108810, chr 1) et ShMKS2 (orthologue Solyc04g007260, chr 4) ; l'effet exige les deux allèles sauvages | S. habrochaites var. glabratum PI 134417 | MIXTE / SELON FOND | 1 / 4 |
 | `QTL psylle` | Pas de gène cloné | S. habrochaites LA1777 | QTL / ADDITIF | 1, 3, 5, 6, 8 |
 | `Rcm 2.0 / Rcm 5.1` | QTL (Rcm2.0 chr 2, Rcm5.1 chr 5) | S. habrochaites LA407 ; QTL aussi chez S. pimpinellifolium GI 1554 (chr 1, 2, 7, 8, 12) | QTL / ADDITIF | 2 et 5 |
 | `Sw-5 / Mi-1 / Ty-1, Ty-3, Ty-4 / ty-5` | Gènes majeurs dominants, sauf ty-5 récessif | S. peruvianum (Sw-5, Mi-1, ty-5) et S. chilense (Ty-1/3/4) | DOMINANT / RÉCESSIF | — |
@@ -673,8 +673,8 @@ Les loci sont rangés en **16 chapitres** : plante (port, feuillage, trichomes, 
 | `HKT1;1 / HKT1;2` | Homéostasie Na+/K+ (sel) | 7 | 🟣 QTL / ADDITIF (additif) | Protège fleurs et fruits du stress salin et thermique ; le QTL majeur explique > 40 % de la variance [Na+]/[K+]. ScHKT1;2 exclut efficacement le Na+ du xylème vers les tiges ; ScHKT1;1 est hyperactif dans les feuilles et les racines | Effet ADDITIF, co-introgression des deux loci recommandée. Stratégies d'inclusion (cheesmaniae) et d'exclusion (galapagense) COMPLÉMENTAIRES et cumulables. |
 | `HKT2;1` | Récupération du Na+ du xylème | n.d. | 🟣 QTL / ADDITIF | Redistribue le Na+ via le phloème | Complément des HKT1 ; quantitatif. |
 | `lnc1.1 (candidat NHX3)` | Concentration foliaire en Na+ | 1 | 🟣 QTL / ADDITIF | Compartimente le Na+ dans la vacuole foliaire (stratégie « incluseuse ») | Gènes SOS1/SOS2/SOS3/NHX1 cartographiés comme candidats de la voie SOS : utiles en marquage. |
-| `SpiI3PS` | Tolérance au sel (myo-inositol) | n.d. | 🟣 QTL / ADDITIF | Copies additionnelles de l'inositol-3-phosphate synthase → meilleure osmoprotection | Le génome LA0480 est ENRICHI en gènes de réponse aux stress (biotiques et abiotiques). |
-| `DREB1A / VP1.1` | haplotypes de tolérance au sel | n.d. | 🟣 QTL / ADDITIF | Variations alléliques associées à la tolérance (17–26 % de la variance en panel d'association) | Haplotypes, pas un gène unique : à génotyper en population. |
+| `SpiI3PS` | Tolérance au sel (myo-inositol) | 4, 5 | 🟣 QTL / ADDITIF | Copies additionnelles de l'inositol-3-phosphate synthase → meilleure osmoprotection | Le génome LA0480 est ENRICHI en gènes de réponse aux stress (biotiques et abiotiques). |
+| `DREB1A / VP1.1` | haplotypes de tolérance au sel | 3 / 7 | 🟣 QTL / ADDITIF | Variations alléliques associées à la tolérance (17–26 % de la variance en panel d'association) | Haplotypes, pas un gène unique : à génotyper en population. |
 | `QTL rendement sous sel` | ~15 QTL | 1, 3, 7, 8, 11 | 🟣 QTL / ADDITIF | Poids et nombre de fruits, floraison sous salinité ; effets moyens de 8,5 à 16 % | Les allèles favorables sont généralement SAUVAGES. Attention au drag (petits fruits) : rétrocroisements assistés. |
 | `Effet porte-greffe` | Rendement du greffon sous sel | divers | 🟣 QTL / ADDITIF | ≥ 8 QTL racinaires ; jusqu'à 65 % des lignées porte-greffe améliorent l'hybride commercial sous salinité | LE LEVIER LE PLUS COURT : greffer cette saison plutôt qu'introgresser pendant 5 ans. |
 | `stm9` | Mise en réserve des glucides / turgescence | 9 | 🟣 QTL / ADDITIF | Maintien de la turgescence stomatique à 6 °C aux racines et sous sécheresse estivale ; 33 % de la variance expliquée | Un des rares QTL abiotiques à aussi fort effet ; MAS possible. |
@@ -687,11 +687,11 @@ Les loci sont rangés en **16 chapitres** : plante (port, feuillage, trichomes, 
 
 | Symbole | Nature de la mutation / fonction moléculaire | Origine de l'allèle | Dominance | Chr. |
 |:--|:--|:--|:--:|:--:|
-| `HKT1;1 / HKT1;2` | Transporteurs Na+ de classe I ; le cultivé a PERDU l'expression de HKT1;1 et fixé un HKT1;2 différent | S. cheesmaniae (inclusion) + S. galapagense (exclusion, IL SG18_197 LA1141 × OH8245) | QTL / ADDITIF (additif) | 7 |
+| `HKT1;1 / HKT1;2` | Transporteurs Na+ de classe I en tandem (Solyc07g014690 / Solyc07g014680) ; le cultivé a PERDU l'expression de HKT1;1 et fixé un HKT1;2 différent | S. cheesmaniae (inclusion) + S. galapagense (exclusion, IL SG18_197 LA1141 × OH8245) | QTL / ADDITIF (additif) | 7 |
 | `HKT2;1` | Transporteur K+-Na+ | S. cheesmaniae | QTL / ADDITIF | n.d. |
-| `lnc1.1 (candidat NHX3)` | QTL, candidat NHX3 | S. cheesmaniae | QTL / ADDITIF | 1 |
-| `SpiI3PS` | Variation en nombre de copies | S. pimpinellifolium LA0480 | QTL / ADDITIF | n.d. |
-| `DREB1A / VP1.1` | Facteur DREB + promoteur VP1 | S. pimpinellifolium | QTL / ADDITIF | n.d. |
+| `lnc1.1 (candidat NHX3)` | QTL, candidat SlNHX3 (Solyc01g067710) | S. cheesmaniae | QTL / ADDITIF | 1 |
+| `SpiI3PS` | Variation en nombre de copies (Solyc04g050810, Solyc04g054740, Solyc05g051850) | S. pimpinellifolium LA0480 | QTL / ADDITIF | 4, 5 |
+| `DREB1A / VP1.1` | Facteur DREB1A (Solyc03g026280) + promoteur VP1.1 (Solyc07g007600) | S. pimpinellifolium | QTL / ADDITIF | 3 / 7 |
 | `QTL rendement sous sel` | Population F7 « P » (pimpinellifolium) et « C » (cheesmaniae) ; un QTL ÉPISTATIQUE DOMINANT sur le chr 3 | S. pimpinellifolium, S. cheesmaniae | QTL / ADDITIF | 1, 3, 7, 8, 11 |
 | `Effet porte-greffe` | h² ≈ 0,3, allèles favorables sauvages | S. pimpinellifolium, S. cheesmaniae | QTL / ADDITIF | divers |
 | `stm9` | QTL majeur additif | S. habrochaites | QTL / ADDITIF | 9 |

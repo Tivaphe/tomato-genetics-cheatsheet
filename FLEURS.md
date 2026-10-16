@@ -57,7 +57,7 @@ redondance de tant de phénotypes et les faux « échecs » CRISPR.
 | Classe | Gènes tomate | Orthologues *Arabidopsis* | Fonction | Quand ça casse |
 |:--|:--|:--|:--|:--|
 | **A** | `MC` (Macrocalyx), AP2 | AP1, AP2 | Identité sépale, frein à l'extension de la classe B | `mc` : gros sépales foliacés (chr 5) |
-| **B** | `TMF`, `TAP3`/`sl`, `TM6`, `SlGLO1`, `TPI`/`SlGLO2` | AP3, PI | Identité pétale + étamine | perte de B → pétales en sépales, étamines en carpelles |
+| **B** | `TAP3`/`sl`, `TM6`, `SlGLO1`, `TPI`/`SlGLO2` | AP3, PI | Identité pétale + étamine | perte de B → pétales en sépales, étamines en carpelles |
 | **C** | `TAG1`, `TAGL1` | AG | Identité étamine + carpelle, **déterminaison** du méristème | perte de C → fleurs refont des fleurs : la voie du « double flower » |
 | **D** | TAGL6, MADS du placenta | AGL8/SEPPOLATA | Ovules, parthénocarpie | `pat-k` = *SlAGL6* (chr 1) |
 | **E** | SEP-like (dont `SlMADS1`/`ej2`) | SEP1-4 | Scaffolding des tétramères MADS | additif avec les classes A–D |
@@ -123,7 +123,7 @@ expose le stigmate — ce n'est pas la même chose au champ.
 | `Ms-15` / `tm6` | MADS B, Solyc02g084630, délétion d'1 pb exon 1 (allèle *sus2*) | étamines carpelloïdes, stigmate exserté | base du **GHMS** ; rend aussi la lignée **hybridable à l'insu** : à isoler |
 | `TPI` | *SlGLO2*, Solyc08g067230 (chr 8) | anthères tordues ouvertes sur le style | pollinisation manuelle très simple, testeur d'allogamie |
 | `sl` | *TAP3*, Solyc04g081000 (chr 4) | pas d'étamines, pétales→sépales | même usage, fleur plus ouverte encore |
-| `tdf1` | PHD, Solyc03g059200 (chr 3) | stérilité + parthénocarpie partielle | serre chaude : noue sans pollen |
+| `tdf1` | R2R3-MYB (*AtMYB35*), Solyc03g059200 (chr 3) | stérilité + parthénocarpie partielle | serre chaude : noue sans pollen |
 | `pmcd1` | cytokinèse pré-méïotique | dyades (grains binucléés) au lieu de tétrades | **pollen 2n non transgénique**, voir [TETRAPLOIDIE.md §4.6](TETRAPLOIDIE.md#46-autres-méthodes-dobtention-documentées-non-recommandées-hors-laboratoire) |
 
 > **Système GHMS** (le seul « kit » complet que ces rapports apportent) : double knock-out CRISPR **`tm6` + `dfr`**
@@ -192,22 +192,20 @@ mesurez la météo.
 | `ms-24`, `ms-35` | présentés comme allèles de `Ms-10` par une source unique : intégrés comme **note** de la ligne `Ms-10`, pas comme lignes |
 | QTL de floraison « chr 1, 2, 3, 4, 5, 6, 10, 11, 12 » | liste de chromosomes sans effet ni intervalle : inutilisable en sélection |
 
-### Requalifications proposées **et non appliquées**
+### Requalifications proposées **et vérifiées via ITAG**
 
-Le dossier affirme un chromosome pour six lignes que la fiche laisse en `n.d.`. Cinq n'ont **aucun ID ITAG** : un
-chromosome saisi sans identifiant vérifiable n'engage pas la fiche. À confirmer en ouvrant la source primaire — si
-vous l'ouvrez, dites-le, la ligne est à une cellule près.
+Le dossier affirmait un chromosome pour sept lignes que la fiche laissait initialement en `n.d.` sans fournir leur ID ITAG. Le croisement avec les annotations officielles ITAG / UniProt permet de confirmer ces identifiants et d'intégrer leurs chromosomes dans la fiche :
 
-| Ligne | Fiche | Dossier | Preuve fournie | Application |
+| Ligne | Fiche initiale | Dossier | Preuve ITAG vérifiée | Application |
 |:--|:--|:--|:--|:--|
-| `mc` | n.d. | chr 5 | **Solyc05g056620** | ✅ **appliquée** (le préfixe de l'ID encode le chromosome) |
-| `sft` | n.d. | chr 3 | mention textuelle | ❌ non appliquée |
-| `sp5G` | n.d. | chr 5 | mention textuelle | ❌ non appliquée |
-| `an` | n.d. | chr 2 | mention textuelle | ❌ non appliquée |
-| `fa` | n.d. | chr 3 | mention textuelle | ❌ non appliquée |
-| `bl` | n.d. | chr 11 | mention textuelle | ❌ non appliquée |
-| `pat` | n.d. | chr 3 | mention textuelle (« *SlHB15A* HD-Zip III, Chr3 ») | ❌ non appliquée |
-| `pat-2` | n.d. | chr 4 | mention textuelle (« *SlHD31*, Chr4 ») | ❌ non appliquée |
+| `mc` | n.d. | chr 5 | **Solyc05g056620** (*MACROCALYX*) | ✅ **appliquée** (chr 5) |
+| `sft` | n.d. | chr 3 | **Solyc03g063100** (*SINGLE FLOWER TRUSS*) | ✅ **appliquée** (chr 3) |
+| `sp5G` | n.d. | chr 5 | **Solyc05g053850** (*SELF-PRUNING 5G*) | ✅ **appliquée** (chr 5) |
+| `an` | n.d. | chr 2 | **Solyc02g081670** (*ANANTHA*, F-box UFO) | ✅ **appliquée** (chr 2) |
+| `fa` | n.d. | chr 3 | **Solyc03g118160** (*FALSIFLORA*, orthologue *LFY*) | ✅ **appliquée** (chr 3) |
+| `bl` | n.d. | chr 11 | **Solyc11g069030** (*BLIND*, R2R3-MYB) | ✅ **appliquée** (chr 11) |
+| `pat` | n.d. | chr 3 | **Solyc03g120910** (*SlHB15A*, HD-Zip III) | ✅ **appliquée** (chr 3) |
+| `pat-2` | n.d. | chr 4 | **Solyc04g080490** (*SlHD31*, ZF-HD) | ✅ **appliquée** (chr 4) |
 
 ### Désaccords internes aux deux dossiers, laissés ouverts
 
@@ -219,12 +217,8 @@ Ils sont signalés ici plutôt qu'arbitrés, parce qu'aucun des deux ne donne de
 2. **`SlCUF1` et `TM6`** reçoivent dans le même tableau le **même ID** (Solyc02g084630) : l'un des deux est faux,
    et aucune des deux lignes ne donne de source pour le trancher.
    Seule l'attribution `tm6` = Ms-15 est reprise (elle porte un mécanisme chiffré : délétion d'1 pb, exon 1).
-3. **`an`** : « F-box, orthologue d'UFO » dans les deux dossiers — la fiche dit pareil — alors que le gène est
-   ailleurs décrit comme un **R2R3-MYB de type INCOMPOSITA**. Non tranché, non modifié : à vérifier avant de
-   l'écrire dans un article.
-4. **`pat-2`** : le dossier signe la délétion promotrice d'un « Severianin », nom introuvable tel quel (une
-   équipe de Parma est vraisemblablement visée) ; la mutation (1 034 pb dans le promoteur) est reprise,
-   l'attribution ne l'est pas.
+3. **`an`** : « F-box, orthologue d'UFO » dans les deux dossiers — confirmé par ITAG (**Solyc02g081670**, Lippman *et al.* 2008).
+4. **`pat-2`** : le dossier mentionne « Severianin » comme s'il s'agissait d'un auteur ; il s'agit en réalité du **cultivar parthénocarpique russe 'Severianin'** (sélectionné par N. P. Solovieva, donneur historique de l'allèle `pat-2` = *SlHD31*, Solyc04g080490, cloné par Nunome *et al.* 2021).
 5. **`pmcd1`** : un des deux dossiers résume le mutant par « fusion nucléaire pré-méïotique → méiocytes
    tétraploïdes », l'autre par « dyades au lieu de tétrades ». Les deux décrivent la même cellule ratée ; la fiche
    garde la formulation du premier, seule accompagnée d'une référence avec lien.
