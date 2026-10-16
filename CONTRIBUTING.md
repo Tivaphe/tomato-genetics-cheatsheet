@@ -8,10 +8,11 @@ la rigueur de la source prime sur l'abondance.
 section*](#trois-fichiers-une-seule-génétique) *below — the rule is simple: the genetics is written once, in the French
 tables; the English file only re-words the phenotype and the selection note.*
 
-## Le dépôt en six fichiers
+## Le dépôt en sept fichiers
 
 Il n'y a **ni dossier `data/`, ni script de génération** : les tableaux markdown sont la source, on les édite
-directement. Voir [README.md → Reproductibilité du dépôt](README.md#reproductibilité-du-dépôt) pour le détail.
+directement. Le seul dossier, [`assets/`](assets/), accueille les illustrations décoratives des README (aucune donnée
+génétique). Voir [README.md → Reproductibilité du dépôt](README.md#reproductibilité-du-dépôt) pour le détail.
 
 | Fichier | Rôle | Édition conjointe obligatoire |
 |:--|:--|:--|
@@ -20,6 +21,7 @@ directement. Voir [README.md → Reproductibilité du dépôt](README.md#reprodu
 | [`index.html`](index.html) | version interactive (recherche, filtres, calculateur F2) : 230 lignes `<tr>`, 8 colonnes | ✅ si un locus est ajouté ou si `chr`/`dom` change |
 | [`SOURCES.md`](SOURCES.md) | bibliographie commune aux deux langues, avec niveau de vérification | ✅ toute nouvelle référence |
 | chapitre 17 et section Ploïdie (`README.md` / `README.en.md`) | **chapitre 17 · fleur** (réseau, stérilité mâle, pièges de nomenclature, pistes **non retenues**) et **section Ploïdie** (hors des 230 loci, 40 sources) | ✅ dans les **deux langues**, à la même place et avec le même contenu : un nouveau locus ajouté aux chapitres ? les quatre formats le portent |
+| [`assets/banner.png`](assets/banner.png) | bannière décorative des deux README (aucune donnée génétique) | — |
 | `LICENSE` | MIT — texte et données | — |
 | `CONTRIBUTING.md` | ce fichier | — |
 
