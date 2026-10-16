@@ -2,15 +2,15 @@
 
 ![🇫🇷 Français — cette édition](https://img.shields.io/badge/%F0%9F%87%AB%F0%9F%87%B7_Fran%C3%A7ais-cette_%C3%A9dition-64748b?style=for-the-badge)  [![🇬🇧 English — lire cette fiche en anglais →](https://img.shields.io/badge/%F0%9F%87%AC%F0%9F%87%A7_English-lire_cette_fiche_en_anglais_%E2%86%92-0b6e4f?style=for-the-badge)](README.en.md)
 
-**216 loci documentés — gènes du port, du feuillage, du fruit, de la saveur, de la nutrition et des résistances — avec leur mode de dominance et ce que ça change concrètement en croisement.**
+**230 loci documentés — gènes du port, du feuillage, du fruit, de la saveur, de la nutrition et des résistances — avec leur mode de dominance et ce que ça change concrètement en croisement.**
 
-[![Loci](https://img.shields.io/badge/loci-216-0b6e4f?style=flat-square)](data/genes_tomate.csv) [![Chapitres](https://img.shields.io/badge/chapitres-16-1d4ed8?style=flat-square)](%23sommaire) [![Recherche](https://img.shields.io/badge/version%20interactive-docs%2Findex.html-6d28d9?style=flat-square)](docs/index.html) [![Licence](https://img.shields.io/badge/licence-CC%20BY%204.0-f59e0b?style=flat-square)](LICENSE) [![MAJ](https://img.shields.io/badge/mis%20%C3%A0%20jour-15%2F10%2F2026-64748b?style=flat-square)](CHANGELOG.md)
+[![Loci](https://img.shields.io/badge/loci-230-0b6e4f?style=flat-square)](#sommaire) [![Chapitres](https://img.shields.io/badge/chapitres-16-1d4ed8?style=flat-square)](#sommaire) [![Version interactive](https://img.shields.io/badge/version%20interactive-index.html-6d28d9?style=flat-square)](index.html) [![Annexe ploïdie](https://img.shields.io/badge/annexe%20plo%C3%AFdie-TETRAPLOIDIE.md-1d4ed8?style=flat-square)](TETRAPLOIDIE.md) [![Licence](https://img.shields.io/badge/licence-MIT-f59e0b?style=flat-square)](LICENSE) ![MAJ](https://img.shields.io/badge/mis%20%C3%A0%20jour-15%2F10%2F2026-64748b?style=flat-square)
 
-> **Deux éditions, une seule génétique.** Le bouton ci-dessus bascule vers [l'édition anglaise](README.en.md) : mêmes loci, mêmes chromosomes, mêmes codes de dominance — le build échoue si les deux divergent. La couche moléculaire, les accessions et les exports filtrables restent dans cette édition-ci et dans `data/`.
+> **Deux éditions, une seule génétique.** Le bouton ci-dessus bascule vers [l'édition anglaise](README.en.md) : mêmes loci, mêmes chromosomes, mêmes codes de dominance — la parité se vérifie à chaque retouche (procédure dans [CONTRIBUTING.md](CONTRIBUTING.md)). La couche moléculaire — nature de la mutation, origine de l'allèle, accessions — n'existe que dans cette édition-ci, et `index.html` n'en est que le reflet interactif.
 
 > **Pour qui ?** Sélectionneurs amateurs avancés, maraîchers, étudiants et chercheurs en amélioration des plantes. Chaque ligne répond à trois questions : *quel gène, sur quel chromosome, dominant ou récessif* — et *donc : est-ce que je le vois dès la F1, ou faut-il que je sème 200 plants*.
 
-`216 loci` · `16 chapitres` · littérature vérifiée jusqu'en 2026 · les affirmations non publiées sont explicitement marquées **[extrapolation]**.
+`230 loci` · `16 chapitres` · `2 annexes` · littérature vérifiée jusqu'en 2026 · les affirmations non publiées sont explicitement marquées **[extrapolation]**.
 
 ## L'essentiel en 12 points
 
@@ -43,7 +43,7 @@ Une ligne = un locus. La colonne **Dominance** est l'information qui décide de 
 
 **Notation.** `R_` = au moins un allèle *R* (dominant exprimé) · `yy` et `gf/gf` = homozygote récessif · `Sp/sp` = hétérozygote — chez les semi-dominants, c'est là que se joue le *niveau* d'expression (port, résistance, Brix). `n.d.` = locus non cartographié finement dans les sources compilées : **à ne pas inventer**. `Chr.` = chromosome de la carte SL4.0 (ITAG 4.0). `—` en dominance = ligne de germoplasme ou combinaison épistatique, pas un locus mendélien ; un libellé qualifié (`Q (additif)`, `RÉCESSIF → SEMI-DOMINANT`) garde la précision du fichier d'entrée.
 
-Les loci sont rangés en **16 chapitres** : plante (port, feuillage, trichomes, pigmentation, fleur), fruit (forme, couleur, maturation), saveur (sucres, acides, volatils), nutrition, résistances biotiques, tolérances abiotiques, sources alléliques et épistasies. Les données brutes et filtrables sont dans [`data/genes_tomate.csv`](data/genes_tomate.csv). [`docs/index.html`](docs/index.html) est une page autonome (aucune dépendance réseau) avec recherche plein texte, filtres par mode de dominance, calculateur d'effectif F2 et style d'impression A4 paysage : publiable telle quelle sur GitHub Pages. Une correction dans un TSV se propage aux trois formats.
+Les loci sont rangés en **16 chapitres** : plante (port, feuillage, trichomes, pigmentation, fleur), fruit (forme, couleur, maturation), saveur (sucres, acides, volatils), nutrition, résistances biotiques, tolérances abiotiques, sources alléliques et épistasies. La **ploïdie** — doublement chromosomique, dosage tétrasomique, triploïdes sans pépins — n'est pas un chapitre : elle occupe une annexe dédiée, [TETRAPLOIDIE.md](TETRAPLOIDIE.md), parce qu'elle change les règles de ségrégation de tous les loci ci-dessous sans devenir un locus elle-même. **Ces tableaux sont la source** : le dépôt ne contient ni fichier de données ni script de génération — il se relit et se corrige directement ici. [`index.html`](index.html), à la racine, en est le pendant interactif (aucune dépendance réseau) : recherche plein texte, filtres par mode de dominance, calculateur d'effectif F2 et style d'impression A4 paysage, publiable tel quel sur GitHub Pages. Une correction se reporte donc à la main dans les trois fichiers concernés — `README.md`, `README.en.md` et `index.html`.
 
 ## Sommaire
 
@@ -53,7 +53,7 @@ Les loci sont rangés en **16 chapitres** : plante (port, feuillage, trichomes, 
 - [4. Feuillage — couleur & pigmentation](#4-feuillage--couleur--pigmentation) — *12 loci*
 - [5. Fleur, autogamie & nouaison](#5-fleur-autogamie--nouaison) — *5 loci*
 - [6. Fruit — forme, loges & poids](#6-fruit--forme-loges--poids) — *16 loci*
-- [7. Fruit — couleur (peau × chair)](#prédire-la-couleur-du-fruit) — *12 loci*
+- [7. Fruit — couleur (peau × chair)](#7-fruit--couleur-peau--chair) — *12 loci*
 - [8. Fruit — maturation & conservation](#8-fruit--maturation--conservation) — *5 loci*
 - [9. Saveur — sucres & solides solubles](#9-saveur--sucres--solides-solubles) — *13 loci*
 - [10. Saveur — acidité, umami & GABA](#10-saveur--acidité-umami--gaba) — *8 loci*
@@ -61,8 +61,10 @@ Les loci sont rangés en **16 chapitres** : plante (port, feuillage, trichomes, 
 - [12. Nutrition & innocuité](#12-nutrition--innocuité) — *17 loci*
 - [13. Résistances biotiques](#13-résistances-biotiques) — *27 loci*
 - [14. Tolérances abiotiques & racines](#14-tolérances-abiotiques--racines) — *11 loci*
-- [15. Sources alléliques : votre germoplasme](#sources-licence-et-citation) — *7 loci*
+- [15. Sources alléliques : votre germoplasme](#15-sources-alléliques--votre-germoplasme) — *7 loci*
 - [16. Combinaisons & épistasies](#16-combinaisons--épistasies) — *16 loci*
+- **Annexe · [Ploïdie : diploïdie, tétraploïdisation, triploïdes sans pépins](TETRAPLOIDIE.md)** — *hors des 230 loci*
+- **Annexe · [Fleur : biologie florale, stérilité mâle, couleur des pétales](FLEURS.md)** — *le réseau derrière les chap. 1 et 5*
 - [Prédire la couleur du fruit](#prédire-la-couleur-du-fruit)
 - [Calculer la taille de sa descendance](#calculer-la-taille-de-sa-descendance)
 - [Les 10 règles d'or](#les-10-règles-dor)
@@ -71,13 +73,13 @@ Les loci sont rangés en **16 chapitres** : plante (port, feuillage, trichomes, 
 - [Protocole de programme](#protocole-de-programme)
 - [Reproductibilité du dépôt](#reproductibilité-du-dépôt)
 - [Sources, licence et citation](#sources-licence-et-citation)
-- [SOURCES.md](SOURCES.md) — bibliographie complète · [CONTRIBUTING.md](CONTRIBUTING.md) · [CITATION.cff](CITATION.cff) · [LICENSE](LICENSE)
+- [SOURCES.md](SOURCES.md) — bibliographie complète · [CONTRIBUTING.md](CONTRIBUTING.md) · [LICENSE](LICENSE)
 
 ---
 
 ## 1. Port, architecture & inflorescence
 
-*Déterminaison, ramification, taille, organogenèse de la grappe — le moteur SP/SFT.* — **29 loci** · données brutes : [`data/genes_tomate.csv`](data/genes_tomate.csv)
+*Déterminaison, ramification, taille, organogenèse de la grappe — le moteur SP/SFT.* — **32 loci**
 
 | Symbole | Nom / locus | Chr. | Dominance | Effet, phénotype | Ce que ça change en sélection |
 |:--|:--|:--:|:--|:--|:--|
@@ -90,9 +92,12 @@ Les loci sont rangés en **16 chapitres** : plante (port, feuillage, trichomes, 
 | `fa` | Falsiflora | n.d. | 🔵 RÉCESSIF | Inflorescences feuillues, conversion des fleurs en tiges | Inflorescences feuillues : diminue la récolte ; sert surtout à diagnostiquer une grappe « Leafy ». |
 | `j` | Jointless | 11 | 🔵 RÉCESSIF | Absence de zone d'abscission du pédoncule ; épistatique sur s ; réversion végétative de l'inflorescence | Casse la ramification des grappes mais provoque un excès de feuillage → préférer j-2. |
 | `j-2` | Jointless-2 | 12 | 🔵 RÉCESSIF | Pédoncule court, droit, sans coude : le fruit se cueille net, sans calice ni blessure | Quasi ubiquitaire en tomate de transformation. Épistasie négative avec ej2 (chr 3), levée par suppresseurs. |
-| `mc` | Macrocalyx | n.d. | 🔵 RÉCESSIF | Grand calice, inflorescence modifiée | Calice hypertrophié, gène MADS-box : utile en génétique florale, sans intérêt commercial direct. |
+| `mc` | Macrocalyx | 5 | 🔵 RÉCESSIF | Grand calice, inflorescence modifiée | Calice hypertrophié, gène MADS-box identifié par l'ID ITAG Solyc05g056620 : utile en génétique florale, sans intérêt commercial direct. |
 | `to` | Torosa | n.d. | 🔵 RÉCESSIF | Fleurs et ovaires « en tire-bouchon » | Fleurs en tire-bouchon, nouaison aléatoire : à éliminer en sélection, pas à introduire. |
 | `bif` | Bifurcate flower truss | n.d. | 🔵 RÉCESSIF | Grappes ramifiées (comme s), renforcées par le froid | Grappes ramifiées aggravées par le froid : attention dans les programmes plein champ en climat frais (méprise fréquente avec `s`). |
+| `FUL2 / MBP20` | Fruitfull-like (euFULI) | 3 / 2 | 🔵 RÉCESSIF | +3 feuilles avant la première fleur, inflorescence branchue, maturation retardée du méristème floral | Pas un gène à introduire tel quel : c'est le **levier de dosage** le plus propre pour pousser le nombre de fleurs sans effet pléiotrope franc (édition de promoteur plutôt que knock-out). Le phénotype n'apparaît que quand les copies redondantes tombent ensemble — d'où de faux « échecs » CRISPR en simple mutant. |
+| `ej2` | Enhancer of Jointless2 (SlMADS1) | 3 | 🔵 RÉCESSIF | Ramification de l'inflorescence accrue, surtout en combinaison avec `j-2`/`j2` ; hétérozygote presque invisible | Deuxième pièce de l'épistasie déjà notée sur `j-2` : pour une grappe multiflore SANS casser la zone d'abscission, cherchez `j-2` + `ej2` en hétérozygotes — le double homozygote supprime l'abscission et ruine la récolte mécanique. |
+| `tmf` | Terminating Flower | 9 | 🔵 RÉCESSIF | Grappe à 1–2 fleurs (au lieu de 6–8), floraison très précoce, entre-nœuds courts | Précocité maximale, rendement par grappe divisé par cinq : à réserver aux programmes d'extrême précocité ou au hétérozygote. ⚠ Le « une seule fleur » de `tmf` se confond avec `sft` — `tmf` AVANCE la floraison, `sft` la RETARDE. |
 | `Nr` | Never ripe | n.d. | 🟢 DOMINANT | Sénescence et abscission retardées (feuilles, fleurs, fruits) ; fruit qui ne mûrit pas | SEMI-DOMINANT À DOMINANT NÉGATIF : la protéine mutante empoisonne le complexe. Voir aussi section Maturation. |
 | `ls` | Lateral suppressor | n.d. | 🔵 RÉCESSIF | Absence de bourgeons axillaires → plante non ramifiée ; parfois moins de folioles | Absence totale de gourmands = conduite simplifiée, MAIS rendement en berne sur les premiers bouquets ; jamais retenu en variétal. |
 | `bl` | Blind | n.d. | 🔵 RÉCESSIF | Ramification très réduite, bourgeons axillaires absents/réduits | Le même module MYB dissèque aussi la feuille. |
@@ -112,7 +117,7 @@ Les loci sont rangés en **16 chapitres** : plante (port, feuillage, trichomes, 
 | `erl` | Erectoid leaf | 10 | 🟡 SEMI-DOMINANT | Feuilles érigées : angle d'insertion réduit, port dressé | Semi-dominant : l'hétérozygote suffit pour un effet net. |
 
 <details>
-<summary>🔬 Biochimie, nature de la mutation, origine de l'allèle (29 loci)</summary>
+<summary>🔬 Biochimie, nature de la mutation, origine de l'allèle (32 loci)</summary>
 
 | Symbole | Nature de la mutation / fonction moléculaire | Origine de l'allèle | Dominance | Chr. |
 |:--|:--|:--|:--:|:--:|
@@ -125,9 +130,12 @@ Les loci sont rangés en **16 chapitres** : plante (port, feuillage, trichomes, 
 | `fa` | FA, orthologue de LEAFY | Cultivé (mutant) | RÉCESSIF | n.d. |
 | `j` | MADS-box J | Cultivé | RÉCESSIF | 11 |
 | `j-2` | SlMBP21 (Solyc12g038510) ; codon stop prématuré (LA0166) ; allèle transposon j2^TE en industriel | S. cheesmaniae LA0166 | RÉCESSIF | 12 |
-| `mc` | MADS-box | Cultivé (mutant) | RÉCESSIF | n.d. |
+| `mc` | MADS-box (Solyc05g056620) | Cultivé (mutant) | RÉCESSIF | 5 |
 | `to` | Clonage non confirmé | Cultivé (mutant) | RÉCESSIF | n.d. |
 | `bif` | MAPK défectueuse | Cultivé (mutant) | RÉCESSIF | n.d. |
+| `FUL2 / MBP20` | MADS euFULI redondants ; FUL2+MBP20 répriment CKX5/6/8 (catabolisme des cytokinines) ; le quadruple KO CRISPR ful1 ful2 mbp10 mbp20 lève la redondance | Cultivé (lignées d'édition, laboratoire) | RÉCESSIF | 3 / 2 |
+| `ej2` | MADS-box SEP4 (SlMADS1) ; réducteur de maturation du méristème floral, agit en additif avec j-2 (chr 12) | Cultivé + introgressions (Soyk et al. 2017) | RÉCESSIF | 3 |
+| `tmf` | Famille ALOG ; tmf lève la répression sur AN et FA, le méristème floral se termine après 1–2 fleurs | Cultivé (mutant) | RÉCESSIF | 9 |
 | `Nr` | SlETR3 = récepteur d'éthylène (ETR3/SR) | Cultivé (mutant) | DOMINANT | n.d. |
 | `ls` | GRAS (orthologue LAS) | Cultivé (mutant) | RÉCESSIF | n.d. |
 | `bl` | R2R3-MYB (homologue BL) | Cultivé (mutant) | RÉCESSIF | n.d. |
@@ -150,7 +158,7 @@ Les loci sont rangés en **16 chapitres** : plante (port, feuillage, trichomes, 
 
 ## 2. Feuillage — morphologie foliaire
 
-*Regular / potato / carrot leaf : les quatre étages du contrôle (fenêtre, indétermination, frontières, extension).* — **15 loci** · données brutes : [`data/genes_tomate.csv`](data/genes_tomate.csv)
+*Regular / potato / carrot leaf : les quatre étages du contrôle (fenêtre, indétermination, frontières, extension).* — **15 loci**
 
 | Symbole | Nom / locus | Chr. | Dominance | Effet, phénotype | Ce que ça change en sélection |
 |:--|:--|:--:|:--|:--|:--|
@@ -195,7 +203,7 @@ Les loci sont rangés en **16 chapitres** : plante (port, feuillage, trichomes, 
 
 ## 3. Trichomes & pubescence
 
-*Poils glandulaires = défense, arôme et colle à aleurodes. Module WO + H.* — **6 loci** · données brutes : [`data/genes_tomate.csv`](data/genes_tomate.csv)
+*Poils glandulaires = défense, arôme et colle à aleurodes. Module WO + H.* — **6 loci**
 
 | Symbole | Nom / locus | Chr. | Dominance | Effet, phénotype | Ce que ça change en sélection |
 |:--|:--|:--:|:--|:--|:--|
@@ -222,7 +230,7 @@ Les loci sont rangés en **16 chapitres** : plante (port, feuillage, trichomes, 
 
 ## 4. Feuillage — couleur & pigmentation
 
-*High pigment, chlorophylle et anthocyanes végétatives.* — **12 loci** · données brutes : [`data/genes_tomate.csv`](data/genes_tomate.csv)
+*High pigment, chlorophylle et anthocyanes végétatives.* — **12 loci**
 
 | Symbole | Nom / locus | Chr. | Dominance | Effet, phénotype | Ce que ça change en sélection |
 |:--|:--|:--:|:--|:--|:--|
@@ -261,7 +269,7 @@ Les loci sont rangés en **16 chapitres** : plante (port, feuillage, trichomes, 
 
 ## 5. Fleur, autogamie & nouaison
 
-*Le verrou d'autogamie (Style2.1) et la stérilité positionnelle.* — **5 loci** · données brutes : [`data/genes_tomate.csv`](data/genes_tomate.csv)
+*Le verrou d'autogamie (Style2.1), la stérilité mâle et la couleur des pétales.* — **15 loci**
 
 | Symbole | Nom / locus | Chr. | Dominance | Effet, phénotype | Ce que ça change en sélection |
 |:--|:--|:--:|:--|:--|:--|
@@ -269,10 +277,20 @@ Les loci sont rangés en **16 chapitres** : plante (port, feuillage, trichomes, 
 | `SE3.1` | Stigma insertion 3.1 | n.d. | 🔵 RÉCESSIF | Deuxième étape du décalage du stigmate : de « flush » à « inséré » ; module avec Style2.1 | Style2.1 gère l'étape 1, SE3.1 l'étape 2 : les deux cumulés = autogamie parfaite. |
 | `SlSE2.2` | Stigma exsertion 2.2 | 2 | 🔵 RÉCESSIF | Degré d'exsertion du stigmate : le KO allonge anthères et style (stérilité positionnelle, sans émasculer) | Outil pour la production d'hybrides : stérilité positionnelle = pas d'émasculation manuelle. module IAA/ETH/JA/ABA. |
 | `SlLst` | Long styles | 12 | ⚪ MIXTE / SELON FOND | Allongement du style et exsertion du stigmate SOUS CHALEUR (> 27 °C) : perte d'autogamie à la canicule | ⚠ Explique les fruits « mal fécondés » et l'allogamie accrue en été : la pureté variétale dépend aussi du climat. |
-| `pat / pat-2` | Parthenocarpic | n.d. | 🔵 RÉCESSIF | Nouaison sans pollinisation → fruits sans pépins (souvent plus petits, moins de loges) | Récessif : à fixer. SlIAA9 (e) et les mutants de gibbérellines donnent des effets comparables. |
+| `pat / pat-2` | Parthenocarpic | n.d. | 🔵 RÉCESSIF | Nouaison sans pollinisation → fruits sans pépins (souvent plus petits, moins de loges) | Récessif : à fixer. SlIAA9 (e) et les mutants de gibbérellines donnent des effets comparables. La base moléculaire est documentée depuis : *pat* rattaché au HD-Zip III **SlHB15A** (allèle P95S ; Picarella *et al.* 2024, *Front. Plant Sci.*), *pat-2* à **SlHD31** (délétion de 1 034 pb dans le promoteur). |
+| `ys` | Yellow stigma | n.d. | 🔵 RÉCESSIF | Stigmate jaune vif au lieu de vert-blanc, pétales inchangés | ⚠ Le nom piège : `ys` (stigmate) n'a **rien à voir avec `y` (peau, *SlMYB12*, chr 1)** — mais les deux passent par la même voie des flavonoïdes, ce qui explique la confusion. Marqueur de floraison bon marché, aucun effet sur le fruit. |
+| `pmcd1` | Premeiotic Cytokinesis Defective 1 | n.d. | 🔵 RÉCESSIF | Endomitose pré-méïotique : la cellule mère duplique son ADN sans se diviser → **méiocytes tétraploïdes**, puis pollen diploïde (2n) | La voie **non transgénique** vers le pollen 2n, dont le dossier dit aussi le prix : **aucun descendant polyploïde n'a été obtenu** par cette voie, à cause du blocage triploïde. À tester en pépinière, pas à planifier sur une saison. Détail : [TETRAPLOIDIE.md §4.6](TETRAPLOIDIE.md#46-autres-méthodes-dobtention-documentées-non-recommandées-hors-laboratoire). |
+| `PYP1` | Pale Yellow Petal 1 | n.d. | 🔵 RÉCESSIF | Pétales jaune pâle presque blancs, anthères décolorées ; plante et fruit normaux | Marqueur visuel **sur la fleur** : repérer une hybridation, dater une floraison ou valider un croisement avant la nouaison, sans toucher au goût ni au fruit. À ne pas confondre avec les mutations de couleur du fruit (`r`, `t`, `og`). |
+| `TPI (SlGLO2)` | Tomato GLOBOSA2 — twisted anther | 8 | 🔵 RÉCESSIF | Étamines tordues qui restent ouvertes sur le style, stigmates exposés, stérilité mâle complète | ⚠ **`sl-2` (ici, chr 8) n'est PAS `sl`/stamenless (TAP3, chr 4)** : deux gènes, deux chromosomes, deux usages — la confusion est écrite dans la littérature amateur. Les lignes TPI sont les plus simples à polliniser à la main (ovaire déjà exposé), et servent de testeur d'allogamie. |
+| `sl` | Stamenless — TAP3 (classe B) | 4 | 🔵 RÉCESSIF | Pétales convertis en sépales, étamines en carpelles : aucune étamine fonctionnelle, fleur femelle utilisable | ⚠ **`sl` (TAP3, chr 4) n'est PAS `sl-2`** : `sl-2` est un allèle de TPI (chr 8), et les deux sont écrits côte à côte dans la littérature sur la stérilité mâle. Le phéno diffère (pétales verdissants + carpelles surnuméraires, contre anthères tordues ouvertes) et les deux gènes ne se fixent pas de la même façon. L'ID ITAG tranche : Solyc04g081000 = chr 4. |
+| `Ms-15 (= tm6)` | Carpelloid anther (MADS B-classe) | 2 | 🔵 RÉCESSIF | Étamines en carpelles, anthères déformées, stigmate exserté hors du cône ; stérilité mâle | Double usage : stérilité mâle **et** fleur ouverte aux bourdons. C'est la base du système **GHMS** (double KO CRISPR tm6 + dfr : hypocotyle vert = stérile, violet = fertile, tri en pépinière). ⚠ L'exsertion rend aussi votre lignée à fixer hybridable : isolez-la. |
+| `Ms-10` | Male Sterile 10 (bHLH / SlDYT1) | 2 | 🔵 RÉCESSIF | Aucun pollen viable ; la fleur reste fémininement normale, ovaire fécondable au pollen d'un autre plant | Lignée femelle idéale pour la F1, à maintenir en hétérozygote (× fertile). Sa valeur vient du **marqueur lié `aa` (anthocyanin absent)** : semis à hypocotyle vert = stérile, violet = fertile → tri en pépinière sans PCR ni floraison. |
+| `ps-2` | Indehiscent anther (SlTDPG) | 4 | 🔵 RÉCESSIF | Anthères qui ne s'ouvrent jamais, **mais pollen intégralement viable** à l'intérieur | **Le meilleur outil d'hybridation sans émasculation** : la ligne femelle ne peut pas s'autoféconder, et vous récupérez du pollen bon en ouvrant l'anthère à la main (ou au vibreur / bourdon). Une plante par croisement, pas de ciseau, pas de risque d'auto-fécondation ratée. |
+| `tdf1` | Tapetum Development Factor 1 (SlTDF1) | 3 | 🔵 RÉCESSIF | Stérilité mâle **et** nouaison parthénocarpique partielle ; anthères à tapetum non dégradé | Le seul de la série qui cumule « pas de pollen » et « noue quand même » : intéressant en serre chaude. Le prix à payer est la perte de la voie de fécondation — testez la fermeté et le nombre de loges sur VOTRE fond avant d'en faire une ligne. |
+| `pat-k (tagl6)` | Parthenocarpic fruit-k (SlAGL6 / TAGL6) | 1 | 🔵 RÉCESSIF | Parthénocarpie **facultative** : noue sans pollinisation sous contrainte (chaleur, ombre), reste fécondable en conditions normales | La voie propre pour la serre : contrairement à `pat`, pas de nanisme ni de fruit systématiquement plus petit, et le pollen reste utile au maintien de la lignée. Récessif : à fixer, et à croiser avec `Style2.1` pour ne pas transformer l'abri en champ d'hybridations. |
 
 <details>
-<summary>🔬 Biochimie, nature de la mutation, origine de l'allèle (5 loci)</summary>
+<summary>🔬 Biochimie, nature de la mutation, origine de l'allèle (15 loci)</summary>
 
 | Symbole | Nature de la mutation / fonction moléculaire | Origine de l'allèle | Dominance | Chr. |
 |:--|:--|:--|:--:|:--:|
@@ -280,13 +298,23 @@ Les loci sont rangés en **16 chapitres** : plante (port, feuillage, trichomes, 
 | `SE3.1` | Locus du chr 3, facteurs de transcription (SlbHLH005, AGL6, AGL15/SlMBP11 dans l'intervalle) | Cultivé moderne | RÉCESSIF | n.d. |
 | `SlSE2.2` | SlSE2.2 (Solyc02g087270), protéine F-box ; délétion de 11 pb dans l'exon 1 | Cultivé (accession J59, 2025) | RÉCESSIF | 2 |
 | `SlLst` | Récepteur d'éthylène de type EIN4 (Solyc12g027610) | Cultivé | MIXTE / SELON FOND | 12 |
-| `pat / pat-2` | Locus classique, voie GA/auxine (non cloné pour pat-2) | Cultivé (mutant) | RÉCESSIF | n.d. |
+| `pat / pat-2` | Locus classique, voie GA/auxine ; *pat* = **SlHB15A** (HD-Zip III, allèle P95S ; Picarella *et al.* 2024), *pat-2* = **SlHD31** (délétion promotrice de 1 034 pb) | Cultivé (mutant) | RÉCESSIF | n.d. |
+| `ys` | Perte de fonction des p-coumarate 3-hydroxylases *SlC3H1* / *SlC3H2* (F3'H) : accumulation de chalcone de naringénine jaune dans le stigmate, 6 peroxydases inhibées | Cultivé (mutant) | RÉCESSIF | n.d. |
+| `pmcd1` | Défaut de cytokinèse pré-méïotique (fusion nucléaire) : dyades à noyaux 2n au lieu de tétrades — De Storme N. et al. (2013), *J. Exp. Bot.* 64:2345 | Cultivé (mutant d'induction) | RÉCESSIF | n.d. |
+| `PYP1` | Acyltransférase qui estérifie les xanthophylles (néoxanthine, violaxanthine) des pétales et des anthères ; le fruit n'est pas affecté | Cultivé (mutant) | RÉCESSIF | n.d. |
+| `TPI (SlGLO2)` | MADS B-classe GLO/GAIN de solanacées (Solyc08g067230) ; son paralogue *SlGLO1* (Solyc06g059970) donne un phénotype voisin en RNAi (pétales verts) | Cultivé (ms30, ms33, 7B-1, sl-2 = 4 allèles du même gène) | RÉCESSIF | 8 |
+| `sl` | TAP3, orthologue AP3/DEF (MADS classe B, Solyc04g081000) : perte de fonction = pétales→sépales et étamines→carpelles | Cultivé (mutant) | RÉCESSIF | 4 |
+| `Ms-15 (= tm6)` | Délétion d'1 pb dans l'exon 1 de *TM6* (Solyc02g084630, allèle *sus2*) ; TM6 contrôle directement TPI, TAG1 et J — 14 autres MADS down en RNA-seq | Cultivé (sus2, ms-15) | RÉCESSIF | 2 |
+| `Ms-10` | bHLH de la cascade du tapetum (Solyc02g079810) ; méiose et paroi pollinique perturbées ; régule ~246 gènes | Cultivé (allèles ms10, ms24, ms35, ms36) | RÉCESSIF | 2 |
+| `ps-2` | Polygalacturonase *SlTDPG* défectueuse (Solyc04g015530) : la middle lamella de l'anthère ne se lyse pas | Cultivé (mutant) | RÉCESSIF | 4 |
+| `tdf1` | Facteur PHD, maillon MS10 → MS32 → **TDF1** → AMS → MS1 de la cascade du tapetum (Solyc03g059200, cascade conservée d'*Arabidopsis*) | Cultivé (mutants / CRISPR) | RÉCESSIF | 3 |
+| `pat-k (tagl6)` | Insertion d'un rétrotransposon de 4 866 pb dans l'intron 1 de *SlAGL6* (MADS AGL6) → perte de fonction | Cultivé (allèle naturel identifié en amélioration) | RÉCESSIF | 1 |
 
 </details>
 
 ## 6. Fruit — forme, loges & poids
 
-*Deux axes indépendants (longueur × loges) plus les trois loci clonés du poids.* — **16 loci** · données brutes : [`data/genes_tomate.csv`](data/genes_tomate.csv)
+*Deux axes indépendants (longueur × loges) plus les trois loci clonés du poids.* — **16 loci**
 
 | Symbole | Nom / locus | Chr. | Dominance | Effet, phénotype | Ce que ça change en sélection |
 |:--|:--|:--:|:--|:--|:--|
@@ -333,7 +361,7 @@ Les loci sont rangés en **16 chapitres** : plante (port, feuillage, trichomes, 
 
 ## 7. Fruit — couleur (peau × chair)
 
-*Modèle bi-couche : caroténoïdes de la chair, flavonoïdes de la peau, chlorophylle.* — **12 loci** · données brutes : [`data/genes_tomate.csv`](data/genes_tomate.csv)
+*Modèle bi-couche : caroténoïdes de la chair, flavonoïdes de la peau, chlorophylle.* — **12 loci**
 
 | Symbole | Nom / locus | Chr. | Dominance | Effet, phénotype | Ce que ça change en sélection |
 |:--|:--|:--:|:--|:--|:--|
@@ -374,7 +402,7 @@ Les loci sont rangés en **16 chapitres** : plante (port, feuillage, trichomes, 
 
 ## 8. Fruit — maturation & conservation
 
-*rin, nor, alc, Cnr, Nr : le compromis conservation / arôme.* — **5 loci** · données brutes : [`data/genes_tomate.csv`](data/genes_tomate.csv)
+*rin, nor, alc, Cnr, Nr : le compromis conservation / arôme.* — **5 loci**
 
 | Symbole | Nom / locus | Chr. | Dominance | Effet, phénotype | Ce que ça change en sélection |
 |:--|:--|:--:|:--|:--|:--|
@@ -399,7 +427,7 @@ Les loci sont rangés en **16 chapitres** : plante (port, feuillage, trichomes, 
 
 ## 9. Saveur — sucres & solides solubles
 
-*Brix : les gisements sauvages et le « frein à sucre » levé en 2024.* — **13 loci** · données brutes : [`data/genes_tomate.csv`](data/genes_tomate.csv)
+*Brix : les gisements sauvages et le « frein à sucre » levé en 2024.* — **13 loci**
 
 | Symbole | Nom / locus | Chr. | Dominance | Effet, phénotype | Ce que ça change en sélection |
 |:--|:--|:--:|:--|:--|:--|
@@ -440,7 +468,7 @@ Les loci sont rangés en **16 chapitres** : plante (port, feuillage, trichomes, 
 
 ## 10. Saveur — acidité, umami & GABA
 
-*Malate, citrate, glutamate libre et le cas d'école SlGAD.* — **8 loci** · données brutes : [`data/genes_tomate.csv`](data/genes_tomate.csv)
+*Malate, citrate, glutamate libre et le cas d'école SlGAD.* — **8 loci**
 
 | Symbole | Nom / locus | Chr. | Dominance | Effet, phénotype | Ce que ça change en sélection |
 |:--|:--|:--:|:--|:--|:--|
@@ -471,7 +499,7 @@ Les loci sont rangés en **16 chapitres** : plante (port, feuillage, trichomes, 
 
 ## 11. Saveur — volatils & arôme
 
-*Le registre complet des gènes clonés de l'arôme.* — **17 loci** · données brutes : [`data/genes_tomate.csv`](data/genes_tomate.csv)
+*Le registre complet des gènes clonés de l'arôme.* — **17 loci**
 
 | Symbole | Nom / locus | Chr. | Dominance | Effet, phénotype | Ce que ça change en sélection |
 |:--|:--|:--:|:--|:--|:--|
@@ -520,7 +548,7 @@ Les loci sont rangés en **16 chapitres** : plante (port, feuillage, trichomes, 
 
 ## 12. Nutrition & innocuité
 
-*Vitamines C / B9 / E, polyphénols, glycoalcaloïdes (amertume), minéraux.* — **17 loci** · données brutes : [`data/genes_tomate.csv`](data/genes_tomate.csv)
+*Vitamines C / B9 / E, polyphénols, glycoalcaloïdes (amertume), minéraux.* — **17 loci**
 
 | Symbole | Nom / locus | Chr. | Dominance | Effet, phénotype | Ce que ça change en sélection |
 |:--|:--|:--:|:--|:--|:--|
@@ -569,7 +597,7 @@ Les loci sont rangés en **16 chapitres** : plante (port, feuillage, trichomes, 
 
 ## 13. Résistances biotiques
 
-*Maladies et ravageurs : gènes majeurs, QTL, dominance et contournements.* — **27 loci** · données brutes : [`data/genes_tomate.csv`](data/genes_tomate.csv)
+*Maladies et ravageurs : gènes majeurs, QTL, dominance et contournements.* — **27 loci**
 
 | Symbole | Nom / locus | Chr. | Dominance | Effet, phénotype | Ce que ça change en sélection |
 |:--|:--|:--:|:--|:--|:--|
@@ -638,7 +666,7 @@ Les loci sont rangés en **16 chapitres** : plante (port, feuillage, trichomes, 
 
 ## 14. Tolérances abiotiques & racines
 
-*Sel, sécheresse, froid, chaleur — presque tout est additif.* — **11 loci** · données brutes : [`data/genes_tomate.csv`](data/genes_tomate.csv)
+*Sel, sécheresse, froid, chaleur — presque tout est additif.* — **11 loci**
 
 | Symbole | Nom / locus | Chr. | Dominance | Effet, phénotype | Ce que ça change en sélection |
 |:--|:--|:--:|:--|:--|:--|
@@ -675,7 +703,9 @@ Les loci sont rangés en **16 chapitres** : plante (port, feuillage, trichomes, 
 
 ## 15. Sources alléliques : votre germoplasme
 
-*Espèce par espèce : ce que vous avez, à quelle probabilité, et comment le vérifier.* — **7 loci** · données brutes : [`data/genes_tomate.csv`](data/genes_tomate.csv)
+*Espèce par espèce : ce que vous avez, à quelle probabilité, et comment le vérifier — plus une voie pour fixer.* — **8 loci**
+
+> 🍅 **À quel niveau de ploïdie travailler ?** Le TGRC maintient des **autotétraploïdes** (2-095 San Marzano 4x, 2-483 Red Cherry 4x, LA2335 *S. pimpinellifolium* 4x fertile) dont le comportement en croisement n'a rien de commun avec les lignes ci-dessus : voir l'annexe [TETRAPLOIDIE.md](TETRAPLOIDIE.md), sections 3 et 9.
 
 | Symbole | Nom / locus | Chr. | Dominance | Effet, phénotype | Ce que ça change en sélection |
 |:--|:--|:--:|:--|:--|:--|
@@ -686,9 +716,10 @@ Les loci sont rangés en **16 chapitres** : plante (port, feuillage, trichomes, 
 | `S. pennellii LA0716` | Le donateur des QTL | — | ▫️ — | LIN5 (Brix9-2-5), IL8-2 (AADC, « malodorous »), IL12-3 (LIP1/LIP2), fw3.2, fw11.3, Del, allèles Tm-1 de type pennellii, I-3 | La référence mondiale pour la génétique QUANTITATIVE de la tomate. Tous les segments sont déjà isolés en lignées : à demander, pas à créer. |
 | `S. chmielewskii LA1028` | Le vieux gisement de Brix | — | ▫️ — | ≈10 % de solubles solubles (contre ≈5 % chez le cultivar VF36), +13 % à l'homozygote et +12 % à l'hétérozygote | ⚠ Fruits VERTS et pH élevé : l'introgression traîne des défauts à casser par rétrocroisements. |
 | `S. chilense / lycopersicoides / peruvianum` | Pas chez vous, mais utiles | — | ▫️ — | Ty-1/3/4 + Aft (chilense), Abg + Del + LA2951 (lycopersicoides), Mi-1 + Sw-5 + ty-5 (peruvianum) | Barrières d'hybridabilité plus fortes : rétrocroisements longs, ovules immatures in vitro souvent nécessaires. |
+| `DH` | Gynogenèse & haplo-diploïdisation — **une voie, pas un locus** | — | ▫️ — | Haploïde induit (culture d'anthères, gynogenèse, mutants type `pmcd1`/`CENH3`) puis doublement chromosomique → **homozygotie totale en une génération** | Ce que ça change : un récessif fixé en F1 au lieu de F6 — donc un `Style2.1/Style2.1` ou un `j-2/j-2` utilisables la saison même. ⚠ Aucune de ces voies ne marche sans protocole propre au fond génétique, et le doublement passe par la colchicine : voir [TETRAPLOIDIE.md §10](TETRAPLOIDIE.md#10-discussion--stratégie-de-sélection-et-génétique-de-la-réponse-à-la-tétraploïdie). |
 
 <details>
-<summary>🔬 Biochimie, nature de la mutation, origine de l'allèle (7 loci)</summary>
+<summary>🔬 Biochimie, nature de la mutation, origine de l'allèle (8 loci)</summary>
 
 | Symbole | Nature de la mutation / fonction moléculaire | Origine de l'allèle | Dominance | Chr. |
 |:--|:--|:--|:--:|:--:|
@@ -699,6 +730,7 @@ Les loci sont rangés en **16 chapitres** : plante (port, feuillage, trichomes, 
 | `S. pennellii LA0716` | Bibliothèque d'IL (Eshed & Zamir) : 75 lignes couvrant ~98 % du génome donneur, fond M82 | TGRC / Cornell | — | — |
 | `S. chmielewskii LA1028` | Lignées LA1563 (BC5S5, 7–8 % SS) et segments VF145B-7879 | *S. chmielewskii* LA1028 (Casinchichua, Apurimac, Pérou) — accession TGRC ; dérivés LA1563 et VF145B-7879 | — | — |
 | `S. chilense / lycopersicoides / peruvianum` | Bibliothèques d'IL publiées | *S. chilense* (Ty-1/3, Aft), *S. lycopersicoides* LA2951, *S. peruvianum* (Mi-1, Sw-5, ty-5) — toutes via le TGRC | — | — |
+| `DH` | Voie haploïdie → doublement (pas de gène cloné chez le cultivé ; `pmcd1` et `CENH3` comme générateurs de gamètes non réduits) | Cultivé (outils de laboratoire) | — | — |
 
 </details>
 
@@ -706,7 +738,7 @@ Les loci sont rangés en **16 chapitres** : plante (port, feuillage, trichomes, 
 
 ## 16. Combinaisons & épistasies
 
-*Ce qui se cumule, ce qui s'écrase, ce qui vous tue la plante.* — **16 loci** · données brutes : [`data/genes_tomate.csv`](data/genes_tomate.csv)
+*Ce qui se cumule, ce qui s'écrase, ce qui vous tue la plante.* — **16 loci**
 
 | Symbole | Nom / locus | Chr. | Dominance | Effet, phénotype | Ce que ça change en sélection |
 |:--|:--|:--:|:--|:--|:--|
@@ -891,55 +923,78 @@ Certains volatils augmentent la DOUCEUR PERÇUE sans changer le Brix : le sucre 
 
 ## Reproductibilité du dépôt
 
-Ce README, le site et les exports sont **générés** à partir de 4 fichiers tables (TSV) : rien n'est recopié à la main.
+Ce dépôt est **volontairement plat** : huit fichiers, pas de dossier de données, pas de script. Les tableaux du présent fichier sont **la source de vérité** ; `README.en.md` en est le reflet anglais et `index.html` le pendant interactif. Rien n'est régénéré : une correction s'écrit à la main dans le fichier concerné et se propage dans les deux autres dès qu'elle touche au `Symbole`, au `Chr.` ou à la `Dominance` — les trois colonnes qui engagent une affirmation génétique.
 
 ```
-tomate-genetique/
-├── README.md                  ← cette fiche (générée — ne pas éditer à la main)
-├── README.en.md               ← édition anglaise, générée depuis data_en/ (même génétique)
-├── SOURCES.md                 ← bibliographie complète, références avec liens et niveau de vérification
-├── CITATION.cff               ← comment citer ce dépôt (DOI Zenodo à y mettre)
-├── CONTRIBUTING.md            ← format attendu d'un ajout ou d'une correction
-├── LICENSE                    ← CC BY 4.0 (données et texte)
-├── data/                      ← SOURCE DE VÉRITÉ (8 champs par ligne)
-│   ├── 01_plante.tsv          ← port, feuille, trichomes, pigmentation
-│   ├── 02_fruit.tsv           ← fleur, forme, couleur, maturation
-│   ├── 03_saveur.tsv          ← sucres, acides/umami, volatils, nutrition
-│   ├── 04_resistances.tsv     ← biotique, abiotique, germoplasme, épistasies
-│   ├── README.md              ← dictionnaire des colonnes du format
-│   ├── genes_tomate.csv       ← tous les loci à plat (export)
-│   └── genes_tomate.xlsx      ← classeur filtrable (1 feuille par chapitre)
-├── data_en/                   ← édition anglaise (6 champs : mêmes loci, mêmes chr, mêmes dominance)
-│   ├── 01_plante.tsv … 04_resistances.tsv
-│   └── genes_tomate_en.csv    ← export anglais à plat
-├── scripts/
-│   └── build_fiche.py         ← régénère README.md, README.en.md, docs/index.html et les exports
-└── docs/
-    └── index.html             ← site statique (GitHub Pages) : recherche + filtres + impression
+tomato-genetics-cheatsheet/
+├── README.md          ← cette fiche : LA référence (230 loci, 16 chapitres + bloc moléculaire dépliable)
+├── README.en.md       ← édition anglaise : mêmes loci, mêmes chr., mêmes dominance, sans la couche moléculaire
+├── SOURCES.md         ← bibliographie commune aux deux langues (252 entrées, liens, niveau de vérification)
+├── TETRAPLOIDIE.md    ← annexe ploïdie (40 sources, niveau de preuve et limites affichés) — rédigée en français
+├── FLEURS.md          ← annexe fleur (réseau, stérilité mâle, pièges de nomenclature) — rédigée en français
+├── index.html         ← version interactive autonome : recherche, filtres, calculateur F2, impression A4 paysage
+├── CONTRIBUTING.md    ← format d'une ligne, règles de parité FR ↔ EN, critères d'acceptation
+└── LICENSE            ← MIT (texte et données)
 ```
 
-`README.md` et `docs/index.html` sont la référence ; `README.en.md` n'en est que la traduction, et le build
-vérifie à chaque fois qu'il n'y a aucun écart de génétique entre les deux.
+### Qui doit bouger ensemble
+
+| Fichier | Contenu par locus | Règle de propagation |
+|:--|:--|:--|
+| `README.md` | tableau principal (6 colonnes) **et** bloc `<details>` : nature de la mutation, origine de l'allèle, dominance, chr. | c'est ici que l'affirmation est écrite en entier |
+| `README.en.md` | tableau principal seul (6 colonnes) | la traduction ne touche que le texte ; `Symbole`, `Chr.` et `Dominance` se recopient à l'identique |
+| `index.html` | une ligne `<tr data-dom="…" data-t="…">` par locus, 8 colonnes | mêmes chromosomes et mêmes codes que le FR ; `data-t` porte le texte indexé, en minuscules |
+
+Un locus = **une ligne par fichier**, jamais une ligne par variété. Une ligne descriptive (QTL non cloné, germoplasme, épistasie) garde une dominance `—` : elle n'est pas mendélienne.
+
+### Contrôler la cohérence en trois commandes
+
+Rien à installer : `grep`, `awk` et `python3` du système suffisent, lancés à la racine du dépôt.
+Le contrôle n° 3 passe en revue **tous** les fichiers markdown, les deux annexes comprises.
 
 ```bash
-python3 scripts/build_fiche.py     # régénère README.md, docs/index.html, data/genes_tomate.{csv,xlsx}
+# 1. le compte annoncé par chapitre doit sommer à 230 dans les deux langues
+for f in README.md README.en.md; do
+  printf '%s : ' "$f"
+  grep -oE '\*\*[0-9]+ loci\*\*' "$f" | tr -dc '0-9\n' | awk '{s+=$1} END {print s}'
+done
+
+# 2. le site interactif doit porter le même nombre de loci
+grep -o '<tr data-dom=' index.html | wc -l  # → 230 lignes de loci (une ligne HTML en porte beaucoup)
+
+# 3. plus aucune référence à un fichier ou à une ancre inexistante
+python3 - <<'PY'
+import re, os, glob
+for fn in sorted(glob.glob("*.md")):          # tous les markdown, annexe comprise
+    s = open(fn, encoding="utf-8").read()
+    heads = {re.sub(r'[^\w \-]', '', h.lower().replace('&amp;', '&')).replace(' ', '-')
+             for h in re.findall(r'^#{2,4}\s+(.*)$', s, re.M)}
+    dead  = sorted({l for l in re.findall(r'\]\(#([^)]+)\)', s) if l not in heads})
+    files = sorted({l for l in re.findall(r'\]\((?!#|https?:|mailto:)([^)]+)\)', s)})
+    miss  = [f for f in files if not os.path.exists(f.split('#')[0].replace('%20', ' '))]
+    print(fn, "->", len(heads), "titres ; ancres cassées :", dead or "aucune",
+          "; fichiers absents :", miss or "aucun")
+PY
 ```
 
-### Publier la version interactive (facultatif, 2 minutes)
+Tout doit converger : **230 · 230 · 230**, puis `aucune` et `aucun`. Un chapitre modifié en FR sans l'être en EN fait échouer la commande 1 ; une ligne ajoutée au FR sans son reflet dans `index.html` fait échouer la commande 2.
 
-1. **Settings → Pages → Build and deployment → Source : Deploy from a branch** ;
-2. branche `main`, dossier `/docs` ;
-3. le site est alors servi sur `https://<utilisateur>.github.io/<nom-du-depot>/` — une page unique, sans build, sans dépendance réseau, qui garde la recherche, les filtres et l'impression A4 paysage.
+### Publier la version interactive (2 minutes)
 
-`docs/.nojekyll` est déjà présent : il évite que Jekyll ignore les fichiers et casse le déploiement.
+`index.html` est à la racine : **Settings → Pages → Source : Deploy from a branch**, branche `main`, dossier **`/` (racine)**. Le site répond alors sur `https://<utilisateur>.github.io/<nom-du-depot>/` — une page unique, sans build, sans dépendance réseau, qui garde la recherche, les filtres et l'impression A4 paysage. Aucun `.nojekyll` n'est nécessaire : il n'y a à la racine ni fichier ni dossier commençant par `_`.
 
-Le dictionnaire des colonnes (format d'entrée, codes de dominance, conventions) est dans [`data/README.md`](data/README.md). Le script sort aussi la liste des ancres et vérifie que tous les liens internes du README pointent vers un titre existant.
+### Le jour où vous voudrez industrialiser
+
+Si la fiche dépasse ce qu'on relit à l'œil (plus de loci, exports CSV/XLSX, traductions tenues par un tiers), reprenez l'ordre inverse : extrayez les tableaux de `README.md` vers un fichier de données (TSV, un champ par colonne), générez le README et le HTML depuis ce fichier, et faites échouer le build dès qu'un chromosome ou une dominance diverge entre les deux langues. Le format s'y prête déjà : chaque ligne est autonome et les trois colonnes génétiques sont les mêmes dans les trois fichiers.
 
 ## Sources, licence et citation
 
-- **Bibliographie** : [SOURCES.md](SOURCES.md) — références par thème avec liens, plus les ressources de matériel végétal (TGRC, SGN, TOMATOMA, bibliothèques d'IL).
-- **Traçabilité** : la colonne *Origine de l'allèle* de chaque chapitre (bloc dépliable) indique l'espèce, l'accession ou le mutant d'origine ; les références complètes sont dans SOURCES.md ; ce qui n'est pas publié est marqué **[extrapolation]**.
-- **Licence** : [CC BY 4.0](LICENSE) — réutilisez, adaptez, redistribuez, en citant.
-- **Citation** : [CITATION.cff](CITATION.cff) (ajoutez-y votre DOI Zenodo quand vous en créez un).
+- **Bibliographie** : [SOURCES.md](SOURCES.md) — 252 références par thème avec liens et niveau de vérification, plus les ressources de matériel végétal (TGRC, SGN, TOMATOMA, bibliothèques d'IL).
+- **Annexe ploïdie** : [TETRAPLOIDIE.md](TETRAPLOIDIE.md) — tétraploïdisation, dosage tétrasomique des loci et voie « sans pépins ».
+- **Annexe fleur** : [FLEURS.md](FLEURS.md) — modèle ABCDE, réseau de la grappe, stérilité mâle et couleur des pétales, plus la liste des pistes **non retenues** des dossiers.
+  Les deux annexes sont rédigées en français, sans équivalent anglais, comme la bibliographie.
+- **Traçabilité** : la colonne *Origine de l'allèle* de chaque chapitre (bloc dépliable) indique l'espèce, l'accession ou le mutant d'origine ; les références complètes sont dans [SOURCES.md](SOURCES.md) ; ce qui n'est pas publié est marqué **[extrapolation]**.
+- **Licence** : [MIT](LICENSE) — réutilisez, adaptez, redistribuez, y compris commercialement, en conservant la mention de copyright.
+- **Citation** : pas de `CITATION.cff` dans ce dépôt. Citez *Fiche génétique de la tomate*, Tivaphe/tomato-genetics-cheatsheet, édition du 15/10/2026, avec l'URL ; si vous voulez une référence stable, créez un DOI Zenodo et ajoutez-y le fichier.
 
 <sub>Fiche consolidée le 15/10/2026 à partir de huit dossiers de recherche documentaire. Ce dépôt est un outil de travail, pas une autorité : en sélection, la seule autorité reste votre F2.</sub>

@@ -1,10 +1,11 @@
 # 📚 Sources
 
-**188 entrées** qui étayent les 216 loci du [README](README.md) et de son équivalent anglais [README.en.md](README.en.md). Regroupées par thème, dans l'ordre des chapitres (elles couvrent aussi les ressources de matériel végétal, utiles pour commanditer des accessions).
+**252 entrées** qui étayent les 230 loci du [README](README.md), de son équivalent anglais [README.en.md](README.en.md), de l'annexe sur la ploïdie [TETRAPLOIDIE.md](TETRAPLOIDIE.md) et de l'annexe sur la fleur [FLEURS.md](FLEURS.md). Regroupées par thème, dans l'ordre des chapitres (elles couvrent aussi les ressources de matériel végétal, utiles pour commanditer des accessions, et les sections 12 (ploïdie) et 13 (fleur)).
 
 > **Niveau de vérification — à lire avant de citer.**
-> - 🔎 = référence **re-vérifiée le 15/10/2026** (lien ouvert, conclusion confrontée au texte de la fiche). Ce sont toutes les entrées de la [liste des corrections](README.md#pieges-et-corrections-apportées).
+> - 🔎 = référence **re-vérifiée le 15/10/2026** (lien ouvert, conclusion confrontée au texte de la fiche). Ce sont toutes les entrées de la [liste des corrections](README.md#pièges-et-corrections-apportées).
 > - ✓ = référence issue des dossiers de recherche compilés ( citations relevées avec DOI/URL dans ces dossiers, lien non re-cliqué ce jour).
+> - 💬 = **retour de communauté** (forum, fil d'entraide) : preuve de ce qui est tenté et de ce qui rate, jamais preuve d'un fait génétique. Ces entrées ne soutiennent aucune ligne de dominance des tableaux.
 > - Les affirmations **non publiées** (extrapolations de croisements, prédictions phénotypiques) sont signalées `[extrapolation]` dans les tableaux : elles ne figurent donc pas ici comme des sources.
 
 ---
@@ -231,7 +232,7 @@
 
 | Ressource | Ce qu'on y trouve | URL |
 |:--|:--|:--|
-| **TGRC** — Tomato Genetics Resource Center (UC Davis) | ~25 000 accessions « LA », mutants, lignées isogéniques, demandes de semences | <https://tgrc.ucdavis.edu/> |
+| **TGRC** — Tomato Genetics Resource Center (UC Davis) | ~25 000 accessions « LA », mutants, lignées isogéniques, demandes de semences ; **collection d'autotétraploïdes** (16-18 accessions, dont 2-095 San Marzano 4x, 2-483 Red Cherry 4x, LA2335 *S. pimpinellifolium* 4x fertile) | <https://tgrc.ucdavis.edu/> · <https://tgrc.ucdavis.edu/miscellaneous> |
 | **SGN / Sol Genomics Network** | locus ITAG 4.0, séquences, marqueurs, population ToolSeq | <https://solgenomics.net/> |
 | **TOMATOMA** (NBRP, Japon) | ~30 000 lignées de mutants Micro-Tom, phénotypes documentés | <https://tomatoma.nbrp.jp/> |
 | **Tatiana's TOMATOBASE** | fiches variétales, synonymes de variétés anciennes (ex. Stick = PI 330725) | <https://tomatobase.com/> |
@@ -243,7 +244,124 @@
 
 ---
 
-## 12 · Note méthodologique et limites assumées
+## 12 · Ploïdie, tétraploïdisation et sans pépins
+
+*Sources de l'annexe [TETRAPLOIDIE.md](TETRAPLOIDIE.md) — ploïdie, pas loci : ces entrées n'étayent aucune ligne des 16 chapitres.*
+
+*Quarante entrées : l'historique 1916-1989, les protocoles d'induction, la voie triploïde, le blocage triploïde,
+deux brevets 2024 et la génétique de la réponse au doublement. **Quinze** sont citées sans lien cliquable
+(revue, volume, pages repris du dossier de compilation) : à ouvrir avant toute reprise dans un travail publié.*
+
+**Historique — ce que les tétraploïdes « de terrain » ont mesuré**
+
+- ✓ Winkler H. (1916) — premiers tétraploïdes de tomate décrits, issus de doublements spontanés en chimères périclinales.
+- ✓ Jorgensen C.A. (1928) — méthode de la décapitation : rejets adventifs sur callus, source de tétraploïdes avant la colchicine.
+- ✓ Lindstrom E.W. (1931) *Fertility Variations in Tetraploid Tomatoes with Different Genetic Origins* — **Proc. Iowa Acad. Sci.** — <https://scholarworks.uni.edu/cgi/viewcontent.cgi?article=5046&context=pias> *(l'étude fondatrice : fertilité et taille du fruit selon le fond génétique)*
+- ✓ Stair E.C. & Showalter R.K. (1942) *Tetraploidy in tomatoes induced by the use of colchicine* — **P. Am. Soc. Hortic. Sci.** 40:383-386
+- ✓ Rick C.M. (1945) — triploïdes spontanés en parcelle : vigueur, stérilité, origine par gamètes non réduits.
+- ✓ Nilsson E. (1950) *Some experiments with tetraploid tomatoes* — **Hereditas** 36:181-204 — <https://www.researchgate.net/publication/229993172_Some_experiments_with_tetraploid_tomatoes> *(fruits plus petits, ~10× moins de graines ; pas d'effet gigas)*
+- ✓ Koornneef M. et al. (1989) — nombre de chloroplastes par cellule stomatique : marqueur cytologique de la polyploïdie.
+
+**Protocoles d'induction (descriptifs — la colchicine est toxique et réglementée)**
+
+- ✓ Praça E.H. et al. (2009) *A practical and reliable procedure for in vitro induction of tetraploid tomato* — **Scientia Hortic.** 122 — <https://www.sciencedirect.com/science/article/abs/pii/S0304423809002787> *(apex, MS + colchicine 8 mM / 96 h → 11,1 % de 4x, cytométrie)*
+- ✓ Cola G.P.A. et al. (2014) *In Vitro Polyploidization in Solanum lycopersicum 'Santa Cruz Kada Gigante'* — **Cytologia** 79:351-358 — <https://www.jstage.jst.go.jp/article/cytologia/79/3/79_351/_article> *(6,5 mM / 120 h, 2 passages → 41,5 % ; oryzalin meilleur pour l'étalement chromosomique)*
+- ✓ Obando-González R.I. et al. (2025) *Plant growth enhancement in colchicine-treated tomato seeds without polyploidy induction* — **Plant Mol. Biol.** 115:3 — <https://link.springer.com/article/10.1007/s11103-024-01521-1> *(vigueur sans doublement : > 2 000 SNP, mixoploïdes — le contre-exemple à citer)*
+- ✓ Udofia E.G. et al. (2024) *The Effects of Colchicine on the Mitotic Behaviour of Selected Indigenous Tomato Accessions* — <https://hal.science/hal-05240868/document> *(effet dose et effet génotype, anomalies de mitose)*
+- ✓ Fullana-Pericàs M. et al. (2026) *Impact of tetraploidization on morphophysiological leaf traits in the drought tolerant 'de Ramellet' tomato landrace* — **Photosynthetica** 64(1):26-35 — <https://pmc.ncbi.nlm.nih.gov/articles/PMC13073068/> *(stomates −40 % de densité, +80 % de taille ; photosynthèse inchangée ; perte de plasticité sous déficit)*
+
+**Triploïdes, parthénocarpie et tomates sans pépins**
+
+- ✓ Kagan-Zur V., Yaron-Miron D. & Mizrahi Y. (1991) *A Study of Triploid Tomato Fruit Attributes* — **J. Am. Soc. Hortic. Sci.** 116(2):228-231
+- ✓ Kagan-Zur V. et al. (1991) *A Tomato Triploid Hybrid Whose Double Genome Parent Is the Male* — **JASHS**
+- ✓ Habashy A.A. et al. (2004) *Parthenocarpy restores fruitfulness in sterile triploid (3x) tomatoes artificially obtained by crossing 4x × 2x somaclones* — **J. Hortic. Sci. Biotechnol.** 79(2):322-328
+- ✓ Mazzucato A. et al. (1998) *parthenocarpic fruit* (*pat*), mutant de nouaison — **Development** 125:107-114
+- ✓ Picarella M.E. et al. (2024) *Genetic and molecular mechanisms underlying the parthenocarpic fruit mutation in tomato* — **Front. Plant Sci.** — <https://pmc.ncbi.nlm.nih.gov/articles/PMC11004453/>
+- ✓ Ueta R. et al. (2017) *Rapid breeding of parthenocarpic tomato plants using CRISPR/Cas9-mediated mutagenesis of SlIAA9* — **Sci. Rep.** — <https://www.nature.com/articles/s41598-017-00501-4>
+
+**Gamètes 2n, blocage triploïde, dosage de l'albumen**
+
+- ✓ D'Hondt L. et al. (2012) — gamètes non réduits et blocage triploïde chez la tomate — **JXB** 63:6059-6067
+- ✓ De Storme N. et al. (2013) *Pre-meiotic endomitosis in the cytokinesis-defective tomato mutant pmcd1* — **JXB** 64:2345 — <https://academic.oup.com/jxb/article/64/8/2345/645294>
+- ✓ Scott R.J. et al. (1998) — *Endosperm Balance Number* : pourquoi le ratio mère:père fait avorter l'albumen.
+- ✓ Ehlenfeldt M.K. & Ortiz R. (1995) — blocage triploïde dans les Solanacées.
+- ✓ **eLife (2020)** *Selective egg cell polyspermy bypasses the triploid block* — référence citée sans auteurs dans le dossier de compilation : **à compléter**.
+
+**Brevets 2024 — les deux applications qui tiennent**
+
+- ✓ Brevet **US20240349671A1** (2024) *Polyploidization of interspecific tomato hybrids to create stable and fertile rootstocks* — <https://patents.google.com/patent/US20240349671A1/en>
+- ✓ Brevet **WO2024256682A1** (2024) *Unreduced clonal gamete formation and polyploid genome design in the Solanaceae* — <https://patents.google.com/patent/WO2024256682A1/en>
+
+**Génétique de la réponse au doublement (dominance tétrasomique, dosage, QTL)**
+
+- ✓ Chen C. et al. (2021) *A tetrasomic inheritance model and likelihood-based method for mapping QTL in autotetraploid species* — **New Phytologist** — <https://nph.onlinelibrary.wiley.com/doi/10.1111/nph.16413>
+- ✓ Hackett C.A. et al. (2014, 2017) — cartographie QTL en autotétraploïde avec dosage allélique (logiciel TetraploidSNPMap) — **J. Hered.** 108:438-442
+- ✓ Zheng C. et al. (2016) — TetraOrigin : origine parentale des allèles en autotétraploïde.
+- ✓ Bourke P.M. et al. (2018) *Multi-environment QTL analysis of plant and flower morphological traits in tetraploid rose* — **Theor. Appl. Genet.** — <https://link.springer.com/article/10.1007/s00122-018-3132-4> *(modèles simplex vs duplex : un cas où 1 copie suffit, un autre où il en faut 2)*
+- ✓ Yu J. et al. (2010) *Impact of natural genetic variation on the transcriptome of autotetraploid Arabidopsis thaliana* — **PNAS** — <https://www.pnas.org/doi/10.1073/pnas.1000852107> *(la réponse au doublement est elle-même héritable : « bons répondeurs »)*
+- ✓ Zhou P. et al. (2022) *Genome architecture and tetrasomic inheritance of autotetraploid potato* — **Molecular Plant** — <https://www.cell.com/molecular-plant/fulltext/S1674-2052(22)00191-5>
+- ✓ Hao H. et al. (2015) *Genome-wide dosage-dependent and -independent regulation in plant polyploids* — **Plant Cell** — <https://pmc.ncbi.nlm.nih.gov/articles/PMC6281156/>
+- ✓ Bourke P.M. et al. (2014) *QTL analysis in polyploids* — thèse, Wageningen UR — <https://edepot.wur.nl/310159>
+- ✓ Iowa State University — *Ploidy: Polyploidy, Aneuploidy, and Haploidy*, chap. 10 (nulliplex → quadruplex, ségrégation 35:1) — <https://iastate.pressbooks.pub/cropgenetics/chapter/ploidy-polyploidy-aneuploidy-haploidy-2/>
+- ✓ Mable B.K. et al. (2004) *Inheritance and dominance of self-incompatibility alleles in polyploid Arabidopsis lyrata* — **Heredity** — <https://www.nature.com/articles/hdy201744>
+
+**Ressources et retours de pratique**
+
+- ✓ Tomato Genetics Conference — **TGC Report 56**, liste des accessions (dont les autotétraploïdes du TGRC) — <https://tgc.ifas.ufl.edu/vol56/html/vol56stock.htm>
+- ✓ NC State — *Seedless watermelon breeding* : le comparatif méthodologique (10 ans de sélection pour remonter la fertilité d'une lignée 4x) — <https://cucurbitbreeding.wordpress.ncsu.edu/watermelon-breeding/seedless-watermelon-breeding/>
+- 💬 Forum TaterMaterSeeds — *Any Successful Tomato Tetraploids?* (Tom Wagner, kctomato, samyaza ; 2010-2013) — <https://tatermater.proboards.com/thread/310/any-successful-tomato-tetraploids>
+- 💬 Forum Tomatoville — *Polyploidy…* (avril 2010) — <http://www.tomatoville.com/showthread.php?t=14209>
+- 💬 Dave's Garden — *Hybridizers: Chromosome Doubling* (2009) — <https://davesgarden.com/community/forums/t/1052606/>
+
+---
+
+## 13 · Fleur : biologie florale, stérilité mâle, couleur des pétales
+
+*Sources de l'annexe [FLEURS.md](FLEURS.md) et des treize lignes ajoutées aux chapitres 1 et 5. **24 entrées**
+nouvelles, dont **7 sans lien cliquable** (titre, revue et pages repris tels quels du dossier de compilation) :
+à ouvrir avant toute reprise dans un travail publié. **Aucun lien n'a été re-cliqué** pendant cette passe — ces
+entrées portent donc `✓`, jamais `🔎`.*
+
+**Transition florale et architecture de la grappe (chap. 1)**
+
+- ✓ Molinero-Rosales N. et al. (1999, 2004) *Caractérisation génétique des mutants* sft*, *j*, *s* — **Theor. Appl. Genet. / J. Amer. Soc. Hort. Sci.**, cité par le dossier sans DOI.
+- ✓ Jiang Y. et al. (2022, 2025) *Gènes FUL-like et AP1/FUL dans la floraison ; RNA-seq VM/TM/FM* (CRISPR quadruple `ful1 ful2 mbp10 mbp20`, cibles CKX5/6/8 et ARR16) — **Plant Physiol. / PMC** — <https://pmc.ncbi.nlm.nih.gov/articles/PMC8894982/>
+- ✓ Alonge M. et al. (2020) *STM3 et TM3 dans le branchement de l'inflorescence* — cité par le dossier sans lien.
+- ✓ Wu X. et al. (2024) *SlJMJ14, déméthylase d'histone, gène causal de* qLF2.1 — **chr 2** ; cité par le dossier sans lien.
+- ✓ Zhang J. et al. (2018) *Natural variation in* SP5G *adjusts the tomato response to day length* — <https://www.nature.com/articles/ng.3733> (le dossier rattache ce lien à la floraison jour-neutre obtenue par CRISPR sur `sp5g`).
+- ✓ Essai « Lippman » : hétérozygotie `sft/+` sur fond `sp` = **+60 % de rendement**, en dose-dépendance — <https://www.nature.com/articles/ng.3131>. ⚠ Le dossier ne donne **ni auteurs ni année** de cette référence : à nommer avant citation.
+- ✓ Khedia S. et al. (2023) *Genetic regulation of flower development in Solanaceae* (131 gènes MADS chez la tomate, dont 15 « cœur ») — **Plants** 12(9):3334 — <https://pmc.ncbi.nlm.nih.gov/articles/PMC6627509/>
+- ✓ Lloyd G.B. / revue du « modèle zigzag » IM → FM — <https://pmc.ncbi.nlm.nih.gov/articles/PMC3974656/> (cité par le dossier à l'appui de « J et SFT répriment FA dans l'IM »).
+
+**Identité des organes et stérilité mâle (chap. 5)**
+
+- ✓ Horticulture Research (2024) 11(3):uhae019 — article lié à ***TAP3* / stamenless** (Solyc04g081000) — <https://academic.oup.com/hr/article/11/3/uhae019/7560473>. ⚠ Le dossier ne nomme pas les auteurs.
+- ✓ PMC10923641 — ***TM6* (allèle* sus2*/Ms-15)*, transcriptomique : 14 autres MADS sous-exprimés, contrôle direct de TPI, TAG1 et J** — <https://pmc.ncbi.nlm.nih.gov/articles/PMC10923641/>
+- ✓ PMC11951411 — ***TPI* (SlGLO2, Solyc08g067230)** ; `sl-2`, `ms30`, `ms33`, `7B-1` comme allèles du même gène — <https://pmc.ncbi.nlm.nih.gov/articles/PMC11951411/>
+- ✓ *Horticulturae* (2024) 10(12):1322 — **Ms-10 / *SlDYT1*** (Solyc02g079810 ; cascade MS10 → MS32 → TDF1 → AMS → MS1 ; `Ms10^35` régulerait 246 gènes) — <https://www.mdpi.com/2311-7524/10/12/1322>
+- ✓ *Agronomy* (2023) 13:1785 — **système GHMS**, double knock-out CRISPR `tm6` + `dfr` (hypocotyle vert = stérile, violet = fertile) — <https://www.mdpi.com/2073-4395/13/7/1785>
+- ✓ Wageningen UR — *Parthenocarpy and functional sterility in tomato* (thèse/working paper reprenant **`ps-2` / *SlTDPG*** et la stérilité fonctionnelle) — <https://research.wur.nl/en/publications/parthenocarpy-and-functional-sterility-in-tomato>
+- ✓ *J. Integr. Plant Biol.* (2024) — ***SlAGL6* (`pat-k`**, insertion d'un rétrotransposon de 4 866 pb dans l'intron 1) et ***SlHD31* (`pat-2`**, délétion de 1 034 pb dans le promoteur) — <https://onlinelibrary.wiley.com/doi/10.1111/jipb.13879>
+- ✓ *Plant, Cell & Environment* / **PPL** (2025) 16(6) — ***SlTDF1*** et **délétions promotrices* GA20ox1*/*GA3ox2*** expliquant l'absence de parthénocarpie post-pollinisation chez *S. pimpinellifolium* — <https://onlinelibrary.wiley.com/doi/10.1111/ppl.70182>
+
+**Méristème floral, pigments et pratique amateur**
+
+- ✓ *Plant Direct* (2019) — **`lc` = 2 SNP à 1 080 pb en aval de *SlWUS***, dans une boîte CArG. ⚠ Le dossier cite « 142:142–151 », pagination incompatible avec la revue : à vérifier au clic — <https://onlinelibrary.wiley.com/doi/full/10.1002/pld3.142>
+- ✓ Lippman Z.B. & Tanksley S.D. (2001) *épistasie lc × fas* — cité par le dossier sans lien (l'épistasie `j`/`j-2` du même type est déjà en section 6).
+- ✓ Ariizumi T. et al. (2014) ***PYP1***, acyltransférase estérifiant les xanthophylles des pétales — cité par le dossier sans lien.
+- ✓ Quinet M. et al. (2014) *Flower development and phytohormones* — revue, citée sans lien.
+- ✓ Du Y. et al. (2025) *Amélioration moléculaire de la tomate : synthèse* — revue, citée sans lien.
+- 💬 J. Lofthouse, projet « Promiscuously Pollinated Tomatoes » : sélection de fleurs grandes à anthères non soudées et stigmate exserté pour les bourdons ; allogamie annoncée de 0–5 % en début de saison à ~20 % en milieu de saison — <https://permies.com/t/40/47793/Promiscuously-Pollinated-Tomatoes-Bees>
+- 💬 Fils de communautés sur les lignées *multiflora* (Ildi, Rose Quartz, Blondköpfchen, Karma Purple) : première grappe de 200–400 fleurs, nouaison 20–40 %, production totale parfois inférieure à un hybride indéterminé — <https://www.reddit.com/r/tomatoes/comments/18ob9jo/are_multiflora_toms_actually_more_productive/>
+- 💬 Montegatta Farm, « Voyager » : fasciation annoncée stable, fruit dense à loges soudées — <https://montegattafarm.com/garden/vegetables/tomatoes/voyager-tomatoes/> ; fleurs doubles de Cherokee Purple / Ananas comme repère visuel d'hybrides — <https://permies.com/t/102075/Tomato-Breeding>
+
+> **Déjà répertoriées, non redoublées ici.** *Pnueli L. et al.* (1998, `SP` = TFL1) et *Lippman Z.B. et al.* (2008, `S`/`AN`, PMC2586368) en section 1 ; *Soyk S. et al.* (2017, `j-2`/`ej2` et l'**épistasie négative** déjà notée au chap. 1) et *Zhang Z. et al.* (2011, `fw11.3` voisin de `fas`) en section 6 ; *Picarella M.E. et al.* (2024, `SlHB15`) et *De Storme N. et al.* (2013, `pmcd1`) en section 12, avec le reste de la bibliographie de la ploïdie.
+>
+> **Ce que ces entrées ne couvrent pas.** Les QTL de traits floraux (`SEPN`, `PETN`, `STAN`, `STYW`, `OVAA`, liste de chromosomes) et les régulateurs sans allèle variétal (`SPL13`, `CSN5B`, `SlPRR1`, `SlTOE1`, `MIB2`, `BOP1/2/3`, `IDA`/`IDL6`, `SlERF52`) sont **listés dans l'annexe, pas dans la fiche** : aucune ligne de dominance ne s'appuie dessus, donc aucune référence nouvelle ne leur est réservée ici.
+
+---
+
+## 14 · Note méthodologique et limites assumées
 
 1. **Périmètre.** Cette fiche couvre les loci **classiques du TGRC/SGN et les gènes clonés majeurs** publiés jusqu'en octobre 2026. Aucune liste de ce type ne peut être strictement exhaustive : de nouveaux mutants EMS/T-DNA, des QTL et des allèles structuraux paraissent chaque année.
 2. **Sur la dominance.** Les valeurs proviennent (i) de ratios de ségrégation F2 pour les gènes monogéniques, (ii) de l'**indice d/a** pour les loci quantitatifs. ⚠ `d/a` dépend du couple de parents, du caractère mesuré et de l'environnement : un même locus peut être récessif pour une mesure et additif pour une autre. Traitez donc chaque mode de dominance comme une **hypothèse robuste**, pas comme une constante.
@@ -258,4 +376,4 @@ Cette bibliographie sert **les deux éditions** de la fiche : les références n
 
 ---
 
-Retour au [README](README.md) · [English edition](README.en.md) · [Contribuer](CONTRIBUTING.md) · [Citer](CITATION.cff)
+Retour au [README](README.md) · [English edition](README.en.md) · [Contribuer](CONTRIBUTING.md) · [index.html](index.html) — version interactive

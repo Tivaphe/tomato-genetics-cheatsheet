@@ -2,15 +2,15 @@
 
 ![🇬🇧 English — this edition](https://img.shields.io/badge/%F0%9F%87%AC%F0%9F%87%A7_English-this_edition-64748b?style=for-the-badge)  [![🇫🇷 Français — → read the reference edition (French)](https://img.shields.io/badge/%F0%9F%87%AB%F0%9F%87%B7_Fran%C3%A7ais-%E2%86%92_read_the_reference_edition_%28French%29-0b6e4f?style=for-the-badge)](README.md)
 
-**216 loci documented — plant architecture, foliage, fruit, flavour, nutrition and resistance genes, each with its mode of dominance and what it changes in a cross.**
+**230 loci documented — plant architecture, foliage, fruit, flavour, nutrition and resistance genes, each with its mode of dominance and what it changes in a cross.**
 
-[![loci](https://img.shields.io/badge/loci-216-0b6e4f?style=flat-square)](data/genes_tomate.csv) [![chapters](https://img.shields.io/badge/chapters-16-1d4ed8?style=flat-square)](#table-of-contents) [![interactive version](https://img.shields.io/badge/interactive%20version-docs%2Findex.html-6d28d9?style=flat-square)](docs/index.html) [![licence](https://img.shields.io/badge/licence-CC%20BY%204.0-f59e0b?style=flat-square)](LICENSE) [![updated](https://img.shields.io/badge/updated-15%2F10%202026-64748b?style=flat-square)](CHANGELOG.md)
+[![loci](https://img.shields.io/badge/loci-230-0b6e4f?style=flat-square)](#table-of-contents) [![chapters](https://img.shields.io/badge/chapters-16-1d4ed8?style=flat-square)](#table-of-contents) [![interactive version](https://img.shields.io/badge/interactive%20version-index.html-6d28d9?style=flat-square)](index.html) [![ploidy annex](https://img.shields.io/badge/ploidy%20annex-TETRAPLOIDIE.md-1d4ed8?style=flat-square)](TETRAPLOIDIE.md) [![licence](https://img.shields.io/badge/licence-MIT-f59e0b?style=flat-square)](LICENSE) ![updated](https://img.shields.io/badge/updated-15%2F10%202026-64748b?style=flat-square)
 
-> **Two editions, one genetics.** The button above opens the [French edition](README.md) — the reference one: same loci, same chromosomes, same dominance codes (the build fails if the two ever diverge). The molecular layer, the accessions and the filterable exports live there and in `data/`.
+> **Two editions, one genetics.** The button above opens the [French edition](README.md) — the reference one: same loci, same chromosomes, same dominance codes (parity is checked by hand on every edit, see [CONTRIBUTING.md](CONTRIBUTING.md)). The molecular layer — mutation nature, allele origin, accessions — lives only in the French edition.
 
 > **Who is this for?** Advanced amateur breeders, market gardeners, students and plant-breeding researchers. Every row answers three questions: *which gene, on which chromosome, dominant or recessive* — and therefore: *do I see it in the F1, or do I have to sow 200 plants*.
 
-`216 loci` · `16 chapters` · literature checked through 2026 · claims that are not published are explicitly marked **[extrapolation]**.
+`230 loci` · `16 chapters` · `2 annexes` · literature checked through 2026 · claims that are not published are explicitly marked **[extrapolation]**.
 
 ## The essentials in 12 points
 
@@ -43,7 +43,7 @@ One row = one locus. The **Dominance** column is the piece of information that d
 
 **Notation.** `R_` = at least one *R* allele (dominant expressed) · `yy` and `gf/gf` = recessive homozygote · `Sp/sp` = heterozygote — with semi-dominants, that is where the *level* of expression (habit, resistance, Brix) is decided. `n.d.` = the locus is not finely mapped in the sources compiled here: **do not invent it**. `Chr.` = chromosome of the SL4.0 (ITAG 4.0) map. `—` in the Dominance column marks a germplasm row or an epistatic combination, not a Mendelian locus; a qualified label (`Q (additive)`, `RECESSIVE → SEMI-DOMINANT`) carries over the precision written in the input file.
 
-The loci are arranged in **16 chapters**: plant (habit, foliage, trichomes, pigmentation, flower), fruit (shape, colour, ripening), flavour (sugars, acids, volatiles), nutrition, biotic resistance, abiotic tolerance, allelic sources and epistasis. This edition keeps the breeder-facing columns; the molecular layer (mutation nature, allele origin, accessions) and the filterable exports live in [`data/genes_tomate.csv`](data/genes_tomate.csv) and in the French edition [`README.md`](README.md). [`docs/index.html`](docs/index.html) is a self-contained searchable page (no network dependency) with full-text search, dominance filters, an F2 population calculator and A4 landscape print style.
+The loci are arranged in **16 chapters**: plant (habit, foliage, trichomes, pigmentation, flower), fruit (shape, colour, ripening), flavour (sugars, acids, volatiles), nutrition, biotic resistance, abiotic tolerance, allelic sources and epistasis. **Ploidy** — chromosome doubling, tetrasomic dosage, seedless triploids — is not a chapter but a dedicated annex, [TETRAPLOIDIE.md](TETRAPLOIDIE.md): it changes the segregation rules of every locus below without being a locus itself. The annex is written in French, like the bibliography. This edition keeps the breeder-facing columns; the molecular layer (mutation nature, allele origin, accessions) lives in the French edition [`README.md`](README.md) only. There is no data file and no build script here: the tables are the source. [`index.html`](index.html), at the repository root, is the self-contained searchable page (no network dependency) with full-text search, dominance filters, an F2 population calculator and A4 landscape print style. A fix must be carried by hand into all three files — `README.md`, `README.en.md`, `index.html`.
 
 ## Table of contents
 
@@ -53,7 +53,7 @@ The loci are arranged in **16 chapters**: plant (habit, foliage, trichomes, pigm
 - [4. Foliage — colour & pigmentation](#4-foliage--colour--pigmentation) — *12 loci*
 - [5. Flower, selfing & fruit set](#5-flower-selfing--fruit-set) — *5 loci*
 - [6. Fruit shape, locule number & weight](#6-fruit-shape-locule-number--weight) — *16 loci*
-- [7. Fruit colour (skin × flesh)](#predicting-fruit-colour) — *12 loci*
+- [7. Fruit colour (skin × flesh)](#7-fruit-colour-skin--flesh) — *12 loci*
 - [8. Fruit ripening & storage](#8-fruit-ripening--storage) — *5 loci*
 - [9. Flavour — sugars & soluble solids](#9-flavour--sugars--soluble-solids) — *13 loci*
 - [10. Flavour — acidity, umami & GABA](#10-flavour--acidity-umami--gaba) — *8 loci*
@@ -61,8 +61,10 @@ The loci are arranged in **16 chapters**: plant (habit, foliage, trichomes, pigm
 - [12. Nutrition & safety](#12-nutrition--safety) — *17 loci*
 - [13. Biotic resistances](#13-biotic-resistances) — *27 loci*
 - [14. Abiotic tolerances & roots](#14-abiotic-tolerances--roots) — *11 loci*
-- [15. Allele sources: your germplasm](#sources-licence-and-citation) — *7 loci*
+- [15. Allele sources: your germplasm](#15-allele-sources-your-germplasm) — *7 loci*
 - [16. Combinations & epistasis](#16-combinations--epistasis) — *16 loci*
+- **Annex · [Ploidy: diploidy, tetraploidisation, seedless triploids](TETRAPLOIDIE.md)** — *outside the 230 loci (French only)*
+- **Annex · [Flower: floral biology, male sterility, petal colour](FLEURS.md)** — *the network behind chapters 1 and 5 (French only)*
 - [Predicting fruit colour](#predicting-fruit-colour)
 - [Sizing your progeny](#sizing-your-progeny)
 - [The 10 golden rules](#the-10-golden-rules)
@@ -71,13 +73,13 @@ The loci are arranged in **16 chapters**: plant (habit, foliage, trichomes, pigm
 - [Programme protocol](#programme-protocol)
 - [Reproducibility](#reproducibility)
 - [Sources, licence and citation](#sources-licence-and-citation)
-- [SOURCES.md](SOURCES.md) — full bibliography (references are language-neutral) · [CONTRIBUTING.md](CONTRIBUTING.md) · [CITATION.cff](CITATION.cff) · [LICENSE](LICENSE)
+- [SOURCES.md](SOURCES.md) — full bibliography (references are language-neutral) · [CONTRIBUTING.md](CONTRIBUTING.md) · [LICENSE](LICENSE)
 
 ---
 
 ## 1. Plant architecture & inflorescence
 
-*Determination, branching, size, truss organogenesis — the SP/SFT switch* — **29 loci** · raw filterable data: [`data/genes_tomate.csv`](data/genes_tomate.csv) (EN export: [`data_en/genes_tomate_en.csv`](data_en/genes_tomate_en.csv))
+*Determination, branching, size, truss organogenesis — the SP/SFT switch* — **32 loci**
 
 | Symbol | Name / locus | Chr. | Dominance | Effect, phenotype | What it changes in selection |
 |:--|:--|:--:|:--|:--|:--|
@@ -90,9 +92,12 @@ The loci are arranged in **16 chapters**: plant (habit, foliage, trichomes, pigm
 | `fa` | Falsiflora | n.d. | 🔵 RECESSIVE | Leafy inflorescences, flowers converted into shoots | Useful to diagnose a "leafy truss"; no commercial value. |
 | `j` | Jointless | 11 | 🔵 RECESSIVE | Abscission zone absent from the pedicel; suppresses `s`; vegetative reversion of the truss | Breaks cluster branching and adds excess foliage — prefer j-2. |
 | `j-2` | Jointless-2 | 12 | 🔵 RECESSIVE | Short, straight pedicel with no knuckle: fruit picks off cleanly, no calice, no wound | From S. cheesmaniae LA0166 (SlMBP21). Nearly universal in processing tomato. Negative epistasis with ej2 (chr 3). |
-| `mc` | Macrocalyx | n.d. | 🔵 RECESSIVE | Enlarged calyx, modified inflorescence | MADS-box; floral genetics tool only. |
+| `mc` | Macrocalyx | 5 | 🔵 RECESSIVE | Enlarged calyx, modified inflorescence | MADS-box (Solyc05g056620); floral genetics tool only. |
 | `to` | Torosa | n.d. | 🔵 RECESSIVE | Corkscrew flowers and ovaries, erratic fruit set | Cull it in selection, never introduce it. |
 | `bif` | Bifurcate flower truss | n.d. | 🔵 RECESSIVE | Branched trusses (like `s`), worsened by cold | Watch out in field programs in cool climates — easily mistaken for `s`. |
+| `FUL2 / MBP20` | Fruitfull-like (euFULI) | 3 / 2 | 🔵 RECESSIVE | +3 leaves before the first flower, branched trusses, delayed floral-meristem maturation | Not a gene to introduce as such: it is the cleanest DOSAGE lever to push flower number without a hard pleiotropy (promoter editing, not knock-out). The phenotype only shows when the redundant copies fall together — hence many false 'CRISPR failures' in single mutants. |
+| `ej2` | Enhancer of Jointless2 (SlMADS1) | 3 | 🔵 RECESSIVE | More truss branching, mainly in combination with `j-2`/`j2`; the heterozygote is nearly invisible | The second half of the epistasis already noted on `j-2`: for a multiflora truss WITHOUT losing the abscission zone, work `j-2` + `ej2` as heterozygotes — the double homozygote removes the joint and breaks mechanical harvest. |
+| `tmf` | Terminating Flower | 9 | 🔵 RECESSIVE | One or two flowers per truss (instead of 6–8), very early flowering, short internodes | Maximum earliness at the cost of yield per truss: extreme-earliness programmes only, or heterozygous. ⚠ `tmf`'s single flower is read for `sft` — tmf ADVANCES flowering, sft DELAYS it. |
 | `Nr` | Never ripe | n.d. | 🟢 DOMINANT | Delayed senescence and abscission of leaves, flowers and fruit; fruit does not ripen | SlETR3 ethylene receptor, dominant-negative: shows up in the F1. See also the ripening chapter. |
 | `ls` | Lateral suppressor | n.d. | 🔵 RECESSIVE | No axillary buds: unbranched plant; sometimes fewer leaflets | No suckers at all, but early yield suffers; never adopted commercially. |
 | `bl` | Blind | n.d. | 🔵 RECESSIVE | Strongly reduced branching, missing or stunted axillary buds | R2R3-MYB, same module family that dissects the leaf. |
@@ -113,7 +118,7 @@ The loci are arranged in **16 chapters**: plant (habit, foliage, trichomes, pigm
 
 ## 2. Foliage — leaf shape
 
-*Regular / potato / carrot leaf: the four layers of compound-leaf control* — **15 loci** · raw filterable data: [`data/genes_tomate.csv`](data/genes_tomate.csv) (EN export: [`data_en/genes_tomate_en.csv`](data_en/genes_tomate_en.csv))
+*Regular / potato / carrot leaf: the four layers of compound-leaf control* — **15 loci**
 
 | Symbol | Name / locus | Chr. | Dominance | Effect, phenotype | What it changes in selection |
 |:--|:--|:--:|:--|:--|:--|
@@ -135,7 +140,7 @@ The loci are arranged in **16 chapters**: plant (habit, foliage, trichomes, pigm
 
 ## 3. Trichomes & pubescence
 
-*Glandular hairs = defence, aroma and sticky glue for whiteflies; the WO + H module* — **6 loci** · raw filterable data: [`data/genes_tomate.csv`](data/genes_tomate.csv) (EN export: [`data_en/genes_tomate_en.csv`](data_en/genes_tomate_en.csv))
+*Glandular hairs = defence, aroma and sticky glue for whiteflies; the WO + H module* — **6 loci**
 
 | Symbol | Name / locus | Chr. | Dominance | Effect, phenotype | What it changes in selection |
 |:--|:--|:--:|:--|:--|:--|
@@ -148,7 +153,7 @@ The loci are arranged in **16 chapters**: plant (habit, foliage, trichomes, pigm
 
 ## 4. Foliage — colour & pigmentation
 
-*High pigment, chlorophyll and vegetative anthocyanins* — **12 loci** · raw filterable data: [`data/genes_tomate.csv`](data/genes_tomate.csv) (EN export: [`data_en/genes_tomate_en.csv`](data_en/genes_tomate_en.csv))
+*High pigment, chlorophyll and vegetative anthocyanins* — **12 loci**
 
 | Symbol | Name / locus | Chr. | Dominance | Effect, phenotype | What it changes in selection |
 |:--|:--|:--:|:--|:--|:--|
@@ -167,7 +172,7 @@ The loci are arranged in **16 chapters**: plant (habit, foliage, trichomes, pigm
 
 ## 5. Flower, selfing & fruit set
 
-*The selfing lock (Style2.1) and positional male sterility* — **5 loci** · raw filterable data: [`data/genes_tomate.csv`](data/genes_tomate.csv) (EN export: [`data_en/genes_tomate_en.csv`](data_en/genes_tomate_en.csv))
+*The selfing lock (Style2.1), male sterility and petal colour* — **15 loci**
 
 | Symbol | Name / locus | Chr. | Dominance | Effect, phenotype | What it changes in selection |
 |:--|:--|:--:|:--|:--|:--|
@@ -175,11 +180,21 @@ The loci are arranged in **16 chapters**: plant (habit, foliage, trichomes, pigm
 | `SE3.1` | Stigma insertion 3.1 | n.d. | 🔵 RECESSIVE | Second step of the stigma shift, from flush to inserted; works with Style2.1 | Chr 3 locus (SlbHLH005, AGL6, AGL15/SlMBP11 in the interval) · Both loci together give full selfing: Style2.1 acts first, SE3.1 second. Modern varieties fixed for both. |
 | `SlSE2.2` | Stigma exsertion 2.2 | 2 | 🔵 RECESSIVE | Degree of exsertion: knocking it out lengthens anthers and style (positional sterility, no emasculation needed) | Solyc02g087270, F-box protein; 11-bp exon-1 deletion (accession J59) · Tool for hybrid seed production: male sterility without hand emasculation. Modulates IAA/ETH/JA/ABA. |
 | `SlLst` | Long styles | 12 | ⚪ MIXED / BACKGROUND | Style elongation and stigma exsertion UNDER HEAT (above ~27 °C): selfing breaks down in a heatwave | EIN4-like ethylene receptor (Solyc12g027610) · ⚠ Explains poor fruit set and unwanted hybrids in hot summers: varietal purity is also a climate question. |
-| `pat / pat-2` | Parthenocarpic | n.d. | 🔵 RECESSIVE | Fruit set without pollination → seedless fruit (usually smaller, fewer locules) | Classical locus, GA/auxin pathway (pat-2 not cloned) · Recessive: must be fixed. SlIAA9 (e) and GA-deficient mutants phenocopy it. |
+| `pat / pat-2` | Parthenocarpic | n.d. | 🔵 RECESSIVE | Fruit set without pollination → seedless fruit (usually smaller, fewer locules) | Classical locus, GA/auxin pathway — *pat* now tied to the HD-Zip III gene **SlHB15A** (P95S allele; Picarella et al. 2024, *Front. Plant Sci.*), *pat-2* to **SlHD31** (1,034 bp promoter deletion) · Recessive: must be fixed. SlIAA9 (e) and GA-deficient mutants phenocopy it. |
+| `ys` | Yellow stigma | n.d. | 🔵 RECESSIVE | Bright yellow stigma instead of green-white; petals unchanged | ⚠ A name trap: `ys` (stigma) has NOTHING to do with `y` (skin, *SlMYB12*, chr 1) — yet both run through the flavonoid pathway, which explains the confusion. Cheap flowering marker, no fruit effect. |
+| `pmcd1` | Premeiotic Cytokinesis Defective 1 | n.d. | 🔵 RECESSIVE | Premeiotic endomitosis: the mother cell duplicates its DNA without dividing → TETRAPLOID meiocytes, then diploid (2n) pollen | The NON-transgenic route to 2n pollen, and the dossier states its price: **no polyploid progeny was ever obtained** this way, because of the triploid block. A nursery test, not a season plan. Details: [TETRAPLOIDIE.md §4.6](TETRAPLOIDIE.md#46-autres-méthodes-dobtention-documentées-non-recommandées-hors-laboratoire). |
+| `PYP1` | Pale Yellow Petal 1 | n.d. | 🔵 RECESSIVE | Pale, almost white petals and discoloured anthers; plant and fruit normal | A visual marker ON THE FLOWER: spot a hybridisation, date a flowering or score a cross before fruit set, without touching flavour or fruit. Do not read it as a fruit-colour mutation (`r`, `t`, `og`). |
+| `TPI (SlGLO2)` | Tomato GLOBOSA2 — twisted anther | 8 | 🔵 RECESSIVE | Twisted anthers that stay open over the style, exposed stigmas, complete male sterility | ⚠ **`sl-2` (here, chr 8) is NOT `sl`/stamenless (TAP3, chr 4)**: two genes, two chromosomes, two uses — the mix-up is written into the amateur literature. TPI lines are the easiest to hand-pollinate (ovary already exposed) and work as an open-pollination tester. |
+| `sl` | Stamenless — TAP3 (classe B) | 4 | 🔵 RECESSIVE | Petals converted into sepals, stamens into carpels: no functional stamen, the flower stays usable as a female parent | ⚠ **`sl` (TAP3, chr 4) is NOT `sl-2`**: sl-2 is a TPI allele (chr 8), yet the two are printed side by side in the male-sterility literature. Phenotypes differ (greening petals plus supernumerary carpels, versus twisted open anthers) and the genes do not fix the same way. The ITAG ID settles it: Solyc04g081000 = chr 4. |
+| `Ms-15 (= tm6)` | Carpelloid anther (MADS B-classe) | 2 | 🔵 RECESSIVE | Stamens converted to carpels, deformed anthers, stigma exserted beyond the cone; male sterile | Two uses at once: male sterility AND a bee-accessible flower. This is the basis of the GHMS system (CRISPR tm6 + dfr: green hypocotyl = sterile, purple = fertile). ⚠ The same exsertion makes the line you are fixing open to foreign pollen — isolate it. |
+| `Ms-10` | Male Sterile 10 (bHLH / SlDYT1) | 2 | 🔵 RECESSIVE | No viable pollen; the flower stays female-normal, ovary fertile with another plant's pollen | Ideal female line for F1 work, maintained heterozygous (× fertile). Its value is the LINKED MARKER `aa` (anthocyanin absent): green-hypocotyl seedling = sterile, purple = fertile — nursery sorting with no PCR and no flowering. |
+| `ps-2` | Indehiscent anther (SlTDPG) | 4 | 🔵 RECESSIVE | Anthers that never dehisce, yet FULLY viable pollen inside | The best emasculation-free hybridising tool: the female line cannot self, and you recover good pollen by opening the anther by hand (or with a vibrator / bumblebee). One flower per cross, no scissors, no selfing accident. |
+| `tdf1` | Tapetum Development Factor 1 (SlTDF1) | 3 | 🔵 RECESSIVE | Male sterility PLUS partial parthenocarpic fruit set; anthers with undegraded tapetum | The only one of the series that stacks 'no pollen' with 'still sets fruit' — attractive under glass. The price is losing the fertilisation route: test firmness and locule number on YOUR background before making it a line. |
+| `pat-k (tagl6)` | Parthenocarpic fruit-k (SlAGL6 / TAGL6) | 1 | 🔵 RECESSIVE | FACULTATIVE parthenocarpy: sets fruit without pollination under stress (heat, shade), still pollinatable in normal conditions | The clean greenhouse route: unlike `pat`, no dwarfing and no systematically small fruit, and pollen stays useful to maintain the line. Recessive — fix it, and combine with `Style2.1` so your polytunnel does not become an open-pollination field. |
 
 ## 6. Fruit shape, locule number & weight
 
-*Two independent axes (length × locules) plus the three cloned weight loci* — **16 loci** · raw filterable data: [`data/genes_tomate.csv`](data/genes_tomate.csv) (EN export: [`data_en/genes_tomate_en.csv`](data_en/genes_tomate_en.csv))
+*Two independent axes (length × locules) plus the three cloned weight loci* — **16 loci**
 
 | Symbol | Name / locus | Chr. | Dominance | Effect, phenotype | What it changes in selection |
 |:--|:--|:--:|:--|:--|:--|
@@ -202,7 +217,7 @@ The loci are arranged in **16 chapters**: plant (habit, foliage, trichomes, pigm
 
 ## 7. Fruit colour (skin × flesh)
 
-*Bi-layer model: carotenoids in the flesh, flavonoids in the skin, residual chlorophyll* — **12 loci** · raw filterable data: [`data/genes_tomate.csv`](data/genes_tomate.csv) (EN export: [`data_en/genes_tomate_en.csv`](data_en/genes_tomate_en.csv))
+*Bi-layer model: carotenoids in the flesh, flavonoids in the skin, residual chlorophyll* — **12 loci**
 
 | Symbol | Name / locus | Chr. | Dominance | Effect, phenotype | What it changes in selection |
 |:--|:--|:--:|:--|:--|:--|
@@ -223,7 +238,7 @@ The loci are arranged in **16 chapters**: plant (habit, foliage, trichomes, pigm
 
 ## 8. Fruit ripening & storage
 
-*rin, nor, alc, Cnr, Nr: the storage/aroma trade-off* — **5 loci** · raw filterable data: [`data/genes_tomate.csv`](data/genes_tomate.csv) (EN export: [`data_en/genes_tomate_en.csv`](data_en/genes_tomate_en.csv))
+*rin, nor, alc, Cnr, Nr: the storage/aroma trade-off* — **5 loci**
 
 | Symbol | Name / locus | Chr. | Dominance | Effect, phenotype | What it changes in selection |
 |:--|:--|:--:|:--|:--|:--|
@@ -235,7 +250,7 @@ The loci are arranged in **16 chapters**: plant (habit, foliage, trichomes, pigm
 
 ## 9. Flavour — sugars & soluble solids
 
-*Brix: the wild gene pools and the "sugar brake" released in 2024* — **13 loci** · raw filterable data: [`data/genes_tomate.csv`](data/genes_tomate.csv) (EN export: [`data_en/genes_tomate_en.csv`](data_en/genes_tomate_en.csv))
+*Brix: the wild gene pools and the "sugar brake" released in 2024* — **13 loci**
 
 | Symbol | Name / locus | Chr. | Dominance | Effect, phenotype | What it changes in selection |
 |:--|:--|:--:|:--|:--|:--|
@@ -255,7 +270,7 @@ The loci are arranged in **16 chapters**: plant (habit, foliage, trichomes, pigm
 
 ## 10. Flavour — acidity, umami & GABA
 
-*Malate, citrate, free glutamate and the SlGAD case study* — **8 loci** · raw filterable data: [`data/genes_tomate.csv`](data/genes_tomate.csv) (EN export: [`data_en/genes_tomate_en.csv`](data_en/genes_tomate_en.csv))
+*Malate, citrate, free glutamate and the SlGAD case study* — **8 loci**
 
 | Symbol | Name / locus | Chr. | Dominance | Effect, phenotype | What it changes in selection |
 |:--|:--|:--:|:--|:--|:--|
@@ -270,7 +285,7 @@ The loci are arranged in **16 chapters**: plant (habit, foliage, trichomes, pigm
 
 ## 11. Flavour — volatiles & aroma
 
-*The full catalogue of cloned aroma genes* — **17 loci** · raw filterable data: [`data/genes_tomate.csv`](data/genes_tomate.csv) (EN export: [`data_en/genes_tomate_en.csv`](data_en/genes_tomate_en.csv))
+*The full catalogue of cloned aroma genes* — **17 loci**
 
 | Symbol | Name / locus | Chr. | Dominance | Effect, phenotype | What it changes in selection |
 |:--|:--|:--:|:--|:--|:--|
@@ -294,7 +309,7 @@ The loci are arranged in **16 chapters**: plant (habit, foliage, trichomes, pigm
 
 ## 12. Nutrition & safety
 
-*Vitamins C / B9 / E, polyphenols, glycoalkaloids, minerals* — **17 loci** · raw filterable data: [`data/genes_tomate.csv`](data/genes_tomate.csv) (EN export: [`data_en/genes_tomate_en.csv`](data_en/genes_tomate_en.csv))
+*Vitamins C / B9 / E, polyphenols, glycoalkaloids, minerals* — **17 loci**
 
 | Symbol | Name / locus | Chr. | Dominance | Effect, phenotype | What it changes in selection |
 |:--|:--|:--:|:--|:--|:--|
@@ -318,7 +333,7 @@ The loci are arranged in **16 chapters**: plant (habit, foliage, trichomes, pigm
 
 ## 13. Biotic resistances
 
-*Major genes, QTL, dominance and known breakdowns* — **27 loci** · raw filterable data: [`data/genes_tomate.csv`](data/genes_tomate.csv) (EN export: [`data_en/genes_tomate_en.csv`](data_en/genes_tomate_en.csv))
+*Major genes, QTL, dominance and known breakdowns* — **27 loci**
 
 | Symbol | Name / locus | Chr. | Dominance | Effect, phenotype | What it changes in selection |
 |:--|:--|:--:|:--|:--|:--|
@@ -352,7 +367,7 @@ The loci are arranged in **16 chapters**: plant (habit, foliage, trichomes, pigm
 
 ## 14. Abiotic tolerances & roots
 
-*Salt, drought, cold, heat — almost everything is additive* — **11 loci** · raw filterable data: [`data/genes_tomate.csv`](data/genes_tomate.csv) (EN export: [`data_en/genes_tomate_en.csv`](data_en/genes_tomate_en.csv))
+*Salt, drought, cold, heat — almost everything is additive* — **11 loci**
 
 | Symbol | Name / locus | Chr. | Dominance | Effect, phenotype | What it changes in selection |
 |:--|:--|:--:|:--|:--|:--|
@@ -370,7 +385,9 @@ The loci are arranged in **16 chapters**: plant (habit, foliage, trichomes, pigm
 
 ## 15. Allele sources: your germplasm
 
-*Species by species: what you likely have, at what probability, and how to check it* — **7 loci** · raw filterable data: [`data/genes_tomate.csv`](data/genes_tomate.csv) (EN export: [`data_en/genes_tomate_en.csv`](data_en/genes_tomate_en.csv))
+*Species by species: what you likely have, at what probability, and how to check it — plus one route to fix it* — **8 loci**
+
+> 🍅 **Working at which ploidy level?** The TGRC keeps **autotetraploids** (2-095 San Marzano 4x, 2-483 Red Cherry 4x, LA2335 fertile *S. pimpinellifolium* 4x) whose crossing behaviour follows none of the rules above — see the annex [TETRAPLOIDIE.md](TETRAPLOIDIE.md) (French), sections 3 and 9.
 
 | Symbol | Name / locus | Chr. | Dominance | Effect, phenotype | What it changes in selection |
 |:--|:--|:--:|:--|:--|:--|
@@ -381,12 +398,13 @@ The loci are arranged in **16 chapters**: plant (habit, foliage, trichomes, pigm
 | `S. pennellii LA0716` | The quantitative donor | — | ▫️ — | LIN5 (Brix9-2-5), IL8-2 (AADC, "malodorous"), IL12-3 (LIP1/LIP2), fw3.2, fw11.3, Del, Tm-1-type alleles, I-3 | IL library (Eshed & Zamir): 75 lines covering ~98% of the donor genome, M82 background · Via TGRC / Cornell (C. M. Rick collection) · The world reference for QUANTITATIVE tomato genetics. All segments are already isolated as lines: request them, do not rebuild them. |
 | `S. chmielewskii LA1028` | The old high-Brix pool | — | ▫️ — | ≈10% soluble solids (vs ≈5% in cultivar VF36), +13% at homozygosity and +12% in the heterozygote | Lines LA1563 (BC5S5, 7–8% SS) and segments VF145B-7879 · S. chmielewskii LA1028 (Casinchichua, Apurimac, Peru) — TGRC; derivatives LA1563 and VF145B-7879 · ⚠ GREEN fruit and high pH: the introgression drags faults to be broken by backcrossing. |
 | `S. chilense / lycopersicoides / peruvianum` | Not yours, but useful | — | ▫️ — | Ty-1/3/4 + Aft (chilense), Abg + Del + LA2951 (lycopersicoides), Mi-1 + Sw-5 + ty-5 (peruvianum) | Published IL libraries · S. chilense (Ty-1/3, Aft), S. lycopersicoides LA2951, S. peruvianum (Mi-1, Sw-5, ty-5) — all via TGRC · Stronger hybridisation barriers: long backcrossing, often in-vitro ovule rescue. |
+| `DH` | Gynogenesis & doubled haploids — **a route, not a locus** | — | ▫️ — | Induced haploid (anther culture, gynogenesis, `pmcd1`/`CENH3`-type mutants) then chromosome doubling → **full homozygosity in one generation** | What it changes: a recessive fixed at F1 instead of F6, so a `Style2.1/Style2.1` or `j-2/j-2` line in the same season. ⚠ None of these routes works without a genotype-specific protocol, and the doubling needs colchicine: see [TETRAPLOIDIE.md §10](TETRAPLOIDIE.md#10-discussion--stratégie-de-sélection-et-génétique-de-la-réponse-à-la-tétraploïdie). |
 
 > ⚠️ Without an accession number you reason in **probabilities**: variation *within* a species often exceeds variation *between* species. The verification tests are in the [protocol](#programme-protocol).
 
 ## 16. Combinations & epistasis
 
-*What stacks, what cancels, what kills the plant* — **16 loci** · raw filterable data: [`data/genes_tomate.csv`](data/genes_tomate.csv) (EN export: [`data_en/genes_tomate_en.csv`](data_en/genes_tomate_en.csv))
+*What stacks, what cancels, what kills the plant* — **16 loci**
 
 | Symbol | Name / locus | Chr. | Dominance | Effect, phenotype | What it changes in selection |
 |:--|:--|:--:|:--|:--|:--|
@@ -547,38 +565,55 @@ Some volatiles raise PERCEIVED sweetness without changing the Brix: measured sug
 
 ## Reproducibility
 
-This README, the site and the exports are **generated** from table files (TSV) — nothing is copied by hand. The French edition is built from `data/` (8 fields: locus, molecular basis, allele origin, selection note), the English edition from `data_en/` (6 fields: the selection columns only).
+This repository is **deliberately flat**: eight files, no data folder, no build script. The tables in this README are the source of truth; [`README.md`](README.md) is the reference edition (it adds the molecular layer) and [`index.html`](index.html) the interactive mirror. Nothing is regenerated: a fix is typed by hand in each file it concerns.
 
 ```
-tomate-genetique/
-├── README.md                  ← French edition (the reference one — generated)
-├── README.en.md               ← this file, generated from data_en/
-├── SOURCES.md                 ← bibliography: references, links and verification level (language-neutral)
-├── CITATION.cff               ← how to cite the repository
-├── CONTRIBUTING.md            ← format expected for an addition or a correction
-├── LICENSE                    ← CC BY 4.0 (data and text)
-├── data/                      ← SOURCE OF TRUTH, 8 fields per line
-│   ├── 01_plante.tsv … 04_resistances.tsv
-│   ├── genes_tomate.csv       ← all loci flat (export)
-│   └── genes_tomate.xlsx      ← filterable workbook (one sheet per chapter)
-├── data_en/                   ← English edition, 6 fields per line
-│   ├── 01_plante.tsv … 04_resistances.tsv
-│   └── genes_tomate_en.csv    ← flat English export
-├── docs/index.html            ← static searchable site (French labels, same data)
-└── scripts/build_fiche.py     ← regenerates README.md, README.en.md, docs and exports
+tomato-genetics-cheatsheet/
+├── README.md          ← the reference edition: 230 loci, 16 chapters + collapsible molecular layer
+├── README.en.md       ← this file: same loci, same chromosomes, same dominance codes, breeder columns only
+├── SOURCES.md         ← shared bibliography (252 entries, links, verification level) — written in French
+├── TETRAPLOIDIE.md    ← ploidy annex (40 sources) — French only, like the bibliography
+├── FLEURS.md          ← flower annex (ABCDE model, male sterility, nomenclature traps) — French only
+├── index.html         ← self-contained searchable page: filters, F2 calculator, A4 landscape print
+├── CONTRIBUTING.md    ← line format, FR ↔ EN parity rules, acceptance criteria
+└── LICENSE            ← MIT (text and data)
 ```
+
+Parity is what makes the two editions trustworthy: `Symbole`, `Chr.` and `Dominance` must be **identical character for character** in both files, and in the 230 rows of `index.html`. Only the wording is translated. There is no script to enforce it, so it is checked with three commands at the repository root:
 
 ```bash
-python3 scripts/build_fiche.py   # regenerates README.md, README.en.md, docs/index.html and the exports
+# 1. the per-chapter counts must sum to 230 in both editions
+for f in README.md README.en.md; do
+  printf '%s : ' "$f"
+  grep -oE '\*\*[0-9]+ loci\*\*' "$f" | tr -dc '0-9\n' | awk '{s+=$1} END {print s}'
+done
+
+# 2. the interactive page must carry the same number of loci
+grep -o '<tr data-dom=' index.html | wc -l  # → 230 lignes de loci (une ligne HTML en porte beaucoup)
+
+# 3. no link may point at a missing file or a non-existent heading
+python3 - <<'PY'
+import re, os, glob
+for fn in sorted(glob.glob("*.md")):          # tous les markdown, annexe comprise
+    s = open(fn, encoding="utf-8").read()
+    heads = {re.sub(r'[^\w \-]', '', h.lower().replace('&amp;', '&')).replace(' ', '-')
+             for h in re.findall(r'^#{2,4}\s+(.*)$', s, re.M)}
+    dead  = sorted({l for l in re.findall(r'\]\(#([^)]+)\)', s) if l not in heads})
+    files = sorted({l for l in re.findall(r'\]\((?!#|https?:|mailto:)([^)]+)\)', s)})
+    miss  = [f for f in files if not os.path.exists(f.split('#')[0].replace('%20', ' '))]
+    print(fn, "->", len(heads), "headings ; broken anchors :", dead or "none",
+          "; missing files :", miss or "none")
+PY
 ```
 
-Every build runs a **FR ↔ EN consistency check**: same sections, same number of rows, same chromosomes and same dominance codes. Only the wording may differ. The column dictionary is in [`data/README.md`](data/README.md).
+Publishing the interactive page: `index.html` sits at the root, so choose **Settings → Pages → Source: Deploy from a branch**, branch `main`, folder **`/` (root)** — no `/docs` folder here, and no `.nojekyll` needed.
 
 ## Sources, licence and citation
 
-- **Bibliography**: [SOURCES.md](SOURCES.md) — references by theme with links, plus the germplasm resources (TGRC, SGN, TOMATOMA, IL libraries). Written in French, but every reference is citable as is.
-- **Traceability**: the *allele origin* of each locus (accession, mutant, species) is in the French README and in the CSV; anything unpublished here is marked **[extrapolation]**.
-- **Licence**: [CC BY 4.0](LICENSE) — reuse, adapt, redistribute, with attribution.
-- **Citation**: [CITATION.cff](CITATION.cff) (add your Zenodo DOI once minted).
+- **Bibliography**: [SOURCES.md](SOURCES.md) — 252 references by theme with links and verification level, plus the germplasm resources (TGRC, SGN, TOMATOMA, IL libraries). Written in French, but every reference is citable as is.
+- **Annexes**: [TETRAPLOIDIE.md](TETRAPLOIDIE.md) — tetraploidisation, tetrasomic dosage and the seedless route; [FLEURS.md](FLEURS.md) — floral biology, male sterility and petal colour, including what was **deliberately not** merged from the source dossiers. Both are French only, with no English twin by design; the 13 loci they added do have their English row here.
+- **Traceability**: the *allele origin* of each locus (accession, mutant, species) is in the French README only; anything unpublished here is marked **[extrapolation]**.
+- **Licence**: [MIT](LICENSE) — reuse, adapt, redistribute, commercially too, keeping the copyright notice.
+- **Citation**: no `CITATION.cff` in this repository. Cite *Tomato genetics sheet*, Tivaphe/tomato-genetics-cheatsheet, edition of 2026-10-15, with the URL; mint a Zenodo DOI if you need a stable reference.
 
 <sub>Sheet consolidated on 15/10/2026 from eight literature-research dossiers. This repository is a working tool, not an authority: in breeding, the only authority left is your own F2.</sub>
