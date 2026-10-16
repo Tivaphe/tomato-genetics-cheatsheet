@@ -3,7 +3,7 @@
 **188 entrées** qui étayent les 216 loci du [README](README.md) et de son équivalent anglais [README.en.md](README.en.md). Regroupées par thème, dans l'ordre des chapitres (elles couvrent aussi les ressources de matériel végétal, utiles pour commanditer des accessions).
 
 > **Niveau de vérification — à lire avant de citer.**
-> - 🔎 = référence **re-vérifiée le 15/10/2026** (lien ouvert, conclusion confrontée au texte de la fiche). Ce sont toutes les entrées de la [liste des corrections](README.md#pieges-et-corrections-apportées).
+> - 🔎 = référence **re-vérifiée le 15/10/2026** (lien ouvert, conclusion confrontée au texte de la fiche). Ce sont toutes les entrées de la [liste des corrections](README.md#pièges-et-corrections-apportées).
 > - ✓ = référence issue des dossiers de recherche compilés ( citations relevées avec DOI/URL dans ces dossiers, lien non re-cliqué ce jour).
 > - Les affirmations **non publiées** (extrapolations de croisements, prédictions phénotypiques) sont signalées `[extrapolation]` dans les tableaux : elles ne figurent donc pas ici comme des sources.
 
@@ -258,4 +258,4 @@ Cette bibliographie sert **les deux éditions** de la fiche : les références n
 
 ---
 
-Retour au [README](README.md) · [English edition](README.en.md) · [Contribuer](CONTRIBUTING.md) · [Citer](CITATION.cff)
+Retour au [README](README.md) · [English edition](README.en.md) · [Contribuer](CONTRIBUTING.md) · [index.html](index.html) — version interactive

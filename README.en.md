@@ -4,9 +4,9 @@
 
 **216 loci documented — plant architecture, foliage, fruit, flavour, nutrition and resistance genes, each with its mode of dominance and what it changes in a cross.**
 
-[![loci](https://img.shields.io/badge/loci-216-0b6e4f?style=flat-square)](data/genes_tomate.csv) [![chapters](https://img.shields.io/badge/chapters-16-1d4ed8?style=flat-square)](#table-of-contents) [![interactive version](https://img.shields.io/badge/interactive%20version-docs%2Findex.html-6d28d9?style=flat-square)](docs/index.html) [![licence](https://img.shields.io/badge/licence-CC%20BY%204.0-f59e0b?style=flat-square)](LICENSE) [![updated](https://img.shields.io/badge/updated-15%2F10%202026-64748b?style=flat-square)](CHANGELOG.md)
+[![loci](https://img.shields.io/badge/loci-216-0b6e4f?style=flat-square)](#table-of-contents) [![chapters](https://img.shields.io/badge/chapters-16-1d4ed8?style=flat-square)](#table-of-contents) [![interactive version](https://img.shields.io/badge/interactive%20version-index.html-6d28d9?style=flat-square)](index.html) [![licence](https://img.shields.io/badge/licence-MIT-f59e0b?style=flat-square)](LICENSE) ![updated](https://img.shields.io/badge/updated-15%2F10%202026-64748b?style=flat-square)
 
-> **Two editions, one genetics.** The button above opens the [French edition](README.md) — the reference one: same loci, same chromosomes, same dominance codes (the build fails if the two ever diverge). The molecular layer, the accessions and the filterable exports live there and in `data/`.
+> **Two editions, one genetics.** The button above opens the [French edition](README.md) — the reference one: same loci, same chromosomes, same dominance codes (parity is checked by hand on every edit, see [CONTRIBUTING.md](CONTRIBUTING.md)). The molecular layer — mutation nature, allele origin, accessions — lives only in the French edition.
 
 > **Who is this for?** Advanced amateur breeders, market gardeners, students and plant-breeding researchers. Every row answers three questions: *which gene, on which chromosome, dominant or recessive* — and therefore: *do I see it in the F1, or do I have to sow 200 plants*.
 
@@ -43,7 +43,7 @@ One row = one locus. The **Dominance** column is the piece of information that d
 
 **Notation.** `R_` = at least one *R* allele (dominant expressed) · `yy` and `gf/gf` = recessive homozygote · `Sp/sp` = heterozygote — with semi-dominants, that is where the *level* of expression (habit, resistance, Brix) is decided. `n.d.` = the locus is not finely mapped in the sources compiled here: **do not invent it**. `Chr.` = chromosome of the SL4.0 (ITAG 4.0) map. `—` in the Dominance column marks a germplasm row or an epistatic combination, not a Mendelian locus; a qualified label (`Q (additive)`, `RECESSIVE → SEMI-DOMINANT`) carries over the precision written in the input file.
 
-The loci are arranged in **16 chapters**: plant (habit, foliage, trichomes, pigmentation, flower), fruit (shape, colour, ripening), flavour (sugars, acids, volatiles), nutrition, biotic resistance, abiotic tolerance, allelic sources and epistasis. This edition keeps the breeder-facing columns; the molecular layer (mutation nature, allele origin, accessions) and the filterable exports live in [`data/genes_tomate.csv`](data/genes_tomate.csv) and in the French edition [`README.md`](README.md). [`docs/index.html`](docs/index.html) is a self-contained searchable page (no network dependency) with full-text search, dominance filters, an F2 population calculator and A4 landscape print style.
+The loci are arranged in **16 chapters**: plant (habit, foliage, trichomes, pigmentation, flower), fruit (shape, colour, ripening), flavour (sugars, acids, volatiles), nutrition, biotic resistance, abiotic tolerance, allelic sources and epistasis. This edition keeps the breeder-facing columns; the molecular layer (mutation nature, allele origin, accessions) lives in the French edition [`README.md`](README.md) only. There is no data file and no build script here: the tables are the source. [`index.html`](index.html), at the repository root, is the self-contained searchable page (no network dependency) with full-text search, dominance filters, an F2 population calculator and A4 landscape print style. A fix must be carried by hand into all three files — `README.md`, `README.en.md`, `index.html`.
 
 ## Table of contents
 
@@ -53,7 +53,7 @@ The loci are arranged in **16 chapters**: plant (habit, foliage, trichomes, pigm
 - [4. Foliage — colour & pigmentation](#4-foliage--colour--pigmentation) — *12 loci*
 - [5. Flower, selfing & fruit set](#5-flower-selfing--fruit-set) — *5 loci*
 - [6. Fruit shape, locule number & weight](#6-fruit-shape-locule-number--weight) — *16 loci*
-- [7. Fruit colour (skin × flesh)](#predicting-fruit-colour) — *12 loci*
+- [7. Fruit colour (skin × flesh)](#7-fruit-colour-skin--flesh) — *12 loci*
 - [8. Fruit ripening & storage](#8-fruit-ripening--storage) — *5 loci*
 - [9. Flavour — sugars & soluble solids](#9-flavour--sugars--soluble-solids) — *13 loci*
 - [10. Flavour — acidity, umami & GABA](#10-flavour--acidity-umami--gaba) — *8 loci*
@@ -61,7 +61,7 @@ The loci are arranged in **16 chapters**: plant (habit, foliage, trichomes, pigm
 - [12. Nutrition & safety](#12-nutrition--safety) — *17 loci*
 - [13. Biotic resistances](#13-biotic-resistances) — *27 loci*
 - [14. Abiotic tolerances & roots](#14-abiotic-tolerances--roots) — *11 loci*
-- [15. Allele sources: your germplasm](#sources-licence-and-citation) — *7 loci*
+- [15. Allele sources: your germplasm](#15-allele-sources-your-germplasm) — *7 loci*
 - [16. Combinations & epistasis](#16-combinations--epistasis) — *16 loci*
 - [Predicting fruit colour](#predicting-fruit-colour)
 - [Sizing your progeny](#sizing-your-progeny)
@@ -71,13 +71,13 @@ The loci are arranged in **16 chapters**: plant (habit, foliage, trichomes, pigm
 - [Programme protocol](#programme-protocol)
 - [Reproducibility](#reproducibility)
 - [Sources, licence and citation](#sources-licence-and-citation)
-- [SOURCES.md](SOURCES.md) — full bibliography (references are language-neutral) · [CONTRIBUTING.md](CONTRIBUTING.md) · [CITATION.cff](CITATION.cff) · [LICENSE](LICENSE)
+- [SOURCES.md](SOURCES.md) — full bibliography (references are language-neutral) · [CONTRIBUTING.md](CONTRIBUTING.md) · [LICENSE](LICENSE)
 
 ---
 
 ## 1. Plant architecture & inflorescence
 
-*Determination, branching, size, truss organogenesis — the SP/SFT switch* — **29 loci** · raw filterable data: [`data/genes_tomate.csv`](data/genes_tomate.csv) (EN export: [`data_en/genes_tomate_en.csv`](data_en/genes_tomate_en.csv))
+*Determination, branching, size, truss organogenesis — the SP/SFT switch* — **29 loci**
 
 | Symbol | Name / locus | Chr. | Dominance | Effect, phenotype | What it changes in selection |
 |:--|:--|:--:|:--|:--|:--|
@@ -113,7 +113,7 @@ The loci are arranged in **16 chapters**: plant (habit, foliage, trichomes, pigm
 
 ## 2. Foliage — leaf shape
 
-*Regular / potato / carrot leaf: the four layers of compound-leaf control* — **15 loci** · raw filterable data: [`data/genes_tomate.csv`](data/genes_tomate.csv) (EN export: [`data_en/genes_tomate_en.csv`](data_en/genes_tomate_en.csv))
+*Regular / potato / carrot leaf: the four layers of compound-leaf control* — **15 loci**
 
 | Symbol | Name / locus | Chr. | Dominance | Effect, phenotype | What it changes in selection |
 |:--|:--|:--:|:--|:--|:--|
@@ -135,7 +135,7 @@ The loci are arranged in **16 chapters**: plant (habit, foliage, trichomes, pigm
 
 ## 3. Trichomes & pubescence
 
-*Glandular hairs = defence, aroma and sticky glue for whiteflies; the WO + H module* — **6 loci** · raw filterable data: [`data/genes_tomate.csv`](data/genes_tomate.csv) (EN export: [`data_en/genes_tomate_en.csv`](data_en/genes_tomate_en.csv))
+*Glandular hairs = defence, aroma and sticky glue for whiteflies; the WO + H module* — **6 loci**
 
 | Symbol | Name / locus | Chr. | Dominance | Effect, phenotype | What it changes in selection |
 |:--|:--|:--:|:--|:--|:--|
@@ -148,7 +148,7 @@ The loci are arranged in **16 chapters**: plant (habit, foliage, trichomes, pigm
 
 ## 4. Foliage — colour & pigmentation
 
-*High pigment, chlorophyll and vegetative anthocyanins* — **12 loci** · raw filterable data: [`data/genes_tomate.csv`](data/genes_tomate.csv) (EN export: [`data_en/genes_tomate_en.csv`](data_en/genes_tomate_en.csv))
+*High pigment, chlorophyll and vegetative anthocyanins* — **12 loci**
 
 | Symbol | Name / locus | Chr. | Dominance | Effect, phenotype | What it changes in selection |
 |:--|:--|:--:|:--|:--|:--|
@@ -167,7 +167,7 @@ The loci are arranged in **16 chapters**: plant (habit, foliage, trichomes, pigm
 
 ## 5. Flower, selfing & fruit set
 
-*The selfing lock (Style2.1) and positional male sterility* — **5 loci** · raw filterable data: [`data/genes_tomate.csv`](data/genes_tomate.csv) (EN export: [`data_en/genes_tomate_en.csv`](data_en/genes_tomate_en.csv))
+*The selfing lock (Style2.1) and positional male sterility* — **5 loci**
 
 | Symbol | Name / locus | Chr. | Dominance | Effect, phenotype | What it changes in selection |
 |:--|:--|:--:|:--|:--|:--|
@@ -179,7 +179,7 @@ The loci are arranged in **16 chapters**: plant (habit, foliage, trichomes, pigm
 
 ## 6. Fruit shape, locule number & weight
 
-*Two independent axes (length × locules) plus the three cloned weight loci* — **16 loci** · raw filterable data: [`data/genes_tomate.csv`](data/genes_tomate.csv) (EN export: [`data_en/genes_tomate_en.csv`](data_en/genes_tomate_en.csv))
+*Two independent axes (length × locules) plus the three cloned weight loci* — **16 loci**
 
 | Symbol | Name / locus | Chr. | Dominance | Effect, phenotype | What it changes in selection |
 |:--|:--|:--:|:--|:--|:--|
@@ -202,7 +202,7 @@ The loci are arranged in **16 chapters**: plant (habit, foliage, trichomes, pigm
 
 ## 7. Fruit colour (skin × flesh)
 
-*Bi-layer model: carotenoids in the flesh, flavonoids in the skin, residual chlorophyll* — **12 loci** · raw filterable data: [`data/genes_tomate.csv`](data/genes_tomate.csv) (EN export: [`data_en/genes_tomate_en.csv`](data_en/genes_tomate_en.csv))
+*Bi-layer model: carotenoids in the flesh, flavonoids in the skin, residual chlorophyll* — **12 loci**
 
 | Symbol | Name / locus | Chr. | Dominance | Effect, phenotype | What it changes in selection |
 |:--|:--|:--:|:--|:--|:--|
@@ -223,7 +223,7 @@ The loci are arranged in **16 chapters**: plant (habit, foliage, trichomes, pigm
 
 ## 8. Fruit ripening & storage
 
-*rin, nor, alc, Cnr, Nr: the storage/aroma trade-off* — **5 loci** · raw filterable data: [`data/genes_tomate.csv`](data/genes_tomate.csv) (EN export: [`data_en/genes_tomate_en.csv`](data_en/genes_tomate_en.csv))
+*rin, nor, alc, Cnr, Nr: the storage/aroma trade-off* — **5 loci**
 
 | Symbol | Name / locus | Chr. | Dominance | Effect, phenotype | What it changes in selection |
 |:--|:--|:--:|:--|:--|:--|
@@ -235,7 +235,7 @@ The loci are arranged in **16 chapters**: plant (habit, foliage, trichomes, pigm
 
 ## 9. Flavour — sugars & soluble solids
 
-*Brix: the wild gene pools and the "sugar brake" released in 2024* — **13 loci** · raw filterable data: [`data/genes_tomate.csv`](data/genes_tomate.csv) (EN export: [`data_en/genes_tomate_en.csv`](data_en/genes_tomate_en.csv))
+*Brix: the wild gene pools and the "sugar brake" released in 2024* — **13 loci**
 
 | Symbol | Name / locus | Chr. | Dominance | Effect, phenotype | What it changes in selection |
 |:--|:--|:--:|:--|:--|:--|
@@ -255,7 +255,7 @@ The loci are arranged in **16 chapters**: plant (habit, foliage, trichomes, pigm
 
 ## 10. Flavour — acidity, umami & GABA
 
-*Malate, citrate, free glutamate and the SlGAD case study* — **8 loci** · raw filterable data: [`data/genes_tomate.csv`](data/genes_tomate.csv) (EN export: [`data_en/genes_tomate_en.csv`](data_en/genes_tomate_en.csv))
+*Malate, citrate, free glutamate and the SlGAD case study* — **8 loci**
 
 | Symbol | Name / locus | Chr. | Dominance | Effect, phenotype | What it changes in selection |
 |:--|:--|:--:|:--|:--|:--|
@@ -270,7 +270,7 @@ The loci are arranged in **16 chapters**: plant (habit, foliage, trichomes, pigm
 
 ## 11. Flavour — volatiles & aroma
 
-*The full catalogue of cloned aroma genes* — **17 loci** · raw filterable data: [`data/genes_tomate.csv`](data/genes_tomate.csv) (EN export: [`data_en/genes_tomate_en.csv`](data_en/genes_tomate_en.csv))
+*The full catalogue of cloned aroma genes* — **17 loci**
 
 | Symbol | Name / locus | Chr. | Dominance | Effect, phenotype | What it changes in selection |
 |:--|:--|:--:|:--|:--|:--|
@@ -294,7 +294,7 @@ The loci are arranged in **16 chapters**: plant (habit, foliage, trichomes, pigm
 
 ## 12. Nutrition & safety
 
-*Vitamins C / B9 / E, polyphenols, glycoalkaloids, minerals* — **17 loci** · raw filterable data: [`data/genes_tomate.csv`](data/genes_tomate.csv) (EN export: [`data_en/genes_tomate_en.csv`](data_en/genes_tomate_en.csv))
+*Vitamins C / B9 / E, polyphenols, glycoalkaloids, minerals* — **17 loci**
 
 | Symbol | Name / locus | Chr. | Dominance | Effect, phenotype | What it changes in selection |
 |:--|:--|:--:|:--|:--|:--|
@@ -318,7 +318,7 @@ The loci are arranged in **16 chapters**: plant (habit, foliage, trichomes, pigm
 
 ## 13. Biotic resistances
 
-*Major genes, QTL, dominance and known breakdowns* — **27 loci** · raw filterable data: [`data/genes_tomate.csv`](data/genes_tomate.csv) (EN export: [`data_en/genes_tomate_en.csv`](data_en/genes_tomate_en.csv))
+*Major genes, QTL, dominance and known breakdowns* — **27 loci**
 
 | Symbol | Name / locus | Chr. | Dominance | Effect, phenotype | What it changes in selection |
 |:--|:--|:--:|:--|:--|:--|
@@ -352,7 +352,7 @@ The loci are arranged in **16 chapters**: plant (habit, foliage, trichomes, pigm
 
 ## 14. Abiotic tolerances & roots
 
-*Salt, drought, cold, heat — almost everything is additive* — **11 loci** · raw filterable data: [`data/genes_tomate.csv`](data/genes_tomate.csv) (EN export: [`data_en/genes_tomate_en.csv`](data_en/genes_tomate_en.csv))
+*Salt, drought, cold, heat — almost everything is additive* — **11 loci**
 
 | Symbol | Name / locus | Chr. | Dominance | Effect, phenotype | What it changes in selection |
 |:--|:--|:--:|:--|:--|:--|
@@ -370,7 +370,7 @@ The loci are arranged in **16 chapters**: plant (habit, foliage, trichomes, pigm
 
 ## 15. Allele sources: your germplasm
 
-*Species by species: what you likely have, at what probability, and how to check it* — **7 loci** · raw filterable data: [`data/genes_tomate.csv`](data/genes_tomate.csv) (EN export: [`data_en/genes_tomate_en.csv`](data_en/genes_tomate_en.csv))
+*Species by species: what you likely have, at what probability, and how to check it* — **7 loci**
 
 | Symbol | Name / locus | Chr. | Dominance | Effect, phenotype | What it changes in selection |
 |:--|:--|:--:|:--|:--|:--|
@@ -386,7 +386,7 @@ The loci are arranged in **16 chapters**: plant (habit, foliage, trichomes, pigm
 
 ## 16. Combinations & epistasis
 
-*What stacks, what cancels, what kills the plant* — **16 loci** · raw filterable data: [`data/genes_tomate.csv`](data/genes_tomate.csv) (EN export: [`data_en/genes_tomate_en.csv`](data_en/genes_tomate_en.csv))
+*What stacks, what cancels, what kills the plant* — **16 loci**
 
 | Symbol | Name / locus | Chr. | Dominance | Effect, phenotype | What it changes in selection |
 |:--|:--|:--:|:--|:--|:--|
@@ -547,38 +547,52 @@ Some volatiles raise PERCEIVED sweetness without changing the Brix: measured sug
 
 ## Reproducibility
 
-This README, the site and the exports are **generated** from table files (TSV) — nothing is copied by hand. The French edition is built from `data/` (8 fields: locus, molecular basis, allele origin, selection note), the English edition from `data_en/` (6 fields: the selection columns only).
+This repository is **deliberately flat**: six files, no data folder, no build script. The tables in this README are the source of truth; [`README.md`](README.md) is the reference edition (it adds the molecular layer) and [`index.html`](index.html) the interactive mirror. Nothing is regenerated: a fix is typed by hand in each file it concerns.
 
 ```
-tomate-genetique/
-├── README.md                  ← French edition (the reference one — generated)
-├── README.en.md               ← this file, generated from data_en/
-├── SOURCES.md                 ← bibliography: references, links and verification level (language-neutral)
-├── CITATION.cff               ← how to cite the repository
-├── CONTRIBUTING.md            ← format expected for an addition or a correction
-├── LICENSE                    ← CC BY 4.0 (data and text)
-├── data/                      ← SOURCE OF TRUTH, 8 fields per line
-│   ├── 01_plante.tsv … 04_resistances.tsv
-│   ├── genes_tomate.csv       ← all loci flat (export)
-│   └── genes_tomate.xlsx      ← filterable workbook (one sheet per chapter)
-├── data_en/                   ← English edition, 6 fields per line
-│   ├── 01_plante.tsv … 04_resistances.tsv
-│   └── genes_tomate_en.csv    ← flat English export
-├── docs/index.html            ← static searchable site (French labels, same data)
-└── scripts/build_fiche.py     ← regenerates README.md, README.en.md, docs and exports
+tomato-genetics-cheatsheet/
+├── README.md          ← the reference edition: 216 loci, 16 chapters + collapsible molecular layer
+├── README.en.md       ← this file: same loci, same chromosomes, same dominance codes, breeder columns only
+├── SOURCES.md         ← shared bibliography (188 entries, links, verification level) — written in French
+├── index.html         ← self-contained searchable page: filters, F2 calculator, A4 landscape print
+├── CONTRIBUTING.md    ← line format, FR ↔ EN parity rules, acceptance criteria
+└── LICENSE            ← MIT (text and data)
 ```
+
+Parity is what makes the two editions trustworthy: `Symbole`, `Chr.` and `Dominance` must be **identical character for character** in both files, and in the 216 rows of `index.html`. Only the wording is translated. There is no script to enforce it, so it is checked with three commands at the repository root:
 
 ```bash
-python3 scripts/build_fiche.py   # regenerates README.md, README.en.md, docs/index.html and the exports
+# 1. the per-chapter counts must sum to 216 in both editions
+for f in README.md README.en.md; do
+  printf '%s : ' "$f"
+  grep -oE '\*\*[0-9]+ loci\*\*' "$f" | tr -dc '0-9\n' | awk '{s+=$1} END {print s}'
+done
+
+# 2. the interactive page must carry the same number of loci
+grep -o '<tr data-dom=' index.html | wc -l  # → 216 lignes de loci (une ligne HTML en porte beaucoup)
+
+# 3. no link may point at a missing file or a non-existent heading
+python3 - <<'PY'
+import re, os
+for fn in ("README.md", "README.en.md"):
+    s = open(fn, encoding="utf-8").read()
+    heads = {re.sub(r'[^\w \-]', '', h.lower().replace('&amp;', '&')).replace(' ', '-')
+             for h in re.findall(r'^#{2,4}\s+(.*)$', s, re.M)}
+    dead  = sorted({l for l in re.findall(r'\]\(#([^)]+)\)', s) if l not in heads})
+    files = sorted({l for l in re.findall(r'\]\((?!#|https?:|mailto:)([^)]+)\)', s)})
+    miss  = [f for f in files if not os.path.exists(f.split('#')[0].replace('%20', ' '))]
+    print(fn, "->", len(heads), "headings ; broken anchors :", dead or "none",
+          "; missing files :", miss or "none")
+PY
 ```
 
-Every build runs a **FR ↔ EN consistency check**: same sections, same number of rows, same chromosomes and same dominance codes. Only the wording may differ. The column dictionary is in [`data/README.md`](data/README.md).
+Publishing the interactive page: `index.html` sits at the root, so choose **Settings → Pages → Source: Deploy from a branch**, branch `main`, folder **`/` (root)** — no `/docs` folder here, and no `.nojekyll` needed.
 
 ## Sources, licence and citation
 
 - **Bibliography**: [SOURCES.md](SOURCES.md) — references by theme with links, plus the germplasm resources (TGRC, SGN, TOMATOMA, IL libraries). Written in French, but every reference is citable as is.
-- **Traceability**: the *allele origin* of each locus (accession, mutant, species) is in the French README and in the CSV; anything unpublished here is marked **[extrapolation]**.
-- **Licence**: [CC BY 4.0](LICENSE) — reuse, adapt, redistribute, with attribution.
-- **Citation**: [CITATION.cff](CITATION.cff) (add your Zenodo DOI once minted).
+- **Traceability**: the *allele origin* of each locus (accession, mutant, species) is in the French README only; anything unpublished here is marked **[extrapolation]**.
+- **Licence**: [MIT](LICENSE) — reuse, adapt, redistribute, commercially too, keeping the copyright notice.
+- **Citation**: no `CITATION.cff` in this repository. Cite *Tomato genetics sheet*, Tivaphe/tomato-genetics-cheatsheet, edition of 2026-10-15, with the URL; mint a Zenodo DOI if you need a stable reference.
 
 <sub>Sheet consolidated on 15/10/2026 from eight literature-research dossiers. This repository is a working tool, not an authority: in breeding, the only authority left is your own F2.</sub>
