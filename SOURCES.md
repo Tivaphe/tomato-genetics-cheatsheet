@@ -1,6 +1,6 @@
 # 📚 Sources
 
-**228 entrées** qui étayent les 216 loci du [README](README.md), de son équivalent anglais [README.en.md](README.en.md) et de l'annexe sur la ploïdie [TETRAPLOIDIE.md](TETRAPLOIDIE.md). Regroupées par thème, dans l'ordre des chapitres (elles couvrent aussi les ressources de matériel végétal, utiles pour commanditer des accessions, et la section 12 consacrée à la ploïdie).
+**252 entrées** qui étayent les 230 loci du [README](README.md), de son équivalent anglais [README.en.md](README.en.md), de l'annexe sur la ploïdie [TETRAPLOIDIE.md](TETRAPLOIDIE.md) et de l'annexe sur la fleur [FLEURS.md](FLEURS.md). Regroupées par thème, dans l'ordre des chapitres (elles couvrent aussi les ressources de matériel végétal, utiles pour commanditer des accessions, et les sections 12 (ploïdie) et 13 (fleur)).
 
 > **Niveau de vérification — à lire avant de citer.**
 > - 🔎 = référence **re-vérifiée le 15/10/2026** (lien ouvert, conclusion confrontée au texte de la fiche). Ce sont toutes les entrées de la [liste des corrections](README.md#pièges-et-corrections-apportées).
@@ -315,7 +315,53 @@ deux brevets 2024 et la génétique de la réponse au doublement. **Quinze** son
 
 ---
 
-## 13 · Note méthodologique et limites assumées
+## 13 · Fleur : biologie florale, stérilité mâle, couleur des pétales
+
+*Sources de l'annexe [FLEURS.md](FLEURS.md) et des treize lignes ajoutées aux chapitres 1 et 5. **24 entrées**
+nouvelles, dont **7 sans lien cliquable** (titre, revue et pages repris tels quels du dossier de compilation) :
+à ouvrir avant toute reprise dans un travail publié. **Aucun lien n'a été re-cliqué** pendant cette passe — ces
+entrées portent donc `✓`, jamais `🔎`.*
+
+**Transition florale et architecture de la grappe (chap. 1)**
+
+- ✓ Molinero-Rosales N. et al. (1999, 2004) *Caractérisation génétique des mutants* sft*, *j*, *s* — **Theor. Appl. Genet. / J. Amer. Soc. Hort. Sci.**, cité par le dossier sans DOI.
+- ✓ Jiang Y. et al. (2022, 2025) *Gènes FUL-like et AP1/FUL dans la floraison ; RNA-seq VM/TM/FM* (CRISPR quadruple `ful1 ful2 mbp10 mbp20`, cibles CKX5/6/8 et ARR16) — **Plant Physiol. / PMC** — <https://pmc.ncbi.nlm.nih.gov/articles/PMC8894982/>
+- ✓ Alonge M. et al. (2020) *STM3 et TM3 dans le branchement de l'inflorescence* — cité par le dossier sans lien.
+- ✓ Wu X. et al. (2024) *SlJMJ14, déméthylase d'histone, gène causal de* qLF2.1 — **chr 2** ; cité par le dossier sans lien.
+- ✓ Zhang J. et al. (2018) *Natural variation in* SP5G *adjusts the tomato response to day length* — <https://www.nature.com/articles/ng.3733> (le dossier rattache ce lien à la floraison jour-neutre obtenue par CRISPR sur `sp5g`).
+- ✓ Essai « Lippman » : hétérozygotie `sft/+` sur fond `sp` = **+60 % de rendement**, en dose-dépendance — <https://www.nature.com/articles/ng.3131>. ⚠ Le dossier ne donne **ni auteurs ni année** de cette référence : à nommer avant citation.
+- ✓ Khedia S. et al. (2023) *Genetic regulation of flower development in Solanaceae* (131 gènes MADS chez la tomate, dont 15 « cœur ») — **Plants** 12(9):3334 — <https://pmc.ncbi.nlm.nih.gov/articles/PMC6627509/>
+- ✓ Lloyd G.B. / revue du « modèle zigzag » IM → FM — <https://pmc.ncbi.nlm.nih.gov/articles/PMC3974656/> (cité par le dossier à l'appui de « J et SFT répriment FA dans l'IM »).
+
+**Identité des organes et stérilité mâle (chap. 5)**
+
+- ✓ Horticulture Research (2024) 11(3):uhae019 — article lié à ***TAP3* / stamenless** (Solyc04g081000) — <https://academic.oup.com/hr/article/11/3/uhae019/7560473>. ⚠ Le dossier ne nomme pas les auteurs.
+- ✓ PMC10923641 — ***TM6* (allèle* sus2*/Ms-15)*, transcriptomique : 14 autres MADS sous-exprimés, contrôle direct de TPI, TAG1 et J** — <https://pmc.ncbi.nlm.nih.gov/articles/PMC10923641/>
+- ✓ PMC11951411 — ***TPI* (SlGLO2, Solyc08g067230)** ; `sl-2`, `ms30`, `ms33`, `7B-1` comme allèles du même gène — <https://pmc.ncbi.nlm.nih.gov/articles/PMC11951411/>
+- ✓ *Horticulturae* (2024) 10(12):1322 — **Ms-10 / *SlDYT1*** (Solyc02g079810 ; cascade MS10 → MS32 → TDF1 → AMS → MS1 ; `Ms10^35` régulerait 246 gènes) — <https://www.mdpi.com/2311-7524/10/12/1322>
+- ✓ *Agronomy* (2023) 13:1785 — **système GHMS**, double knock-out CRISPR `tm6` + `dfr` (hypocotyle vert = stérile, violet = fertile) — <https://www.mdpi.com/2073-4395/13/7/1785>
+- ✓ Wageningen UR — *Parthenocarpy and functional sterility in tomato* (thèse/working paper reprenant **`ps-2` / *SlTDPG*** et la stérilité fonctionnelle) — <https://research.wur.nl/en/publications/parthenocarpy-and-functional-sterility-in-tomato>
+- ✓ *J. Integr. Plant Biol.* (2024) — ***SlAGL6* (`pat-k`**, insertion d'un rétrotransposon de 4 866 pb dans l'intron 1) et ***SlHD31* (`pat-2`**, délétion de 1 034 pb dans le promoteur) — <https://onlinelibrary.wiley.com/doi/10.1111/jipb.13879>
+- ✓ *Plant, Cell & Environment* / **PPL** (2025) 16(6) — ***SlTDF1*** et **délétions promotrices* GA20ox1*/*GA3ox2*** expliquant l'absence de parthénocarpie post-pollinisation chez *S. pimpinellifolium* — <https://onlinelibrary.wiley.com/doi/10.1111/ppl.70182>
+
+**Méristème floral, pigments et pratique amateur**
+
+- ✓ *Plant Direct* (2019) — **`lc` = 2 SNP à 1 080 pb en aval de *SlWUS***, dans une boîte CArG. ⚠ Le dossier cite « 142:142–151 », pagination incompatible avec la revue : à vérifier au clic — <https://onlinelibrary.wiley.com/doi/full/10.1002/pld3.142>
+- ✓ Lippman Z.B. & Tanksley S.D. (2001) *épistasie lc × fas* — cité par le dossier sans lien (l'épistasie `j`/`j-2` du même type est déjà en section 6).
+- ✓ Ariizumi T. et al. (2014) ***PYP1***, acyltransférase estérifiant les xanthophylles des pétales — cité par le dossier sans lien.
+- ✓ Quinet M. et al. (2014) *Flower development and phytohormones* — revue, citée sans lien.
+- ✓ Du Y. et al. (2025) *Amélioration moléculaire de la tomate : synthèse* — revue, citée sans lien.
+- 💬 J. Lofthouse, projet « Promiscuously Pollinated Tomatoes » : sélection de fleurs grandes à anthères non soudées et stigmate exserté pour les bourdons ; allogamie annoncée de 0–5 % en début de saison à ~20 % en milieu de saison — <https://permies.com/t/40/47793/Promiscuously-Pollinated-Tomatoes-Bees>
+- 💬 Fils de communautés sur les lignées *multiflora* (Ildi, Rose Quartz, Blondköpfchen, Karma Purple) : première grappe de 200–400 fleurs, nouaison 20–40 %, production totale parfois inférieure à un hybride indéterminé — <https://www.reddit.com/r/tomatoes/comments/18ob9jo/are_multiflora_toms_actually_more_productive/>
+- 💬 Montegatta Farm, « Voyager » : fasciation annoncée stable, fruit dense à loges soudées — <https://montegattafarm.com/garden/vegetables/tomatoes/voyager-tomatoes/> ; fleurs doubles de Cherokee Purple / Ananas comme repère visuel d'hybrides — <https://permies.com/t/102075/Tomato-Breeding>
+
+> **Déjà répertoriées, non redoublées ici.** *Pnueli L. et al.* (1998, `SP` = TFL1) et *Lippman Z.B. et al.* (2008, `S`/`AN`, PMC2586368) en section 1 ; *Soyk S. et al.* (2017, `j-2`/`ej2` et l'**épistasie négative** déjà notée au chap. 1) et *Zhang Z. et al.* (2011, `fw11.3` voisin de `fas`) en section 6 ; *Picarella M.E. et al.* (2024, `SlHB15`) et *De Storme N. et al.* (2013, `pmcd1`) en section 12, avec le reste de la bibliographie de la ploïdie.
+>
+> **Ce que ces entrées ne couvrent pas.** Les QTL de traits floraux (`SEPN`, `PETN`, `STAN`, `STYW`, `OVAA`, liste de chromosomes) et les régulateurs sans allèle variétal (`SPL13`, `CSN5B`, `SlPRR1`, `SlTOE1`, `MIB2`, `BOP1/2/3`, `IDA`/`IDL6`, `SlERF52`) sont **listés dans l'annexe, pas dans la fiche** : aucune ligne de dominance ne s'appuie dessus, donc aucune référence nouvelle ne leur est réservée ici.
+
+---
+
+## 14 · Note méthodologique et limites assumées
 
 1. **Périmètre.** Cette fiche couvre les loci **classiques du TGRC/SGN et les gènes clonés majeurs** publiés jusqu'en octobre 2026. Aucune liste de ce type ne peut être strictement exhaustive : de nouveaux mutants EMS/T-DNA, des QTL et des allèles structuraux paraissent chaque année.
 2. **Sur la dominance.** Les valeurs proviennent (i) de ratios de ségrégation F2 pour les gènes monogéniques, (ii) de l'**indice d/a** pour les loci quantitatifs. ⚠ `d/a` dépend du couple de parents, du caractère mesuré et de l'environnement : un même locus peut être récessif pour une mesure et additif pour une autre. Traitez donc chaque mode de dominance comme une **hypothèse robuste**, pas comme une constante.

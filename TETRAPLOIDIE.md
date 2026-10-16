@@ -1,8 +1,8 @@
 # Ploïdie de la tomate — diploïdie, tétraploïdisation, triploïdes « sans pépins »
 
-![🇫🇷 Français — annexe](https://img.shields.io/badge/%F0%9F%87%AB%F0%9F%87%B7_Fran%C3%A7ais-annexe-64748b?style=for-the-badge) [![🍅 Retour à la fiche](https://img.shields.io/badge/%F0%9F%8D%85_fiche_g%C3%A9n%C3%A9tique-216_loci-0b6e4f?style=for-the-badge)](README.md) [![Licence](https://img.shields.io/badge/licence-MIT-f59e0b?style=flat-square)](LICENSE)
+![🇫🇷 Français — annexe](https://img.shields.io/badge/%F0%9F%87%AB%F0%9F%87%B7_Fran%C3%A7ais-annexe-64748b?style=for-the-badge) [![🍅 Retour à la fiche](https://img.shields.io/badge/%F0%9F%8D%85_fiche_g%C3%A9n%C3%A9tique-230_loci-0b6e4f?style=for-the-badge)](README.md) [![Licence](https://img.shields.io/badge/licence-MIT-f59e0b?style=flat-square)](LICENSE)
 
-**Annexe de la [fiche génétique de la tomate](README.md) — compilée le 16/10/2026, hors des 216 loci.**
+**Annexe de la [fiche génétique de la tomate](README.md) — compilée le 16/10/2026, hors des 230 loci.**
 
 La fiche principale décrit des **loci** en diploïdie (2n = 24). Cette annexe décrit ce qui change quand on
 **double le nombre de jeux de chromosomes** : le gène reste le même, mais son **dosage**, sa ségrégation et la
@@ -468,7 +468,7 @@ génétique de la réponse au doublement, ressources TGRC/TGC et retours de comm
 
 ### Ce que cette annexe change (et ne change pas) à la fiche
 
-- **Elle ne change aucun code de dominance des 216 loci.** En diploïdie, `R`/`D`/`S` restent exacts.
+- **Elle ne change aucun code de dominance des 230 loci.** En diploïdie, `R`/`D`/`S` restent exacts.
 - Elle **ajoute une règle de dosage** : dans un autotétraploïde, un récessif doit être quadruplex (`aaaa`) pour
   s'exprimer — d'où l'intérêt de fixer en diploïde avant de doubler (section 10.5).
 - Elle **explique une ligne déjà présente** : les gènes de parthénocarpie `pat` et `pat-2` (chap. 5, fleur et
@@ -478,7 +478,7 @@ génétique de la réponse au doublement, ressources TGRC/TGC et retours de comm
 
 ---
 
-Retour à la [fiche génétique (216 loci)](README.md) · [édition anglaise](README.en.md) ·
+Retour à la [fiche génétique (230 loci)](README.md) · [édition anglaise](README.en.md) · [annexe fleur](FLEURS.md) ·
 [SOURCES.md](SOURCES.md) — bibliographie complète · [CONTRIBUTING.md](CONTRIBUTING.md) · [LICENSE](LICENSE) — MIT
 
 <sub>Annexe consolidée le 16/10/2026 à partir de publications, brevets, catalogues de banques de gènes et fils de

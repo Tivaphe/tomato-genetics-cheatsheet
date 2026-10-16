@@ -8,7 +8,7 @@ la rigueur de la source prime sur l'abondance.
 section*](#trois-fichiers-une-seule-génétique) *below — the rule is simple: the genetics is written once, in the French
 tables; the English file only re-words the phenotype and the selection note.*
 
-## Le dépôt en sept fichiers
+## Le dépôt en huit fichiers
 
 Il n'y a **ni dossier `data/`, ni script de génération** : les tableaux markdown sont la source, on les édite
 directement. Voir [README.md → Reproductibilité du dépôt](README.md#reproductibilité-du-dépôt) pour le détail.
@@ -17,9 +17,10 @@ directement. Voir [README.md → Reproductibilité du dépôt](README.md#reprodu
 |:--|:--|:--|
 | [`README.md`](README.md) | édition **française**, référence : 6 colonnes + bloc dépliable (biologie moléculaire, origine de l'allèle) | — |
 | [`README.en.md`](README.en.md) | édition anglaise : mêmes loci, mêmes chromosomes, mêmes dominance, sans le bloc dépliable | ✅ une ligne par langue |
-| [`index.html`](index.html) | version interactive (recherche, filtres, calculateur F2) : 216 lignes `<tr>`, 8 colonnes | ✅ si un locus est ajouté ou si `chr`/`dom` change |
+| [`index.html`](index.html) | version interactive (recherche, filtres, calculateur F2) : 230 lignes `<tr>`, 8 colonnes | ✅ si un locus est ajouté ou si `chr`/`dom` change |
 | [`SOURCES.md`](SOURCES.md) | bibliographie commune aux deux langues, avec niveau de vérification | ✅ toute nouvelle référence |
-| [`TETRAPLOIDIE.md`](TETRAPLOIDIE.md) | **annexe ploïdie** : hors des 216 loci, rédigée en français, sans reflet anglais | ✅ si vous y citez une source (dans SOURCES.md, section 12) |
+| [`TETRAPLOIDIE.md`](TETRAPLOIDIE.md) | **annexe ploïdie** : hors des 230 loci, rédigée en français, sans reflet anglais | ✅ si vous y citez une source (dans SOURCES.md, section 12) |
+| [`FLEURS.md`](FLEURS.md) | **annexe fleur** : réseau, stérilité mâle, pièges de nomenclature, pistes **non retenues** — rédigée en français, sans reflet anglais | ✅ si vous y citez une source (dans SOURCES.md, section 13) ; un ajout de locus doit passer par les quatre formats |
 | `LICENSE` | MIT — texte et données | — |
 | `CONTRIBUTING.md` | ce fichier | — |
 
@@ -93,10 +94,10 @@ doivent converger. Elles sont décrites en détail dans
 [README.md → Reproductibilité du dépôt](README.md#reproductibilité-du-dépôt).
 
 ```bash
-# 1. 216 dans les deux éditions
+# 1. 230 dans les deux éditions
 for f in README.md README.en.md; do printf '%s : ' "$f"
   grep -oE '\*\*[0-9]+ loci\*\*' "$f" | tr -dc '0-9\n' | awk '{s+=$1} END {print s}'; done
-# 2. 216 lignes dans le site
+# 2. 230 lignes dans le site
 grep -o '<tr data-dom=' index.html | wc -l
 # 3. aucun lien mort
 python3 -c "import re,os,glob
@@ -141,7 +142,7 @@ Valeur proposée: RÉCESSIF → SEMI-DOMINANT, avec mention du fond génétique
    le fichier concerné suffit (et `index.html` pour la FR, qui indexe aussi la conséquence).
 2. Ajoutez la référence dans [`SOURCES.md`](SOURCES.md) — une entrée suffit pour les deux langues ; cochez-la 🔎 si vous
    avez réellement ouvert le texte.
-3. Relisez la sortie des trois commandes de la section précédente : `216 · 216 · 216`, `aucune`, `aucun`.
+3. Relisez la sortie des trois commandes de la section précédente : `230 · 230 · 230`, `aucune`, `aucun`.
 4. **Aucun diff parasite** : une correction de texte ne doit pas reformater le reste du fichier. Si `git diff --stat`
    affiche un fichier touché en bloc, votre éditeur a réécrit les fins de ligne — remettez-les en `\n`.
 5. Contrôles demandés :
