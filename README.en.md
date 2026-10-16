@@ -4,13 +4,13 @@
 
 **230 loci documented — plant architecture, foliage, fruit, flavour, nutrition and resistance genes, each with its mode of dominance and what it changes in a cross.**
 
-[![loci](https://img.shields.io/badge/loci-230-0b6e4f?style=flat-square)](#table-of-contents) [![chapters](https://img.shields.io/badge/chapters-16-1d4ed8?style=flat-square)](#table-of-contents) [![interactive version](https://img.shields.io/badge/interactive%20version-index.html-6d28d9?style=flat-square)](index.html) [![ploidy annex](https://img.shields.io/badge/ploidy%20annex-integrated-1d4ed8?style=flat-square)](#annex-1--ploidy-diploidy-tetraploidisation-seedless-triploids) [![licence](https://img.shields.io/badge/licence-MIT-f59e0b?style=flat-square)](LICENSE) ![updated](https://img.shields.io/badge/updated-15%2F10%202026-64748b?style=flat-square)
+[![loci](https://img.shields.io/badge/loci-230-0b6e4f?style=flat-square)](#table-of-contents) [![chapters](https://img.shields.io/badge/chapters-17-1d4ed8?style=flat-square)](#table-of-contents) [![interactive version](https://img.shields.io/badge/interactive%20version-index.html-6d28d9?style=flat-square)](index.html) [![ploidy](https://img.shields.io/badge/ploidy-integrated-1d4ed8?style=flat-square)](#ploidy-diploidy-tetraploidisation-seedless-triploids) [![licence](https://img.shields.io/badge/licence-MIT-f59e0b?style=flat-square)](LICENSE) ![updated](https://img.shields.io/badge/updated-15%2F10%202026-64748b?style=flat-square)
 
 > **Two editions, one genetics.** The button above opens the [French edition](README.md) — the reference one: same loci, same chromosomes, same dominance codes (parity is checked by hand on every edit, see [CONTRIBUTING.md](CONTRIBUTING.md)). The molecular layer — mutation nature, allele origin, accessions — lives only in the French edition.
 
 > **Who is this for?** Advanced amateur breeders, market gardeners, students and plant-breeding researchers. Every row answers three questions: *which gene, on which chromosome, dominant or recessive* — and therefore: *do I see it in the F1, or do I have to sow 200 plants*.
 
-`230 loci` · `16 chapters` · `2 annexes in this file` · literature checked through 2026 · claims that are not published are explicitly marked **[extrapolation]**.
+`230 loci` · `17 chapters (16 with loci)` · `ploidy outside the chapters` · literature checked through 2026 · claims that are not published are explicitly marked **[extrapolation]**.
 
 ## The essentials in 12 points
 
@@ -43,7 +43,7 @@ One row = one locus. The **Dominance** column is the piece of information that d
 
 **Notation.** `R_` = at least one *R* allele (dominant expressed) · `yy` and `gf/gf` = recessive homozygote · `Sp/sp` = heterozygote — with semi-dominants, that is where the *level* of expression (habit, resistance, Brix) is decided. `n.d.` = the locus is not finely mapped in the sources compiled here: **do not invent it**. `Chr.` = chromosome of the SL4.0 (ITAG 4.0) map. `—` in the Dominance column marks a germplasm row or an epistatic combination, not a Mendelian locus; a qualified label (`Q (additive)`, `RECESSIVE → SEMI-DOMINANT`) carries over the precision written in the input file.
 
-The loci are arranged in **16 chapters**: plant (habit, foliage, trichomes, pigmentation, flower), fruit (shape, colour, ripening), flavour (sugars, acids, volatiles), nutrition, biotic resistance, abiotic tolerance, allelic sources and epistasis. **Ploidy** — chromosome doubling, tetrasomic dosage, seedless triploids — is not a chapter but a dedicated annex, [below](#annex-1--ploidy-diploidy-tetraploidisation-seedless-triploids): it changes the segregation rules of every locus below without being a locus itself. Both annexes are integrated in this edition and in the French one; only the bibliography stays French. This edition keeps the breeder-facing columns; the molecular layer (mutation nature, allele origin, accessions) lives in the French edition [`README.md`](README.md) only. There is no data file and no build script here: the tables are the source. [`index.html`](index.html), at the repository root, is the self-contained searchable page (no network dependency) with full-text search, dominance filters, an F2 population calculator and A4 landscape print style. A fix must be carried by hand into all three files — `README.md`, `README.en.md`, `index.html`.
+The loci are arranged in the **first 16 chapters**: plant (habit, foliage, trichomes, pigmentation, flower), fruit (shape, colour, ripening), flavour (sugars, acids, volatiles), nutrition, biotic resistance, abiotic tolerance, allelic sources and epistasis. **Chapter 17** explores floral biology without adding rows to the count of 230 loci. **Ploidy** — chromosome doubling, tetrasomic dosage, seedless triploids — is not a chapter but a dedicated section, [below](#ploidy-diploidy-tetraploidisation-seedless-triploids): it changes the segregation rules of every locus in the tables without being a locus itself. Chapter 17 and the ploidy section are integrated in this edition and in the French one; only the bibliography stays French. This edition keeps the breeder-facing columns; the molecular layer (mutation nature, allele origin, accessions) lives in the French edition [`README.md`](README.md) only. There is no data file and no build script here: the tables are the source. [`index.html`](index.html), at the repository root, is the self-contained searchable page (no network dependency) with full-text search, dominance filters, an F2 population calculator and A4 landscape print style. A fix must be carried by hand into all three files — `README.md`, `README.en.md`, `index.html`.
 
 ## Table of contents
 
@@ -63,8 +63,8 @@ The loci are arranged in **16 chapters**: plant (habit, foliage, trichomes, pigm
 - [14. Abiotic tolerances & roots](#14-abiotic-tolerances--roots) — *11 loci*
 - [15. Allele sources: your germplasm](#15-allele-sources-your-germplasm) — *8 loci*
 - [16. Combinations & epistasis](#16-combinations--epistasis) — *16 loci*
-- **Annex 1 · [Ploidy: diploidy, tetraploidisation, seedless triploids](#annex-1--ploidy-diploidy-tetraploidisation-seedless-triploids)** — *outside the 230 loci, in this file*
-- **Annex 2 · [Flower: floral biology, male sterility, petal colour](#annex-2--flower-floral-biology-male-sterility-petal-colour)** — *the network behind chapters 1 and 5, in this file*
+- [17. Flower: floral biology, male sterility, petal colour](#17-flower-floral-biology-male-sterility-petal-colour) — *the network behind chapters 1 and 5, in this file*
+- [Ploidy: diploidy, tetraploidisation, seedless triploids](#ploidy-diploidy-tetraploidisation-seedless-triploids) — *outside the 230 loci, in this file*
 - [Predicting fruit colour](#predicting-fruit-colour)
 - [Sizing your progeny](#sizing-your-progeny)
 - [The 10 golden rules](#the-10-golden-rules)
@@ -182,7 +182,7 @@ The loci are arranged in **16 chapters**: plant (habit, foliage, trichomes, pigm
 | `SlLst` | Long styles | 12 | ⚪ MIXED / BACKGROUND | Style elongation and stigma exsertion UNDER HEAT (above ~27 °C): selfing breaks down in a heatwave | EIN4-like ethylene receptor (Solyc12g027610) · ⚠ Explains poor fruit set and unwanted hybrids in hot summers: varietal purity is also a climate question. |
 | `pat / pat-2` | Parthenocarpic | 3 / 4 | 🔵 RECESSIVE | Fruit set without pollination → seedless fruit (usually smaller, fewer locules) | Classical locus, GA/auxin pathway — *pat* now tied to the HD-Zip III gene **SlHB15A** (Solyc03g120910, P95S allele; Clepet et al. 2021, Picarella et al. 2024, *Front. Plant Sci.*), *pat-2* to **SlHD31** (Solyc04g080490, 1,034 bp promoter deletion) · Recessive: must be fixed. SlIAA9 (e) and GA-deficient mutants phenocopy it. |
 | `ys` | Yellow stigma | n.d. | 🔵 RECESSIVE | Bright yellow stigma instead of green-white; petals unchanged | ⚠ A name trap: `ys` (stigma) has NOTHING to do with `y` (skin, *SlMYB12*, chr 1) — yet both run through the flavonoid pathway, which explains the confusion. Cheap flowering marker, no fruit effect. |
-| `pmcd1` | Premeiotic Cytokinesis Defective 1 | n.d. | 🔵 RECESSIVE | Premeiotic endomitosis: the mother cell duplicates its DNA without dividing → TETRAPLOID meiocytes, then diploid (2n) pollen | The NON-transgenic route to 2n pollen, and the dossier states its price: **no polyploid progeny was ever obtained** this way, because of the triploid block. A nursery test, not a season plan. Details: [annex 1 · §4.6](#46-other-documented-routes-not-recommended-outside-a-laboratory). |
+| `pmcd1` | Premeiotic Cytokinesis Defective 1 | n.d. | 🔵 RECESSIVE | Premeiotic endomitosis: the mother cell duplicates its DNA without dividing → TETRAPLOID meiocytes, then diploid (2n) pollen | The NON-transgenic route to 2n pollen, and the dossier states its price: **no polyploid progeny was ever obtained** this way, because of the triploid block. A nursery test, not a season plan. Details: [Ploidy · §4.6](#46-other-documented-routes-not-recommended-outside-a-laboratory). |
 | `PYP1` | Pale Yellow Petal 1 | 1 | 🔵 RECESSIVE | Pale, almost white petals and discoloured anthers; plant and fruit normal | A visual marker ON THE FLOWER: spot a hybridisation, date a flowering or score a cross before fruit set, without touching flavour or fruit. Do not read it as a fruit-colour mutation (`r`, `t`, `og`). |
 | `TPI (SlGLO2)` | Tomato GLOBOSA2 — twisted anther | 8 | 🔵 RECESSIVE | Twisted anthers that stay open over the style, exposed stigmas, complete male sterility | ⚠ **`sl-2` (here, chr 8) is NOT `sl`/stamenless (TAP3, chr 4)**: two genes, two chromosomes, two uses — the mix-up is written into the amateur literature. TPI lines are the easiest to hand-pollinate (ovary already exposed) and work as an open-pollination tester. |
 | `sl` | Stamenless — TAP3 (classe B) | 4 | 🔵 RECESSIVE | Petals converted into sepals, stamens into carpels: no functional stamen, the flower stays usable as a female parent | ⚠ **`sl` (TAP3, chr 4) is NOT `sl-2`**: sl-2 is a TPI allele (chr 8), yet the two are printed side by side in the male-sterility literature. Phenotypes differ (greening petals plus supernumerary carpels, versus twisted open anthers) and the genes do not fix the same way. The ITAG ID settles it: Solyc04g081000 = chr 4. |
@@ -387,7 +387,7 @@ The loci are arranged in **16 chapters**: plant (habit, foliage, trichomes, pigm
 
 *Species by species: what you likely have, at what probability, and how to check it — plus one route to fix it* — **8 loci**
 
-> 🍅 **Working at which ploidy level?** The TGRC keeps **autotetraploids** (2-095 San Marzano 4x, 2-483 Red Cherry 4x, LA2335 fertile *S. pimpinellifolium* 4x) whose crossing behaviour follows none of the rules above — see [annex 1](#3-genetic-resources-available-the-tgrc-tetraploid-stocks) below, sections 3 and 9.
+> 🍅 **Working at which ploidy level?** The TGRC keeps **autotetraploids** (2-095 San Marzano 4x, 2-483 Red Cherry 4x, LA2335 fertile *S. pimpinellifolium* 4x) whose crossing behaviour follows none of the rules above — see [the ploidy section](#3-genetic-resources-available-the-tgrc-tetraploid-stocks) below, sections 3 and 9.
 
 | Symbol | Name / locus | Chr. | Dominance | Effect, phenotype | What it changes in selection |
 |:--|:--|:--:|:--|:--|:--|
@@ -398,7 +398,7 @@ The loci are arranged in **16 chapters**: plant (habit, foliage, trichomes, pigm
 | `S. pennellii LA0716` | The quantitative donor | — | ▫️ — | LIN5 (Brix9-2-5), IL8-2 (AADC, "malodorous"), IL12-3 (LIP1/LIP2), fw3.2, fw11.3, Del, Tm-1-type alleles, I-3 | IL library (Eshed & Zamir): 75 lines covering ~98% of the donor genome, M82 background · Via TGRC / Cornell (C. M. Rick collection) · The world reference for QUANTITATIVE tomato genetics. All segments are already isolated as lines: request them, do not rebuild them. |
 | `S. chmielewskii LA1028` | The old high-Brix pool | — | ▫️ — | ≈10% soluble solids (vs ≈5% in cultivar VF36), +13% at homozygosity and +12% in the heterozygote | Lines LA1563 (BC5S5, 7–8% SS) and segments VF145B-7879 · S. chmielewskii LA1028 (Casinchichua, Apurimac, Peru) — TGRC; derivatives LA1563 and VF145B-7879 · ⚠ GREEN fruit and high pH: the introgression drags faults to be broken by backcrossing. |
 | `S. chilense / lycopersicoides / peruvianum` | Not yours, but useful | — | ▫️ — | Ty-1/3/4 + Aft (chilense), Abg + Del + LA2951 (lycopersicoides), Mi-1 + Sw-5 + ty-5 (peruvianum) | Published IL libraries · S. chilense (Ty-1/3, Aft), S. lycopersicoides LA2951, S. peruvianum (Mi-1, Sw-5, ty-5) — all via TGRC · Stronger hybridisation barriers: long backcrossing, often in-vitro ovule rescue. |
-| `DH` | Gynogenesis & doubled haploids — **a route, not a locus** | — | ▫️ — | Induced haploid (anther culture, gynogenesis, `pmcd1`/`CENH3`-type mutants) then chromosome doubling → **full homozygosity in one generation** | What it changes: a recessive fixed at F1 instead of F6, so a `Style2.1/Style2.1` or `j-2/j-2` line in the same season. ⚠ None of these routes works without a genotype-specific protocol, and the doubling needs colchicine: see [annex 1 · §10](#10-discussion--breeding-strategy-and-the-genetics-of-the-response-to-tetraploidy). |
+| `DH` | Gynogenesis & doubled haploids — **a route, not a locus** | — | ▫️ — | Induced haploid (anther culture, gynogenesis, `pmcd1`/`CENH3`-type mutants) then chromosome doubling → **full homozygosity in one generation** | What it changes: a recessive fixed at F1 instead of F6, so a `Style2.1/Style2.1` or `j-2/j-2` line in the same season. ⚠ None of these routes works without a genotype-specific protocol, and the doubling needs colchicine: see [Ploidy · §10](#10-discussion--breeding-strategy-and-the-genetics-of-the-response-to-tetraploidy). |
 
 > ⚠️ Without an accession number you reason in **probabilities**: variation *within* a species often exceeds variation *between* species. The verification tests are in the [protocol](#programme-protocol).
 
@@ -427,19 +427,288 @@ The loci are arranged in **16 chapters**: plant (habit, foliage, trichomes, pigm
 
 > **Combination rule.** Genes of the *same module* do not add up (`Cu`, `Me`, `Pts`, `bip`, `clau`, *35S:Kn1* all go through KNOX: doubling them saturates the module). Genes of *different modules* combine predictably and additively (`slmp Gob-4d/+`, `e La-2`, `tf + Me/+`). Hierarchy of the base pattern: **`La` > `tf` > KNOX / GOB > `e`**.
 
-## Annex 1 · Ploidy: diploidy, tetraploidisation, seedless triploids
+## 17. Flower: floral biology, male sterility, petal colour
+
+*The network behind chapters 1 and 5: floral transition, the ABCDE model, the floral meristem, male sterility and visual markers.* — **outside the 230 loci, in this file**
+
+The chapters above describe the *result*: a truss with so many flowers, an inserted style, a fruit set without
+pollination. This chapter describes the *network* that produces that result — floral transition, organ identity (ABCDE
+model extended to Solanaceae), the WUS–CLV3 loop, tapetum development and flower pigmentation. It serves three
+purposes: **understanding why two neighbouring symbols do not look alike**, **choosing a hybridisation tool**
+(emasculation or not), and **spotting a marked flower before fruit set**.
+
+Unlike the ploidy section, this chapter **changed the tables**: thirteen loci were added there and two rows requalified.
+The detail is in section 1 — the section to read if you only want the result.
+
+- Nomenclature, dominance codes and chromosome conventions: see [How to read this sheet](#how-to-read-this-sheet).
+- References: [SOURCES.md → section 13](SOURCES.md#13--fleur--biologie-florale-stérilité-mâle-couleur-des-pétales), "Fleur" (French). Unpublished claims carry `💬` or `[extrapolation]`.
+- A chromosome is given only when an open source allows it: see the method in section 9.
+
+---
+
+### 1 · What went into the sheet
+
+**Thirteen rows added** to chapters 1 and 5 (the tables have counted **230** since the addition, in ch. 15, of a
+"haploid-diploidisation" row that comes from the ploidy section, not from these dossiers). Everything below was cross-checked
+against the existing tables: none of the added loci duplicated a row already present.
+
+| Symbol | Ch. | What you get out of it | Kept because |
+|:--|:--|:--|:--|
+| `tmf` | 1 | Truss with 1–2 flowers, very early flowering | Single-gene phenotype usable for earliness; distinct from `sft` |
+| `ej2` | 1 | Second piece of the `j-2` epistasis on branching | The sheet already noted the epistasis without the second gene |
+| `FUL2 / MBP20` | 1 | Dosage lever (promoter editing) on flower number | Published editing line, measured phenotype (+3 leaves) |
+| `sl` | 5 | Male sterility through petal→sepal conversion | Self-checkable ITAG ID Solyc04g081000 (chr 4) |
+| `TPI (SlGLO2)` | 5 | Twisted anthers, exposed stigmas: hand pollination made easy | Four allele names (ms30, ms33, 7B-1, sl-2) to tie to a single gene |
+| `Ms-15 (= tm6)` | 5 | Male sterility + exserted stigma, basis of the GHMS system | ID Solyc02g084630, mechanism described (1-bp deletion) |
+| `Ms-10` | 5 | Female line needing no emasculation, seedling-screenable | Conserved tapetum cascade, linked anthocyanin marker |
+| `ps-2` | 5 | Non-dehiscent anthers **but viable pollen** | ID Solyc04g015530 (chr 4); the only one of the lot that keeps usable pollen |
+| `tdf1` | 5 | Male sterility **and** parthenocarpic fruit set | ID Solyc03g059200 (chr 3), a cascade link |
+| `pat-k (tagl6)` | 5 | Facultative parthenocarpy without dwarfism | Defined mutation (4,866-bp retrotransposon, intron 1 of *SlAGL6*) |
+| `PYP1` | 5 | Pale-yellow visual marker on the flower alone | Explicit biochemical pathway (acyltransferase, xanthophylls) |
+| `ys` | 5 | Yellow stigma: flowering date, spotting a hybridisation | Genes cited (*SlC3H1*/*SlC3H2*) and a marked metabolite (naringenin chalcone) |
+| `pmcd1` | 5 | **Non-transgenic** route to 2n pollen | Documented premeiotic endomitosis (De Storme *et al.* 2013, *JXB* 64:2345, OUP link) |
+| `mc` | 1 | Chr. n.d. → **5** | The report gives the ID Solyc05g056620, whose prefix encodes the chromosome |
+| `pat / pat-2` | 5 | "not cloned" → current molecular basis (*SlHB15A*, *SlHD31*) | A 2024 publication with a PMC link, a measured mechanism (1,034-bp deletion) |
+
+**Why so few, when the dossiers list more than 130 genes?** Because the sheet is a breeding document: it keeps only
+what changes a crossing decision. Upstream regulators with no described varietal allele (SPL13, CSN5B, SlPRR1, SUT4,
+SlTOE1, SlERF52, IDA/IDL6…) are listed in section 8, not as rows.
+
+---
+
+### 2 · The ABCDE model, Solanaceae version
+
+Tomato has **131 MADS-box genes**, of which **15 "core"** ones for the flower. The major difference with *Arabidopsis*:
+**class B counts four genes** (a duplication specific to Solanaceae), which explains the redundancy of so many
+phenotypes and the false CRISPR "failures".
+
+| Class | Tomato genes | *Arabidopsis* orthologues | Function | When it breaks |
+|:--|:--|:--|:--|:--|
+| **A** | `MC` (Macrocalyx), AP2 | AP1, AP2 | Sepal identity, brake on class-B extension | `mc`: large leafy sepals (chr 5) |
+| **B** | `TAP3`/`sl`, `TM6`, `SlGLO1`, `TPI`/`SlGLO2` | AP3, PI | Petal + stamen identity | loss of B → petals become sepals, stamens become carpels |
+| **C** | `TAG1`, `TAGL1` | AG | Stamen + carpel identity, meristem **determinacy** | loss of C → flowers make flowers again: the "double flower" route |
+| **D** | TAGL6, placenta MADS | AGL8/SEPPOLATA | Ovules, parthenocarpy | `pat-k` = *SlAGL6* (chr 1) |
+| **E** | SEP-like (including `SlMADS1`/`ej2`) | SEP1-4 | Scaffolding of the MADS tetramers | additive with classes A–D |
+
+**To remember in practice.** MADS complexes are **tetramers**: the phenotype depends on the *dosage* of the partners,
+not only on the presence/absence of one gene. Hence, in this sheet, three rows marked "dosage-sensitive" (`sft`, `s`,
+`MC`) and the value of promoter editing rather than a knock-out (`FUL2`/`MBP20`).
+
+---
+
+### 3 · How many flowers per truss: the network
+
+The dossier's "zigzag" scheme: `VM → TM → IM → SIM → FM → flower`. **A delay in floral meristem maturation = more
+branches and more flowers; an acceleration = a solitary flower.** All truss genetics is the reading of that cursor.
+
+| Direction of the cursor | Genes | Effect on the truss |
+|:--|:--|:--|
+| **Delays maturation → more flowers** | `J`, `SFT` (via repression of `FA` in the IM), `STM3` (activates `FUL1`), `TM3`, `BIF`, `S` | long, compound, branched trusses |
+| **Accelerates → fewer flowers** | `FA`, `AN`, `TMF`, `BL`, `UF`, `EJ2`, `J2` (represses `STM3`), `SlTOE1`, `BOP1/2/3`, `DOF9` | 1–2 flowers, early flowering |
+| **Redundancy to break first** | `MC`, `FUL2`, `MBP20` (AP1/FUL module) | nothing in a single mutant, a lot in a double |
+
+- **Antagonistic module STM3 / J2 / EJ2 / SlTOE1**: `STM3` promotes branching and activates `FUL1`; `J2` (chr 12)
+  represses it; `EJ2` (*SlMADS1*, chr 3) acts **additively** with `J2`; `SlTOE1` represses `STM3`/`TM3` in synergy with
+  `EJ2`. This is the most "tunable" zone of the floral genome: weak alleles are preferred there over knock-outs.
+- **Florigen / antiflorigen**: `SFT` (chr 3 according to the dossier) against `SP` (chr 6), with `SP5G` (chr 5) as the
+  photoperiodic repressor. The trial cited (Lippman *et al.* 2017, *Nat. Genet.* 49:927): **heterozygous `sft/+` on an
+  `sp` background = +60 % yield**, in a dose-dependent way — this is the basis of industrial hybrids, and the only case
+  in the sheet where a *heterozygote* is the target.
+- **Photoperiod**: the modern tomato is *day-neutral* through a **52-bp deletion in the 3′UTR of `SP5G`** (domestication
+  sweep, Zhang *et al.* 2018). CRISPR `SP5G` = day-neutral flowering and earlier harvest.
+
+---
+
+### 4 · Floral meristem: the WUS–CLV3 loop
+
+| Locus | What the dossier says | What it changes in the garden |
+|:--|:--|:--|
+| `lc` (LOCULE NUMBER, = *SlWUS*, Solyc02g083950, chr 2) | **two SNPs 1,080 bp downstream**, in a CArG box → **gain of function**: widened WUS expression | wider floral meristem: + stamens, + petals, 2 → 3–4 locules, slightly flattened fruit |
+| `fas` (FASCIATED, = *SlCLV3*, Solyc11g071380, chr 11) | **294-kb inversion with a breakpoint ~1 kb upstream** = **partial** loss of function of the CLV3 promoter | pronounced fasciation: 6 to >20 locules, ribbed Brandywine-type fruit |
+| both together | **synergistic epistatic** effect on locule number (p < 0.001) | the double `lc/lc fas/fas` gives the double flower and the "messy" fruit of old lines |
+
+**Three useful readings.** (i) These are **regulatory losses**, not losses of function: the loop stays active, its
+**expression domain** changes — hence heterozygotes that are already visible and a range of phenotypes instead of an
+all-or-nothing. (ii) The dossier tied `fas` to *SlCLV3* **+** *SlYABBY2b* (Solyc11g071810): the sheet has **already
+settled it** ("Pitfalls and corrections"), the 2008 YABBY2b hypothesis is abandoned — the report lags behind the sheet,
+and this is the only case in the two dossiers where the correction comes from the repository. (iii) The "noise" around
+these two loci has an address: the `FAB / CLV1, FIN, SlTPL3, SlKNUCKLES` row in ch. 6. Screening marker proposed by the
+amateur dossier `💬`: **fruit with more than 6 locules**.
+
+---
+
+### 5 · Male sterility: catalogue and use in hybridisation
+
+The tapetum cascade, conserved from *Arabidopsis*: **MS10 → MS32 → TDF1 → AMS → MS1**. Hitting a high link (Ms-10,
+TDF1) removes pollen; hitting class-B genes (`TM6`, `TPI`, `TAP3`) **deforms the anther** and exposes the stigma — not
+the same thing in the field.
+
+| Tool | Gene / ID | Phenotype | Real use |
+|:--|:--|:--|:--|
+| `ps-2` | *SlTDPG*, Solyc04g015530 (chr 4) | **non-dehiscent** anther, viable pollen | hybridisation **without emasculation**, recoverable pollen; line can be maintained |
+| `Ms-10` | bHLH, Solyc02g079810 (chr 2) | no pollen, normal ovary | F1 female; seedling screening via the linked anthocyanin marker (`aa`: green seedling = sterile, purple = fertile) `⚠` |
+| `Ms-15` / `tm6` | MADS B, Solyc02g084630, 1-bp deletion exon 1 (*sus2* allele) | carpeloid stamens, exserted stigma | basis of **GHMS**; also makes the line **hybridisable without you noticing**: isolate it |
+| `TPI` | *SlGLO2*, Solyc08g067230 (chr 8) | anthers twisted open over the style | very simple hand pollination, outcrossing tester |
+| `sl` | *TAP3*, Solyc04g081000 (chr 4) | no stamens, petals→sepals | same use, flower even more open |
+| `tdf1` | R2R3-MYB (*AtMYB35*), Solyc03g059200 (chr 3) | sterility + partial parthenocarpy | hot greenhouse: sets fruit without pollen |
+| `pmcd1` | premeiotic cytokinesis | dyads (binucleate grains) instead of tetrads | **non-transgenic 2n pollen**, see [Ploidy · §4.6](#46-other-documented-routes-not-recommended-outside-a-laboratory) |
+
+> **GHMS system** (the only complete "kit" these reports bring): CRISPR double knock-out **`tm6` + `dfr`**
+> → seedlings with a **green hypocotyl are sterile**, those with a **purple hypocotyl are fertile**; screening in the
+> nursery, no PCR and no waiting for flowering. Source cited with a link: Agronomy 13:1785 (2023).
+> `⚠` Patentable system, background-dependent: check before any use in seed intended for sale.
+
+**Two nuances the dossier does not settle.** (i) `ms-24`, `ms-35` and `ms-36` are listed as **alleles of `Ms-10`**
+(= *SlDYT1*) by both dossiers: mentioned, but with no per-allele ID, hence as a row note and not a row. (ii) `Ms10^35`
+would regulate **246 genes** of meiosis, pollen wall and lipid metabolism: an order of magnitude of pleiotropy, not a
+list of targets.
+
+---
+
+---
+
+### 6 · Flower colour and visual markers
+
+Two pathways, two uses. **Carotenoids** (petal yellow) and **anthocyanins** (purple of stems, anthers, hypocotyls).
+
+| Locus | Pathway | Marker | Limit of use |
+|:--|:--|:--|:--|
+| `PYP1` | esterification of xanthophylls (neoxanthin, violaxanthin) by an acyltransferase | **pale-yellow** petals, discoloured anthers | no effect on fruit or flavour |
+| `ys` | loss of *SlC3H1*/*SlC3H2* (F3'H) → naringenin chalcone, 6 peroxidases inhibited | **bright yellow** stigma | ⚠ do not read `y`: `y` = *SlMYB12* (chr 1), yellow fruit skin |
+| `CCD4` | carotenoid cleavage | **whitish** flowers (polymorphism) | subtle signal, hard to read on a photo |
+| β-carotene hydroxylase | yellow→white conversion | fading petals | not cloned in the dossier |
+| MBW complex (`SlAN2`/`SlMYB75`, `SlANT1`, `SlMYB114`, `SlMYB28`, `SlAN1`/`SlTT8`, `SlJAF13`, `SlAN11`, repressors `SlMYB-ATV`, `SlMYBL2`) | anthocyanins | purple stems, sepals, anthers and **hypocotyls** | this is the complex GHMS and the `aa` marker make use of |
+
+**Why it matters to you**: a marker *on the flower* reads 3 to 5 weeks before fruit set. A coloured-hypocotyl seedling
+is sorted by hand; a yellow stigma tells you the exact day of a flowering; a pale petal flags a flower whose anther did
+not work. None of the three touches flavour — unlike the fruit-colour genes (`r`, `t`, `og`) they are confused with.
+
+---
+
+### 7 · QTL for floral traits, and the environment
+
+To be used for reading a map, not for promising a phenotype.
+
+| Measured trait | Location given by the dossier |
+|:--|:--|
+| `SEPN` sepal number | chr 2 and 11 — in reality the `lc` and `fas` loci |
+| `PETN` petal number | chr 2 and 11 |
+| `STAN` stamen number | influenced by `fas` |
+| `STYW` style thickness | correlated with carpel number |
+| `OVAA` ovary area | influenced by `fas` |
+| flowers per truss | chr 2, 3, 5, 7, 11 |
+| petal length | chr 9 |
+| `dtf5` / `ln5` (time to flowering, internode length) | chr 5, pleiotropy involving *PHYB2* |
+| `qLF2.1` (time to flowering) | chr 2, causal gene *SlJMJ14* (histone demethylase) |
+
+**Temperature.** Two opposite signals, both cited without reproducible measurement: **cold** accentuates fasciation on
+an `lc`/`fas` background `💬`, and homozygous **`an`** would make only a single terminal flower under strong heat.
+`MIB2` (SPATULA orthologue) controls branching only **under heat**. In other words: truss branching is partly a climatic
+variable — compare your lines over the same sowing window, or you are measuring the weather.
+
+---
+
+### 8 · Rejected leads, and why
+
+| Lead from the dossier | Reason for rejection |
+|:--|:--|
+| `ssp` ("SUPPRESSOR OF SP / FD", chr 12, bZIP; "suppresses `sp`, restores indeterminacy") | **no reference** on the dossier's row; an effect too convenient to accept without a primary source |
+| `SPGB` (14-3-3 partner of SFT in the FAC complex) | empty reference column ("—") |
+| `DefH9-iaaM` (transgenic parthenocarpy) | a **transgenic construct**, not a locus: outside the scope of a sheet that describes alleles existing in germplasm |
+| `SPL13`, `CSN5B`, `SlPRR1`, `SUT4`, `SlTOE1`, `FTL2`, `SlJMJ14`, `BOP1/2/3`, `MIB2`, `DOF9`, `LIN`, `IDA`/`IDL6`, `SlERF52`, `SlCMB1`, `SlMADS48`, `TAGL11`/`TAGL12`, `SlARF5/7/8` | upstream regulators **with no varietal allele and no measured phenotype** you can act on: cited in sections 3 and 7, not as table rows |
+| `ms-24`, `ms-35` | presented as alleles of `Ms-10` by a single source: folded in as a **note** on the `Ms-10` row, not as rows |
+| Flowering QTL "chr 1, 2, 3, 4, 5, 6, 10, 11, 12" | a list of chromosomes with no effect and no interval: unusable in breeding |
+
+#### Requalifications proposed **and verified via ITAG**
+
+The dossier claimed a chromosome for seven rows that the sheet initially left as `n.d.` without giving their ITAG ID.
+Cross-checking with the official ITAG / UniProt annotations confirms those identifiers and brings their chromosomes into
+the sheet:
+
+| Row | Initial sheet | Dossier | Verified ITAG evidence | Applied |
+|:--|:--|:--|:--|:--|
+| `mc` | n.d. | chr 5 | **Solyc05g056620** (*MACROCALYX*) | ✅ **applied** (chr 5) |
+| `sft` | n.d. | chr 3 | **Solyc03g063100** (*SINGLE FLOWER TRUSS*) | ✅ **applied** (chr 3) |
+| `sp5G` | n.d. | chr 5 | **Solyc05g053850** (*SELF-PRUNING 5G*) | ✅ **applied** (chr 5) |
+| `an` | n.d. | chr 2 | **Solyc02g081670** (*ANANTHA*, F-box UFO) | ✅ **applied** (chr 2) |
+| `fa` | n.d. | chr 3 | **Solyc03g118160** (*FALSIFLORA*, *LFY* orthologue) | ✅ **applied** (chr 3) |
+| `bl` | n.d. | chr 11 | **Solyc11g069030** (*BLIND*, R2R3-MYB) | ✅ **applied** (chr 11) |
+| `pat` | n.d. | chr 3 | **Solyc03g120910** (*SlHB15A*, HD-Zip III) | ✅ **applied** (chr 3) |
+| `pat-2` | n.d. | chr 4 | **Solyc04g080490** (*SlHD31*, ZF-HD) | ✅ **applied** (chr 4) |
+
+#### Disagreements inside the two dossiers, left open
+
+They are flagged here rather than arbitrated, because neither dossier gives openable evidence:
+
+1. **`Style2.1`**: the sheet cites *Solyc02g087860* (HLH-motif polypeptide, StyleD1/StyleD2 promoter deletions); the
+   dossiers tie the same chromosome 2 to **TAG1/TAGL1** (Solyc02g071730). Same chromosome, two candidate genes — the
+   sheet's row is not modified.
+2. **`SlCUF1` and `TM6`** receive the **same ID** (Solyc02g084630) in the same table: one of the two is wrong, and
+   neither row gives a source to settle it. Only the `tm6` = Ms-15 attribution is taken up (it carries a measured
+   mechanism: 1-bp deletion, exon 1).
+3. **`an`**: "F-box, UFO orthologue" in both dossiers — confirmed by ITAG (**Solyc02g081670**, Lippman *et al.* 2008).
+4. **`pat-2`**: the dossier mentions "Severianin" as if it were an author; it is in fact the **Russian parthenocarpic
+   cultivar 'Severianin'** (selected by N. P. Solovieva, historical donor of the `pat-2` allele = *SlHD31*,
+   Solyc04g080490, cloned by Nunome *et al.* 2021).
+5. **`pmcd1`**: one of the two dossiers summarises the mutant as "premeiotic nuclear fusion → tetraploid meiocytes", the
+   other as "dyads instead of tetrads". Both describe the same failed cell; the sheet keeps the first wording, the only
+   one with a linked reference.
+
+---
+
+### 9 · Method, criteria, limits
+
+- **Inclusion criterion.** A gene becomes a row if (i) a phenotype **measurable in the garden** is stated, (ii) a
+  **molecular basis** is given (family, mutation type, ID), and (iii) all of it comes from a cited source.
+  Three conditions applied to 130 recorded genes: 13 kept.
+- **Automatic chromosome check.** When an ITAG ID `SolycNNgGGGGGG` is given, `NN` **must** equal the `Chr.` column: that
+  is the only check possible without web access (only the GitHub API is reachable from here). The eight ITAG IDs
+  introduced by this pass passed that check, and the repository audit finds **no** `SolycNN` ↔ `Chr.` conflict across
+  the 230 rows.
+- **Nothing was "re-clicked".** The links taken from the dossiers (MDPI, Nature, PLOS, PMC, HAL) are copied as they are
+  into [SOURCES.md](SOURCES.md) with the `✓` marker: `✓` means "DOI/URL present in the compilation dossier", **not**
+  "visited". No `🔎` was added here.
+- **What this chapter does not change.** No existing dominance code was modified, no locus removed. The only two touches to
+  rows already in place are `mc` (chromosome) and `pat / pat-2` (molecular basis).
+- **Translation.** This chapter is carried in English in this edition (and in French in [`README.md`](README.md) as
+  chapter 17); the thirteen rows it added have had their English row since the start. The bibliography
+  [SOURCES.md](SOURCES.md) stays French — including the titles quoted.
+- **Amateur practice ≠ genetic fact.** Passages marked `💬` (double flowers of old lines, J. Lofthouse's "promiscuous"
+  project, multiflora reports, the stable fasciation of "Voyager") describe attempts and tricks: they support no
+  dominance row.
+
+#### What the amateur dossier says about open flowers
+
+One-sentence summary of each lead, unvalidated: **J. Lofthouse** selected, on *S. habrochaites* × *S. lycopersicum*,
+larger flowers with unfused anthers and an exserted stigma to let bumblebees in — with a stated outcrossing rate of
+0–5 % early in the season rising to ~20 % mid-season `💬`. Forum reports on *multiflora* lines (Ildi, Rose Quartz,
+Blondköpfchen, Karma Purple) describe a first truss of 200–400 flowers but only 20–40 % fruit set, and a total yield not
+always above that of an indeterminate hybrid `💬`. Two tricks circulate for fruit set under heat: **do not shake the
+truss, let the bumblebees work**, and **select the largest flowers in spring**, since cold accentuates fasciation `💬`.
+
+---
+
+> **Next:** [Ploidy: diploidy, tetraploidisation, seedless triploids](#ploidy-diploidy-tetraploidisation-seedless-triploids) · [SOURCES.md](SOURCES.md#13--fleur--biologie-florale-stérilité-mâle-couleur-des-pétales) — section 13 of the bibliography · [CONTRIBUTING.md](CONTRIBUTING.md) · [LICENSE](LICENSE) — MIT
+
+<sub>Chapter consolidated on 16/10/2026 from two literature-research dossiers (flower genes, floral biology),
+cross-checked against each other and against the 216 rows then in place. The references were not re-opened: list of
+entries, links and levels of evidence in [SOURCES.md](SOURCES.md), section 13.</sub>
+
+---
+
+## Ploidy: diploidy, tetraploidisation, seedless triploids
 
 *What changes when you double the number of chromosome sets: dosage, segregation, fertility — and the "seedless" route.* — **outside the 230 loci, in this file**
 
-The 16 chapters above describe **loci** in diploidy (2n = 24). This annex describes what changes when you **double the
+Chapters 1 to 16 above describe **loci** in diploidy (2n = 24). This section describes what changes when you **double the
 number of chromosome sets**: the gene stays the same, but its **dosage**, its segregation and the plant's fertility no
 longer follow the same rules. It answers three questions the tables cannot: *why a tetraploid tomato does not give a
 giant fruit*, *how doubling affects the dominance of a recessive*, and *whether the "seedless tomato" route is
 realistic*.
 
-- The tables of chapters 1 to 16 are **not modified** by this annex: no locus is added, moved or requalified there.
+- The tables of chapters 1 to 16 are **not modified** by this section: no locus is added, moved or requalified there.
 - Nomenclature, dominance codes and chromosome conventions: see [How to read this sheet](#how-to-read-this-sheet).
-- References: the 40 entries behind this annex are in [SOURCES.md → section 12](SOURCES.md#12--ploïdie-tétraploïdisation-et-sans-pépins) (French, like the whole bibliography), with their verification level (`✓` compiled dossier, `💬` community report).
+- References: the 40 entries behind this section are in [SOURCES.md → section 12](SOURCES.md#12--ploïdie-tétraploïdisation-et-sans-pépins) (French, like the whole bibliography), with their verification level (`✓` compiled dossier, `💬` community report).
 
 > ⚠️ **Safety first — read this before any handling.** The protocols described here belong to the
 > **laboratory literature**: *in vitro* doubling of an apex on MS medium, **confirmation by flow cytometry**,
@@ -450,7 +719,7 @@ realistic*.
 > this document does not encourage it. Concentrations are quoted to **allow a critical reading** of the studies, not as
 > a set of instructions.
 
-### Annex 1 contents
+### Ploidy section contents
 
 - [1. Fundamentals revisited](#1-fundamentals-revisited)
 - [2. Scientific history (1916 – 1950): the pioneers](#2-scientific-history-1916--1950-the-pioneers)
@@ -506,7 +775,7 @@ from it contain a proportion of tetraploids. This is the most widely used pre-co
 Key study (Proc. Iowa Acad. Sci. / Plant Ind. Station) comparing **three genetic origins** of tetraploids obtained by
 decapitation:
 
-**a) Tetraploids derived from a haploid** (therefore genetically homozygous, 12→24→48 chr.) : 
+**a) Tetraploids derived from a haploid** (therefore genetically homozygous, 12→24→48 chr.) :
 - ~30 % of callus shoots are tetraploid.
 - Meiosis into tetravalents almost normal (24 chr. per daughter cell).
 - BUT: ≥ 20 % aborted pollen, **less than 10 % normal fruit set on selfing**.
@@ -1000,7 +1269,7 @@ Diploid variety wanted
 
 #### Where the sources are
 
-The **40 entries** behind this annex are grouped in
+The **40 entries** behind this section are grouped in
 [SOURCES.md → section 12 · Ploïdie, tétraploïdisation et sans pépins](SOURCES.md#12--ploïdie-tétraploïdisation-et-sans-pépins)
 (French): 1916-1989 history, induction protocols, triploids and parthenocarpy, the triploid block, two 2024 patents,
 the genetics of the response to doubling, TGRC/TGC resources and community reports. They carry the marker
@@ -1015,9 +1284,9 @@ the genetics of the response to doubling, TGRC/TGC resources and community repor
 | **The old literature has not been re-run** | Lindstrom 1931 and Nilsson 1950 give fertility percentages on backgrounds that no longer exist as such. Their **orders of magnitude** are still quoted everywhere; their absolute values do not transfer to your population. |
 | **No published QTL in autotetraploid tomato** | Section 10.4 is a **statement of a void**, not a method validated on this species: the tetrasomic toolbox is imported from potato, rose and alfalfa. |
 | **Forum reports = practice, not proof** | TaterMater, Tomatoville, Dave's Garden and the community threads marked `💬` in SOURCES.md document what is **attempted** and what **fails**; they establish no genetic fact, and none of them was validated by cytometry. |
-| **Language** | This annex lives in both editions: *Annex 1* here and in [`README.md`](README.md) (*annexe 1*). The bibliography stays French in [SOURCES.md](SOURCES.md) — the titles quoted there are those of the publications. |
+| **Language** | The Ploidy section appears here and in [`README.md`](README.md). The bibliography stays French in [SOURCES.md](SOURCES.md) — the titles quoted there are those of the publications. |
 
-#### What this annex changes (and does not change) in the sheet
+#### What this section changes (and does not change) in the sheet
 
 - **It changes no dominance code of the 230 loci.** In diploidy, `R`/`D`/`S` remain exact.
 - It **adds a dosage rule**: in an autotetraploid, a recessive must be quadruplex (`aaaa`) to be expressed — hence the
@@ -1029,279 +1298,10 @@ the genetics of the response to doubling, TGRC/TGC resources and community repor
 
 ---
 
-> **Next:** [Annex 2 · Flower: floral biology, male sterility, petal colour](#annex-2--flower-floral-biology-male-sterility-petal-colour) · [SOURCES.md](SOURCES.md#12--ploïdie-tétraploïdisation-et-sans-pépins) — section 12 of the bibliography · [CONTRIBUTING.md](CONTRIBUTING.md) · [LICENSE](LICENSE) — MIT
+> **References:** [SOURCES.md](SOURCES.md#12--ploïdie-tétraploïdisation-et-sans-pépins) — section 12 of the bibliography · [CONTRIBUTING.md](CONTRIBUTING.md) · [LICENSE](LICENSE) — MIT
 
-<sub>Annex consolidated on 16/10/2026 from publications, patents, gene-bank catalogues and community threads. Like the
+<sub>Section consolidated on 16/10/2026 from publications, patents, gene-bank catalogues and community threads. Like the
 sheet: a working tool, not an authority. The chemical protocols are documented for description only and are regulated.</sub>
-
----
-
-## Annex 2 · Flower: floral biology, male sterility, petal colour
-
-*The network behind chapters 1 and 5: floral transition, the ABCDE model, the floral meristem, male sterility and visual markers.* — **outside the 230 loci, in this file**
-
-The chapters above describe the *result*: a truss with so many flowers, an inserted style, a fruit set without
-pollination. This annex describes the *network* that produces that result — floral transition, organ identity (ABCDE
-model extended to Solanaceae), the WUS–CLV3 loop, tapetum development and flower pigmentation. It serves three
-purposes: **understanding why two neighbouring symbols do not look alike**, **choosing a hybridisation tool**
-(emasculation or not), and **spotting a marked flower before fruit set**.
-
-Unlike annex 1 (ploidy), this annex **changed the tables**: thirteen loci were added there and two rows requalified.
-The detail is in section 1 — the section to read if you only want the result.
-
-- Nomenclature, dominance codes and chromosome conventions: see [How to read this sheet](#how-to-read-this-sheet).
-- References: [SOURCES.md → section 13](SOURCES.md#13--fleur--biologie-florale-stérilité-mâle-couleur-des-pétales), "Fleur" (French). Unpublished claims carry `💬` or `[extrapolation]`.
-- A chromosome is given only when an open source allows it: see the method in section 9.
-
----
-
-### 1 · What went into the sheet
-
-**Thirteen rows added** to chapters 1 and 5 (the tables have counted **230** since the addition, in ch. 15, of a
-"haploid-diploidisation" row that comes from annex 1, not from these dossiers). Everything below was cross-checked
-against the existing tables: none of the added loci duplicated a row already present.
-
-| Symbol | Ch. | What you get out of it | Kept because |
-|:--|:--|:--|:--|
-| `tmf` | 1 | Truss with 1–2 flowers, very early flowering | Single-gene phenotype usable for earliness; distinct from `sft` |
-| `ej2` | 1 | Second piece of the `j-2` epistasis on branching | The sheet already noted the epistasis without the second gene |
-| `FUL2 / MBP20` | 1 | Dosage lever (promoter editing) on flower number | Published editing line, measured phenotype (+3 leaves) |
-| `sl` | 5 | Male sterility through petal→sepal conversion | Self-checkable ITAG ID Solyc04g081000 (chr 4) |
-| `TPI (SlGLO2)` | 5 | Twisted anthers, exposed stigmas: hand pollination made easy | Four allele names (ms30, ms33, 7B-1, sl-2) to tie to a single gene |
-| `Ms-15 (= tm6)` | 5 | Male sterility + exserted stigma, basis of the GHMS system | ID Solyc02g084630, mechanism described (1-bp deletion) |
-| `Ms-10` | 5 | Female line needing no emasculation, seedling-screenable | Conserved tapetum cascade, linked anthocyanin marker |
-| `ps-2` | 5 | Non-dehiscent anthers **but viable pollen** | ID Solyc04g015530 (chr 4); the only one of the lot that keeps usable pollen |
-| `tdf1` | 5 | Male sterility **and** parthenocarpic fruit set | ID Solyc03g059200 (chr 3), a cascade link |
-| `pat-k (tagl6)` | 5 | Facultative parthenocarpy without dwarfism | Defined mutation (4,866-bp retrotransposon, intron 1 of *SlAGL6*) |
-| `PYP1` | 5 | Pale-yellow visual marker on the flower alone | Explicit biochemical pathway (acyltransferase, xanthophylls) |
-| `ys` | 5 | Yellow stigma: flowering date, spotting a hybridisation | Genes cited (*SlC3H1*/*SlC3H2*) and a marked metabolite (naringenin chalcone) |
-| `pmcd1` | 5 | **Non-transgenic** route to 2n pollen | Documented premeiotic endomitosis (De Storme *et al.* 2013, *JXB* 64:2345, OUP link) |
-| `mc` | 1 | Chr. n.d. → **5** | The report gives the ID Solyc05g056620, whose prefix encodes the chromosome |
-| `pat / pat-2` | 5 | "not cloned" → current molecular basis (*SlHB15A*, *SlHD31*) | A 2024 publication with a PMC link, a measured mechanism (1,034-bp deletion) |
-
-**Why so few, when the dossiers list more than 130 genes?** Because the sheet is a breeding document: it keeps only
-what changes a crossing decision. Upstream regulators with no described varietal allele (SPL13, CSN5B, SlPRR1, SUT4,
-SlTOE1, SlERF52, IDA/IDL6…) are listed in section 8, not as rows.
-
----
-
-### 2 · The ABCDE model, Solanaceae version
-
-Tomato has **131 MADS-box genes**, of which **15 "core"** ones for the flower. The major difference with *Arabidopsis*:
-**class B counts four genes** (a duplication specific to Solanaceae), which explains the redundancy of so many
-phenotypes and the false CRISPR "failures".
-
-| Class | Tomato genes | *Arabidopsis* orthologues | Function | When it breaks |
-|:--|:--|:--|:--|:--|
-| **A** | `MC` (Macrocalyx), AP2 | AP1, AP2 | Sepal identity, brake on class-B extension | `mc`: large leafy sepals (chr 5) |
-| **B** | `TAP3`/`sl`, `TM6`, `SlGLO1`, `TPI`/`SlGLO2` | AP3, PI | Petal + stamen identity | loss of B → petals become sepals, stamens become carpels |
-| **C** | `TAG1`, `TAGL1` | AG | Stamen + carpel identity, meristem **determinacy** | loss of C → flowers make flowers again: the "double flower" route |
-| **D** | TAGL6, placenta MADS | AGL8/SEPPOLATA | Ovules, parthenocarpy | `pat-k` = *SlAGL6* (chr 1) |
-| **E** | SEP-like (including `SlMADS1`/`ej2`) | SEP1-4 | Scaffolding of the MADS tetramers | additive with classes A–D |
-
-**To remember in practice.** MADS complexes are **tetramers**: the phenotype depends on the *dosage* of the partners,
-not only on the presence/absence of one gene. Hence, in this sheet, three rows marked "dosage-sensitive" (`sft`, `s`,
-`MC`) and the value of promoter editing rather than a knock-out (`FUL2`/`MBP20`).
-
----
-
-### 3 · How many flowers per truss: the network
-
-The dossier's "zigzag" scheme: `VM → TM → IM → SIM → FM → flower`. **A delay in floral meristem maturation = more
-branches and more flowers; an acceleration = a solitary flower.** All truss genetics is the reading of that cursor.
-
-| Direction of the cursor | Genes | Effect on the truss |
-|:--|:--|:--|
-| **Delays maturation → more flowers** | `J`, `SFT` (via repression of `FA` in the IM), `STM3` (activates `FUL1`), `TM3`, `BIF`, `S` | long, compound, branched trusses |
-| **Accelerates → fewer flowers** | `FA`, `AN`, `TMF`, `BL`, `UF`, `EJ2`, `J2` (represses `STM3`), `SlTOE1`, `BOP1/2/3`, `DOF9` | 1–2 flowers, early flowering |
-| **Redundancy to break first** | `MC`, `FUL2`, `MBP20` (AP1/FUL module) | nothing in a single mutant, a lot in a double |
-
-- **Antagonistic module STM3 / J2 / EJ2 / SlTOE1**: `STM3` promotes branching and activates `FUL1`; `J2` (chr 12)
-  represses it; `EJ2` (*SlMADS1*, chr 3) acts **additively** with `J2`; `SlTOE1` represses `STM3`/`TM3` in synergy with
-  `EJ2`. This is the most "tunable" zone of the floral genome: weak alleles are preferred there over knock-outs.
-- **Florigen / antiflorigen**: `SFT` (chr 3 according to the dossier) against `SP` (chr 6), with `SP5G` (chr 5) as the
-  photoperiodic repressor. The trial cited (Lippman *et al.* 2017, *Nat. Genet.* 49:927): **heterozygous `sft/+` on an
-  `sp` background = +60 % yield**, in a dose-dependent way — this is the basis of industrial hybrids, and the only case
-  in the sheet where a *heterozygote* is the target.
-- **Photoperiod**: the modern tomato is *day-neutral* through a **52-bp deletion in the 3′UTR of `SP5G`** (domestication
-  sweep, Zhang *et al.* 2018). CRISPR `SP5G` = day-neutral flowering and earlier harvest.
-
----
-
-### 4 · Floral meristem: the WUS–CLV3 loop
-
-| Locus | What the dossier says | What it changes in the garden |
-|:--|:--|:--|
-| `lc` (LOCULE NUMBER, = *SlWUS*, Solyc02g083950, chr 2) | **two SNPs 1,080 bp downstream**, in a CArG box → **gain of function**: widened WUS expression | wider floral meristem: + stamens, + petals, 2 → 3–4 locules, slightly flattened fruit |
-| `fas` (FASCIATED, = *SlCLV3*, Solyc11g071380, chr 11) | **294-kb inversion with a breakpoint ~1 kb upstream** = **partial** loss of function of the CLV3 promoter | pronounced fasciation: 6 to >20 locules, ribbed Brandywine-type fruit |
-| both together | **synergistic epistatic** effect on locule number (p < 0.001) | the double `lc/lc fas/fas` gives the double flower and the "messy" fruit of old lines |
-
-**Three useful readings.** (i) These are **regulatory losses**, not losses of function: the loop stays active, its
-**expression domain** changes — hence heterozygotes that are already visible and a range of phenotypes instead of an
-all-or-nothing. (ii) The dossier tied `fas` to *SlCLV3* **+** *SlYABBY2b* (Solyc11g071810): the sheet has **already
-settled it** ("Pitfalls and corrections"), the 2008 YABBY2b hypothesis is abandoned — the report lags behind the sheet,
-and this is the only case in the two dossiers where the correction comes from the repository. (iii) The "noise" around
-these two loci has an address: the `FAB / CLV1, FIN, SlTPL3, SlKNUCKLES` row in ch. 6. Screening marker proposed by the
-amateur dossier `💬`: **fruit with more than 6 locules**.
-
----
-
-### 5 · Male sterility: catalogue and use in hybridisation
-
-The tapetum cascade, conserved from *Arabidopsis*: **MS10 → MS32 → TDF1 → AMS → MS1**. Hitting a high link (Ms-10,
-TDF1) removes pollen; hitting class-B genes (`TM6`, `TPI`, `TAP3`) **deforms the anther** and exposes the stigma — not
-the same thing in the field.
-
-| Tool | Gene / ID | Phenotype | Real use |
-|:--|:--|:--|:--|
-| `ps-2` | *SlTDPG*, Solyc04g015530 (chr 4) | **non-dehiscent** anther, viable pollen | hybridisation **without emasculation**, recoverable pollen; line can be maintained |
-| `Ms-10` | bHLH, Solyc02g079810 (chr 2) | no pollen, normal ovary | F1 female; seedling screening via the linked anthocyanin marker (`aa`: green seedling = sterile, purple = fertile) `⚠` |
-| `Ms-15` / `tm6` | MADS B, Solyc02g084630, 1-bp deletion exon 1 (*sus2* allele) | carpeloid stamens, exserted stigma | basis of **GHMS**; also makes the line **hybridisable without you noticing**: isolate it |
-| `TPI` | *SlGLO2*, Solyc08g067230 (chr 8) | anthers twisted open over the style | very simple hand pollination, outcrossing tester |
-| `sl` | *TAP3*, Solyc04g081000 (chr 4) | no stamens, petals→sepals | same use, flower even more open |
-| `tdf1` | R2R3-MYB (*AtMYB35*), Solyc03g059200 (chr 3) | sterility + partial parthenocarpy | hot greenhouse: sets fruit without pollen |
-| `pmcd1` | premeiotic cytokinesis | dyads (binucleate grains) instead of tetrads | **non-transgenic 2n pollen**, see [annex 1 · §4.6](#46-other-documented-routes-not-recommended-outside-a-laboratory) |
-
-> **GHMS system** (the only complete "kit" these reports bring): CRISPR double knock-out **`tm6` + `dfr`**
-> → seedlings with a **green hypocotyl are sterile**, those with a **purple hypocotyl are fertile**; screening in the
-> nursery, no PCR and no waiting for flowering. Source cited with a link: Agronomy 13:1785 (2023).
-> `⚠` Patentable system, background-dependent: check before any use in seed intended for sale.
-
-**Two nuances the dossier does not settle.** (i) `ms-24`, `ms-35` and `ms-36` are listed as **alleles of `Ms-10`**
-(= *SlDYT1*) by both dossiers: mentioned, but with no per-allele ID, hence as a row note and not a row. (ii) `Ms10^35`
-would regulate **246 genes** of meiosis, pollen wall and lipid metabolism: an order of magnitude of pleiotropy, not a
-list of targets.
-
----
-
----
-
-### 6 · Flower colour and visual markers
-
-Two pathways, two uses. **Carotenoids** (petal yellow) and **anthocyanins** (purple of stems, anthers, hypocotyls).
-
-| Locus | Pathway | Marker | Limit of use |
-|:--|:--|:--|:--|
-| `PYP1` | esterification of xanthophylls (neoxanthin, violaxanthin) by an acyltransferase | **pale-yellow** petals, discoloured anthers | no effect on fruit or flavour |
-| `ys` | loss of *SlC3H1*/*SlC3H2* (F3'H) → naringenin chalcone, 6 peroxidases inhibited | **bright yellow** stigma | ⚠ do not read `y`: `y` = *SlMYB12* (chr 1), yellow fruit skin |
-| `CCD4` | carotenoid cleavage | **whitish** flowers (polymorphism) | subtle signal, hard to read on a photo |
-| β-carotene hydroxylase | yellow→white conversion | fading petals | not cloned in the dossier |
-| MBW complex (`SlAN2`/`SlMYB75`, `SlANT1`, `SlMYB114`, `SlMYB28`, `SlAN1`/`SlTT8`, `SlJAF13`, `SlAN11`, repressors `SlMYB-ATV`, `SlMYBL2`) | anthocyanins | purple stems, sepals, anthers and **hypocotyls** | this is the complex GHMS and the `aa` marker make use of |
-
-**Why it matters to you**: a marker *on the flower* reads 3 to 5 weeks before fruit set. A coloured-hypocotyl seedling
-is sorted by hand; a yellow stigma tells you the exact day of a flowering; a pale petal flags a flower whose anther did
-not work. None of the three touches flavour — unlike the fruit-colour genes (`r`, `t`, `og`) they are confused with.
-
----
-
-### 7 · QTL for floral traits, and the environment
-
-To be used for reading a map, not for promising a phenotype.
-
-| Measured trait | Location given by the dossier |
-|:--|:--|
-| `SEPN` sepal number | chr 2 and 11 — in reality the `lc` and `fas` loci |
-| `PETN` petal number | chr 2 and 11 |
-| `STAN` stamen number | influenced by `fas` |
-| `STYW` style thickness | correlated with carpel number |
-| `OVAA` ovary area | influenced by `fas` |
-| flowers per truss | chr 2, 3, 5, 7, 11 |
-| petal length | chr 9 |
-| `dtf5` / `ln5` (time to flowering, internode length) | chr 5, pleiotropy involving *PHYB2* |
-| `qLF2.1` (time to flowering) | chr 2, causal gene *SlJMJ14* (histone demethylase) |
-
-**Temperature.** Two opposite signals, both cited without reproducible measurement: **cold** accentuates fasciation on
-an `lc`/`fas` background `💬`, and homozygous **`an`** would make only a single terminal flower under strong heat.
-`MIB2` (SPATULA orthologue) controls branching only **under heat**. In other words: truss branching is partly a climatic
-variable — compare your lines over the same sowing window, or you are measuring the weather.
-
----
-
-### 8 · Rejected leads, and why
-
-| Lead from the dossier | Reason for rejection |
-|:--|:--|
-| `ssp` ("SUPPRESSOR OF SP / FD", chr 12, bZIP; "suppresses `sp`, restores indeterminacy") | **no reference** on the dossier's row; an effect too convenient to accept without a primary source |
-| `SPGB` (14-3-3 partner of SFT in the FAC complex) | empty reference column ("—") |
-| `DefH9-iaaM` (transgenic parthenocarpy) | a **transgenic construct**, not a locus: outside the scope of a sheet that describes alleles existing in germplasm |
-| `SPL13`, `CSN5B`, `SlPRR1`, `SUT4`, `SlTOE1`, `FTL2`, `SlJMJ14`, `BOP1/2/3`, `MIB2`, `DOF9`, `LIN`, `IDA`/`IDL6`, `SlERF52`, `SlCMB1`, `SlMADS48`, `TAGL11`/`TAGL12`, `SlARF5/7/8` | upstream regulators **with no varietal allele and no measured phenotype** you can act on: cited in sections 3 and 7, not as table rows |
-| `ms-24`, `ms-35` | presented as alleles of `Ms-10` by a single source: folded in as a **note** on the `Ms-10` row, not as rows |
-| Flowering QTL "chr 1, 2, 3, 4, 5, 6, 10, 11, 12" | a list of chromosomes with no effect and no interval: unusable in breeding |
-
-#### Requalifications proposed **and verified via ITAG**
-
-The dossier claimed a chromosome for seven rows that the sheet initially left as `n.d.` without giving their ITAG ID.
-Cross-checking with the official ITAG / UniProt annotations confirms those identifiers and brings their chromosomes into
-the sheet:
-
-| Row | Initial sheet | Dossier | Verified ITAG evidence | Applied |
-|:--|:--|:--|:--|:--|
-| `mc` | n.d. | chr 5 | **Solyc05g056620** (*MACROCALYX*) | ✅ **applied** (chr 5) |
-| `sft` | n.d. | chr 3 | **Solyc03g063100** (*SINGLE FLOWER TRUSS*) | ✅ **applied** (chr 3) |
-| `sp5G` | n.d. | chr 5 | **Solyc05g053850** (*SELF-PRUNING 5G*) | ✅ **applied** (chr 5) |
-| `an` | n.d. | chr 2 | **Solyc02g081670** (*ANANTHA*, F-box UFO) | ✅ **applied** (chr 2) |
-| `fa` | n.d. | chr 3 | **Solyc03g118160** (*FALSIFLORA*, *LFY* orthologue) | ✅ **applied** (chr 3) |
-| `bl` | n.d. | chr 11 | **Solyc11g069030** (*BLIND*, R2R3-MYB) | ✅ **applied** (chr 11) |
-| `pat` | n.d. | chr 3 | **Solyc03g120910** (*SlHB15A*, HD-Zip III) | ✅ **applied** (chr 3) |
-| `pat-2` | n.d. | chr 4 | **Solyc04g080490** (*SlHD31*, ZF-HD) | ✅ **applied** (chr 4) |
-
-#### Disagreements inside the two dossiers, left open
-
-They are flagged here rather than arbitrated, because neither dossier gives openable evidence:
-
-1. **`Style2.1`**: the sheet cites *Solyc02g087860* (HLH-motif polypeptide, StyleD1/StyleD2 promoter deletions); the
-   dossiers tie the same chromosome 2 to **TAG1/TAGL1** (Solyc02g071730). Same chromosome, two candidate genes — the
-   sheet's row is not modified.
-2. **`SlCUF1` and `TM6`** receive the **same ID** (Solyc02g084630) in the same table: one of the two is wrong, and
-   neither row gives a source to settle it. Only the `tm6` = Ms-15 attribution is taken up (it carries a measured
-   mechanism: 1-bp deletion, exon 1).
-3. **`an`**: "F-box, UFO orthologue" in both dossiers — confirmed by ITAG (**Solyc02g081670**, Lippman *et al.* 2008).
-4. **`pat-2`**: the dossier mentions "Severianin" as if it were an author; it is in fact the **Russian parthenocarpic
-   cultivar 'Severianin'** (selected by N. P. Solovieva, historical donor of the `pat-2` allele = *SlHD31*,
-   Solyc04g080490, cloned by Nunome *et al.* 2021).
-5. **`pmcd1`**: one of the two dossiers summarises the mutant as "premeiotic nuclear fusion → tetraploid meiocytes", the
-   other as "dyads instead of tetrads". Both describe the same failed cell; the sheet keeps the first wording, the only
-   one with a linked reference.
-
----
-
-### 9 · Method, criteria, limits
-
-- **Inclusion criterion.** A gene becomes a row if (i) a phenotype **measurable in the garden** is stated, (ii) a
-  **molecular basis** is given (family, mutation type, ID), and (iii) all of it comes from a cited source.
-  Three conditions applied to 130 recorded genes: 13 kept.
-- **Automatic chromosome check.** When an ITAG ID `SolycNNgGGGGGG` is given, `NN` **must** equal the `Chr.` column: that
-  is the only check possible without web access (only the GitHub API is reachable from here). The eight ITAG IDs
-  introduced by this pass passed that check, and the repository audit finds **no** `SolycNN` ↔ `Chr.` conflict across
-  the 230 rows.
-- **Nothing was "re-clicked".** The links taken from the dossiers (MDPI, Nature, PLOS, PMC, HAL) are copied as they are
-  into [SOURCES.md](SOURCES.md) with the `✓` marker: `✓` means "DOI/URL present in the compilation dossier", **not**
-  "visited". No `🔎` was added here.
-- **What the annex does not change.** No existing dominance code was modified, no locus removed. The only two touches to
-  rows already in place are `mc` (chromosome) and `pat / pat-2` (molecular basis).
-- **Translation.** This annex is carried in English in this edition (and in French in [`README.md`](README.md) as
-  *annexe 2*); the thirteen rows it added have had their English row since the start. The bibliography
-  [SOURCES.md](SOURCES.md) stays French — including the titles quoted.
-- **Amateur practice ≠ genetic fact.** Passages marked `💬` (double flowers of old lines, J. Lofthouse's "promiscuous"
-  project, multiflora reports, the stable fasciation of "Voyager") describe attempts and tricks: they support no
-  dominance row.
-
-#### What the amateur dossier says about open flowers
-
-One-sentence summary of each lead, unvalidated: **J. Lofthouse** selected, on *S. habrochaites* × *S. lycopersicum*,
-larger flowers with unfused anthers and an exserted stigma to let bumblebees in — with a stated outcrossing rate of
-0–5 % early in the season rising to ~20 % mid-season `💬`. Forum reports on *multiflora* lines (Ildi, Rose Quartz,
-Blondköpfchen, Karma Purple) describe a first truss of 200–400 flowers but only 20–40 % fruit set, and a total yield not
-always above that of an indeterminate hybrid `💬`. Two tricks circulate for fruit set under heat: **do not shake the
-truss, let the bumblebees work**, and **select the largest flowers in spring**, since cold accentuates fasciation `💬`.
-
----
-
-> **Upstream:** [Annex 1 · Ploidy: diploidy, tetraploidisation, seedless triploids](#annex-1--ploidy-diploidy-tetraploidisation-seedless-triploids) · [SOURCES.md](SOURCES.md#13--fleur--biologie-florale-stérilité-mâle-couleur-des-pétales) — section 13 of the bibliography · [CONTRIBUTING.md](CONTRIBUTING.md) · [LICENSE](LICENSE) — MIT
-
-<sub>Annex consolidated on 16/10/2026 from two literature-research dossiers (flower genes, floral biology),
-cross-checked against each other and against the 216 rows then in place. The references were not re-opened: list of
-entries, links and levels of evidence in [SOURCES.md](SOURCES.md), section 13.</sub>
 
 ---
 
@@ -1447,7 +1447,7 @@ This repository is **deliberately flat**: six files, no data folder, no build sc
 
 ```
 tomato-genetics-cheatsheet/
-├── README.md          ← the reference edition: 230 loci, 16 chapters, molecular layer + annexes 1 and 2
+├── README.md          ← the reference edition: 230 loci, 17 chapters (16 with loci), molecular layer + ploidy section
 ├── README.en.md       ← this file: same loci, same chromosomes, same dominance codes, breeder columns only
 ├── SOURCES.md         ← shared bibliography (252 entries, links, verification level) — written in French
 ├── index.html         ← self-contained searchable page: filters, F2 calculator, A4 landscape print
@@ -1487,7 +1487,8 @@ Publishing the interactive page: `index.html` sits at the root, so choose **Sett
 ## Sources, licence and citation
 
 - **Bibliography**: [SOURCES.md](SOURCES.md) — 252 references by theme with links and verification level, plus the germplasm resources (TGRC, SGN, TOMATOMA, IL libraries). Written in French, but every reference is citable as is.
-- **Annexes** (now part of this edition, and of the French one, with the same content): [Annex 1 · Ploidy](#annex-1--ploidy-diploidy-tetraploidisation-seedless-triploids) — tetraploidisation, tetrasomic dosage and the seedless route; [Annex 2 · Flower](#annex-2--flower-floral-biology-male-sterility-petal-colour) — floral biology, male sterility and petal colour, including what was **deliberately not** merged from the source dossiers. The 13 loci they added have their English row here; the bibliography [SOURCES.md](SOURCES.md) stays French.
+- **Chapter 17 · Flower**: [in this edition](#17-flower-floral-biology-male-sterility-petal-colour) — floral biology, male sterility and petal colour, including what was **deliberately not** merged from the source dossiers. Its 13 added loci have their English row here.
+- **Ploidy**: [section in this edition](#ploidy-diploidy-tetraploidisation-seedless-triploids) — tetraploidisation, tetrasomic dosage and the seedless route. Both sections appear in the French edition too; the bibliography [SOURCES.md](SOURCES.md) stays French.
 - **Traceability**: the *allele origin* of each locus (accession, mutant, species) is in the French README only; anything unpublished here is marked **[extrapolation]**.
 - **Licence**: [MIT](LICENSE) — reuse, adapt, redistribute, commercially too, keeping the copyright notice.
 - **Citation**: no `CITATION.cff` in this repository. Cite *Tomato genetics sheet*, Tivaphe/tomato-genetics-cheatsheet, edition of 2026-10-15, with the URL; mint a Zenodo DOI if you need a stable reference.

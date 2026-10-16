@@ -1,6 +1,6 @@
 # 📚 Sources
 
-**252 entrées** qui étayent les 230 loci du [README](README.md), de son équivalent anglais [README.en.md](README.en.md), de l'annexe sur la ploïdie ([annexe 1 du README](README.md#annexe-1--ploïdie--diploïdie-tétraploïdisation-triploïdes-sans-pépins), [Annex 1](README.en.md#annex-1--ploidy-diploidy-tetraploidisation-seedless-triploids)) et de l'annexe sur la fleur ([annexe 2 du README](README.md#annexe-2--fleur--biologie-florale-stérilité-mâle-couleur-des-pétales), [Annex 2](README.en.md#annex-2--flower-floral-biology-male-sterility-petal-colour)). Regroupées par thème, dans l'ordre des chapitres (elles couvrent aussi les ressources de matériel végétal, utiles pour commanditer des accessions, et les sections 12 (ploïdie) et 13 (fleur)).
+**252 entrées** qui étayent les 230 loci du [README](README.md), de son équivalent anglais [README.en.md](README.en.md), de la section ploïdie ([README](README.md#ploïdie--diploïdie-tétraploïdisation-triploïdes-sans-pépins), [English](README.en.md#ploidy-diploidy-tetraploidisation-seedless-triploids)) et du chapitre 17 sur la fleur ([README](README.md#17-fleur--biologie-florale-stérilité-mâle-couleur-des-pétales), [English](README.en.md#17-flower-floral-biology-male-sterility-petal-colour)). Regroupées par thème, dans l'ordre des chapitres (elles couvrent aussi les ressources de matériel végétal, utiles pour commanditer des accessions, et les sections 12 (ploïdie) et 13 (fleur)).
 
 > **Niveau de vérification — à lire avant de citer.**
 > - 🔎 = référence **re-vérifiée le 15/10/2026** (lien ouvert, conclusion confrontée au texte de la fiche). Ce sont toutes les entrées de la [liste des corrections](README.md#pièges-et-corrections-apportées).
@@ -246,7 +246,7 @@
 
 ## 12 · Ploïdie, tétraploïdisation et sans pépins
 
-*Sources de l'annexe 1 — ploïdie ([annexe 1 du README](README.md#annexe-1--ploïdie--diploïdie-tétraploïdisation-triploïdes-sans-pépins), [Annex 1](README.en.md#annex-1--ploidy-diploidy-tetraploidisation-seedless-triploids)) — ploïdie, pas loci : ces entrées n'étayent aucune ligne des 16 chapitres.*
+*Sources de la section Ploïdie ([README](README.md#ploïdie--diploïdie-tétraploïdisation-triploïdes-sans-pépins), [English](README.en.md#ploidy-diploidy-tetraploidisation-seedless-triploids)) — ploïdie, pas loci : ces entrées n'étayent aucune ligne des 16 chapitres.*
 
 *Quarante entrées : l'historique 1916-1989, les protocoles d'induction, la voie triploïde, le blocage triploïde,
 deux brevets 2024 et la génétique de la réponse au doublement. **Quinze** sont citées sans lien cliquable
@@ -317,7 +317,7 @@ deux brevets 2024 et la génétique de la réponse au doublement. **Quinze** son
 
 ## 13 · Fleur : biologie florale, stérilité mâle, couleur des pétales
 
-*Sources de l'annexe 2 — fleur ([annexe 2 du README](README.md#annexe-2--fleur--biologie-florale-stérilité-mâle-couleur-des-pétales), [Annex 2](README.en.md#annex-2--flower-floral-biology-male-sterility-petal-colour)) et des treize lignes ajoutées aux chapitres 1 et 5. **24 entrées**
+*Sources du chapitre 17 — fleur ([README](README.md#17-fleur--biologie-florale-stérilité-mâle-couleur-des-pétales), [English](README.en.md#17-flower-floral-biology-male-sterility-petal-colour)) et des treize lignes ajoutées aux chapitres 1 et 5. **24 entrées**
 nouvelles, dont **7 sans lien cliquable** (titre, revue et pages repris tels quels du dossier de compilation) :
 à ouvrir avant toute reprise dans un travail publié. **Aucun lien n'a été re-cliqué** pendant cette passe — ces
 entrées portent donc `✓`, jamais `🔎`.*

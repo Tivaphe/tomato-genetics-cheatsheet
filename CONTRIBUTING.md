@@ -4,7 +4,7 @@ Les contributions sont bienvenues : ajouts de loci, corrections de dominance, pr
 références. Ce dépôt est une synthèse documentaire destinée à être **utilisable en sélection comme en recherche**, donc
 la rigueur de la source prime sur l'abondance.
 
-*This repository is bilingual, annexes included (only the bibliography stays French). To contribute to the English edition, read the* [*« Trois fichiers, une seule génétique »
+*This repository is bilingual, including chapter 17 and the ploidy section (only the bibliography stays French). To contribute to the English edition, read the* [*« Trois fichiers, une seule génétique »
 section*](#trois-fichiers-une-seule-génétique) *below — the rule is simple: the genetics is written once, in the French
 tables; the English file only re-words the phenotype and the selection note.*
 
@@ -19,7 +19,7 @@ directement. Voir [README.md → Reproductibilité du dépôt](README.md#reprodu
 | [`README.en.md`](README.en.md) | édition anglaise : mêmes loci, mêmes chromosomes, mêmes dominance, sans le bloc dépliable | ✅ une ligne par langue |
 | [`index.html`](index.html) | version interactive (recherche, filtres, calculateur F2) : 230 lignes `<tr>`, 8 colonnes | ✅ si un locus est ajouté ou si `chr`/`dom` change |
 | [`SOURCES.md`](SOURCES.md) | bibliographie commune aux deux langues, avec niveau de vérification | ✅ toute nouvelle référence |
-| annexes 1 et 2 (`README.md` / `README.en.md`) | **annexe 1 · ploïdie** (hors des 230 loci, 40 sources) et **annexe 2 · fleur** (réseau, stérilité mâle, pièges de nomenclature, pistes **non retenues**) | ✅ dans les **deux langues**, à la même place et avec le même contenu : une annexe ajoute un locus aux chapitres ? les quatre formats le portent |
+| chapitre 17 et section Ploïdie (`README.md` / `README.en.md`) | **chapitre 17 · fleur** (réseau, stérilité mâle, pièges de nomenclature, pistes **non retenues**) et **section Ploïdie** (hors des 230 loci, 40 sources) | ✅ dans les **deux langues**, à la même place et avec le même contenu : un nouveau locus ajouté aux chapitres ? les quatre formats le portent |
 | `LICENSE` | MIT — texte et données | — |
 | `CONTRIBUTING.md` | ce fichier | — |
 
@@ -110,13 +110,13 @@ for fn in sorted(glob.glob('*.md')):
 
 Concrètement, la parité impose :
 
-* les **mêmes 16 chapitres**, dans le même ordre, avec le **même nombre de loci** par chapitre (l'intitulé `**N loci**`
+* les **mêmes 17 chapitres**, dans le même ordre, avec le **même nombre de loci** dans chacun des chapitres 1 à 16 (l'intitulé `**N loci**`
 de l'italique sous le titre est ce qui est comparé) ;
 * les **mêmes chromosomes** — les chiffres doivent tomber juste — et les **mêmes codes de dominance** ;
 * les **mêmes symboles**, à l'exception assumée des lignes descriptives (QTL non clonés, germoplasme, épistasies) dont
 l'intitulé est logiquement traduit : `QTL psylle` ↔ `QTL psyllid`.
 
-Les deux annexes vivent **dans les deux READMEs** (annexe 1 · ploïdie, annexe 2 · fleur) : leur texte suit la même règle de parité, mais aucun des trois contrôles ne l'attrape — relisez-les à la main. Si une annexe cite une source, elle s'ajoute à SOURCES.md (section 12 pour la ploïdie, 13 pour la fleur).
+Le chapitre 17 (fleur) et la section Ploïdie vivent **dans les deux READMEs** : leur texte suit la même règle de parité, mais aucun des trois contrôles ne l'attrape — relisez-les à la main. Si l'un cite une source, elle s'ajoute à SOURCES.md (section 12 pour la ploïdie, 13 pour la fleur).
 
 Autrement dit : **une nouvelle ligne se déclare trois fois** (FR, EN, `index.html`), mais une correction de chromosome
 ou de dominance doit être reportée dans les trois formats — c'est le seul point où la mécanique est fastidieuse, et le
