@@ -63,8 +63,8 @@ Les loci sont rangés dans les **16 premiers chapitres** : plante (port, feuilla
 - [14. Tolérances abiotiques & racines](#14-tolérances-abiotiques--racines) — *11 loci*
 - [15. Sources alléliques : votre germoplasme](#15-sources-alléliques--votre-germoplasme) — *8 loci*
 - [16. Combinaisons & épistasies](#16-combinaisons--épistasies) — *16 loci*
-- **[17. Fleur : biologie florale, stérilité mâle, couleur des pétales](#17-fleur--biologie-florale-stérilité-mâle-couleur-des-pétales)** — *le réseau derrière les chap. 1 et 5, dans ce fichier*
-- **[Ploïdie : diploïdie, tétraploïdisation, triploïdes sans pépins](#ploïdie--diploïdie-tétraploïdisation-triploïdes-sans-pépins)** — *hors des 230 loci, dans ce fichier*
+- [17. Fleur : biologie florale, stérilité mâle, couleur des pétales](#17-fleur--biologie-florale-stérilité-mâle-couleur-des-pétales) — *le réseau derrière les chap. 1 et 5, dans ce fichier*
+- [Ploïdie : diploïdie, tétraploïdisation, triploïdes sans pépins](#ploïdie--diploïdie-tétraploïdisation-triploïdes-sans-pépins) — *hors des 230 loci, dans ce fichier*
 - [Prédire la couleur du fruit](#prédire-la-couleur-du-fruit)
 - [Calculer la taille de sa descendance](#calculer-la-taille-de-sa-descendance)
 - [Les 10 règles d'or](#les-10-règles-dor)
