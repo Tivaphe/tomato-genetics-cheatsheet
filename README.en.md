@@ -1,10 +1,42 @@
-# Tomato genetics sheet 🍅
+<div align="center">
+  <a href="index.html"><img src="assets/banner.png" alt="Tomato genetics sheet — banner" width="100%"></a>
 
-![🇬🇧 English — this edition](https://img.shields.io/badge/%F0%9F%87%AC%F0%9F%87%A7_English-this_edition-64748b?style=for-the-badge)  [![🇫🇷 Français — → read the reference edition (French)](https://img.shields.io/badge/%F0%9F%87%AB%F0%9F%87%B7_Fran%C3%A7ais-%E2%86%92_read_the_reference_edition_%28French%29-0b6e4f?style=for-the-badge)](README.md)
+  <h1>🍅 Tomato genetics sheet</h1>
 
-**230 loci documented — plant architecture, foliage, fruit, flavour, nutrition and resistance genes, each with its mode of dominance and what it changes in a cross.**
+  <p><b>230 loci documented</b> — plant architecture, foliage, fruit, flavour,<br>nutrition and resistance genes, each with its mode of dominance<br>and what it changes in a cross.</p>
 
-[![loci](https://img.shields.io/badge/loci-230-0b6e4f?style=flat-square)](#table-of-contents) [![chapters](https://img.shields.io/badge/chapters-17-1d4ed8?style=flat-square)](#table-of-contents) [![interactive version](https://img.shields.io/badge/interactive%20version-index.html-6d28d9?style=flat-square)](index.html) [![ploidy](https://img.shields.io/badge/ploidy-integrated-1d4ed8?style=flat-square)](#ploidy-diploidy-tetraploidisation-seedless-triploids) [![licence](https://img.shields.io/badge/licence-MIT-f59e0b?style=flat-square)](LICENSE) ![updated](https://img.shields.io/badge/updated-15%2F10%202026-64748b?style=flat-square)
+  <p>
+    <a href="README.en.md"><img src="https://img.shields.io/badge/%F0%9F%87%AC%F0%9F%87%A7_English-this_edition-0b6e4f?style=for-the-badge" alt="English — this edition"></a>
+    <a href="README.md"><img src="https://img.shields.io/badge/%F0%9F%87%AB%F0%9F%87%B7_Fran%C3%A7ais-%E2%86%92_read_the_reference_edition_%28French%29-64748b?style=for-the-badge" alt="French reference edition"></a>
+  </p>
+
+  <p>
+    <a href="#table-of-contents"><img src="https://img.shields.io/badge/loci-230-0b6e4f?style=flat-square" alt="loci"></a>
+    <a href="#table-of-contents"><img src="https://img.shields.io/badge/chapters-17-1d4ed8?style=flat-square" alt="chapters"></a>
+    <a href="index.html"><img src="https://img.shields.io/badge/interactive%20version-index.html-6d28d9?style=flat-square" alt="interactive version"></a>
+    <a href="#ploidy-diploidy-tetraploidisation-seedless-triploids"><img src="https://img.shields.io/badge/ploidy-integrated-1d4ed8?style=flat-square" alt="ploidy"></a>
+    <a href="LICENSE"><img src="https://img.shields.io/badge/licence-MIT-f59e0b?style=flat-square" alt="licence"></a>
+    <img src="https://img.shields.io/badge/updated-15%2F10%202026-64748b?style=flat-square" alt="updated">
+  </p>
+
+  <p>
+    <a href="#the-essentials-in-12-points"><b>⚡ The essentials</b></a> ·
+    <a href="#how-to-read-this-sheet"><b>📖 How to read</b></a> ·
+    <a href="#table-of-contents"><b>🧭 Contents</b></a> ·
+    <a href="index.html"><b>🖥️ Interactive version</b></a> ·
+    <a href="SOURCES.md"><b>📚 Bibliography</b></a> ·
+    <a href="CONTRIBUTING.md"><b>🤝 Contributing</b></a>
+  </p>
+
+  <table>
+    <tr>
+      <td align="center"><b>230</b><br><sub>loci documented</sub></td>
+      <td align="center"><b>17</b><br><sub>chapters</sub></td>
+      <td align="center"><b>252</b><br><sub>references</sub></td>
+      <td align="center"><b>3</b><br><sub>files kept in sync</sub></td>
+    </tr>
+  </table>
+</div>
 
 > **Two editions, one genetics.** The button above opens the [French edition](README.md) — the reference one: same loci, same chromosomes, same dominance codes (parity is checked by hand on every edit, see [CONTRIBUTING.md](CONTRIBUTING.md)). The molecular layer — mutation nature, allele origin, accessions — lives only in the French edition.
 
