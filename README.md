@@ -173,6 +173,17 @@ pie showData
 
 ## 1. Port, architecture & inflorescence
 
+<div align="center">
+
+| 🏗️ Moteur SP/SFT — 32 loci | Dashboard B |
+| :--- | :--- |
+| **Loci** | voir légende [Comment lire](#comment-lire-cette-fiche) |
+
+</div>
+
+> [!NOTE]
+> **Gradient SP ↔ SFT :** `SP` (chr6 PEBP antiflorigène) freine, `SFT` (chr3 FT florigène) pousse. `sft/+` sur fond `sp` = +60% rdt — le seul hétéro à viser.
+
 *Déterminaison, ramification, taille, organogenèse de la grappe — le moteur SP/SFT.* — **32 loci**
 
 | Symbole | Nom / locus | Chr. | Dominance | Effet, phénotype | Ce que ça change en sélection |
@@ -252,6 +263,17 @@ pie showData
 
 ## 2. Feuillage — morphologie foliaire
 
+<div align="center">
+
+| 🍃 Feuillage — 15 loci | Dashboard B |
+| :--- | :--- |
+| **Loci** | voir légende [Comment lire](#comment-lire-cette-fiche) |
+
+</div>
+
+> [!TIP]
+> **Hiérarchie :** `La` > `tf` > KNOX/GOB > `e`. `Cu`/`Me`/`bip` saturent le même module KNOX — ne pas cumuler.
+
 *Regular / potato / carrot leaf : les quatre étages du contrôle (fenêtre, indétermination, frontières, extension).* — **15 loci**
 
 | Symbole | Nom / locus | Chr. | Dominance | Effet, phénotype | Ce que ça change en sélection |
@@ -297,6 +319,17 @@ pie showData
 
 ## 3. Trichomes & pubescence
 
+<div align="center">
+
+| 🔬 Trichomes — module WO+H — 6 loci | Dashboard B |
+| :--- | :--- |
+| **Loci** | voir légende [Comment lire](#comment-lire-cette-fiche) |
+
+</div>
+
+> [!IMPORTANT]
+> **Défense = colle :** `WO`+`H` = trichomes I/IV/VI. `h`/`hl` = luisant, sensible aleurodes — pas qu’esthétique.
+
 *Poils glandulaires = défense, arôme et colle à aleurodes. Module WO + H.* — **6 loci**
 
 | Symbole | Nom / locus | Chr. | Dominance | Effet, phénotype | Ce que ça change en sélection |
@@ -323,6 +356,17 @@ pie showData
 </details>
 
 ## 4. Feuillage — couleur & pigmentation
+
+<div align="center">
+
+| 🎨 Pigmentation — 12 loci | Dashboard B |
+| :--- | :--- |
+| **Loci** | voir légende [Comment lire](#comment-lire-cette-fiche) |
+
+</div>
+
+> [!WARNING]
+> **`Ip` ≠ `hp` :** `Ip` dominant sans défaut, `hp-1`/`hp-2` récessifs à port ralenti. `Aft`(chr10 dom) + `atv/atv` = violet intense.
 
 *High pigment, chlorophylle et anthocyanes végétatives.* — **12 loci**
 
@@ -362,6 +406,17 @@ pie showData
 </details>
 
 ## 5. Fleur, autogamie & nouaison
+
+<div align="center">
+
+| 🌸 Fleur & autogamie — 15 loci | Dashboard B |
+| :--- | :--- |
+| **Loci** | voir légende [Comment lire](#comment-lire-cette-fiche) |
+
+</div>
+
+> [!CAUTION]
+> **Verrou climatique :** `Style2.1` = autogame, mais `SlLst` >27°C exserte le style → allogamie à la canicule. `pat`/`pat-2` = parthénocarpie.
 
 *Le verrou d'autogamie (Style2.1), la stérilité mâle et la couleur des pétales.* — **15 loci**
 
@@ -407,6 +462,26 @@ pie showData
 </details>
 
 ## 6. Fruit — forme, loges & poids
+
+<div align="center">
+
+| 📐 Forme & poids — 2 axes + masse — 16 loci | Dashboard B |
+| :--- | :--- |
+| **Loci** | voir légende [Comment lire](#comment-lire-cette-fiche) |
+
+</div>
+
+> [!TIP]
+> **2 axes + masse :** longueur `SUN`/`OVATE` ≻ `LC`/`FAS` ; `FAS` = `SlCLV3` inv.294kb (≠ YABBY2b). `fw11.3` (45kb de `FAS`) — ne pas confondre.
+
+```mermaid
+graph TD
+    A[SUN / OVATE / FS8.1<br/>axe longueur] --> C{Forme}
+    B[LC / FAS / ENO / globe<br/>axe loges] --> C
+    D[fw2.2 / fw3.2 / fw11.3<br/>masse] --> E[Poids]
+    C --> F[Fruit final]
+    E --> F
+```
 
 *Deux axes indépendants (longueur × loges) plus les trois loci clonés du poids.* — **16 loci**
 
@@ -455,6 +530,25 @@ pie showData
 
 ## 7. Fruit — couleur (peau × chair)
 
+<div align="center">
+
+| 🎨 Couleur peau×chair — 12 loci | Dashboard B |
+| :--- | :--- |
+| **Loci** | voir légende [Comment lire](#comment-lire-cette-fiche) |
+
+</div>
+
+> [!WARNING]
+> **Pièges :** `Y` (*SlMYB12*) = **chr1** (pas 6). `B`/`og` alléliques (`CYC-B`) — on ne cumule pas nul+gain.
+
+**Matrice peau×chair :**
+
+| Chair \ Peau | `Y_` (jaune) | `y/y` (incolore) |
+| :--- | :---: | :---: |
+| `R_` rouge | 🔴 Rouge vif<br>Saint-Pierre | 🩷 Rose<br>Rose de Berne |
+| `rr` jaune | 🟡 Jaune doré | 🤍 Blanc |
+| `R_`+`gf/gf` | 🟤 Brun / noir | 🟣 Pourpre<br>Cherokee Purple |
+
 *Modèle bi-couche : caroténoïdes de la chair, flavonoïdes de la peau, chlorophylle.* — **12 loci**
 
 | Symbole | Nom / locus | Chr. | Dominance | Effet, phénotype | Ce que ça change en sélection |
@@ -496,6 +590,17 @@ pie showData
 
 ## 8. Fruit — maturation & conservation
 
+<div align="center">
+
+| ⏳ Maturation & conservation — 5 loci | Dashboard B |
+| :--- | :--- |
+| **Loci** | voir légende [Comment lire](#comment-lire-cette-fiche) |
+
+</div>
+
+> [!CAUTION]
+> **Conservation = arôme :** `rin`/`nor`/`Cnr` bloquent `TomLoxC`/`ADH2`/`HPL`. Hétéros `rin/+`/`nor/+` = compromis industriel.
+
 *rin, nor, alc, Cnr, Nr : le compromis conservation / arôme.* — **5 loci**
 
 | Symbole | Nom / locus | Chr. | Dominance | Effet, phénotype | Ce que ça change en sélection |
@@ -520,6 +625,17 @@ pie showData
 </details>
 
 ## 9. Saveur — sucres & solides solubles
+
+<div align="center">
+
+| 🍬 Sucres — 13 loci | Dashboard B |
+| :--- | :--- |
+| **Loci** | voir légende [Comment lire](#comment-lire-cette-fiche) |
+
+</div>
+
+> [!TIP]
+> **Frein levé 2024 :** `SlCDPK27` (chr11 RÉCESSIF) = frein à sucre lié à `fw11.3`, perdu à la domestication. KO = +16% solubles, double KO +30%.
 
 *Brix : les gisements sauvages et le « frein à sucre » levé en 2024.* — **13 loci**
 
@@ -562,6 +678,17 @@ pie showData
 
 ## 10. Saveur — acidité, umami & GABA
 
+<div align="center">
+
+| 🍋 Acidité & GABA — 8 loci | Dashboard B |
+| :--- | :--- |
+| **Loci** | voir légende [Comment lire](#comment-lire-cette-fiche) |
+
+</div>
+
+> [!NOTE]
+> **Malate vs citrate :** `SlALMT9` (chr6 semi-dom InDel 3pb) = malate vif. Citrate = 11 QTL — le préféré du conso, sans gène majeur.
+
 *Malate, citrate, glutamate libre et le cas d'école SlGAD.* — **8 loci**
 
 | Symbole | Nom / locus | Chr. | Dominance | Effet, phénotype | Ce que ça change en sélection |
@@ -592,6 +719,32 @@ pie showData
 </details>
 
 ## 11. Saveur — volatils & arôme
+
+<div align="center">
+
+| 🌬️ Volatils & arôme — 17 loci | Dashboard B |
+| :--- | :--- |
+| **Loci** | voir légende [Comment lire](#comment-lire-cette-fiche) |
+
+</div>
+
+> [!IMPORTANT]
+> **Surdominance :** `TomLoxC` hétéro > homos — ne pas fixer, vendre la F1. `RIN`/`NOR` règlent `TomLoxC`/`ADH2`/`HPL`.
+
+```mermaid
+quadrantChart
+    title Saveur — où miser ?
+    x-axis Faible Brix --> Fort Brix
+    y-axis Peu aromatique --> Très aromatique
+    quadrant-1 Riche & parfumé
+    quadrant-2 Sucré mais plat
+    quadrant-3 À éviter
+    quadrant-4 Parfumé mais peu sucré
+    LIN5: [0.7, 0.5]
+    TomLoxC het: [0.5, 0.9]
+    SlCDPK27: [0.95, 0.6]
+    rin: [0.2, 0.1]
+```
 
 *Le registre complet des gènes clonés de l'arôme.* — **17 loci**
 
@@ -642,6 +795,17 @@ pie showData
 
 ## 12. Nutrition & innocuité
 
+<div align="center">
+
+| 🥗 Nutrition & innocuité — 17 loci | Dashboard B |
+| :--- | :--- |
+| **Loci** | voir légende [Comment lire](#comment-lire-cette-fiche) |
+
+</div>
+
+> [!WARNING]
+> **Amertume :** `GORKY` chr3 RÉCESSIF — si `gorky/gorky`, α-tomatine reste dans fruit mûr = amer. Vérifier avant croisement sauvage.
+
 *Vitamines C / B9 / E, polyphénols, glycoalcaloïdes (amertume), minéraux.* — **17 loci**
 
 | Symbole | Nom / locus | Chr. | Dominance | Effet, phénotype | Ce que ça change en sélection |
@@ -690,6 +854,26 @@ pie showData
 </details>
 
 ## 13. Résistances biotiques
+
+<div align="center">
+
+| 🛡️ Résistances — 27 loci | Dashboard B |
+| :--- | :--- |
+| **Loci** | voir légende [Comment lire](#comment-lire-cette-fiche) |
+
+</div>
+
+> [!NOTE]
+> **Pyramider :** `I` (1939) → race2 → `I-2`+`I-3`. `Ty-2` chr11 NLR inv.300kb = drag → pyramider `Ty-1/3`+`ty-5`. `ol-2` vient de LA1230, pas *habrochaites*.
+
+```mermaid
+pie showData
+    title Résistances — 27 loci
+    "🟢 Dominant" : 15
+    "🟣 QTL" : 6
+    "🔵 Récessif" : 3
+    "🟡 Semi-dom" : 3
+```
 
 *Maladies et ravageurs : gènes majeurs, QTL, dominance et contournements.* — **27 loci**
 
@@ -760,6 +944,17 @@ pie showData
 
 ## 14. Tolérances abiotiques & racines
 
+<div align="center">
+
+| 🏜️ Abiotique & racines — 11 loci | Dashboard B |
+| :--- | :--- |
+| **Loci** | voir légende [Comment lire](#comment-lire-cette-fiche) |
+
+</div>
+
+> [!TIP]
+> **Porte-greffe > introgression :** 65% des porte-greffes améliorent le sel (h²=0.3). `HKT1;1`+`HKT1;2` chr7 additifs = exclusion Na⁺.
+
 *Sel, sécheresse, froid, chaleur — presque tout est additif.* — **11 loci**
 
 | Symbole | Nom / locus | Chr. | Dominance | Effet, phénotype | Ce que ça change en sélection |
@@ -797,6 +992,17 @@ pie showData
 
 ## 15. Sources alléliques : votre germoplasme
 
+<div align="center">
+
+| 🧬 Germoplasme — 8 sources | Dashboard B |
+| :--- | :--- |
+| **Loci** | voir légende [Comment lire](#comment-lire-cette-fiche) |
+
+</div>
+
+> [!IMPORTANT]
+> **Sans accession = proba :** variabilité intra > inter. *habrochaites* allogame (familles), à utiliser en **mâle** (incompatibilité unilatérale).
+
 *Espèce par espèce : ce que vous avez, à quelle probabilité, et comment le vérifier — plus une voie pour fixer.* — **8 loci**
 
 > 🍅 **À quel niveau de ploïdie travailler ?** Le TGRC maintient des **autotétraploïdes** (2-095 San Marzano 4x, 2-483 Red Cherry 4x, LA2335 *S. pimpinellifolium* 4x fertile) dont le comportement en croisement n'a rien de commun avec les lignes ci-dessus : voir la [section Ploïdie](#3-ressources-génétiques-disponibles--les-stocks-tétraploïdes-du-tgrc), sections 3 et 9.
@@ -831,6 +1037,17 @@ pie showData
 > ⚠️ Sans numéro d'accession, on raisonne en **probabilités** : la variabilité *à l'intérieur* d'une espèce dépasse souvent la variabilité *entre* espèces. Les tests de vérification sont dans le [protocole](#protocole-de-programme).
 
 ## 16. Combinaisons & épistasies
+
+<div align="center">
+
+| 🧩 Épistasies — 16 combinaisons | Dashboard B |
+| :--- | :--- |
+| **Loci** | voir légende [Comment lire](#comment-lire-cette-fiche) |
+
+</div>
+
+> [!NOTE]
+> **Règle :** même module KNOX (`Cu`/`Me`/`bip`) = saturation ; modules ≠ (`e`+`La`) = additif. `La` ≻ tout, `j` ≻ `s`, `Cnr` ≻ `rin`/`nor`.
 
 *Ce qui se cumule, ce qui s'écrase, ce qui vous tue la plante.* — **16 loci**
 

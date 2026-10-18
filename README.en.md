@@ -130,6 +130,17 @@ pie showData
 
 ## 1. Plant architecture & inflorescence
 
+<div align="center">
+
+| 🏗️ Habit — 32 loci | Dashboard B |
+| :--- | :--- |
+| **Loci** | see [How to read](#how-to-read) |
+
+</div>
+
+> [!NOTE]
+> **SP ↔ SFT balance:** `SP` (chr6 PEBP) represses, `SFT` (chr3 FT) promotes. Sympodial growth — `sft/+` on `sp` = +60% yield (only het to target).
+
 *Determination, branching, size, truss organogenesis — the SP/SFT switch* — **32 loci**
 
 | Symbol | Name / locus | Chr. | Dominance | Effect, phenotype | What it changes in selection |
@@ -169,6 +180,17 @@ pie showData
 
 ## 2. Foliage — leaf shape
 
+<div align="center">
+
+| 🍃 Leaf shape — 15 loci | Dashboard B |
+| :--- | :--- |
+| **Loci** | see [How to read](#how-to-read) |
+
+</div>
+
+> [!TIP]
+> **Hierarchy:** `La` > `tf` > KNOX/GOB > `e`. Same KNOX module saturates — don't stack `Cu`/`Me`/`bip`.
+
 *Regular / potato / carrot leaf: the four layers of compound-leaf control* — **15 loci**
 
 | Symbol | Name / locus | Chr. | Dominance | Effect, phenotype | What it changes in selection |
@@ -191,6 +213,17 @@ pie showData
 
 ## 3. Trichomes & pubescence
 
+<div align="center">
+
+| 🔬 Trichomes — 6 loci | Dashboard B |
+| :--- | :--- |
+| **Loci** | see [How to read](#how-to-read) |
+
+</div>
+
+> [!IMPORTANT]
+> **WO+H module:** controls defensive hairs. `h`/`hl` = glossy, whitefly-sensitive.
+
 *Glandular hairs = defence, aroma and sticky glue for whiteflies; the WO + H module* — **6 loci**
 
 | Symbol | Name / locus | Chr. | Dominance | Effect, phenotype | What it changes in selection |
@@ -203,6 +236,17 @@ pie showData
 | `glandless` | Glandless | 9 | 🔵 RECESSIVE | Type VI glandular trichomes present but without gland: terpenes lost | SlHDZ38 (HD-ZIP IV). Type I/IV acylsugar exudate is a separate trait. |
 
 ## 4. Foliage — colour & pigmentation
+
+<div align="center">
+
+| 🎨 Pigment — 12 loci | Dashboard B |
+| :--- | :--- |
+| **Loci** | see [How to read](#how-to-read) |
+
+</div>
+
+> [!WARNING]
+> **`Ip` ≠ `hp`:** `Ip` dominant, `hp-1/2` recessive (thick leaves, slow). `Aft`(chr10 dom)+`atv` = deep purple.
 
 *High pigment, chlorophyll and vegetative anthocyanins* — **12 loci**
 
@@ -222,6 +266,17 @@ pie showData
 | `abg` | Aubergine | 10 | 🔵 RECESSIVE | Anthocyanin pigmentation with a different cellular distribution from Aft | Same AN2-like gene (allele Abg) + MYB113, from S. lycopersicoides. Historically described as recessive. |
 
 ## 5. Flower, selfing & fruit set
+
+<div align="center">
+
+| 🌸 Flower & set — 15 loci | Dashboard B |
+| :--- | :--- |
+| **Loci** | see [How to read](#how-to-read) |
+
+</div>
+
+> [!CAUTION]
+> **Climate lock:** `Style2.1`=selfing, but `SlLst` >27°C exserts style. `pat` = seedless without pollination.
 
 *The selfing lock (Style2.1), male sterility and petal colour* — **15 loci**
 
@@ -244,6 +299,24 @@ pie showData
 | `pat-k (tagl6)` | Parthenocarpic fruit-k (SlAGL6 / TAGL6) | 1 | 🔵 RECESSIVE | FACULTATIVE parthenocarpy: sets fruit without pollination under stress (heat, shade), still pollinatable in normal conditions | The clean greenhouse route: unlike `pat`, no dwarfing and no systematically small fruit, and pollen stays useful to maintain the line. Recessive — fix it, and combine with `Style2.1` so your polytunnel does not become an open-pollination field. |
 
 ## 6. Fruit shape, locule number & weight
+
+<div align="center">
+
+| 📐 Shape & weight — 16 loci | Dashboard B |
+| :--- | :--- |
+| **Loci** | see [How to read](#how-to-read) |
+
+</div>
+
+> [!TIP]
+> **2 axes + weight:** `SUN`/`OVATE` vs `LC`/`FAS`; `FAS`=*SlCLV3* inv.294kb (≠YABBY2b). `fw11.3` 45kb from `FAS`.
+
+```mermaid
+graph TD
+    A[SUN / OVATE<br/>length] --> C{Shape}
+    B[LC / FAS<br/>locules] --> C
+    D[fw2.2 / fw3.2 / fw11.3<br/>weight] --> E[Weight]
+```
 
 *Two independent axes (length × locules) plus the three cloned weight loci* — **16 loci**
 
@@ -268,6 +341,25 @@ pie showData
 
 ## 7. Fruit colour (skin × flesh)
 
+<div align="center">
+
+| 🎨 Colour — 12 loci | Dashboard B |
+| :--- | :--- |
+| **Loci** | see [How to read](#how-to-read) |
+
+</div>
+
+> [!WARNING]
+> **`Y`=chr1** (not 6). `B`/`og` allelic at `CYC-B` — can't stack.
+
+**Skin×flesh matrix:**
+
+| Flesh \ Skin | `Y_` yellow | `y/y` clear |
+| :--- | :---: | :---: |
+| `R_` red | 🔴 Red<br>Saint-Pierre | 🩷 Pink |
+| `rr` yellow | 🟡 Gold | 🤍 White |
+| `R_`+`gf/gf` | 🟤 Brown | 🟣 Purple |
+
 *Bi-layer model: carotenoids in the flesh, flavonoids in the skin, residual chlorophyll* — **12 loci**
 
 | Symbol | Name / locus | Chr. | Dominance | Effect, phenotype | What it changes in selection |
@@ -289,6 +381,17 @@ pie showData
 
 ## 8. Fruit ripening & storage
 
+<div align="center">
+
+| ⏳ Ripening — 5 loci | Dashboard B |
+| :--- | :--- |
+| **Loci** | see [How to read](#how-to-read) |
+
+</div>
+
+> [!CAUTION]
+> **Keeping = aroma:** `rin`/`nor`/`Cnr` kill `TomLoxC`/`ADH2`. Hets `rin/+` = compromise.
+
 *rin, nor, alc, Cnr, Nr: the storage/aroma trade-off* — **5 loci**
 
 | Symbol | Name / locus | Chr. | Dominance | Effect, phenotype | What it changes in selection |
@@ -300,6 +403,17 @@ pie showData
 | `Nr` | Never ripe | 9 | 🟢 DOMINANT | Ripening blocked, delayed senescence and abscission | SlETR3 ethylene receptor, sensor-domain mutation (gain of function) · Dominant-negative: shows in the F1, handle with care in hybrid programmes. |
 
 ## 9. Flavour — sugars & soluble solids
+
+<div align="center">
+
+| 🍬 Sugars — 13 loci | Dashboard B |
+| :--- | :--- |
+| **Loci** | see [How to read](#how-to-read) |
+
+</div>
+
+> [!TIP]
+> **Sugar brake 2024:** `SlCDPK27` chr11 REC = brake lost with `fw11.3`. KO +16%, double KO +30%.
 
 *Brix: the wild gene pools and the "sugar brake" released in 2024* — **13 loci**
 
@@ -321,6 +435,17 @@ pie showData
 
 ## 10. Flavour — acidity, umami & GABA
 
+<div align="center">
+
+| 🍋 Acids & GABA — 8 loci | Dashboard B |
+| :--- | :--- |
+| **Loci** | see [How to read](#how-to-read) |
+
+</div>
+
+> [!NOTE]
+> `SlALMT9` chr6 semi-dom = malate. Citrate = 11 QTL, consumer prefers it.
+
 *Malate, citrate, free glutamate and the SlGAD case study* — **8 loci**
 
 | Symbol | Name / locus | Chr. | Dominance | Effect, phenotype | What it changes in selection |
@@ -335,6 +460,27 @@ pie showData
 | `Free glutamate pool (umami)` | Umami | divers | 🟣 QTL / ADDITIVE | L-glutamate is the dominant free amino acid of red fruit; no "umami locus" cloned | Peptidases, γ-glutamyl transpeptidase, GDH and GABA-T (the last two surge at ripening) · Quantitative, non-Mendelian. IMP/GMP nucleotides are near absent in tomato: the umami bomb comes from synergy with other ingredients in a cooked dish. |
 
 ## 11. Flavour — volatiles & aroma
+
+<div align="center">
+
+| 🌬️ Volatiles — 17 loci | Dashboard B |
+| :--- | :--- |
+| **Loci** | see [How to read](#how-to-read) |
+
+</div>
+
+> [!IMPORTANT]
+> **Overdominance:** `TomLoxC` het > homos — sell F1. `RIN`/`NOR` control aroma.
+
+```mermaid
+quadrantChart
+    title Flavour — where to invest?
+    x-axis Low Brix --> High Brix
+    y-axis Weak aroma --> Strong aroma
+    quadrant-1 Rich & aromatic
+    LIN5: [0.7, 0.5]
+    TomLoxC het: [0.5, 0.9]
+```
 
 *The full catalogue of cloned aroma genes* — **17 loci**
 
@@ -360,6 +506,17 @@ pie showData
 
 ## 12. Nutrition & safety
 
+<div align="center">
+
+| 🥗 Nutrition — 17 loci | Dashboard B |
+| :--- | :--- |
+| **Loci** | see [How to read](#how-to-read) |
+
+</div>
+
+> [!WARNING]
+> `GORKY` chr3 REC — if `gorky/gorky`, α-tomatine stays = bitter/toxic. Check wild crosses.
+
 *Vitamins C / B9 / E, polyphenols, glycoalkaloids, minerals* — **17 loci**
 
 | Symbol | Name / locus | Chr. | Dominance | Effect, phenotype | What it changes in selection |
@@ -383,6 +540,25 @@ pie showData
 | `TOMLHA1 / FRO1 / NRAMP2 / FER / MYB72` | Fruit iron & zinc | divers | 🟣 QTL / ADDITIVE | No major Fe/Zn fruit gene cloned to date; QTL and candidate genes | NRAMP / ZIP / YSL / NAS / ferritin families · Polygenic, additive, weakly heritable: agronomic biofortification (foliar feeding) still beats genetics in speed and efficiency. |
 
 ## 13. Biotic resistances
+
+<div align="center">
+
+| 🛡️ Resistances — 27 loci | Dashboard B |
+| :--- | :--- |
+| **Loci** | see [How to read](#how-to-read) |
+
+</div>
+
+> [!NOTE]
+> **Pyramid:** `I`→`I-2`+`I-3`; `Ty-2` drag 300kb → `Ty-1/3`+`ty-5`.
+
+```mermaid
+pie showData
+    title Resistances — 27 loci
+    "🟢 Dominant" : 15
+    "🟣 QTL" : 6
+    "🔵 Recessif" : 3
+```
 
 *Major genes, QTL, dominance and known breakdowns* — **27 loci**
 
@@ -418,6 +594,17 @@ pie showData
 
 ## 14. Abiotic tolerances & roots
 
+<div align="center">
+
+| 🏜️ Abiotic — 11 loci | Dashboard B |
+| :--- | :--- |
+| **Loci** | see [How to read](#how-to-read) |
+
+</div>
+
+> [!TIP]
+> Rootstock > introgression: 65% improve salt tolerance. `HKT1` chr7 additive.
+
 *Salt, drought, cold, heat — almost everything is additive* — **11 loci**
 
 | Symbol | Name / locus | Chr. | Dominance | Effect, phenotype | What it changes in selection |
@@ -435,6 +622,17 @@ pie showData
 | `QTL heat (chr 9)` | Reproductive heat tolerance | 9 | 🟣 QTL / ADDITIVE | Maintains seed number under heat stress (ABC transporters as candidates) | Introgression at 65.5–66.3 Mb, BIL lines of LA1589 · ⚠ LA1589 itself is heat-SENSIBLE: tolerances can be cryptic and only show in a cultivated background. |
 
 ## 15. Allele sources: your germplasm
+
+<div align="center">
+
+| 🧬 Germplasm — 8 sources | Dashboard B |
+| :--- | :--- |
+| **Loci** | see [How to read](#how-to-read) |
+
+</div>
+
+> [!IMPORTANT]
+> No accession = probability. *habrochaites* allogamous — use as **male**.
 
 *Species by species: what you likely have, at what probability, and how to check it — plus one route to fix it* — **8 loci**
 
@@ -454,6 +652,17 @@ pie showData
 > ⚠️ Without an accession number you reason in **probabilities**: variation *within* a species often exceeds variation *between* species. The verification tests are in the [protocol](#programme-protocol).
 
 ## 16. Combinations & epistasis
+
+<div align="center">
+
+| 🧩 Epistasis — 16 combos | Dashboard B |
+| :--- | :--- |
+| **Loci** | see [How to read](#how-to-read) |
+
+</div>
+
+> [!NOTE]
+> Same KNOX module = saturation; different modules = additive. `La` epistatic over all.
 
 *What stacks, what cancels, what kills the plant* — **16 loci**
 
