@@ -1,111 +1,130 @@
 <div align="center">
-  <a href="index.html"><img src="assets/banner.png" alt="Tomato genetics sheet — banner" width="100%"></a>
 
-  <h1>🍅 Tomato genetics sheet</h1>
+  <a href="index.html"><img src="assets/banner.png" alt="Tomato genetics banner" width="100%"></a>
 
-  <p><b>230 loci documented</b> — plant architecture, foliage, fruit, flavour,<br>nutrition and resistance genes, each with its mode of dominance<br>and what it changes in a cross.</p>
+  <h1>🍅 Tomato Genetics Cheatsheet</h1>
+  <p><b>230 documented loci</b> — habit to fruit, flavour to resistance —<br>with <b>dominance</b> and what it changes <b>in a cross</b>.</p>
 
   <p>
-    <a href="README.en.md"><img src="https://img.shields.io/badge/%F0%9F%87%AC%F0%9F%87%A7_English-this_edition-0b6e4f?style=for-the-badge" alt="English — this edition"></a>
-    <a href="README.md"><img src="https://img.shields.io/badge/%F0%9F%87%AB%F0%9F%87%B7_Fran%C3%A7ais-%E2%86%92_read_the_reference_edition_%28French%29-64748b?style=for-the-badge" alt="French reference edition"></a>
+    <a href="./README.md"><img src="https://img.shields.io/badge/%F0%9F%87%AB%F0%9F%87%B7_Fran%C3%A7ais-FR_edition-384151?style=for-the-badge" alt="FR"></a>
+    <a href="./README.en.md"><img src="https://img.shields.io/badge/%F0%9F%87%AC%F0%9F%87%A7_English-this_edition-0b6e4f?style=for-the-badge" alt="EN"></a>
+    <a href="index.html"><img src="https://img.shields.io/badge/%F0%9F%94%AC_Lab-interactive-6d28d9?style=for-the-badge" alt="lab"></a>
   </p>
 
   <p>
-    <a href="#table-of-contents"><img src="https://img.shields.io/badge/loci-230-0b6e4f?style=flat-square" alt="loci"></a>
-    <a href="#table-of-contents"><img src="https://img.shields.io/badge/chapters-17-1d4ed8?style=flat-square" alt="chapters"></a>
-    <a href="index.html"><img src="https://img.shields.io/badge/interactive%20version-index.html-6d28d9?style=flat-square" alt="interactive version"></a>
-    <a href="#ploidy-diploidy-tetraploidisation-seedless-triploids"><img src="https://img.shields.io/badge/ploidy-integrated-1d4ed8?style=flat-square" alt="ploidy"></a>
-    <a href="LICENSE"><img src="https://img.shields.io/badge/licence-MIT-f59e0b?style=flat-square" alt="licence"></a>
-    <img src="https://img.shields.io/badge/updated-15%2F10%202026-64748b?style=flat-square" alt="updated">
+    <a href="#contents"><img src="https://img.shields.io/badge/loci-230-0b6e4f?style=flat-square" alt="230"></a>
+    <a href="#contents"><img src="https://img.shields.io/badge/chapters-17-1d4ed8?style=flat-square" alt="17"></a>
+    <a href="#ploidy"><img src="https://img.shields.io/badge/ploidy-integrated-7c3aed?style=flat-square" alt="ploidy"></a>
+    <a href="#f2-size"><img src="https://img.shields.io/badge/calculator-F2-0891b2?style=flat-square" alt="calc"></a>
+    <img src="https://img.shields.io/badge/updated-15%2F10%2F2026-64748b?style=flat-square" alt="upd">
   </p>
 
-  <p>
-    <a href="#the-essentials-in-12-points"><b>⚡ The essentials</b></a> ·
-    <a href="#how-to-read-this-sheet"><b>📖 How to read</b></a> ·
-    <a href="#table-of-contents"><b>🧭 Contents</b></a> ·
-    <a href="index.html"><b>🖥️ Interactive version</b></a> ·
-    <a href="SOURCES.md"><b>📚 Bibliography</b></a> ·
-    <a href="CONTRIBUTING.md"><b>🤝 Contributing</b></a>
-  </p>
-
-  <table>
-    <tr>
-      <td align="center"><b>230</b><br><sub>loci documented</sub></td>
-      <td align="center"><b>17</b><br><sub>chapters</sub></td>
-      <td align="center"><b>252</b><br><sub>references</sub></td>
-      <td align="center"><b>3</b><br><sub>files kept in sync</sub></td>
-    </tr>
-  </table>
 </div>
 
-> **Two editions, one genetics.** The button above opens the [French edition](README.md) — the reference one: same loci, same chromosomes, same dominance codes (parity is checked by hand on every edit, see [CONTRIBUTING.md](CONTRIBUTING.md)). The molecular layer — mutation nature, allele origin, accessions — lives only in the French edition.
+<div align="center">
 
-> **Who is this for?** Advanced amateur breeders, market gardeners, students and plant-breeding researchers. Every row answers three questions: *which gene, on which chromosome, dominant or recessive* — and therefore: *do I see it in the F1, or do I have to sow 200 plants*.
+| KPI | Value | KPI | Value |
+| :--- | :---: | :--- | :--- |
+| 🧬 **Documented loci** | `230` | 📑 **Chapters** | `17` |
+| 📚 **References** | `252` | 🔗 **Synced files** | `3` |
 
-`230 loci` · `17 chapters (16 with loci)` · `ploidy outside the chapters` · literature checked through 2026 · claims that are not published are explicitly marked **[extrapolation]**.
+<sub>Single source: `README.md` = truth · `README.en.md` & `index.html` = mirrors · 230·230·230</sub>
 
-## The essentials in 12 points
+</div>
 
-1. The **wild** tomato phenotype is round, red, yellow-matte skinned, indeterminate, with compound leaves and normal vigour: almost every mutant allele used by breeders is therefore **recessive** (loss of function).
-2. **The best predictor of dominance is not the phenotype but the nature of the mutation**: gain of function (duplication, promoter, overexpression) ⇒ dominant or semi-dominant; loss of function (stop codon, deletion, frameshift) ⇒ recessive.
-3. **Determinate habit is recessive** (`sp/sp`): contrary to a widespread belief, indeterminacy dominates, because `SP` is an antiflorigene and one functional copy is enough.
-4. Fruit shape is read on **two independent axes** (length: `SUN`, `OVATE`, `FS8.1`, `PT`; locules/flattening: `LC`, `FAS`, `ENO`, `globe`) plus a third one for mass (`fw2.2`, `fw3.2`, `fw11.3`).
-5. Colour = **three stackable layers**: flesh carotenoids (`r`, `t`, `B`, `og`) × skin flavonols (`Y`/`y`) × residual chlorophyll (`gf`, `u`). Three genes in homozygosity are enough to get an entirely green fruit.
-6. **Pink is not a flesh colour**: it is a red fruit `R_` seen through skin **devoid of flavonols** (`y/y`, *SlMYB12*, chr 1) — and therefore also stripped of part of its nutritional value.
-7. **Flavour is a five-piece puzzle** (sugars, acids, ~15 key volatiles, free amino acids including glutamate, bitterness): selecting on °Brix alone is not enough, because some volatiles raise *perceived* sweetness without changing measured sugar.
-8. **`TomLoxC` is over-dominant**: the heterozygote expresses more aroma than either homozygote. That is the strong genetic argument for evaluating — and sometimes selling — **F1s** rather than pure lines for this trait.
-9. **Keeping quality and aroma are controlled by the same regulators** (`RIN`, `NOR`, `FUL1/2`): blocking ripening (`rin`, `nor`, `Cnr`) destroys the perfume as well. The trade-off is genetic, not bad luck.
-10. Almost every allele of taste or nutritional interest was **lost during domestication** (rare `TomLoxC`, high-sugar `SlCDPK27`, strong `DXR` alleles, `GAME9`/`GE1`): recovering them takes introgression from wild relatives or targeted editing (CRISPR).
-11. In the **Galápagos** species (*cheesmaniae*, *galapagense*) and in *habrochaites*, introgressions have to cross **chromosomal inversions** (up to 18–21 Mb): recombination is blocked there, linkage drag is structural — plan fine mapping populations.
-12. Dominance **is not a constant of the locus**: `d/a` changes with the parent pair and with the trait measured (`fs8.1`: −0.47 for shape, +1.14 for weight). Every value in this repository is an *informed guess to check on your own population*, never a law.
+> [!IMPORTANT]
+> **Read in 10 s:** 🟢 **DOMINANT** = shows in F1 (1 parent) · 🟡 **SEMI** = dosage, het intermediate (need marker) · 🔵 **RECESSIVE** = 2 copies, 25% F2 (fix it) · 🟣 **QTL** = quantitative. **Best predictor is the mutation type**, not the phenotype: *gain* (duplication/promoter) → dominant, *loss* (stop/deletion) → recessive.
 
-## How to read this sheet
+> [!NOTE]
+> **Two editions, one genetics.** [FR →](./README.md) same loci/chr/dominance, without molecular layer. `index.html` is the interactive mirror (real JS filtering).
 
-One row = one locus. The **Dominance** column is the piece of information that decides the whole crossing protocol:
+---
 
-| | Mode of dominance | Meaning | Practical consequence |
-|:--|:--|:--|:--|
-| 🟢 | **DOMINANT** | Expressed in the F1: one donor parent is enough. | One donor parent is enough: the trait is already there in the F1, so it pays off in a hybrid too. |
-| 🟡 | **SEMI-DOMINANT** | Heterozygote is intermediate: a dosage effect. | The heterozygote is intermediate: a marker (or an F2 measurement) is the only way to know what you actually have. |
-| 🔵 | **RECESSIVE** | Two copies needed: fix it homozygous (25% in the F2). | Screen the F2 (25% per trait) or co-dominant-marker seedlings; fix the line before judging the fruit. |
-| 🟣 | **QTL / ADDITIVE** | Quantitative trait: marker-assisted or genomic selection. | No single-gene screening possible: gain ground by stacking QTL, repeated phenotyping across years and sites, or genomic selection. |
-| 🟠 | **OVER-DOMINANCE** | The heterozygote outperforms both homozygotes (heterosis). | Do NOT fix it: the optimum state is the heterozygote. Evaluate your F1s, not your inbreds. |
-| ⚫ | **EPIGENETIC** | DNA methylation: outside Mendelian dominance, the sequence does not tell all. | The DNA genotype can lie: plan direct phenotyping or an epimarker (methylation). |
-| ⚪ | **MIXED / BACKGROUND** | Dominance changes with the genetic background or the trait measured. | Measure dominance in YOUR population: a published value belongs to somebody else's background. |
+<a id="table-of-contents"></a>
 
-**Notation.** `R_` = at least one *R* allele (dominant expressed) · `yy` and `gf/gf` = recessive homozygote · `Sp/sp` = heterozygote — with semi-dominants, that is where the *level* of expression (habit, resistance, Brix) is decided. `n.d.` = the locus is not finely mapped in the sources compiled here: **do not invent it**. `Chr.` = chromosome of the SL4.0 (ITAG 4.0) map. `—` in the Dominance column marks a germplasm row or an epistatic combination, not a Mendelian locus; a qualified label (`Q (additive)`, `RECESSIVE → SEMI-DOMINANT`) carries over the precision written in the input file.
+## 🧭 Contents — dashboard
 
-The loci are arranged in the **first 16 chapters**: plant (habit, foliage, trichomes, pigmentation, flower), fruit (shape, colour, ripening), flavour (sugars, acids, volatiles), nutrition, biotic resistance, abiotic tolerance, allelic sources and epistasis. **Chapter 17** explores floral biology without adding rows to the count of 230 loci. **Ploidy** — chromosome doubling, tetrasomic dosage, seedless triploids — is not a chapter but a dedicated section, [below](#ploidy-diploidy-tetraploidisation-seedless-triploids): it changes the segregation rules of every locus in the tables without being a locus itself. Chapter 17 and the ploidy section are integrated in this edition and in the French one; only the bibliography stays French. This edition keeps the breeder-facing columns; the molecular layer (mutation nature, allele origin, accessions) lives in the French edition [`README.md`](README.md) only. There is no data file and no build script here: the tables are the source. [`index.html`](index.html), at the repository root, is the self-contained searchable page (no network dependency) with full-text search, dominance filters, an F2 population calculator and A4 landscape print style. A fix must be carried by hand into all three files — `README.md`, `README.en.md`, `index.html`.
+<div align="center">
 
-## Table of contents
+| 🌱 **Plant** | 🍅 **Fruit** | 👅 **Flavour & Defence** |
+| :--- | :--- | :--- |
+| [1. Habit — 32](#1-plant-architecture--inflorescence) | [6. Shape & weight — 16](#6-fruit-shape-locule-number--weight) | [9. Sugars — 13](#9-flavour--sugars--soluble-solids) |
+| [2. Foliage — 15](#2-foliage--leaf-shape) | [7. Colour — 12](#7-fruit-colour-skin--flesh) | [10. Acids & GABA — 8](#10-flavour--acidity-umami--gaba) |
+| [3. Trichomes — 6](#3-trichomes--pubescence) | [8. Ripening — 5](#8-fruit-ripening--storage) | [11. Volatiles — 17](#11-flavour--volatiles--aroma) |
+| [4. Pigment — 12](#4-foliage--colour--pigmentation) | [↗ Predict colour](#predicting-fruit-colour) | [12. Nutrition — 17](#12-nutrition--safety) |
+| [5. Flower — 15](#5-flower-selfing--fruit-set) | [🧮 F2 calculator](#sizing-your-progeny) | [13. Resistances — 27](#13-biotic-resistances) |
 
-- [1. Plant architecture & inflorescence](#1-plant-architecture--inflorescence) — *32 loci*
-- [2. Foliage — leaf shape](#2-foliage--leaf-shape) — *15 loci*
-- [3. Trichomes & pubescence](#3-trichomes--pubescence) — *6 loci*
-- [4. Foliage — colour & pigmentation](#4-foliage--colour--pigmentation) — *12 loci*
-- [5. Flower, selfing & fruit set](#5-flower-selfing--fruit-set) — *15 loci*
-- [6. Fruit shape, locule number & weight](#6-fruit-shape-locule-number--weight) — *16 loci*
-- [7. Fruit colour (skin × flesh)](#7-fruit-colour-skin--flesh) — *12 loci*
-- [8. Fruit ripening & storage](#8-fruit-ripening--storage) — *5 loci*
-- [9. Flavour — sugars & soluble solids](#9-flavour--sugars--soluble-solids) — *13 loci*
-- [10. Flavour — acidity, umami & GABA](#10-flavour--acidity-umami--gaba) — *8 loci*
-- [11. Flavour — volatiles & aroma](#11-flavour--volatiles--aroma) — *17 loci*
-- [12. Nutrition & safety](#12-nutrition--safety) — *17 loci*
-- [13. Biotic resistances](#13-biotic-resistances) — *27 loci*
-- [14. Abiotic tolerances & roots](#14-abiotic-tolerances--roots) — *11 loci*
-- [15. Allele sources: your germplasm](#15-allele-sources-your-germplasm) — *8 loci*
-- [16. Combinations & epistasis](#16-combinations--epistasis) — *16 loci*
-- [17. Flower: floral biology, male sterility, petal colour](#17-flower-floral-biology-male-sterility-petal-colour) — *the network behind chapters 1 and 5, in this file*
-- [Ploidy: diploidy, tetraploidisation, seedless triploids](#ploidy-diploidy-tetraploidisation-seedless-triploids) — *outside the 230 loci, in this file*
-- [Predicting fruit colour](#predicting-fruit-colour)
-- [Sizing your progeny](#sizing-your-progeny)
-- [The 10 golden rules](#the-10-golden-rules)
-- [Markers and genotyping](#markers-and-genotyping)
-- [Pitfalls and corrections](#pitfalls-and-corrections)
-- [Programme protocol](#programme-protocol)
-- [Reproducibility](#reproducibility)
-- [Sources, licence and citation](#sources-licence-and-citation)
-- [SOURCES.md](SOURCES.md) — full bibliography (references are language-neutral) · [CONTRIBUTING.md](CONTRIBUTING.md) · [LICENSE](LICENSE)
+| 📦 **Resources** | 📖 **Methods** |
+| :--- | :--- |
+| [15. Germplasm — 8](#15-allele-sources-your-germplasm) | [10 golden rules](#the-10-golden-rules) |
+| [16. Epistasis — 16](#16-combinations--epistasis) | [Markers & genotyping](#markers-and-genotyping) |
+| [17. Flower — ABCDE](#17-flower-floral-biology-male-sterility-petal-colour) | [Pitfalls & corrections](#pitfalls-and-corrections) |
+| [Ploidy — 4x/3x](#ploidy-diploidy-tetraploidisation-seedless-triploids) | [Breeding protocol](#programme-protocol) |
+
+</div>
+
+---
+
+<a id="essentials-in-12-points"></a>
+
+## ⚡ Essentials in 12 points
+
+```mermaid
+flowchart LR
+    A[Gain-of-function] --> B([🟢/🟡 Dominant])
+    C[Loss-of-function] --> D([🔵 Recessive])
+```
+
+| # | Point | Take-away |
+| :---: | :--- | :--- |
+| **1** | Wild = round, red, indeterminate → mutants = recessive | Loss = recessive by default |
+| **2** | **Gain → dom/semi; loss → rec** | Predictor #1 |
+| **3** | `sp/sp` determined recessive (SP dominates) | SP/sp = indeterminate |
+| **4** | Shape = SUN/OVATE × LC/FAS + fw weights | 2 axes + mass |
+| **5** | Colour = flesh × skin `Y`/`y` × chloro `gf`/`u` | 3 recessives = green |
+| **6** | Pink = `R_` through `y/y` SlMYB12 chr1 — less nutritious | No flavonols |
+
+---
+
+<a id="how-to-read"></a>
+<a id="how-to-read-this-sheet"></a>
+
+## 📖 How to read
+
+<div align="center">
+
+| Mode | Icon | When? | Protocol |
+| :--- | :---: | :--- | :--- |
+| **DOMINANT** | 🟢 | In F1 | 1 donor parent |
+| **SEMI-DOMINANT** | 🟡 | Het intermediate | Need marker |
+| **RECESSIVE** | 🔵 | 2 copies (25% F2) | Fix to homozygosity |
+| **QTL / ADDITIVE** | 🟣 | Quantitative | Genomic selection |
+| **OVERDOMINANCE** | 🟠 | Het > homos | Keep the het — don’t fix |
+| **EPIGENETIC** | ⚫ | Methylation | Need epi-marker |
+
+</div>
+
+---
+
+<a id="distribution"></a>
+
+## 📊 Distribution
+
+| | Loci | Share | Icon |
+| :--- | :---: | :---: | :---: |
+| Recessive | 142 | 62% | 🔵 |
+| QTL/additive | 42 | 18% | 🟣 |
+| Dominant | 23 | 10% | 🟢 |
+| Semi-dominant | 14 | 6% | 🟡 |
+
+```mermaid
+pie showData
+    title Dominance — 230 loci
+    "🔵 Recessive" : 142
+    "🟣 QTL" : 42
+    "🟢 Dominant" : 23
+    "🟡 Semi" : 14
+```
 
 ---
 
