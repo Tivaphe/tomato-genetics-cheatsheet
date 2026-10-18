@@ -1,8 +1,42 @@
-# Fiche génétique de la tomate 🍅
+<div align="center">
+  <a href="index.html"><img src="assets/banner.png" alt="Fiche génétique de la tomate — bannière" width="100%"></a>
 
-![🇫🇷 Français — cette édition](https://img.shields.io/badge/%F0%9F%87%AB%F0%9F%87%B7_Fran%C3%A7ais-cette_%C3%A9dition-64748b?style=for-the-badge)  [![🇬🇧 English — lire cette fiche en anglais →](https://img.shields.io/badge/%F0%9F%87%AC%F0%9F%87%A7_English-lire_cette_fiche_en_anglais_%E2%86%92-0b6e4f?style=for-the-badge)](README.en.md)
+  <h1>🍅 Fiche génétique de la tomate</h1>
 
-**230 loci documentés — gènes du port, du feuillage, du fruit, de la saveur, de la nutrition et des résistances — avec leur mode de dominance et ce que ça change concrètement en croisement.**
+  <p><b>230 loci documentés</b> — gènes du port, du feuillage, du fruit, de la saveur,<br>de la nutrition et des résistances — avec leur mode de dominance<br>et ce que ça change concrètement en croisement.</p>
+
+  <p>
+    <a href="README.md"><img src="https://img.shields.io/badge/%F0%9F%87%AB%F0%9F%87%B7_Fran%C3%A7ais-cette_%C3%A9dition-0b6e4f?style=for-the-badge" alt="Français — cette édition"></a>
+    <a href="README.en.md"><img src="https://img.shields.io/badge/%F0%9F%87%AC%F0%9F%87%A7_English-read_the_English_edition_%E2%86%92-64748b?style=for-the-badge" alt="English edition"></a>
+  </p>
+
+  <p>
+    <a href="#sommaire"><img src="https://img.shields.io/badge/loci-230-0b6e4f?style=flat-square" alt="loci"></a>
+    <a href="#sommaire"><img src="https://img.shields.io/badge/chapitres-17-1d4ed8?style=flat-square" alt="chapitres"></a>
+    <a href="index.html"><img src="https://img.shields.io/badge/version%20interactive-index.html-6d28d9?style=flat-square" alt="version interactive"></a>
+    <a href="#ploïdie--diploïdie-tétraploïdisation-triploïdes-sans-pépins"><img src="https://img.shields.io/badge/plo%C3%AFdie-int%C3%A9gr%C3%A9e-1d4ed8?style=flat-square" alt="ploïdie"></a>
+    <a href="LICENSE"><img src="https://img.shields.io/badge/licence-MIT-f59e0b?style=flat-square" alt="licence"></a>
+    <img src="https://img.shields.io/badge/mis%20%C3%A0%20jour-15%2F10%2F2026-64748b?style=flat-square" alt="mis à jour">
+  </p>
+
+  <p>
+    <a href="#lessentiel-en-12-points"><b>⚡ L'essentiel</b></a> ·
+    <a href="#comment-lire-cette-fiche"><b>📖 Comment lire</b></a> ·
+    <a href="#sommaire"><b>🧭 Sommaire</b></a> ·
+    <a href="index.html"><b>🖥️ Version interactive</b></a> ·
+    <a href="SOURCES.md"><b>📚 Bibliographie</b></a> ·
+    <a href="CONTRIBUTING.md"><b>🤝 Contribuer</b></a>
+  </p>
+
+  <table>
+    <tr>
+      <td align="center"><b>230</b><br><sub>loci documentés</sub></td>
+      <td align="center"><b>17</b><br><sub>chapitres</sub></td>
+      <td align="center"><b>252</b><br><sub>références</sub></td>
+      <td align="center"><b>3</b><br><sub>fichiers synchronisés</sub></td>
+    </tr>
+  </table>
+</div>
 
 [![Loci](https://img.shields.io/badge/loci-230-0b6e4f?style=flat-square)](#sommaire) [![Chapitres](https://img.shields.io/badge/chapitres-17-1d4ed8?style=flat-square)](#sommaire) [![Version interactive](https://img.shields.io/badge/version%20interactive-index.html-6d28d9?style=flat-square)](index.html) [![Ploïdie](https://img.shields.io/badge/plo%C3%AFdie-int%C3%A9gr%C3%A9e-1d4ed8?style=flat-square)](#ploïdie--diploïdie-tétraploïdisation-triploïdes-sans-pépins) [![Licence](https://img.shields.io/badge/licence-MIT-f59e0b?style=flat-square)](LICENSE) ![MAJ](https://img.shields.io/badge/mis%20%C3%A0%20jour-15%2F10%2F2026-64748b?style=flat-square)
 
